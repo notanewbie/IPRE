@@ -1,0 +1,159 @@
+navbar {
+background-color: aqua;
+position: fixed;
+left: 0px;
+top: 0px;
+right: 0px;
+bottom: 92vh;
+color: black;
+font-weight: bold;
+line-height: 8vh;
+text-align: center;
+font-size: 5vh;
+z-index: 2;
+}
+body {
+font-family: Arial;
+z-index: 0;
+}
+navbutton {
+position: fixed;
+left: 1vw;
+z-index: 0;
+}
+a {
+color: black;
+text-decoration: none;
+}
+navmenu#visible {
+position: fixed;
+top: 8vh;
+left:0px;
+right: 0px;
+z-index: 5;
+background-color: white;
+color: black;
+font-weight: bold;
+line-height: 23vh;
+text-align: center;
+font-size: 15vh;
+visibility: visible;
+}
+navmenu {
+z-index: -1;
+position: fixed;
+visibility: hidden;
+}
+navop {
+display: block;
+border-bottom: 0.5px solid gray;
+}
+img {
+height: 100%;
+max-width: 100%;
+}
+td {
+text-align: center;
+}
+topchan {
+position: fixed;
+top: 15vh;
+left: 4.5vw;
+right: 5vw;
+bottom: 10vh;
+overflow-y: auto;
+}
+chanhead {
+display: block;
+font-weight: bold;
+font-size: 2.5vw;
+margin-bottom: 2vh;
+}
+chantab {
+display: block;
+position: relative;
+height: 10vh;
+line-height: 10vh;
+margin-bottom: 2vh;
+}
+chantext {
+position: relative;
+top: -7.5vh;
+left: 2vw;
+font-size: 1.5vw;
+}
+npbg#visible {
+background-color: white;
+position: fixed;
+left: 0vw;
+right: 0vw;
+top: 0vh;
+bottom: 0vh;
+z-index: 0;
+text-align: center;
+filter: blur(50px);
+opacity: .5;
+visibility: visible;
+}
+npimg#visible {
+position: fixed;
+top: 20vh;
+height: 50vh;
+width: 100vw;
+text-align: center;
+left: 0px;
+z-index: 1;
+visibility: visible;
+}
+nptitle#visible {
+position: fixed;
+top: 73vh;
+width: 100vw;
+text-align: center;
+left: 0px;
+font-weight: bold;
+font-size: 5vw;
+z-index: 1;
+visibility: visible;
+}
+npc#visible {
+position: fixed;
+top: 87vh;
+width: 100vw;
+text-align: center;
+left: 0px;
+font-weight: bold;
+font-size: 5vw;
+z-index: 1;
+visibility: visible;
+}
+npbg {
+z-index: -1;
+position: fixed;
+visibility: hidden;
+}
+npimg {
+z-index: -1;
+position: fixed;
+visibility: hidden;
+}
+nptitle {
+z-index: -1;
+position: fixed;
+visibility: hidden;
+}
+npc {
+z-index: -1;
+position: fixed;
+visibility: hidden;
+}
+playerspace {
+position: fixed;
+z-index: -2;
+visibility: hidden;
+}
+fauximg {
+height: 10vh;
+width: 10vh;
+background-color: pink;
+}
