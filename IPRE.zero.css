@@ -114,13 +114,13 @@ width: 100vw;
 text-align: center;
 left: 0px;
 font-weight: bold;
-font-size: 5vw;
+font-size: 5vh;
 z-index: 1;
 visibility: visible;
 }
 npc#visible {
 position: fixed;
-top: 75vh;
+bottom: 15vh;
 width: 100vw;
 text-align: center;
 left: 0px;
