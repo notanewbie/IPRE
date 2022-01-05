@@ -31,22 +31,10 @@ b = b + 1;
 a = a + 1;
 b = 0;
 }
-categoryList = categoryList.sort();
-a = 0;
-b = 1;
-while(categoryList[a]) {
-while(categoryList[b]) {
-console.log("Comparing " + categoryList[a] + " and " + categoryList[b])
-if(categoryList[a] == categoryList[b]) {
-console.log("removing " + categoryList[b]);
-categoryList.splice(b, 1)
-}
-else {
-b = b + 1;
-}
-a = a + 1;
-}
-}
+
+
+categoryList = new Set(categoryList);
+categoryList = Array.from(categoryList).sort();
 
 function catArray(cat) {
 tempChans = []
