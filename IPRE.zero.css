@@ -165,6 +165,7 @@ max-height: 6vh;
 padding-right: 13vw;
 padding-bottom: 1.5vh;
 padding-top: 1.5vh;
+z-index: 5;
 }
 img#icon2 {
 position: relative;
