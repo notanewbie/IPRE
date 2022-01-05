@@ -172,10 +172,12 @@ document.getElementsByTagName("navcenter")[0].getElementsByTagName("a")[3].href 
 if(document.getElementsByTagName("audio")[0].paused) {
 document.getElementsByTagName("audio")[0].src = document.getElementsByTagName("audio")[0].src;
 document.getElementsByTagName("audio")[0].play();
+document.getElementsByTagName("npc")[0].getElementsByTagName("img")[0].src = "stop.png";
 }
 else {
 document.getElementsByTagName("audio")[0].pause();
 document.getElementsByTagName("audio")[0].src = document.getElementsByTagName("audio")[0].src;
+document.getElementsByTagName("npc")[0].getElementsByTagName("img")[0].src = "play.png";
 }
 }
 function showPlay() {
@@ -210,7 +212,7 @@ if(document.getElementsByTagName("input")[0] == document.activeElement && event.
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML.split("<br>")[0] + "<br>";
 mySearchResults = [];
 a = 0;
-console.log(arr[0].name);
+//console.log(arr[0].name);
 while(a < arr.length) {
 console.log("Name: " + arr[a].name);
 if(arr[a].status == "live") {
@@ -218,14 +220,21 @@ mySearchResults.push(arr[a])
 }
 a = a + 1;
 }
+a = 0;
 console.log(w);
 console.log(searchResults(w)[0]);
 console.log(mySearchResults);
 if(mySearchResults[0]) {
 a = 0;
-while(mySearchResults[a]) {
+while(a < mySearchResults.length) {
+b = a;
+a = b;
+console.log(a)
+console.log(mySearchResults.length)
 addShow(mySearchResults[a].name, mySearchResults[a].img, mySearchResults[a].url)
-a = a + 1;
+a = b + 1;
+console.log("Test: " + mySearchResults[a])
+console.log("Test: " + a)
 }
 }
 else {
@@ -238,7 +247,7 @@ document.getElementsByTagName("input")[0].addEventListener("keyup", doSearch);
 function showSearch() {
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 addHead("Search");
-document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML.split("</input>")[0] + '<input type="text" value="Search for genres, stations, or podcasts"></input><br />';
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML.split("</input>")[0] + '<input type="text" value="Search for genres, stations, or podcasts" onclick="this.select()"></input><br />';
 document.getElementsByTagName("input")[0].addEventListener("keyup", doSearch);
 hideMenu();
 hidePlay();
@@ -283,7 +292,7 @@ currentID = searchResults(name)[0].id;
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 document.getElementsByTagName("audio")[0].src = url;
 playPause();
-document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + img + '"></npbg><npimg><img src="' + img + '"></npimg><nptitle>' + name + '</nptitle><npc><a href="javascript:playPause()">P</a></npc>';
+document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + img + '"></npbg><npimg><img src="' + img + '"></npimg><nptitle>' + name + '</nptitle><npc><a href="javascript:playPause()"><img src="stop.png" id="icon2"></img></a></npc>';
 showPlay();
 }
 
