@@ -184,7 +184,7 @@ function showBrowse() {
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 addHead("Browse");
 z = 0;
-while(z < 20) {
+while(z < 20 && z < TopChan().length) {
 if(TopChan()[z].status == "live") {
 addShow(TopChan()[z].name, TopChan()[z].img, TopChan()[z].url)
 }
