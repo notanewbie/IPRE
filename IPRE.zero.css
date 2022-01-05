@@ -120,7 +120,7 @@ visibility: visible;
 }
 npc#visible {
 position: fixed;
-bottom: 20vh;
+top: 75vh;
 width: 100vw;
 text-align: center;
 left: 0px;
