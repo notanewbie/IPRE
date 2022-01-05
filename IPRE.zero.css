@@ -120,7 +120,7 @@ visibility: visible;
 }
 npc#visible {
 position: fixed;
-bottom: 15vh;
+bottom: 20vh;
 width: 100vw;
 text-align: center;
 left: 0px;
@@ -169,7 +169,6 @@ z-index: 5;
 }
 img#icon2 {
 position: relative;
-bottom: 1.5vh;
 max-height: 8vh;
 padding-right: auto;
 padding-left: auto;
