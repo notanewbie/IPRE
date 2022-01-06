@@ -56,30 +56,31 @@ return tempChans;
 }
 
 function searchResults(q) {
+q = q.toLowerCase()
 tempChans = []
 a = 0;
 while(channels[a]) {
-if(channels[a].description.split(q)[1]) {
+if(channels[a].description.toLowerCase().split(q)[1]) {
 tempChans.push(channels[a])
 }
 else {
-if(channels[a].name.split(q)[1]) {
+if(channels[a].name.toLowerCase().split(q)[1]) {
 tempChans.push(channels[a])
 }
 else {
-if(channels[a].name == q) {
+if(channels[a].name.toLowerCase() == q) {
 tempChans.push(channels[a])
 }
 else {
-if(channels[a].description == q) {
+if(channels[a].description.toLowerCase() == q) {
 tempChans.push(channels[a])
 }
 else {
-if(channels[a].category.split(q)[1]) {
+if(channels[a].category.toLowerCase().split(q)[1]) {
 tempChans.push(channels[a])
 }
 else {
-if(channels[a].category == q) {
+if(channels[a].category.toLowerCase() == q) {
 tempChans.push(channels[a])
 }
 }
@@ -299,10 +300,10 @@ myString = "STATION_" + currentID + "_RATING"
 if(document.getElementsByTagName("audio")[0].paused == false) {
 if(parseInt(getCookie(myString)) > -1) {
 newRating = parseInt(getCookie(myString)) + 1;
-document.cookie = myString + "=" + newRating;
+document.cookie = myString + "=" + newRating + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
 }
 else {
-document.cookie = myString + "=0";
+document.cookie = myString + "=0" + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
 }
 }
 console.log(getCookie(myString));
@@ -310,7 +311,7 @@ console.log(getCookie(myString));
 function clearAllRatings() {
 z = 0;
 while(channels[z]) {
-document.cookie = "STATION_" + z + "_RATING=0";
+document.cookie = "STATION_" + z + "_RATING=0" + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
 channels[z].rating = 0;
 z = z + 1;
 }
