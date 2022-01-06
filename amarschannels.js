@@ -56,7 +56,7 @@ new Channel("Radio FEST", "https://www.radio.net/images/broadcasts/32/06/17229/c
 new Channel("MPIR Comedy OTR", "https://cdn-radiotime-logos.tunein.com/s283968q.png", "https://s3.voscast.com:8454/;", "Comedy, OTR", "", "dead"),
 new Channel("MSNBC", "https://cdn-profiles.tunein.com/s297990/images/logog.jpg", "http://tunein.streamguys1.com/msnbc-free", "News, Talk, TV", "", "live"),
 new Channel("NBC News Radio", "https://i.iheart.com/v3/re/new_assets/d9466b96-953d-4965-8f43-cfd42aca24fe", "http://stream.revma.ihrhls.com/zc6043", "News", "", "live"),
-new Channel("No Agenda Stream", "https://upload.wikimedia.org/wikipedia/commons/b/ba/No_Agenda_cover_placeholder.jpg", "http://listen.noagendastream.com/noagenda", "Talk", "", "live"),
+new Channel("No Agenda Stream", "https://upload.wikimedia.org/wikipedia/commons/b/ba/No_Agenda_cover_placeholder.jpg", "http://listen.noagendastream.com/noagenda", "Talk, Podcast", "", "live"),
 new Channel("Proclaim Channel", "https://cdn-radiotime-logos.tunein.com/s142659q.png", "http://primary.moodyradiostream.org/proclaim-high.aac.m3u", "Christianity, Music, Worship", "", "dead"),
 new Channel("Real News with David Knight", "https://i.iheart.com/v3/catalog/podcast/29787299", "https://streams.infowars.com/stream/3/;", "Talk", "", "live"),
 new Channel("RefNet", "https://pbs.twimg.com/profile_images/467306937197948928/0T1iVTYt_400x400.png", "https://icecast.refnet.fm/utc/0000", "Christianity, Talk, Music, Worship", "", "live"),
