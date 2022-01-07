@@ -106,5 +106,5 @@ new Channel("War Room with Owen Shroyer", "https://is5-ssl.mzstatic.com/image/th
 new Channel("WEEB 990", "https://cdn-profiles.tunein.com/s28449/images/logog.jpg", "http://ice.weeb990.com:8000/weeb990", "Talk, News", "", "live"),
 new Channel("Hot 99.5", "https://i.iheart.com/v3/re/assets.brands/5b3a2f8f0abf50ca9a24a060", "https://stream.revma.ihrhls.com/zc2509", "Music, Pop, Top 40", "", "live"),
 new Channel("CBN Radio Classic", "https://cdn-radiotime-logos.tunein.com/s128894q.png", "https://streams.cbnradio.com/Classic-Christian-128K?app=cbnplayer", "Music, 90s, 2000s", "", "live"),
-new Channel("YesFM", "https://cdn-profiles.tunein.com/s14405/images/logod.png", "http://live.trusl.com:1150/;", "Music, Pop, Top 40", "", "live")
+new Channel("YesFM", "https://cdn-profiles.tunein.com/s14405/images/logod.png", "https://stream.streamgenial.stream/ydyh67w4xp8uv", "Music, Pop, Top 40", "", "live")
 ]
