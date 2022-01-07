@@ -81,7 +81,7 @@ new Channel("ROKiT Mystery Radio", "https://mytuner.global.ssl.fastly.net/media/
 new Channel("ROKiT Nostalgia Lane Radio", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/amtj7ccnnghf.png", "http://streaming02.zfast.co.uk:8180/stream", "OTR, Drama, Crime, Mystery, Science Fiction", "", "dead"),
 new Channel("ROKiT Saturn X Radio", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/amtj7ccnnghf.png", "http://streaming02.zfast.co.uk:8122/stream", "OTR, Science Fiction", "", "dead"),
 new Channel("SEC Radio Network", "https://cdn-radiotime-logos.tunein.com/s234828q.png", "http://tunein.streamguys1.com/ESPNSEC", "Sports, Live Event, College Sports", "", "live"),
-new Channel("SLAM!", "https://scale.slam.nl/imageScaled/?site=slam&file=1558361412_SLAM_.jpg&w=1000&h=1000&cropped=0", "https://playerservices.streamtheworld.com/api/livestream-redirect/100NL_MP3_SC", "Music, Pop, Top 40", "", "live"),
+new Channel("SLAM!", "https://scale.slam.nl/imageScaled/?site=slam&file=1558361412_SLAM_.jpg&w=1000&h=1000&cropped=0", "https://playerservices.streamtheworld.com/api/livestream-redirect/100PNL_MP3_SC", "Music, Pop, Top 40", "", "live"),
 new Channel("SLAM! 40", "https://scale.slam.nl/imageScaled/?site=slam&file=1558361418_SLAM_40.jpg&w=1000&h=1000&cropped=0", "https://stream.slam.nl/WEB14", "Music, Pop, Top 40", "", "live"),
 new Channel("SLAM! 00s", "https://scale.slam.nl/imageScaled/?site=slam&file=1606751580_00s-site.png&w=1000&h=1000&cropped=0", "https://stream.slam.nl/WEB15", "Music, Pop, 2000s", "", "live"),
 new Channel("SLAM! Hardstyle", "https://scale.slam.nl/imageScaled/?site=slam&file=1558426723_Hardstyle.jpg&w=1000&h=1000&cropped=0", "https://stream.slam.nl/WEB11", "Music, EDM", "", "live"),
