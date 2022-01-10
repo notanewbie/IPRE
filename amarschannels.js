@@ -154,5 +154,17 @@ new Channel("KCRW Eclectic24", "https://i.iheart.com/v3/re/assets/images/5256.pn
 new Channel("iHeart 80s Radio", "https://i.iheart.com/v3/re/new_assets/0a01b40d-6206-49dd-85f4-06d89f5f2065", "http://stream.revma.ihrhls.com/zc5060", "Music, 80s", "", "live"),
 new Channel("iHeart 90s Radio", "https://i.iheart.com/v3/re/new_assets/329ab2f0-5d1a-4e71-9f9a-e6d5674ad982", "http://stream.revma.ihrhls.com/zc6834", "Music, 90s", "", "live"),
 new Channel("iHeart 70s Radio", "https://i.iheart.com/v3/re/new_assets/a69a3c10-27f8-4d80-be9e-a03b1994779c", "http://stream.revma.ihrhls.com/zc6843", "Music, 70s", "", "live"),
-new Channel("American Top 40", "https://i.iheart.com/v3/re/new_assets/5d2ba8e4f347e6500ef3db5a", "http://stream.revma.ihrhls.com/zc4802", "Music, Pop, Top 40", "", "live")
+new Channel("American Top 40", "https://i.iheart.com/v3/re/new_assets/5d2ba8e4f347e6500ef3db5a", "http://stream.revma.ihrhls.com/zc4802", "Music, Pop, Top 40", "", "live"),
+new Channel("Gen X Radio", "https://i.iheart.com/v3/re/new_assets/b8fcf925-d4be-4873-85ee-cf1d5e637b94", "http://stream.revma.ihrhls.com/zc5322", "Music, Alternative", "", "live"),
+new Channel("Hit Nation Junior", "https://i.iheart.com/v3/re/new_assets/5d41ea8588c196dfba7ec6e2", "http://stream.revma.ihrhls.com/zc6395", "Music, Pop, Top 40", "", "live"),
+new Channel("Radio Disney", "https://i.iheart.com/v3/re/new_assets/42271c3c-3c0c-4307-a845-4ccf23ce7f1d", "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIODISNEY_IHEART_SC", "Music, Pop, Top 40", "", "dead"),
+new Channel("One Hit Wonder Radio", "https://i.iheart.com/v3/re/assets/images/1af647d5-09cd-4a05-8b04-6032c93a0476.png", "http://stream.revma.ihrhls.com/zc6669", "Music, 80s, 90s", "", "live"),
+new Channel("Alternative Radio", "https://i.iheart.com/v3/re/new_assets/3592afad-2be2-4b84-ab2d-f155b78f348b", "http://stream.revma.ihrhls.com/zc4447", "Music, Alternative", "", "live"),
+new Channel("Alternative Radio Rewind", "https://i.iheart.com/v3/re/new_assets/c96abf74-4458-4a44-a19c-c1975926e1d9", "http://stream.revma.ihrhls.com/zc6950", "Music, Alternative, 80s, 90s", "", "live"),
+new Channel("NPR", "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/a6/18/b4/a618b419-3b3c-e54f-05ea-2c6d0b61364e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/320x0w.jpg", "http://npr-ice.streamguys1.com/live.mp3", "Talk, News, Entertainment", "", "live"),
+new Channel("BBC World Service News", "https://cdn-profiles.tunein.com/s24948/images/logog.jpg?t=1", "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service", "News", "", "live"),
+new Channel("Sky News Radio", "https://upload.wikimedia.org/wikipedia/en/9/98/Sky_News_Radio.jpg", "http://ais-arn.streamguys1.com/au_033_icy", "News", "", "live"),
+new Channel("Apple Music 1", "https://www.apple.com/newsroom/images/product/apple-music/Apple_announces-apple-music-radio-apple-music-1_08182020_inline.jpg.medium.jpg", "https://itsliveradio.apple.com/streams/live/beats-1/master_web.m3u8", "Music, Pop, Hip-Hop, EDM", "", "dead"),
+new Channel("Apple Music Hits", "https://www.apple.com/newsroom/images/product/apple-music/Apple_announces-apple-music-hits_08182020_inline.jpg.medium.jpg", "https://itsliveradio.apple.com/streams/live/1498155548/master_web.m3u8", "Music, Pop, Top 40", "", "dead"),
+new Channel("Apple Music Country", "https://www.apple.com/newsroom/images/product/apple-music/Apple_announces-apple-music-radio-country_08182020_inline.jpg.medium.jpg", "https://itsliveradio.apple.com/streams/live/1498157166/master_web.m3u8", "Music, Country", "", "dead")
 ]
