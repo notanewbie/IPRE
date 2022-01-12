@@ -166,5 +166,6 @@ new Channel("BBC World Service News", "https://cdn-profiles.tunein.com/s24948/im
 new Channel("Sky News Radio", "https://upload.wikimedia.org/wikipedia/en/9/98/Sky_News_Radio.jpg", "http://ais-arn.streamguys1.com/au_033_icy", "News", "", "live"),
 new Channel("Apple Music 1", "https://www.apple.com/newsroom/images/product/apple-music/Apple_announces-apple-music-radio-apple-music-1_08182020_inline.jpg.medium.jpg", "https://itsliveradio.apple.com/streams/live/beats-1/master_web.m3u8", "Music, Pop, Hip-Hop, EDM", "", "dead"),
 new Channel("Apple Music Hits", "https://www.apple.com/newsroom/images/product/apple-music/Apple_announces-apple-music-hits_08182020_inline.jpg.medium.jpg", "https://itsliveradio.apple.com/streams/live/1498155548/master_web.m3u8", "Music, Pop, Top 40", "", "dead"),
-new Channel("Apple Music Country", "https://www.apple.com/newsroom/images/product/apple-music/Apple_announces-apple-music-radio-country_08182020_inline.jpg.medium.jpg", "https://itsliveradio.apple.com/streams/live/1498157166/master_web.m3u8", "Music, Country", "", "dead")
+new Channel("Apple Music Country", "https://www.apple.com/newsroom/images/product/apple-music/Apple_announces-apple-music-radio-country_08182020_inline.jpg.medium.jpg", "https://itsliveradio.apple.com/streams/live/1498157166/master_web.m3u8", "Music, Country", "", "dead"),
+new Channel("CBS Sports Radio", "https://images.radio.com/logos/CBSSPORTS.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/CBSSPORTS_SC", "Talk, Sports, Live Event", "", "live")
 ]
