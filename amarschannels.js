@@ -176,5 +176,12 @@ new Channel("Westwood One Sports E", "https://cdn-profiles.tunein.com/s256196/im
 new Channel("Westwood One Sports F", "https://cdn-profiles.tunein.com/s256196/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WWODEN6_SC", "Sports, Live Event", "", "live"),
 new Channel("Westwood One Sports G", "https://cdn-profiles.tunein.com/s256196/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WWODEN7_SC", "Sports, Live Event", "", "live"),
 new Channel("Westwood One Sports H", "https://cdn-profiles.tunein.com/s256196/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WWODEN8_SC", "Sports, Live Event", "", "live"),
-new Channel("Westwood One Sports I", "https://cdn-profiles.tunein.com/s256196/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WWODEN9_SC", "Sports, Live Event", "", "live")
+new Channel("Westwood One Sports I", "https://cdn-profiles.tunein.com/s256196/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WWODEN9_SC", "Sports, Live Event", "", "live"),
+new Channel("First Team Radio", "https://images.squarespace-cdn.com/content/v1/5af380014611a0f77fcb7470/1605805611454-2TP0RVIMH1I42UDEOLWE/First+Team+Radio.png", "https://pavo.prostreaming.net:8110/stream", "Sports, Live Event", "", "live"),
+new Channel("First Team Radio 2", "https://images.squarespace-cdn.com/content/v1/5af380014611a0f77fcb7470/1605805611454-2TP0RVIMH1I42UDEOLWE/First+Team+Radio.png", "https://live.wostreaming.net/direct/performanceracing-pnrmp3-ibc1", "Sports, Live Event", "", "live"),
+new Channel("talkSPORT", "https://cdn-profiles.tunein.com/s17077/images/logoq.png?t=1", "http://radio.talksport.com/stream", "Sports, Talk", "", "live"),
+new Channel("NBA Soundsystem", "https://cdn-profiles.tunein.com/s292936/images/logoq.jpg", "http://backbonenetworks.streamguys.com/nbasoundsystem.mp3", "Sports, Talk, Podcast", "", "dead"),
+new Channel("Family Radio Network East", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/SQN7AXNsCR.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/FAMILYRADIO_EAST.mp3", "Christianity, Worship, Music", "", "live"),
+new Channel("Family Radio Network West", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/SQN7AXNsCR.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/FAMILYRADIO_WEST.mp3", "Christianity, Worship, Music", "", "live"),
+new Channel("Family Radio Network New York", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/SQN7AXNsCR.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/FAMILYRADIO_WEST.mp3", "Christianity, Worship, Music", "", "live")
 ]
