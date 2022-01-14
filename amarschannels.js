@@ -183,5 +183,6 @@ new Channel("talkSPORT", "https://cdn-profiles.tunein.com/s17077/images/logoq.pn
 new Channel("NBA Soundsystem", "https://cdn-profiles.tunein.com/s292936/images/logoq.jpg", "http://backbonenetworks.streamguys.com/nbasoundsystem.mp3", "Sports, Talk, Podcast", "", "dead"),
 new Channel("Family Radio Network East", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/SQN7AXNsCR.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/FAMILYRADIO_EAST.mp3", "Christianity, Worship, Music", "", "live"),
 new Channel("Family Radio Network West", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/SQN7AXNsCR.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/FAMILYRADIO_WEST.mp3", "Christianity, Worship, Music", "", "live"),
-new Channel("Family Radio Network New York", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/SQN7AXNsCR.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/FAMILYRADIO_WEST.mp3", "Christianity, Worship, Music", "", "live")
+new Channel("Family Radio Network New York", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/SQN7AXNsCR.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/FAMILYRADIO_WEST.mp3", "Christianity, Worship, Music", "", "live"),
+new Channel("True Radio UK", "https://media.live365.com/download/f2db2743-f723-4547-919e-a4bd4e20db8a.png", "https://streaming.live365.com/a49212", "Music, Pop, Hot AC", "", "live")
 ]
