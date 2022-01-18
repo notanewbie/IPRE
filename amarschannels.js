@@ -189,5 +189,16 @@ new Channel("News Talk WTMA", "https://i.iheart.com/v3/re/assets/images/5504.png
 new Channel("Positive Blend Radio", "https://media.live365.com/download/217336c6-8c80-435a-a595-0f59afbff264.jpg", "https://ais-edge09-live365-dal02.cdnstream.com/a14475", "Music, Top 40, Country, Alternative, 70s, 80s, 90s, 2000s, Pop", "", "live"),
 new Channel("Alternative Rock X-Radio", "https://i.scdn.co/image/ab67616d0000b27302857dcb8e5c1377a28af15a", "http://144.217.180.30:8123/stream?type=http", "Music, Alternative, Rock", "", "dead"),
 new Channel("Dark Edge Radio", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/7abdxht8r4kj.png", "http://5.35.214.196:8000/;", "Music, Alternative, Indie", "", "dead"),
-new Channel("Party Vibe Radio: Alternative Rock", "https://cdn-pv.azureedge.net/wp-content/uploads/2020/12/party-vibe-radio-logo.png", "http://94.130.242.5:8032/stream2?icy=http", "Music, Alternative, Rock", "", "dead")
+new Channel("Party Vibe Radio: Alternative Rock", "https://cdn-pv.azureedge.net/wp-content/uploads/2020/12/party-vibe-radio-logo.png", "http://94.130.242.5:8032/stream2?icy=http", "Music, Alternative, Rock", "", "dead"),
+new Channel("Party Vibe Radio: Psychedelic Rock", "https://cdn-pv.azureedge.net/wp-content/uploads/2020/12/party-vibe-radio-logo.png", "http://94.130.242.5:8032/stream3?icy=http", "Music, Rock", "", "dead"),
+new Channel("Prysm EDM - Big Room", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/zafrnlxajlyw.png", "https://streamingv2.shoutcast.com/PrysmEDM", "Music, EDM", "", "dead"),
+new Channel("Party Vibe Radio: Rap", "https://cdn-pv.azureedge.net/wp-content/uploads/2020/12/party-vibe-radio-logo.png", "http://94.130.242.5:8016/stream?icy=http", "Music, Hip-Hop", "", "dead"),
+new Channel("Prysm Dance Revival", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/68em7t94fl89.png", "https://stream.rcs.revma.com/cptzsdc9grruv", "Music, EDM", "", "live"),
+new Channel("Prysm Trance", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/f5z7qy4rdsda.png", "https://stream.rcs.revma.com/tz6kscxqknruv", "Music, EDM", "", "live"),
+new Channel("Prysm Poolside", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/xu9xeu7xblj9.png", "https://stream.rcs.revma.com/qh00tw3a0mzuv", "Music, EDM", "", "live"),
+new Channel("Prysm Deep", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/ykpb6pkywdpz.png", "https://stream.rcs.revma.com/gbcm52a5rnruv", "Music, EDM", "", "live"),
+new Channel("Prysm Essentials", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/vuece6b7um3w.png", "https://stream.rcs.revma.com/arbkkamdzmzuv", "Music, EDM", "", "live"),
+new Channel("Prysm Radio 1", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/lyc99ndlkd3t.png", "https://stream.rcs.revma.com/p9qyxmfucrruv", "Music, EDM", "", "live"),
+new Channel("Prysm House", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/88bwnpkghn8f.png", "https://stream.rcs.revma.com/7pu10fqeewzuv", "Music, EDM", "", "live"),
+new Channel("Prysm Dance", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/5xvqjehfvean.png", "https://stream.rcs.revma.com/9dw5y3tqyd0uv", "Music, EDM", "", "live")
 ]
