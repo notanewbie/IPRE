@@ -103,7 +103,7 @@ new Channel("Urban Praise", "https://cdn-profiles.tunein.com/s105742/images/logo
 new Channel("VCY America", "https://cdn-radiotime-logos.tunein.com/s36008q.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/KVCXFM_SC", "Christianity, Talk, Worship, Drama, Mystery, Music", "", "live"),
 new Channel("VCY Sacred Stylings", "https://cdn-radiotime-logos.tunein.com/s36008q.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/VCY_SACRED_STYLINGS_S01_SC", "Music, Worship", "", "live"),
 new Channel("War Room with Owen Shroyer", "https://is5-ssl.mzstatic.com/image/thumb/Podcasts118/v4/bd/87/7e/bd877e44-bae9-b29c-2b64-b7ece358ed91/mza_1200762605813509501.jpg/400x400bb.jpg", "https://streams.infowars.com/warrooom", "Talk, Podcast", "", "live"),
-new Channel("WEEB 990", "https://cdn-profiles.tunein.com/s28449/images/logog.jpg", "http://ice.weeb990.com:8000/weeb990", "Talk, News", "", "live"),
+new Channel("WEEB 990", "https://cdn-profiles.tunein.com/s28449/images/logog.jpg", "http://ice.weeb990.com:8000/weeb990", "Talk, News", "", "dead"),
 new Channel("Hot 99.5", "https://i.iheart.com/v3/re/assets.brands/5b3a2f8f0abf50ca9a24a060", "https://stream.revma.ihrhls.com/zc2509", "Music, Pop, Top 40", "", "live"),
 new Channel("CBN Radio Classic", "https://cdn-radiotime-logos.tunein.com/s128894q.png", "https://streams.cbnradio.com/Classic-Christian-128K?app=cbnplayer", "Music, 90s, 2000s", "", "live"),
 new Channel("YesFM", "https://cdn-profiles.tunein.com/s14405/images/logod.png", "https://stream.streamgenial.stream/ydyh67w4xp8uv", "Music, Pop, Top 40", "", "live"),
@@ -184,5 +184,10 @@ new Channel("NBA Soundsystem", "https://cdn-profiles.tunein.com/s292936/images/l
 new Channel("Family Radio Network East", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/SQN7AXNsCR.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/FAMILYRADIO_EAST.mp3", "Christianity, Worship, Music", "", "live"),
 new Channel("Family Radio Network West", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/SQN7AXNsCR.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/FAMILYRADIO_WEST.mp3", "Christianity, Worship, Music", "", "live"),
 new Channel("Family Radio Network New York", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/SQN7AXNsCR.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/FAMILYRADIO_WEST.mp3", "Christianity, Worship, Music", "", "live"),
-new Channel("True Radio UK", "https://media.live365.com/download/f2db2743-f723-4547-919e-a4bd4e20db8a.png", "https://streaming.live365.com/a49212", "Music, Pop, Hot AC", "", "live")
+new Channel("True Radio UK", "https://media.live365.com/download/f2db2743-f723-4547-919e-a4bd4e20db8a.png", "https://streaming.live365.com/a49212", "Music, Pop, Hot AC", "", "live"),
+new Channel("News Talk WTMA", "https://i.iheart.com/v3/re/assets/images/5504.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WTMAAM_SC", "Talk", "", "live"),
+new Channel("Positive Blend Radio", "https://media.live365.com/download/217336c6-8c80-435a-a595-0f59afbff264.jpg", "https://ais-edge09-live365-dal02.cdnstream.com/a14475", "Music, Top 40, Country, Alternative, 70s, 80s, 90s, 2000s, Pop", "", "live"),
+new Channel("Alternative Rock X-Radio", "https://i.scdn.co/image/ab67616d0000b27302857dcb8e5c1377a28af15a", "http://144.217.180.30:8123/stream?type=http", "Music, Alternative, Rock", "", "dead"),
+new Channel("Dark Edge Radio", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/7abdxht8r4kj.png", "http://5.35.214.196:8000/;", "Music, Alternative, Indie", "", "dead"),
+new Channel("Party Vibe Radio: Alternative Rock", "https://cdn-pv.azureedge.net/wp-content/uploads/2020/12/party-vibe-radio-logo.png", "http://94.130.242.5:8032/stream2?icy=http", "Music, Alternative, Rock", "", "dead")
 ]
