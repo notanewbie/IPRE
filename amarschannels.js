@@ -200,5 +200,14 @@ new Channel("Prysm Deep", "https://mytuner.global.ssl.fastly.net/media/tvos_radi
 new Channel("Prysm Essentials", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/vuece6b7um3w.png", "https://stream.rcs.revma.com/arbkkamdzmzuv", "Music, EDM", "", "live"),
 new Channel("Prysm Radio 1", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/lyc99ndlkd3t.png", "https://stream.rcs.revma.com/p9qyxmfucrruv", "Music, EDM", "", "live"),
 new Channel("Prysm House", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/88bwnpkghn8f.png", "https://stream.rcs.revma.com/7pu10fqeewzuv", "Music, EDM", "", "live"),
-new Channel("Prysm Dance", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/5xvqjehfvean.png", "https://stream.rcs.revma.com/9dw5y3tqyd0uv", "Music, EDM", "", "live")
+new Channel("Prysm Dance", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/5xvqjehfvean.png", "https://stream.rcs.revma.com/9dw5y3tqyd0uv", "Music, EDM", "", "live"),
+new Channel("Prysm Nu-Disco", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/ck62pkmbywkt.png", "https://stream.rcs.revma.com/dds1xh9a0mzuv", "Music, EDM", "", "live"),
+new Channel("Prysm Studio 54", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/hegbaurfa6pk.png", "https://stream.rcs.revma.com/bz84fq2a0mzuv", "Music, Pop", "", "live"),
+new Channel("Prysm Stage", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/pfvnsulxvrty.png", "https://stream.rcs.revma.com/th5xv95thnruv", "Music, EDM", "", "live"),
+new Channel("Songcast Radio - Rap & Hip Hop", "https://static-media.streema.com/media/cache/a4/5b/a45bb66c86098f6ac1b0d87c7a47a0e8.jpg", "http://52.24.52.72:9028/;", "Music, Hip-Hop", "", "dead"),
+new Channel("Songcast Radio - Hip Hop & Rap", "https://static-media.streema.com/media/cache/a4/5b/a45bb66c86098f6ac1b0d87c7a47a0e8.jpg", "http://52.24.52.72:9030/;", "Music, Hip-Hop", "", "dead"),
+new Channel("Podcast Radio", "https://pbs.twimg.com/profile_images/1272545243124994049/e-3mVgOi.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/PODCAST_RADIO.mp3", "Talk, Podcast", "", "live"),
+new Channel("Free Talk Live", "https://cdn-profiles.tunein.com/p55776/images/logog.jpg", "http://s5.voscast.com:7736/;", "Talk, Podcast", "", "dead"),
+new Channel("AFL Nation", "https://pbs.twimg.com/profile_images/974122079766290432/MTr2TOt2_400x400.jpg", "http://49.255.78.70:8000/;", "Talk, Sports", "", "dead"),
+new Channel("FrequencyCast UK Tech", "https://cachedimages.podchaser.com/512x512/aHR0cHM6Ly93d3cuZnJlcXVlbmN5Y2FzdC5jby51ay9pbWFnZXMvZnJlcXVlbmN5Y2FzdGljb25faXR1bmVzLmpwZw%3D%3D/aHR0cHM6Ly93d3cucG9kY2hhc2VyLmNvbS9pbWFnZXMvbWlzc2luZy1pbWFnZS5wbmc%3D", "http://212.83.172.11:8504/stream?icy=http", "Talk, Podcast, Talk", "", "dead")
 ]
