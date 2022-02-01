@@ -94,7 +94,7 @@ new Channel("Spin Cycle", "https://radiostationusa.fm/assets/image/radio/180/Spi
 new Channel("TEDTalks", "https://cdn-radiotime-logos.tunein.com/s159861q.png", "http://tunein.streamguys1.com/TEDTalks", "Talk, Podcast, Live Event", "", "live"),
 new Channel("The Alex Jones Show", "https://m.media-amazon.com/images/M/MV5BYmVlZWY2NGMtNzRiMC00YjVmLWE5YTUtMjllOThjOTY2M2I0XkEyXkFqcGdeQXVyMDY3OTcyOQ@@._V1_.jpg", "https://streams.infowars.com/alexjonesshow", "Talk, Podcast", "", "live"),
 new Channel("The Buck Sexton Show", "https://i.iheart.com/v3/re/new_assets/5c49f8d4eeefff361052f0d9", "http://stream.revma.ihrhls.com/zc7315", "Talk, Podcast", "", "live"),
-new Channel("The Pulse Channel", "https://cdn-profiles.tunein.com/s150906/images/logog.png", "http://147.135.84.28/pulse", "Music, CCM, Christian Pop, Indie Pop, Indie", "", "live"),
+new Channel("The Pulse Channel", "https://cdn-profiles.tunein.com/s150906/images/logog.png", "http://147.135.84.28/pulse", "Music, CCM, Christian Pop, Indie Pop, Indie", "", "dead"),
 new Channel("The Schnitt Show", "https://i.iheart.com/v3/re/assets/images/4824.png", "http://stream.revma.ihrhls.com/zc4824", "Talk, Podcast", "", "dead"),
 new Channel("The Sean Hannity Show", "https://i.iheart.com/v3/re/assets/images/bc6a4135-e869-45e3-a217-5946b5f84f94.png", "http://stream.revma.ihrhls.com/zc6706", "Talk, Podcast", "", "live"),
 new Channel("theBlaze Radio Network", "https://i.iheart.com/v3/re/new_assets/5ca5372135c7fd6e5680bf8e", "https://playerservices.streamtheworld.com/api/livestream-redirect/BLZE_1AAC_SC", "Talk", "", "live"),
