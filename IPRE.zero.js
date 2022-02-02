@@ -60,11 +60,11 @@ q = q.toLowerCase()
 tempChans = []
 a = 0;
 while(channels[a]) {
-if(channels[a].description.toLowerCase().split(q)[1]) {
+if(channels[a].description.toLowerCase().includes(q)) {
 tempChans.push(channels[a])
 }
 else {
-if(channels[a].name.toLowerCase().split(q)[1]) {
+if(channels[a].name.toLowerCase().includes(q)) {
 tempChans.push(channels[a])
 }
 else {
@@ -76,7 +76,7 @@ if(channels[a].description.toLowerCase() == q) {
 tempChans.push(channels[a])
 }
 else {
-if(channels[a].category.toLowerCase().split(q)[1]) {
+if(channels[a].category.toLowerCase().includes(q)) {
 tempChans.push(channels[a])
 }
 else {
