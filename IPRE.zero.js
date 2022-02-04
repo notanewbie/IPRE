@@ -93,6 +93,7 @@ a = a + 1;
 return tempChans;
 }
 
+function TopChan() {
 v = 0;
 a = 0;
 maxval = 0;
@@ -120,14 +121,11 @@ v = v - 1;
 }
 }
 if(topchannels[0]) {
-topchannels = topchannels;
+return topchannels;
 }
 else {
-topchannels = channels;
+return channels;
 }
-
-function TopChan() {
-return topchannels;
 }
 
 function showMenu() {
@@ -290,22 +288,7 @@ playPause();
 document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + img + '"></npbg><npimg><img src="' + img + '"></npimg><nptitle>' + name + '</nptitle><npc><a href="javascript:playPause()"><img src="stop.png" id="icon2"></img></a></npc>';
 showPlay();
 }
-function addRating2() {
 
-myString = "STATION_" + currentID + "_RATING"
-if(document.getElementsByTagName("audio")[0].paused == false) {
-if(parseInt(getCookie(myString)) > -1) {
-newRating = parseInt(getCookie(myString)) + 1;
-document.cookie = myString + "=" + newRating + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
-}
-else {
-document.cookie = myString + "=0" + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
-}
-
-//console.log(getCookie(myString));
-
-}
-}
 function addRating() {
 z = 0;
 while(channels[z]) {
@@ -340,4 +323,4 @@ z = z + 1;
 clearChanList();
 addRating();
 showBrowse();
-setInterval(addRating2, 1000);
+setInterval(addRating, 1000);
