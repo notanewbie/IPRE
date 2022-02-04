@@ -193,6 +193,7 @@ z = z + 1
 }
 hideMenu();
 hidePlay();
+document.getElementsByTagName("chanhead")[0].scrollIntoView();
 }
 function doSearch() {
 w = document.getElementsByTagName("input")[0].value;
@@ -232,6 +233,7 @@ document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTa
 document.getElementsByTagName("input")[0].value = w;
 document.getElementsByTagName("input")[0].addEventListener("keyup", doSearch);
 }
+document.getElementsByTagName("chanhead")[0].scrollIntoView();
 }
 function showSearch() {
 document.getElementsByTagName("topchan")[0].innerHTML = "";
@@ -253,6 +255,7 @@ z = z + 1;
 }
 hideMenu();
 hidePlay();
+document.getElementsByTagName("chanhead")[0].scrollIntoView()
 }
 
 function showExplore() {
@@ -268,6 +271,7 @@ z = z + 1
 }
 hideMenu();
 hidePlay();
+document.getElementsByTagName("chanhead")[0].scrollIntoView();
 }
 function showNP() {
 hideMenu();
