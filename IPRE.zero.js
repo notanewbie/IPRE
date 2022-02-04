@@ -92,12 +92,13 @@ a = a + 1;
 }
 return tempChans;
 }
+topchannels = [];
 
-function TopChan() {
+function TopChan0() {
+alert("TopChan");
 v = 0;
 a = 0;
 maxval = 0;
-topchannels = [];
 while(channels[a]) {
 console.log(channels[a].rating)
 if(channels[a].rating > maxval) {
@@ -126,6 +127,12 @@ return topchannels;
 else {
 return channels;
 }
+}
+
+topchannels = TopChan0();
+
+function TopChan() {
+return topchannels;
 }
 
 function showMenu() {
