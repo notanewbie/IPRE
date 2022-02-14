@@ -33,7 +33,7 @@ new Channel("ESPNU", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/
 new Channel("Evolution", "https://i.iheart.com/v3/re/new_assets/7b78fd03-66b1-4b9a-bd41-fb9638a82a24", "http://stream.revma.ihrhls.com/zc5953", "Music, EDM", "", "live"),
 new Channel("Fox News Talk", "https://cdn-profiles.tunein.com/s20431/images/logog.jpg", "http://tunein.streamguys1.com/foxnews", "Talk, News, TV, Comedy", "", "live"),
 new Channel("FRESH Radio", "https://cdn-radiotime-logos.tunein.com/s181489q.png", "http://stream.hopemedia.com.au/fresh-mp3", "Music, CCM, Christian Pop, Indie Pop", "", "live"),
-new Channel("God's DJs", "https://cdn-radiotime-logos.tunein.com/s140701q.png", "http://www.godsdjsradio.com:8080/stream", "Music, CEDM, EDM", "", "live"),
+new Channel("Gods DJs", "https://cdn-radiotime-logos.tunein.com/s140701q.png", "http://www.godsdjsradio.com:8080/stream", "Music, CEDM, EDM", "", "live"),
 new Channel("Hit Nation", "https://i.iheart.com/v3/re/new_assets/34da42a4-45ef-44b5-b587-8587b2cad460", "http://stream.revma.ihrhls.com/zc4422", "Music, Pop, Top 40", "", "live"),
 new Channel("Hit Nation Top 20", "https://i.iheart.com/v3/re/new_assets/30d852e9-235d-4c0a-bd90-197c5ee4db64", "http://stream.revma.ihrhls.com/zc4422", "Music, Pop, Top 40", "", "live"),
 new Channel("HLN", "https://cdn-profiles.tunein.com/s20408/images/logog.png", "http://tunein.streamguys1.com/cnnhln", "Talk, TV, Entertainment", "", "live"),
@@ -352,5 +352,6 @@ new Channel("The Revolution Show", "https://cdn-profiles.tunein.com/s30711/image
 new Channel("ESPN New York", "https://i.iheart.com/v3/re/new_assets/5323566d-b36a-43a0-b80b-ddc9c68756c9", "https://live.wostreaming.net/direct/espn-wepnmp3-32", "Sports, Talk", "", "live"),
 new Channel("CBC Radio News", "https://play-lh.googleusercontent.com/sU34PqRAGjVaUvjITJLHFDWmoLkBKFtOsK7gYN2N6wdv4-koovT-7DiEnLeYcp9weA=s520", "https://podcast.cbc.ca/mp3/hourlynews.mp3", "News", "", "dead"),
 new Channel("talkRADIO", "https://cdn-radiotime-logos.tunein.com/s265666d.png", "https://radio.talkradio.co.uk/stream", "Talk", "", "live"),
-new Channel("Times Radio", "https://cdn-profiles.tunein.com/s309354/images/logog.png", "https://timesradio.wireless.radio/stream", "Talk, News", "", "live")
+new Channel("Times Radio", "https://cdn-profiles.tunein.com/s309354/images/logog.png", "https://timesradio.wireless.radio/stream", "Talk, News", "", "live"),
+new Channel("WMMS 100.7", "https://cdn-profiles.tunein.com/s21152/images/logog.jpg", "https://ample.revma.ihrhls.com/zc1741", "Music, Rock, Talk, Comedy", "The Buzzard", "live")
 ]
