@@ -162,7 +162,7 @@ new Channel("One Hit Wonder Radio", "https://i.iheart.com/v3/re/assets/images/1a
 new Channel("Alternative Radio", "https://i.iheart.com/v3/re/new_assets/3592afad-2be2-4b84-ab2d-f155b78f348b", "http://stream.revma.ihrhls.com/zc4447", "Music, Alternative", "", "live"),
 new Channel("Alternative Radio Rewind", "https://i.iheart.com/v3/re/new_assets/c96abf74-4458-4a44-a19c-c1975926e1d9", "http://stream.revma.ihrhls.com/zc6950", "Music, Alternative, 80s, 90s", "", "live"),
 new Channel("NPR", "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/a6/18/b4/a618b419-3b3c-e54f-05ea-2c6d0b61364e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/320x0w.jpg", "http://npr-ice.streamguys1.com/live.mp3", "Talk, News, Entertainment", "", "live"),
-new Channel("BBC World Service News", "https://cdn-profiles.tunein.com/s24948/images/logog.jpg?t=1", "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service", "News", "", "live"),
+new Channel("BBC World Service UK", "https://cdn-radiotime-logos.tunein.com/s50646g.png", "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service", "News", "", "live"),
 new Channel("Sky News Radio", "https://upload.wikimedia.org/wikipedia/en/9/98/Sky_News_Radio.jpg", "http://ais-arn.streamguys1.com/au_033_icy", "News", "", "live"),
 new Channel("Apple Music 1", "https://www.apple.com/newsroom/images/product/apple-music/Apple_announces-apple-music-radio-apple-music-1_08182020_inline.jpg.medium.jpg", "https://itsliveradio.apple.com/streams/live/beats-1/master_web.m3u8", "Music, Pop, Hip-Hop, EDM", "", "dead"),
 new Channel("Apple Music Hits", "https://www.apple.com/newsroom/images/product/apple-music/Apple_announces-apple-music-hits_08182020_inline.jpg.medium.jpg", "https://itsliveradio.apple.com/streams/live/1498155548/master_web.m3u8", "Music, Pop, Top 40", "", "dead"),
@@ -350,5 +350,7 @@ new Channel("AFR Hybrid", "https://cdn-profiles.tunein.com/s68040/images/logog.p
 new Channel("Transformation Radio 12.2", "https://cdn-profiles.tunein.com/s263718/images/logog.png", "https://ais-edge37-live365-dal02.cdnstream.com/a09962", "Christianity, Music, CHH, Hip-Hop", "", "live"),
 new Channel("The Revolution Show", "https://cdn-profiles.tunein.com/s30711/images/logog.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/SP_R2617659.mp3", "Christian Pop, CCM, Worship, Gospel, Music, CHH, Hip-Hop", "", "live"),
 new Channel("ESPN New York", "https://i.iheart.com/v3/re/new_assets/5323566d-b36a-43a0-b80b-ddc9c68756c9", "https://live.wostreaming.net/direct/espn-wepnmp3-32", "Sports, Talk", "", "live"),
-new Channel("CBC Radio News", "https://play-lh.googleusercontent.com/sU34PqRAGjVaUvjITJLHFDWmoLkBKFtOsK7gYN2N6wdv4-koovT-7DiEnLeYcp9weA=s520", "https://podcast.cbc.ca/mp3/hourlynews.mp3", "News", "", "dead")
+new Channel("CBC Radio News", "https://play-lh.googleusercontent.com/sU34PqRAGjVaUvjITJLHFDWmoLkBKFtOsK7gYN2N6wdv4-koovT-7DiEnLeYcp9weA=s520", "https://podcast.cbc.ca/mp3/hourlynews.mp3", "News", "", "dead"),
+new Channel("talkRADIO", "https://cdn-radiotime-logos.tunein.com/s265666d.png", "https://radio.talkradio.co.uk/stream", "Talk", "", "live"),
+new Channel("Times Radio", "https://cdn-profiles.tunein.com/s309354/images/logog.png", "https://timesradio.wireless.radio/stream", "Talk, News", "", "live")
 ]
