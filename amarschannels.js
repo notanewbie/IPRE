@@ -24,7 +24,7 @@ new Channel("C-SPAN Radio", "https://cdn-profiles.tunein.com/s28047/images/logog
 new Channel("CEDM Radio", "https://cdn-profiles.tunein.com/s269340/images/logog.png", "http://173.82.208.105:8096/stream", "Music, EDM, CEDM, Christianity", "", "dead"),
 new Channel("CNBC", "https://cdn-profiles.tunein.com/s110052/images/logog.png", "http://tunein.streamguys1.com/cnbc", "Talk, News, Finance, TV", "", "live"),
 new Channel("CNN", "https://cdn-profiles.tunein.com/s20407/images/logog.png", "http://tunein.streamguys1.com/cnn-new", "Talk, News, TV", "", "live"),
-new Channel("CNN International", "https://cdn-profiles.tunein.com/s292162/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/CSPANRADIO.mp3", "Talk, News, TV", "", "live"),
+new Channel("CNN International", "https://cdn-profiles.tunein.com/s292162/images/logog.png", "http://tunein.streamguys1.com/cnni", "Talk, News, TV", "", "live"),
 new Channel("ESPN Radio", "https://cdn-profiles.tunein.com/s25876/images/logog.jpg", "http://live.wostreaming.net/direct/espn-network-48", "Talk, Sports", "", "live"),
 new Channel("ESPN TV Show Podcasts", "https://cdn-radiotime-logos.tunein.com/s224540q.png", "http://tunein.streamguys1.com/ESPNTV", "Talk, Sports, TV", "", "live"),
 new Channel("ESPN2", "https://www.logolynx.com/images/logolynx/e5/e5d85d854d02d7cfa3d1139508b84c73.jpeg", "http://tunein.streamguys1.com/ESPNTV", "Talk, Sports, TV", "", "dead"),
