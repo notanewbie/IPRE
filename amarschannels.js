@@ -1,16 +1,3 @@
-class Channel {
-constructor(name, img, url, category, description, status) {
-this.name = name;
-this.img = img;
-this.url = url;
-this.category = category;
-this.description = description;
-this.status = status;
-this.id = 0;
-this.rating = 0;
-}
-}
-
 const channels = [
 new Channel("20th Century Radio", "https://cdn-radiotime-logos.tunein.com/s129131q.png", "http://audioartsradio.com:6006/;", "OTR", "", "dead"),
 new Channel("210 Holy Hip Hop", "https://cdn-profiles.tunein.com/s188550/images/logog.jpg", "http://108.59.11.81:8167/;", "Music, CHH, Hip-Hop", "", "dead"),
