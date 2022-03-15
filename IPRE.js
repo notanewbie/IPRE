@@ -20,6 +20,7 @@ document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[0].src
 document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[1].src = site.exploreimg
 document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[2].src = site.searchimg
 document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[3].src = site.npimg
+document.body.getElementsByTagName("link")[0].href=site.logo
 
 currentID = -1
 hasPlayed = 0;
