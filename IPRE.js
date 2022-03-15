@@ -14,6 +14,13 @@ function getCookie(Name) {
 	}
 }
 
+document.title = site.name;
+document.getElementsByTagName("navbutton")[0].getElementsByTagName("img")[0].src = site.logo
+document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[0].src = site.homeimg
+document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[1].src = site.exploreimg
+document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[2].src = site.searchimg
+document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[3].src = site.npimg
+
 currentID = -1
 hasPlayed = 0;
 a = 0;
@@ -205,12 +212,12 @@ document.getElementsByTagName("navcenter")[0].getElementsByTagName("a")[3].href 
 if(document.getElementsByTagName("audio")[0].paused) {
 document.getElementsByTagName("audio")[0].src = document.getElementsByTagName("audio")[0].src;
 document.getElementsByTagName("audio")[0].play();
-document.getElementsByTagName("npc")[0].getElementsByTagName("img")[0].src = "stop.png";
+document.getElementsByTagName("npc")[0].getElementsByTagName("img")[0].src = site.stopimg;
 }
 else {
 document.getElementsByTagName("audio")[0].pause();
 document.getElementsByTagName("audio")[0].src = document.getElementsByTagName("audio")[0].src;
-document.getElementsByTagName("npc")[0].getElementsByTagName("img")[0].src = "play.png";
+document.getElementsByTagName("npc")[0].getElementsByTagName("img")[0].src = site.playimg;
 }
 }
 function showPlay() {
@@ -328,7 +335,7 @@ currentID = searchResults(name)[0].id;
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 document.getElementsByTagName("audio")[0].src = url;
 playPause();
-document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + img + '"></npbg><npimg><img src="' + img + '"></npimg><nptitle>' + name + '</nptitle><npc><a href="javascript:playPause()"><img src="stop.png" id="icon2"></img></a></npc>';
+document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + img + '"></npbg><npimg><img src="' + img + '"></npimg><nptitle>' + name + '</nptitle><npc><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a></npc>';
 showPlay();
 }
 
