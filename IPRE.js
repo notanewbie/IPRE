@@ -197,7 +197,7 @@ if(currentID == searchResults(name)[0].id) {
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:showNP()"><chantab><img src="' + img + '"></img><chantext>' + name + '</chantext></chantab></a>';
 }
 else {
-document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:playChan(' + "'" + url + "', " + "'" + name + "', " + "'" + img + "'" + ')"><chantab><img src="' + img + '"></img><chantext>' + name + '</chantext></chantab></a>';
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:playChan2(' + searchResults(name)[0].id + ')"><chantab><img src="' + img + '"></img><chantext>' + name + '</chantext></chantab></a>';
 }
 }
 function addCat(label) {
@@ -234,6 +234,7 @@ document.getElementsByTagName("nptitle")[0].id = "";
 document.getElementsByTagName("npc")[0].id = "";
 }
 function showBrowse() {
+window.history.replaceState(null, null, window.location.pathname);
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 addHead("Browse");
 z = 0;
@@ -288,6 +289,7 @@ document.getElementsByTagName("input")[0].addEventListener("keyup", doSearch);
 document.getElementsByTagName("chanhead")[0].scrollIntoView();
 }
 function showSearch() {
+window.history.replaceState(null, null, window.location.pathname);
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 addHead("Search");
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML.split("</input>")[0] + '<input type="text" value="Search for genres, stations, or podcasts" onclick="this.select()"></input><br />';
@@ -311,6 +313,7 @@ document.getElementsByTagName("chanhead")[0].scrollIntoView()
 }
 
 function showExplore() {
+window.history.replaceState(null, null, window.location.pathname);
 hideMenu();
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 z = 0;
@@ -326,6 +329,7 @@ hidePlay();
 document.getElementsByTagName("chanhead")[0].scrollIntoView();
 }
 function showNP() {
+window.history.replaceState(null, null, "?s=" + currentID.toString());
 hideMenu();
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 showPlay();
@@ -339,7 +343,21 @@ playPause();
 document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + img + '"></npbg><npimg><img src="' + img + '"></npimg><nptitle>' + name + '</nptitle><npc><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a></npc>';
 showPlay();
 }
+function playChan2(ID) {
+hideMenu();
+currentID = ID;
+window.history.replaceState(null, null, "?s=" + ID.toString());
+document.getElementsByTagName("topchan")[0].innerHTML = "";
+document.getElementsByTagName("audio")[0].src = channels[ID].url;
+playPause();
+document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + channels[ID].img + '"></npbg><npimg><img src="' + channels[ID].img + '"></npimg><nptitle>' + channels[ID].name + '</nptitle><npc><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a></npc>';
+showPlay();
+}
 
 clearChanList();
 showBrowse();
 setInterval(addRating, 1000);
+
+if(location.search.indexOf("s=") > -1) {
+playChan2(parseInt(location.search.split("s=")[1]))
+}
