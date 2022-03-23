@@ -251,18 +251,9 @@ document.getElementsByTagName("chanhead")[0].scrollIntoView();
 function doSearch() {
 w = document.getElementsByTagName("input")[0].value;
 arr = searchResults(w);
-if(document.getElementsByTagName("input")[0] == document.activeElement && event.keyCode === 13) {
+if(document.getElementsByTagName("input")[0] == document.activeElement && event.keyCode != 27 && arr.length < channels.length * .5) {
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML.split("<br>")[0] + "<br>";
-mySearchResults = [];
-a = 0;
-//console.log(arr[0].name);
-while(a < arr.length) {
-console.log("Name: " + arr[a].name);
-if(arr[a].status == "live") {
-mySearchResults.push(arr[a])
-}
-a = a + 1;
-}
+mySearchResults = arr;
 a = 0;
 console.log(w);
 console.log(searchResults(w)[0]);
@@ -272,12 +263,14 @@ a = 0;
 while(a < mySearchResults.length) {
 b = a;
 a = b;
-console.log(a)
-console.log(mySearchResults.length)
+//console.log(a)
+//console.log(mySearchResults.length)
+if(mySearchResults[a].status == "live") {
 addShow(mySearchResults[a].name, mySearchResults[a].img, mySearchResults[a].url)
+}
 a = b + 1;
-console.log("Test: " + mySearchResults[a])
-console.log("Test: " + a)
+//console.log("Test: " + mySearchResults[a])
+//console.log("Test: " + a)
 }
 }
 else {
@@ -287,6 +280,7 @@ document.getElementsByTagName("input")[0].value = w;
 document.getElementsByTagName("input")[0].addEventListener("keyup", doSearch);
 }
 document.getElementsByTagName("chanhead")[0].scrollIntoView();
+document.getElementsByTagName("input")[0].focus();
 }
 function showSearch() {
 window.history.replaceState(null, null, window.location.pathname);
@@ -354,10 +348,12 @@ document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + channels
 showPlay();
 }
 
-clearChanList();
-showBrowse();
-setInterval(addRating, 1000);
-
 if(location.search.indexOf("s=") > -1) {
 playChan2(parseInt(location.search.split("s=")[1]))
 }
+
+else {
+clearChanList();
+showBrowse();
+}
+setInterval(addRating, 1000);
