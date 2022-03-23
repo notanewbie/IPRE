@@ -14,6 +14,13 @@ function getCookie(Name) {
 	}
 }
 
+class Cat {
+constructor(name) {
+this.name = name;
+this.rating = 0;
+}
+}
+
 document.title = site.name;
 document.getElementsByTagName("navbutton")[0].getElementsByTagName("img")[0].src = site.logo
 document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[0].src = site.homeimg
@@ -30,6 +37,7 @@ channels[a].id = a;
 a = a + 1;
 }
 categoryList = []
+TopCatList =[]
 a = 0;
 b = 0;
 while(channels[a]) {
@@ -41,9 +49,15 @@ a = a + 1;
 b = 0;
 }
 
-
 categoryList = new Set(categoryList);
 categoryList = Array.from(categoryList).sort();
+
+a = 0;
+while(categoryList[a]) {
+TopCatList.push(new Cat(categoryList[a]))
+a = a + 1;
+}
+
 
 function catArray(cat) {
 tempChans = []
@@ -179,6 +193,50 @@ TopChan0();
 function TopChan() {
 return topchannels;
 }
+
+a = 0;
+while(TopCatList[a]) {
+//console.log(TopCatList[a])
+b = 0;
+while(TopChan()[b]) {
+c = 0;
+//console.log(TopChan()[b])
+while(TopChan()[b].category.split(", ")[c]) {
+if(TopCatList[a].name == TopChan()[b].category.split(", ")[c]) {
+//console.log(TopCatList[a].name);
+//console.log(TopChan()[b].name);
+TopCatList[a].rating = TopCatList[a].rating + TopChan()[b].rating
+//console.log(TopCatList[a].rating);
+
+}
+c = c + 1;
+}
+b = b + 1;
+}
+a = a + 1;
+}
+
+TopCatList.sort((a, b) => (a.rating > b.rating) ? 1 : -1).reverse()
+
+disChan = [];
+a = 0;
+while(TopCatList[a] && a < 15) {
+b = 0;
+while(channels[b]) {
+c = 0;
+while(channels[b].category.split(", ")[c]) {
+if(channels[b].category.split(", ")[c] == TopCatList[a].name) {
+disChan.push(channels[b]);
+}
+c = c + 1;
+}
+b = b + 1;
+}
+a = a + 1;
+}
+
+disChan.sort((a, b) => (a.rating > b.rating) ? 1 : -1)
+//disChan.sort((a, b) => (a.rating > b.rating) ? 1 : -1).reverse()
 
 function showMenu() {
 document.getElementsByTagName("navmenu")[0].id="visible"
