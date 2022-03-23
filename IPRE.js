@@ -218,6 +218,7 @@ a = a + 1;
 
 TopCatList.sort((a, b) => (a.rating > b.rating) ? 1 : -1).reverse()
 
+function GetSug() {
 disChan = [];
 a = 0;
 while(TopCatList[a] && a < 15) {
@@ -237,6 +238,9 @@ a = a + 1;
 
 disChan.sort((a, b) => (a.rating > b.rating) ? 1 : -1)
 //disChan.sort((a, b) => (a.rating > b.rating) ? 1 : -1).reverse()
+
+return disChan;
+}
 
 function showMenu() {
 document.getElementsByTagName("navmenu")[0].id="visible"
