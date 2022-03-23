@@ -279,6 +279,11 @@ document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTa
 document.getElementsByTagName("input")[0].value = w;
 document.getElementsByTagName("input")[0].addEventListener("keyup", doSearch);
 }
+if(document.getElementsByTagName("input")[0] == document.activeElement && event.keyCode != 27 && arr.length >= channels.length * .5) {
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML.split("<br>")[0] + "</input><br />Too many results! Narrow your search.";
+document.getElementsByTagName("input")[0].value = w;
+document.getElementsByTagName("input")[0].addEventListener("keyup", doSearch);
+}
 document.getElementsByTagName("chanhead")[0].scrollIntoView();
 document.getElementsByTagName("input")[0].focus();
 }
