@@ -316,7 +316,7 @@ document.getElementsByTagName("chanhead")[0].scrollIntoView();
 function showRecc() {
 window.history.replaceState(null, null, window.location.pathname);
 document.getElementsByTagName("topchan")[0].innerHTML = "";
-addHead("Reccomended");
+addHead("Discover");
 z = 0;
 while(z < 20 && z < GetSug().length) {
 if(GetSug()[z].status == "live") {
@@ -396,7 +396,7 @@ window.history.replaceState(null, null, window.location.pathname);
 hideMenu();
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 linkstring = 'javascript:showRecc()';
-document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<chanhead><a href=' + "'" + linkstring + "'>Reccomended</a></chanhead>"
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<chanhead><a href=' + "'" + linkstring + "'>Discover</a></chanhead>"
 z = 0;
 while(categoryList[z]) {
 x = 0;
