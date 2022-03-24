@@ -221,13 +221,15 @@ TopCatList.sort((a, b) => (a.rating > b.rating) ? 1 : -1).reverse()
 function GetSug() {
 disChan = [];
 a = 0;
+d = 0;
 while(TopCatList[a] && a < 15) {
 b = 0;
 while(channels[b]) {
 c = 0;
 while(channels[b].category.split(", ")[c]) {
-if(channels[b].category.split(", ")[c] == TopCatList[a].name) {
+if(channels[b].category.split(", ")[c] == TopCatList[a].name && channels[b].id >= d) {
 disChan.push(channels[b]);
+d = channels[b].id + 1;
 }
 c = c + 1;
 }
@@ -236,6 +238,7 @@ b = b + 1;
 a = a + 1;
 }
 
+disChan.sort((a, b) => (a.id > b.id) ? 1 : -1).reverse()
 disChan.sort((a, b) => (a.rating > b.rating) ? 1 : -1)
 //disChan.sort((a, b) => (a.rating > b.rating) ? 1 : -1).reverse()
 
@@ -310,6 +313,21 @@ hideMenu();
 hidePlay();
 document.getElementsByTagName("chanhead")[0].scrollIntoView();
 }
+function showRecc() {
+window.history.replaceState(null, null, window.location.pathname);
+document.getElementsByTagName("topchan")[0].innerHTML = "";
+addHead("Reccomended");
+z = 0;
+while(z < 20 && z < GetSug().length) {
+if(GetSug()[z].status == "live") {
+addShow(GetSug()[z].name, GetSug()[z].img, GetSug()[z].url)
+}
+z = z + 1
+}
+hideMenu();
+hidePlay();
+document.getElementsByTagName("chanhead")[0].scrollIntoView();
+}
 function doSearch() {
 w = document.getElementsByTagName("input")[0].value;
 arr = searchResults(w);
@@ -377,6 +395,8 @@ function showExplore() {
 window.history.replaceState(null, null, window.location.pathname);
 hideMenu();
 document.getElementsByTagName("topchan")[0].innerHTML = "";
+linkstring = 'javascript:showRecc()';
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<chanhead><a href=' + "'" + linkstring + "'>Reccomended</a></chanhead>"
 z = 0;
 while(categoryList[z]) {
 x = 0;
@@ -417,6 +437,8 @@ showPlay();
 
 if(location.search.indexOf("s=") > -1) {
 playChan2(parseInt(location.search.split("s=")[1]))
+playPause();
+playPause();
 }
 
 else {
