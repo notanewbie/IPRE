@@ -340,5 +340,11 @@ new Channel("ESPN New York", "https://i.iheart.com/v3/re/new_assets/5323566d-b36
 new Channel("CBC Radio News", "https://play-lh.googleusercontent.com/sU34PqRAGjVaUvjITJLHFDWmoLkBKFtOsK7gYN2N6wdv4-koovT-7DiEnLeYcp9weA=s520", "https://podcast.cbc.ca/mp3/hourlynews.mp3", "News", "", "dead"),
 new Channel("talkRADIO", "https://cdn-radiotime-logos.tunein.com/s265666d.png", "https://radio.talkradio.co.uk/stream", "Talk", "", "live"),
 new Channel("Times Radio", "https://cdn-profiles.tunein.com/s309354/images/logog.png", "https://timesradio.wireless.radio/stream", "Talk, News", "", "live"),
-new Channel("WMMS 100.7", "https://cdn-profiles.tunein.com/s21152/images/logog.jpg", "https://ample.revma.ihrhls.com/zc1741", "Music, Rock, Talk, Comedy", "The Buzzard", "live")
+new Channel("WMMS 100.7", "https://cdn-profiles.tunein.com/s21152/images/logog.jpg", "https://ample.revma.ihrhls.com/zc1741", "Music, Rock, Talk, Comedy", "The Buzzard", "live"),
+new Channel("Tech Talks Central", "https://cdn-radiotime-logos.tunein.com/s230969d.png", "https://n07.radiojar.com/2sr8f9ukb", "Talk, Tech, Podcast", "", "live"),
+new Channel("Pure Radio Scotland", "https://cdn-profiles.tunein.com/s282203/images/logog.png?t=157469", "https://listen-pureradio.sharp-stream.com/pure_radio.mp3", "Music, Hot AC, Pop", "", "live"),
+new Channel("Thom Hartmann Radio Program", "https://www.thomhartmann.com/sites/default/files/blog-logo.jpg", "https://stream1.thomhartmann.com/hartmannfp", "Talk, Podcast", "", "live"),
+new Channel("The Head On Radio Network", "https://www.headon.live/wp-content/uploads/2017/05/HeadOn-Radio-Network-SQ.png", "https://headonradio.radioca.st/stream", "Talk, Podcast", "The HORN", "live"),
+new Channel("detour TALK", "https://www.radio.net/images/broadcasts/d6/2c/123762/1/c300.png", "https://headonradio.radioca.st/stream", "Talk, Podcast", "The Detour", "live"),
+new Channel("Air Progressive", "https://cdn-radiotime-logos.tunein.com/s141251d.png", "http://www.airprogressive.org:8000/stream", "Talk, Podcast", "", "dead")
 ]
