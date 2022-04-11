@@ -346,5 +346,14 @@ new Channel("Pure Radio Scotland", "https://cdn-profiles.tunein.com/s282203/imag
 new Channel("Thom Hartmann Radio Program", "https://www.thomhartmann.com/sites/default/files/blog-logo.jpg", "https://stream1.thomhartmann.com/hartmannfp", "Talk, Podcast", "", "live"),
 new Channel("The Head On Radio Network", "https://www.headon.live/wp-content/uploads/2017/05/HeadOn-Radio-Network-SQ.png", "https://headonradio.radioca.st/stream", "Talk, Podcast", "The HORN", "live"),
 new Channel("detour TALK", "https://www.radio.net/images/broadcasts/d6/2c/123762/1/c300.png", "https://headonradio.radioca.st/stream", "Talk, Podcast", "The Detour", "live"),
-new Channel("Air Progressive", "https://cdn-radiotime-logos.tunein.com/s141251d.png", "http://www.airprogressive.org:8000/stream", "Talk, Podcast", "", "dead")
+new Channel("Air Progressive", "https://cdn-radiotime-logos.tunein.com/s141251d.png", "http://www.airprogressive.org:8000/stream", "Talk, Podcast", "", "dead"),
+new Channel("MLB on TuneIn", "https://cdn-profiles.tunein.com/s253402/images/logog.png", "https://t1.streamguys1.com/mlb247", "Talk, Sports, Live Event", "", "live"),
+new Channel("MLB on ESPN", "https://espnpressroom.com/us/files/2020/07/MLB-on-ESPN-780x470.png", "https://espn-edge.wostreaming.net/espn-sidechannel1-cloud.m3u8", "Talk, Sports, Live Event", "", "dead"),
+new Channel("ESPN Fantasy", "https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/d6/88/42393/1/c300.png", "https://tunein.streamguys1.com/espn-fantasy", "Talk, Sports", "", "dead"),
+new Channel("ESPN College Football", "https://a.espncdn.com/i/espnradio/podcast/CollegeFootballLive/CollegeFootballLive_1400x1400.jpg", "https://tunein.streamguys1.com/espncf", "Talk, Sports", "espncf", "live"),
+new Channel("ESPN Shout", "https://cdn-radiotime-logos.tunein.com/s25876g.png", "https://tunein.streamguys1.com/espnshout", "Talk, Sports", "", "dead"),
+new Channel("ESPN Fantasy Sports", "https://play-lh.googleusercontent.com/agdeEPKtsU_mFdAlmUkV_vbUtdf-1ldu_N0vS5lgJkDeTOHCCxKym3C1hs3VCvT-DFE", "https://tunein.streamguys1.com/ESPNFantasySports", "Talk, Sports, Podcast", "", "live"),
+new Channel("Fox News Channel", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/2048px-Fox_News_Channel_logo.svg.png", "http://tunein.streamguys1.com/foxnews-free", "Talk, TV, News", "", "dead"),
+new Channel("VSIN", "https://cdn-profiles.tunein.com/s308467/images/logog.jpg", "http://tunein.streamguys1.com/vsin", "Talk, Sports", "", "live"),
+new Channel("MSNBC Tesla", "https://cdn-profiles.tunein.com/s297990/images/logog.jpg", "http://tunein.streamguys1.com/msnbc-tesla", "News, Talk, TV", "", "dead")
 ]
