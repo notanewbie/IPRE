@@ -1,0 +1,271 @@
+img#msg {
+width: 20vw;
+height: auto;
+margin-left: 40vw;
+margin-right: 40vw;
+}
+msgspace {
+background-color: gray;
+position: fixed;
+top: 200vh;
+z-index: -1;
+}
+msgspace#visible {
+background-color: white;
+position: fixed;
+width: 100vw;
+height: 100vh;
+top: 0vh;
+left: 0vw;
+bottom: 0vh;
+right: 0vw;
+z-index: 5;
+}
+p#msg {
+font-size: 1.5vw;
+text-align: center;
+}
+coolbutton {
+font-size: 1.5vw;
+color: white;
+background-color: blue;
+text-align: center;
+border-radius: 3vh;
+padding-top: 1vh;
+padding-bottom: 1vh;
+margin-top: 4vh;
+position: relative;
+top: 3vh;
+padding-left: 2vw;
+padding-right: 2vw;
+margin-left: 2vw;
+margin-right: 2vw;
+}
+h2#msg {
+text-align: center;
+font-size: 3vw;
+}
+msg {
+top: 50%;
+transform: translateY(-50%);
+position: absolute;
+}
+navbar {
+background-color: white;
+border-top: 1px solid black;
+position: fixed;
+left: 0px;
+bottom: 0px;
+right: 0px;
+width: 100%;
+height: 9vh;
+color: black;
+font-weight: bold;
+line-height: 8vh;
+text-align: center;
+font-size: 5vh;
+z-index: 2;
+}
+body {
+font-family: Arial;
+z-index: 0;
+font-size: 4vh;
+}
+navbutton {
+position: fixed;
+top: 2.5%;
+left: 4.5vw;
+z-index: 0;
+font-size: 3vh;
+height: 6vh;
+}
+a {
+color: black;
+text-decoration: none;
+}
+navmenu#visible {
+position: fixed;
+top: 8vh;
+left:0px;
+right: 0px;
+z-index: 5;
+background-color: white;
+color: black;
+font-weight: bold;
+line-height: 23vh;
+text-align: center;
+font-size: 15vh;
+visibility: visible;
+}
+navmenu {
+z-index: -1;
+position: fixed;
+visibility: hidden;
+}
+navop {
+display: block;
+border-bottom: 0.5px solid gray;
+}
+td {
+text-align: center;
+}
+topchan {
+position: fixed;
+top: 10vh;
+left: 4.5vw;
+right: 5vw;
+bottom: 10vh;
+overflow-y: auto;
+}
+chanhead#new {
+display: inline-block;
+font-weight: bold;
+font-size: 5vh;
+margin-bottom: 2.5vh;
+background-color: skyblue;
+width: 18vw;
+text-overflow: ellipsis;
+overflow-wrap: break-word;
+height: 15vh;
+margin-right: 2.3vw;
+overflow: hidden;
+}
+chanhead {
+display: block;
+font-weight: bold;
+font-size: 5vh;
+margin-bottom: 2.5vh;
+}
+chantab {
+display: block;
+position: relative;
+height: 10vh;
+line-height: 10vh;
+margin-bottom: 5vh;
+}
+chantext {
+position: relative;
+top: -7vh;
+left: 2vw;
+font-size: 3vh;
+}
+npbg#visible {
+background-color: white;
+position: fixed;
+left: 0vw;
+right: 0vw;
+top: 0vh;
+bottom: 0vh;
+z-index: 0;
+text-align: center;
+filter: blur(50px);
+opacity: .5;
+visibility: visible;
+}
+npimg#visible {
+position: fixed;
+top: 15vh;
+height: 40vh;
+width: 100vw;
+text-align: center;
+left: 0px;
+z-index: 1;
+visibility: visible;
+}
+nptitle#visible {
+position: fixed;
+top: 60vh;
+width: 100vw;
+text-align: center;
+left: 0px;
+font-weight: bold;
+font-size: 5vh;
+z-index: 1;
+visibility: visible;
+}
+npc#visible {
+position: fixed;
+bottom: 13vh;
+width: 100vw;
+text-align: center;
+left: 0px;
+font-weight: bold;
+font-size: 5vw;
+z-index: 1;
+visibility: visible;
+}
+npbg {
+z-index: -1;
+position: fixed;
+visibility: hidden;
+}
+npimg {
+z-index: -1;
+position: fixed;
+visibility: hidden;
+}
+nptitle {
+z-index: -1;
+position: fixed;
+visibility: hidden;
+}
+npc {
+z-index: -1;
+position: fixed;
+visibility: hidden;
+}
+playerspace {
+position: fixed;
+z-index: -2;
+visibility: hidden;
+}
+img {
+height: 100%;
+max-width: 100%;
+}
+img#icon {
+position: relative;
+bottom: 0px;
+max-height: 6vh;
+padding-right: 13vw;
+padding-bottom: 1.5vh;
+padding-top: 1.5vh;
+z-index: 5;
+}
+img#icon2 {
+position: relative;
+max-height: 8vh;
+padding-right: auto;
+padding-left: auto;
+padding-bottom: 1.5vh;
+padding-top: 1.5vh;
+}
+fauximg {
+display: inline;
+width: 100%;
+background-color: pink;
+}
+input {
+border: none;
+border-bottom: 1px solid black;
+width: 100%;
+font-size: 3vh;
+margin-bottom: 5vh;
+}
+input:focus {
+border: none;
+border-bottom: 1px solid black;
+outline: none;
+}
+navcenter {
+letter-spacing: 20vw;
+text-align: center;
+position:relative;
+left: 4vw;
+}
+img#close {
+position: absolute;
+top: -45vh;
+left: 3vh;
+width: 3vw;
+}
