@@ -116,6 +116,30 @@ a = a + 1;
 return tempChans;
 }
 
+function checkMessages() {
+count = 0;
+if(parseInt(getCookie("RADIO_MESSAGE_COUNT")) == -1) {
+count = parseInt(getCookie("RADIO_MESSAGE_COUNT"))
+}
+else {
+count = parseInt(getCookie("RADIO_MESSAGE_COUNT")) - 1;
+}
+if(parseInt(getCookie("RADIO_MESSAGE_COUNT")) >= -1 || parseInt(getCookie("RADIO_MESSAGE_COUNT")) < -1) {
+if(parseInt(getCookie("RADIO_MESSAGE_COUNT")) != 0) {
+showMessage(startup.img, startup.header, startup.message, startup.button_text, startup.button_action)
+document.cookie = "RADIO_MESSAGE_COUNT=" + count + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+}
+}
+else {
+document.cookie = "RADIO_MESSAGE_COUNT=" + startup.x + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+checkMessages();
+}
+}
+function resetMessages() {
+document.cookie = "RADIO_MESSAGE_COUNT=" + startup.x + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+}
+checkMessages();
+//resetMessages();
 function addRating() {
 z = 0;
 while(channels[z]) {
@@ -409,6 +433,28 @@ hideMenu();
 hidePlay();
 document.getElementsByTagName("chanhead")[0].scrollIntoView();
 }
+function openLink(url) {
+window.open(url, '_blank')
+}
+function showMessage(hero, header, message, options, functions) {
+t = [];
+t.push("t");
+console.log(options[0]);
+document.getElementsByTagName("msgspace")[0].id = "visible";
+document.getElementsByTagName("msgspace")[0].getElementsByTagName("msg")[0].innerHTML = '<img src="' + hero + '" id="msg"></img>' + '<h2 id="msg">' + header + '</h2>' + '<p id="msg">' + message + '<br />' + '</p><a href="javascript:hideMessage()"><img src="https://js-cdn.music.apple.com/musickit/v3/components/musickit-components/assets/icons/web-VideoPlayer-close.svg" id="close"></img></a>';;
+x = 0;
+newstring = "";
+while(options[x] && functions[x]) {
+newstring = newstring + '<a href="javascript:' + functions[x] + '"><coolbutton>' + options[x] + '</coolbutton></a>';
+x = x + 1;
+}
+document.getElementsByTagName("msgspace")[0].getElementsByTagName("msg")[0].getElementsByTagName("p")[0].innerHTML = document.getElementsByTagName("msgspace")[0].getElementsByTagName("msg")[0].getElementsByTagName("p")[0].innerHTML + "<br />" + newstring;
+}
+//showMessage("https://cdn-web.tunein.com/assets/img/default-item-v2.png", "TuneIn Bad", "TuneIn freaking sucks dude.", ["You Right You Right", "But I Like TuneIn"], ["hideMessage()", "openLink('http://tunein.com')"])
+function hideMessage() {
+document.getElementsByTagName("msgspace")[0].id = "";
+}
+//hideMessage()
 function showNP() {
 window.history.replaceState(null, null, "?s=" + currentID.toString());
 hideMenu();
