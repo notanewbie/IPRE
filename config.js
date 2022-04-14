@@ -13,3 +13,11 @@ site = {
 "pauseimg": "stop.png",
 "stopimg": "stop.png",
 }
+startup = {
+"x": 3,
+"img": "https://radio.ntnwb.cc/radio.png",
+"header": "Welcome to IPRE 0.5",
+"message": "StreamLive Audio runs IPRE, which is now currently at version 0.5! Enjoy new features such as an all-new Discover section, a simpler search experience, the ability to share stations with others, and more!",
+"button_text": ["Okay"],
+"button_action": ["hideMessage()"]
+}
