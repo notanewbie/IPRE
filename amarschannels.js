@@ -357,5 +357,8 @@ new Channel("Fox News Channel", "https://upload.wikimedia.org/wikipedia/commons/
 new Channel("VSIN", "https://cdn-profiles.tunein.com/s308467/images/logog.jpg", "http://tunein.streamguys1.com/vsin", "Talk, Sports", "", "live"),
 new Channel("MSNBC Tesla", "https://cdn-profiles.tunein.com/s297990/images/logog.jpg", "http://tunein.streamguys1.com/msnbc-tesla", "News, Talk, TV", "", "dead"),
 new Channel("K-LOVE Christmas", "https://cdn-profiles.tunein.com/s258421/images/logog.png", "https://maestro.emfcdn.com/stream_for/k-love-christmas/tunein/aac", "Music, Holiday", "", "live"),
-new Channel("ESPN Sidechannel 2", "https://cdn-profiles.tunein.com/s25876/images/logog.jpg", "http://in.icy2.abacast.com/espn-sidechannel2-ll-48", "Talk, Sports, Live Event", "MLB on ESPN, NBA on ESPN", "live")
+new Channel("ESPN Sidechannel 2", "https://cdn-profiles.tunein.com/s25876/images/logog.jpg", "http://in.icy2.abacast.com/espn-sidechannel2-ll-48", "Talk, Sports, Live Event", "MLB on ESPN, NBA on ESPN", "live"),
+new Channel("Radio Paradise Main Mix", "https://cdn-profiles.tunein.com/s13606/images/logog.png", "https://stream-tx3.radioparadise.com/mp3-192", "Music, Rock, Alternative, Indie", "", "live"),
+new Channel("Radio Paradise Mellow Mix", "https://cdn-profiles.tunein.com/s308828/images/logog.png", "https://stream.radioparadise.com/mellow-320", "Music, Rock", "", "live"),
+new Channel("Radio Paradise Rock Mix", "https://cdn-profiles.tunein.com/s308827/images/logog.png", "https://stream.radioparadise.com/rock-320", "Music, Rock", "", "live")
 ]
