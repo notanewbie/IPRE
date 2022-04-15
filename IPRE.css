@@ -22,11 +22,11 @@ right: 0vw;
 z-index: 5;
 }
 p#msg {
-font-size: 1.5vw;
+font-size: 2.5vw;
 text-align: center;
 }
 coolbutton {
-font-size: 1.5vw;
+font-size: 2.5vw;
 color: white;
 background-color: blue;
 text-align: center;
@@ -43,7 +43,7 @@ margin-right: 2vw;
 }
 h2#msg {
 text-align: center;
-font-size: 3vw;
+font-size: 4vw;
 }
 msg {
 top: 50%;
