@@ -269,6 +269,11 @@ disChan.sort((a, b) => (a.rating > b.rating) ? 1 : -1)
 return disChan;
 }
 
+function retry() {
+playPause();
+playPause();
+hideMessage();
+}
 function showMenu() {
 document.getElementsByTagName("navmenu")[0].id="visible"
 //document.getElementsByTagName("navbutton")[0].getElementsByTagName("a")[0].href="javascript:hideMenu()";
