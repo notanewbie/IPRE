@@ -19,5 +19,6 @@ startup = {
 "header": "Welcome to IPRE 0.5",
 "message": "StreamLive Audio runs IPRE, which is now currently at version 0.5! Enjoy new features such as an all-new Discover section, a simpler search experience, the ability to share stations with others, and more!",
 "button_text": ["Learn More", "Okay"],
-"button_action": ["openLink('https://github.com/notanewbie/IPRE/releases/tag/v0.5')", "hideMessage()"]
+"button_action": ["openLink('https://github.com/notanewbie/IPRE/releases/tag/v0.5')", "hideMessage()"],
+"date": "4/16/22"
 }
