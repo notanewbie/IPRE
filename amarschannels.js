@@ -361,5 +361,13 @@ new Channel("ESPN Sidechannel 2", "https://cdn-profiles.tunein.com/s25876/images
 new Channel("Radio Paradise Main Mix", "https://cdn-profiles.tunein.com/s13606/images/logog.png", "https://stream-tx3.radioparadise.com/mp3-192", "Music, Rock, Alternative, Indie", "", "live"),
 new Channel("Radio Paradise Mellow Mix", "https://cdn-profiles.tunein.com/s308828/images/logog.png", "https://stream.radioparadise.com/mellow-320", "Music, Rock", "", "live"),
 new Channel("Radio Paradise Rock Mix", "https://cdn-profiles.tunein.com/s308827/images/logog.png", "https://stream.radioparadise.com/rock-320", "Music, Rock", "", "live"),
-new Channel("talkSPORT 2", "https://cdn-radiotime-logos.tunein.com/s265443g.png", "https://radio.talksport.com/stream2", "Talk, Sports", "", "live")
+new Channel("talkSPORT 2", "https://cdn-radiotime-logos.tunein.com/s265443g.png", "https://radio.talksport.com/stream2", "Talk, Sports", "", "live"),
+new Channel("FireLane", "https://images.radio.com/logos/KNXHD3.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/KNXHD3AAC_SC", "Music, EDM, Live Event, Hip-Hop, Rock, Soul", "Fire Lane", "live"),
+new Channel("Channel Africa", "http://www.channelafrica.co.za/digital/player/1.0/channelafrica/images/listen-live-logo.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/CA247AAC_SC", "Talk, News", "", "live"),
+new Channel("RNZ National", "https://cdn-profiles.tunein.com/s25645/images/logog.jpg", "https://radionz-ice.streamguys.com/National_aac128", "Music, Talk, Entertainment, News, Indie", "", "live"),
+new Channel("LifeTalk Radio", "https://play-lh.googleusercontent.com/kqbR292I-S4-RlSLsoPd83yUoXwIjAO4rSxpaNt0yHi8MZntiYCnW1EsZp9ixtNK24QE", "https://ais-sa1.streamon.fm/7013_64k.aac", "Christianity, Talk, Worship", "", "live"),
+new Channel("LifeTalk Kids", "https://streaming-player-assets.s3.amazonaws.com/LTRKids/custom/images/LTRKidsLogo.jpg", "https://ais-sa1.streamon.fm/7670_48k.aac", "Christianity, Talk, Worship, Drama, Mystery", "", "live"),
+new Channel("Pride Radio", "https://i.iheart.com/v3/re/new_assets/60b8f2c129217362d62e9b8c", "https://stream.revma.ihrhls.com/zc3949", "Music, Top 40, Pop", "", "live"),
+new Channel("Pride Radio Flashback", "https://i.iheart.com/v3/re/new_assets/067db09c-2c22-45ba-a1e0-b19489e3b402", "https://stream.revma.ihrhls.com/zc730", "Music, Pop, 2000s, 2010s, Disco, Funk, EDM", "", "live"),
+new Channel("Federal News Radio", "https://opportunitynation.org/wp-content/uploads/2016/09/fednewsauthorlogo.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WFEDAMAAC_SC", "Talk, News", "", "live")
 ]
