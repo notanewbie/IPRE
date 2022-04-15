@@ -117,6 +117,10 @@ return tempChans;
 }
 
 function checkMessages() {
+if(Date.parse(startup.date) > Date.parse(new Date().getMonth() + "/" + new Date().getDate() + "/" + new Date().getYear())) {
+showMessage(startup.img, startup.header, startup.message, startup.button_text, startup.button_action)
+}
+else {
 count = 0;
 if(parseInt(getCookie("RADIO_MESSAGE_COUNT")) == -1) {
 count = parseInt(getCookie("RADIO_MESSAGE_COUNT"))
@@ -133,6 +137,7 @@ document.cookie = "RADIO_MESSAGE_COUNT=" + count + '; expires=Tue, 19 Jan 2038 0
 else {
 document.cookie = "RADIO_MESSAGE_COUNT=" + startup.x + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
 checkMessages();
+}
 }
 }
 function resetMessages() {
