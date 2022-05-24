@@ -117,7 +117,7 @@ return tempChans;
 }
 
 function checkMessages() {
-if(Date.parse(startup.date) > Date.parse(new Date().getMonth() + "/" + new Date().getDate() + "/" + new Date().getYear())) {
+if(Date.parse(startup.date) > Date.parse(new Date())) {
 showMessage(startup.img, startup.header, startup.message, startup.button_text, startup.button_action)
 }
 else {
