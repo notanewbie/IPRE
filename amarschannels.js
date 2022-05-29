@@ -105,7 +105,7 @@ new Channel("BBC Radio 5 Live Sports Extra", "https://mytuner.global.ssl.fastly.
 new Channel("BBC Asian Network", "https://cdn-radiotime-logos.tunein.com/s44490q.png", "https://stream.live.vc.bbcmedia.co.uk/bbc_asian_network", "Talk, Music, K-Pop", "", "live"),
 new Channel("Bloomberg Radio", "https://cdn-profiles.tunein.com/s165740/images/logog.png", "http://tunein.streamguys1.com/bloomberg991", "Talk, News, Finance", "", "live"),
 new Channel("RPGamers Network", "https://cdn-radiotime-logos.tunein.com/s209618d.png", "http://stream.rpgamers.net:8000/rpgn", "Music, Soundtrack, Chiptune", "", "dead"),
-new Channel("Fox Sports Radio", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Fox_Sports_Radio_logo.svg/1024px-Fox_Sports_Radio_logo.svg.png", "http://stream.revma.ihrhls.com/zc4732", "Sports, Talk, Live Event", "", "live"),
+new Channel("Fox Sports Radio", "https://cdn.ntnwb.cc/FSR1.png", "http://stream.revma.ihrhls.com/zc4732", "Sports, Talk, Live Event", "FSR", "live"),
 new Channel("FOX Sports Radio 1270 AM/105.9 FM", "https://cdn-profiles.tunein.com/s21511/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WFWNAMAAC_SC", "Sports, Talk, Live Event", "", "live"),
 new Channel("The Herd With Colin Cowherd", "https://i.iheart.com/v3/re/new_assets/f80261f4-86b4-4544-949b-1d4194019447", "http://stream.revma.ihrhls.com/zc6973", "Sports, Talk, Podcast", "", "live"),
 new Channel("NBA TV", "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1024px-NBA_TV.svg.png", "http://tunein.streamguys1.com/fallback-secure-NBA24", "Sports, Talk, Live Event, TV", "", "dead"),
@@ -407,5 +407,9 @@ new Channel("Talkradio 630 KHOW", "https://i.iheart.com/v3/re/assets/images/377.
 new Channel("Fox Sports Radio Los Angeles AM 570", "https://thinkbluela.com/wp-content/uploads/2014/09/AM570-Logo.jpg", "https://stream.revma.ihrhls.com/zc189", "Sports", "MLB, Los Angeles Dodgers, NBA, Los Angeles Clippers, NCAA, UCLA Bruins", "live"),
 new Channel("97.3 The Fan", "https://images.radio.com/logos/KWFNFM.jpg", "https://live.wostreaming.net/direct/dlcmedia-wfnbfmaac-ibc4", "Sports", "NCAA, Navy Midshipmen, MLB, San Diego Padres", "live"),
 new Channel("Heartland Newsfeed Radio Network", "https://cdn-profiles.tunein.com/s310386/images/logog.jpg", "https://ais-edge51-live365-dal02.cdnstream.com/a24952", "Talk, News, Sports, Finance", "", "live"),
-new Channel("The Sports Leader", "https://express-images.franklymedia.com/6616/sites/82/2019/09/04082004/KNBR-AF-Sitelogo-2019-09-06.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMIHR_SC", "Sports", "NFL, San Francsisco 49ers, MLB, San Francisco Giants", "live")
+new Channel("The Sports Leader", "https://express-images.franklymedia.com/6616/sites/82/2019/09/04082004/KNBR-AF-Sitelogo-2019-09-06.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMIHR_SC", "Sports", "NFL, San Francsisco 49ers, MLB, San Francisco Giants", "live"),
+new Channel("THE FRINGE FM", "https://cdn-profiles.tunein.com/s260531/images/logog.jpg", "https://ice42.securenetsystems.net/KTLKDB", "Talk, Entertainment, Science, Tech, Politics", "", "live"),
+new Channel("Australian Open Radio", "https://cdn-profiles.tunein.com/s132279/images/logog.png", "https://aoradio.out.airtime.pro:8000/aoradio_a", "Sports, Live Event", "", "live"),
+new Channel("Radio Tennis", "https://cdn-radiotime-logos.tunein.com/s153323d.png", "https://video1.getstreamhosting.com:8638/stream", "Sports, Live Event", "", "live"),
+new Channel("Radio RG", "https://cdn-radiotime-logos.tunein.com/s138936g.png", "https://chai5she.cdn.dvmr.fr/roland-garros.mp3", "Sports, Live Event, Talk", "Roland Garros", "live")
 ]
