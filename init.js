@@ -8,6 +8,8 @@ this.description = description;
 this.status = status;
 this.id = 0;
 this.rating = 0;
+this.liked = 0;
+this.order = -1;
 }
 }
 
