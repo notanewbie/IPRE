@@ -25,8 +25,9 @@ document.title = site.name;
 document.getElementsByTagName("navbutton")[0].getElementsByTagName("img")[0].src = site.logo
 document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[0].src = site.homeimg
 document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[1].src = site.exploreimg
-document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[2].src = site.searchimg
-document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[3].src = site.npimg
+document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[2].src = site.heartimg
+document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[3].src = site.searchimg
+document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[4].src = site.npimg
 document.body.getElementsByTagName("link")[0].href=site.logo
 
 currentID = -1
@@ -34,6 +35,12 @@ hasPlayed = 0;
 a = 0;
 while(channels[a]) {
 channels[a].id = a;
+if(parseInt(getCookie("S_" + a + "_IS_LIKED")) > -1) {
+channels[a].liked = parseInt(getCookie("S_" + a + "_IS_LIKED"));
+}
+if(parseInt(getCookie("S_" + a + "_ORDER")) > -2) {
+channels[a].order = parseInt(getCookie("S_" + a + "_ORDER"));
+}
 a = a + 1;
 }
 categoryList = []
@@ -58,6 +65,17 @@ TopCatList.push(new Cat(categoryList[a]))
 a = a + 1;
 }
 
+function getLikes() {
+a = 0;
+tempChans = [];
+while(channels[a]) {
+if(channels[a].liked == 1) {
+tempChans.push(channels[a]);
+}
+a = a + 1;
+}
+return tempChans;
+}
 
 function catArray(cat) {
 tempChans = []
@@ -119,6 +137,8 @@ return tempChans;
 function checkMessages() {
 if(Date.parse(startup.date) > Date.parse(new Date())) {
 showMessage(startup.img, startup.header, startup.message, startup.button_text, startup.button_action)
+count = 0;
+count = parseInt(getCookie("RADIO_MESSAGE_COUNT"));
 }
 else {
 count = 0;
@@ -308,18 +328,33 @@ document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTa
 }
 function playPause() {
 hasPlayed = 1;
-document.getElementsByTagName("navcenter")[0].getElementsByTagName("a")[3].href = "javascript:showNP()";
+document.getElementsByTagName("navcenter")[0].getElementsByTagName("a")[4].href = "javascript:showNP()";
 if(document.getElementsByTagName("audio")[0].paused) {
 document.getElementsByTagName("audio")[0].src = document.getElementsByTagName("audio")[0].src;
 document.getElementsByTagName("audio")[0].play();
-document.getElementsByTagName("npc")[0].getElementsByTagName("img")[0].src = site.stopimg;
+document.getElementsByTagName("npc")[0].getElementsByTagName("img")[1].src = site.stopimg;
 }
 else {
 document.getElementsByTagName("audio")[0].pause();
 document.getElementsByTagName("audio")[0].src = document.getElementsByTagName("audio")[0].src;
-document.getElementsByTagName("npc")[0].getElementsByTagName("img")[0].src = site.playimg;
+document.getElementsByTagName("npc")[0].getElementsByTagName("img")[1].src = site.playimg;
 }
 }
+
+function checkLike() {
+if(channels[currentID].liked == 0) {
+document.getElementsByTagName("npc")[0].getElementsByTagName("img")[2].src = site.heartimg;
+}
+else {
+document.getElementsByTagName("npc")[0].getElementsByTagName("img")[2].src = site.heartaltimg;
+}
+}
+
+function setLike(a) {
+Like(a)
+checkLike()
+}
+
 function showPlay() {
 document.getElementsByTagName("npbg")[0].id = "visible";
 document.getElementsByTagName("npimg")[0].id = "visible";
@@ -425,6 +460,31 @@ hidePlay();
 document.getElementsByTagName("chanhead")[0].scrollIntoView()
 }
 
+function showLikes() {
+hideMenu();
+document.getElementsByTagName("topchan")[0].innerHTML = "";
+z = 0;
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "<chanhead>Likes</chanhead>";
+while(getLikes()[z]) {
+addShow(getLikes()[z].name, getLikes()[z].img, getLikes()[z].url)
+z = z + 1;
+}
+hideMenu();
+hidePlay();
+document.getElementsByTagName("chanhead")[0].scrollIntoView()
+}
+
+function Like(a) {
+if(channels[a].liked == 0) {
+channels[a].liked = 1;
+document.cookie = "S_" + a + "_IS_LIKED=1";
+}
+else {
+channels[a].liked = 0;
+document.cookie = "S_" + a + "_IS_LIKED=0";
+}
+}
+
 function showExplore() {
 window.history.replaceState(null, null, window.location.pathname);
 hideMenu();
@@ -449,7 +509,7 @@ window.open(url, '_blank')
 function showMessage(hero, header, message, options, functions) {
 t = [];
 t.push("t");
-console.log(options[0]);
+//console.log(options[0]);
 document.getElementsByTagName("msgspace")[0].id = "visible";
 document.getElementsByTagName("msgspace")[0].getElementsByTagName("msg")[0].innerHTML = '<img src="' + hero + '" id="msg"></img>' + '<h2 id="msg">' + header + '</h2>' + '<p id="msg">' + message + '<br />' + '</p><a href="javascript:hideMessage()"><img src="https://js-cdn.music.apple.com/musickit/v3/components/musickit-components/assets/icons/web-VideoPlayer-close.svg" id="close"></img></a>';;
 x = 0;
@@ -476,8 +536,7 @@ hideMenu();
 currentID = searchResults(name)[0].id;
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 document.getElementsByTagName("audio")[0].src = url;
-playPause();
-document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + img + '"></npbg><npimg><img src="' + img + '"></npimg><nptitle>' + name + '</nptitle><npc><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a></npc>';
+document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + img + '"></npbg><npimg><img src="' + img + '"></npimg><nptitle>' + name + '<br /><img src="' + site.heartimg + '"></nptitle><npc><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a></npc>';
 showPlay();
 }
 function playChan2(ID) {
@@ -486,8 +545,9 @@ currentID = ID;
 window.history.replaceState(null, null, "?s=" + ID.toString());
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 document.getElementsByTagName("audio")[0].src = channels[ID].url;
+document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + channels[ID].img + '"></npbg><npimg><img src="' + channels[ID].img + '"></npimg><nptitle>' + channels[ID].name + '</nptitle><npc><a href="javascript:Share(' + currentID + ')"><img src="' + site.shareimg + '" id="icon2"></img></a><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a><a href="javascript:setLike(' + ID + ')"><img src="' + site.heartimg + '" id="icon2"></img></a></npc>';
 playPause();
-document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + channels[ID].img + '"></npbg><npimg><img src="' + channels[ID].img + '"></npimg><nptitle>' + channels[ID].name + '</nptitle><npc><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a></npc>';
+checkLike();
 showPlay();
 }
 
@@ -500,5 +560,20 @@ playPause();
 else {
 clearChanList();
 showBrowse();
+}
+
+function Share(a) {
+shareInfo = {
+title: channels[a].name,
+text: "Listen to " + channels[a].name + " on " + site.name + "!",
+url: location.href
+}
+try {
+navigator.share(shareInfo);
+}
+catch {
+navigator.clipboard.writeText(shareInfo.url)
+showMessage(channels[a].img, "Link copied!", "Share the link to share the station!", ["Okay"], ["hideMessage()"])
+}
 }
 setInterval(addRating, 1000);
