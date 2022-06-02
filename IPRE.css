@@ -235,8 +235,8 @@ z-index: 5;
 img#icon2 {
 position: relative;
 max-height: 8vh;
-padding-right: auto;
-padding-left: auto;
+padding-right: 1vw;
+padding-left: 1vw;
 padding-bottom: 1.5vh;
 padding-top: 1.5vh;
 }
@@ -268,4 +268,7 @@ position: absolute;
 top: -43vh;
 left: 3vh;
 width: 6vw;
+}
+#npicon {
+height: 2vh;
 }
