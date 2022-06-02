@@ -18,10 +18,10 @@ site = {
 }
 startup = {
 "x": 3,
-"img": "https://radio.ntnwb.cc/radio.png",
-"header": "Welcome to IPRE 0.5",
-"message": "StreamLive Audio runs IPRE, which is now currently at version 0.5! Enjoy new features such as an all-new Discover section, a simpler search experience, the ability to share stations with others, and more!",
+"img": "https://radio.ntnwb.cc/heartfull.png",
+"header": "You'll...Like This",
+"message": "Likes have been added as a beta feature! Like your favorite stations to easily find them whenever you wish. Try it out and let the developers know what you think!",
 "button_text": ["Learn More", "Okay"],
-"button_action": ["openLink('https://github.com/notanewbie/IPRE/releases/tag/v0.5')", "hideMessage()"],
-"date": "5/28/22"
+"button_action": ["openLink('https://github.com/notanewbie/IPRE/issues/19')", "hideMessage()"],
+"date": "6/5/22"
 }
