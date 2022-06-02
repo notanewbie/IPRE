@@ -471,6 +471,9 @@ z = z + 1;
 }
 hideMenu();
 hidePlay();
+if(z == 0) {
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + 'You like nothing.';
+}
 document.getElementsByTagName("chanhead")[0].scrollIntoView()
 }
 
