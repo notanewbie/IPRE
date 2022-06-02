@@ -481,11 +481,12 @@ document.getElementsByTagName("chanhead")[0].scrollIntoView()
 function Like(a) {
 if(channels[a].liked == 0) {
 channels[a].liked = 1;
-document.cookie = "S_" + a + "_IS_LIKED=1";
+document.cookie = "S_" + a + "_IS_LIKED=1; expires=Tue, 19 Jan 2038 04:14:07 GMT";
+
 }
 else {
 channels[a].liked = 0;
-document.cookie = "S_" + a + "_IS_LIKED=0";
+document.cookie = "S_" + a + "_IS_LIKED=0; expires=Tue, 19 Jan 2038 04:14:07 GMT";
 }
 }
 
