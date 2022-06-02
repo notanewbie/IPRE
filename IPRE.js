@@ -461,6 +461,7 @@ document.getElementsByTagName("chanhead")[0].scrollIntoView()
 }
 
 function showLikes() {
+window.history.replaceState(null, null, window.location.pathname);
 hideMenu();
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 z = 0;
