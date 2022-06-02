@@ -234,12 +234,12 @@ z-index: 5;
 }
 img#icon2 {
 position: relative;
+left: 2.5vw;
 max-height: 8vh;
 padding-right: 7vw;
 padding-left: 3vw;
 padding-bottom: 1.5vh;
 padding-top: 1.5vh;
-left: 2.5vw;
 }
 fauximg {
 display: inline;
