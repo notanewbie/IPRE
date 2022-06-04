@@ -21,7 +21,7 @@
 <nptitle>MSNBC</nptitle>
 <npc><a href="javascript:playPause()"><img src="play.png"></img></a></npc>
 </np>
-<playerspace><audio src="http://apnews.streamguys1.com/apnews" onerror='showMessage(channels[currentID].img, "Error streaming station.", "An error occurred while attempting to stream the station " + channels[currentID].name + ". Please try again, play another station, or come back later.", ["Okay", "Retry"], ["hideMessage()", "retry()"])'></audio></playerspace>
+<playerspace><audio src="http://apnews.streamguys1.com/apnews" onerror='showMessage(channels[currentID].img, "Error streaming station.", "An error occurred while attempting to stream the station " + channels[currentID].name + ". Please try again, play another station, or come back later.", ["Okay", "Retry"], ["hideMessage()", "playChan2(currentID)"])'></audio></playerspace>
 <msgspace>
 <msg>
 <img src="https://cdn-web.tunein.com/assets/img/default-item-v2.png" id="msg"></img>
