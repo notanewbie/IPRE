@@ -483,8 +483,9 @@ hideMenu();
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 z = 0;
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "<chanhead>" + cat + "</chanhead>";
-while(byRating(catArray(cat))[z]) {
-addShow(byRating(catArray(cat))[z].name, byRating(catArray(cat))[z].img, byRating(catArray(cat))[z].url)
+catList = byRating(catArray(cat));
+while(catList[z]) {
+addShow(catList[z].name, catList[z].img, catList[z].url)
 z = z + 1;
 }
 hideMenu();
