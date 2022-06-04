@@ -579,6 +579,7 @@ showPlay();
 function playChan2(ID) {
 hideMenu();
 currentID = ID;
+hideMessage()
 window.history.replaceState(null, null, "?s=" + ID.toString());
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 document.getElementsByTagName("audio")[0].src = channels[ID].url;
