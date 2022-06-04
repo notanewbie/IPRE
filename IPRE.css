@@ -252,8 +252,6 @@ border-bottom: 1px solid black;
 width: 100%;
 font-size: 3vh;
 margin-bottom: 5vh;
-background: black;
-height: 0.5vh;
 }
 input:focus {
 border: none;
@@ -280,6 +278,8 @@ position: absolute;
 width: 50vw;
 left: 25vw;
 bottom: -6.75vh;
+background: black;
+height: 0.5vh;
 }
 input::-moz-range-thumb {
 width: 3vh;
@@ -290,4 +290,5 @@ cursor: pointer;
 border-radius: 100%;
 outline: none;
 border: black;
+background: black;
 }
