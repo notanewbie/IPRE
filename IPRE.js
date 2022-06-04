@@ -590,8 +590,9 @@ document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + img + '"
 showPlay();
 }
 function setVol() {
-document.getElementsByTagName("audio")[0].volume = document.getElementsByTagName("input")[0].value / 100;
-document.cookie = "VOLUME_LEVEL=" + (document.getElementsByTagName("input")[0].value / 100).toString() + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+volume = document.getElementsByTagName("input")[0].value / 100
+document.getElementsByTagName("audio")[0].volume = volume;
+document.cookie = "VOLUME_LEVEL=" + volume.toString() + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
 
 }
 function playChan2(ID) {
