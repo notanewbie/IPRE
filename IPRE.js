@@ -249,6 +249,7 @@ TOP = [];
 v = 0;
 a = 0;
 maxval = 0;
+if(chanlist.length > a) {
 while(chanlist[a]) {
 console.log(chanlist[a].rating)
 if(chanlist[a].rating > maxval) {
@@ -271,8 +272,11 @@ a = 0;
 v = v - 1;
 }
 }
-return TOP;
-
+return TOP
+}
+else {
+return []
+}
 }
 
 a = 0;
