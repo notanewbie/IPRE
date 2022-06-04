@@ -273,3 +273,8 @@ width: 6vw;
 #npicon {
 height: 2vh;
 }
+#vol {
+position: absolute;
+width: 50vw;
+left: 25vw;
+}
