@@ -243,6 +243,38 @@ function TopChan() {
 return topchannels;
 }
 
+function byRating(chanlist) {
+TOP = [];
+//alert("TopChan");
+v = 0;
+a = 0;
+maxval = 0;
+while(chanlist[a]) {
+console.log(chanlist[a].rating)
+if(chanlist[a].rating > maxval) {
+maxval = chanlist[a].rating;
+}
+a = a + 1;
+}
+a = 0;
+v = maxval;
+while(v >= 0) {
+if(chanlist[a].rating == v) {
+TOP.push(chanlist[a])
+console.log("Added " + chanlist[a].name);
+}
+if(chanlist[a + 1]) {
+a = a + 1;
+}
+else {
+a = 0;
+v = v - 1;
+}
+}
+return TOP;
+
+}
+
 a = 0;
 while(TopCatList[a]) {
 //console.log(TopCatList[a])
@@ -399,7 +431,7 @@ document.getElementsByTagName("chanhead")[0].scrollIntoView();
 }
 function doSearch() {
 w = document.getElementsByTagName("input")[0].value;
-arr = searchResults(w);
+arr = byRating(searchResults(w));
 if(document.getElementsByTagName("input")[0] == document.activeElement && event.keyCode != 27 && arr.length < channels.length * .5) {
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML.split("<br>")[0] + "<br>";
 mySearchResults = arr;
@@ -451,8 +483,8 @@ hideMenu();
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 z = 0;
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "<chanhead>" + cat + "</chanhead>";
-while(catArray(cat)[z]) {
-addShow(catArray(cat)[z].name, catArray(cat)[z].img, catArray(cat)[z].url)
+while(byRating(catArray(cat))[z]) {
+addShow(byRating(catArray(cat))[z].name, byRating(catArray(cat))[z].img, byRating(catArray(cat))[z].url)
 z = z + 1;
 }
 hideMenu();
