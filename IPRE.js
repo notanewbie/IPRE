@@ -30,6 +30,14 @@ document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[3].src
 document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[4].src = site.npimg
 document.body.getElementsByTagName("link")[0].href=site.logo
 
+if(parseInt(getCookie("VOLUME_LEVEL")) > -1) {
+volume = parseFloat(getCookie("VOLUME_LEVEL"));
+}
+else {
+volume = 1;
+document.cookie = "VOLUME_LEVEL=" + '1; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+}
+
 currentID = -1
 hasPlayed = 0;
 a = 0;
@@ -581,6 +589,11 @@ document.getElementsByTagName("audio")[0].src = url;
 document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + img + '"></npbg><npimg><img src="' + img + '"></npimg><nptitle>' + name + '<br /><img src="' + site.heartimg + '"></nptitle><npc><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a></npc>';
 showPlay();
 }
+function setVol() {
+document.getElementsByTagName("audio")[0].volume = document.getElementsByTagName("input")[0].value / 100;
+document.cookie = "VOLUME_LEVEL=" + (document.getElementsByTagName("input")[0].value / 100).toString() + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+
+}
 function playChan2(ID) {
 hideMenu();
 currentID = ID;
@@ -588,7 +601,10 @@ hideMessage()
 window.history.replaceState(null, null, "?s=" + ID.toString());
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 document.getElementsByTagName("audio")[0].src = channels[ID].url;
-document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + channels[ID].img + '"></npbg><npimg><img src="' + channels[ID].img + '"></npimg><nptitle>' + channels[ID].name + '</nptitle><npc><a href="javascript:Share(' + currentID + ')"><img src="' + site.shareimg + '" id="icon2"></img></a><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a><a href="javascript:setLike(' + ID + ')"><img src="' + site.heartimg + '" id="icon2"></img></a></npc>';
+document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + channels[ID].img + '"></npbg><npimg><img src="' + channels[ID].img + '"></npimg><nptitle>' + channels[ID].name + '</nptitle><npc><a href="javascript:Share(' + currentID + ')"><img src="' + site.shareimg + '" id="icon2"></img></a><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a><a href="javascript:setLike(' + ID + ')"><img src="' + site.heartimg + '" id="icon2"></img></a><br /><input type="range" id="vol"></input></npc>';
+document.getElementsByTagName("audio")[0].volume = volume;
+document.getElementsByTagName("input")[0].value = volume * 100;
+document.getElementsByTagName("input")[0].onchange = function() {setVol();}
 playPause();
 checkLike();
 showPlay();
