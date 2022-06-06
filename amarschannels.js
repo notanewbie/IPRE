@@ -221,7 +221,7 @@ new Channel("Dads FM", "https://dads.cool/system/media_attachments/files/105/630
 new Channel("The Drabblecast", "https://stitcher-classic.imgix.net/feedimagesplain600/37553.jpg?w=1200&h=1200&q=100", "http://alpha.podcasttoradio.com/14865", "Podcast, Entertainment", "", "live"),
 new Channel("Geek News Central", "https://yt3.ggpht.com/ytc/AAUvwnih-k93Gc16Srgu5JFTYJcFsBdeZVy1xThFzAiw=s900-c-k-c0x00ffffff-no-rj", "http://alpha.podcasttoradio.com/162", "Talk, Tech, Podcast", "", "live"),
 new Channel("ACC Nation", "https://nitter.it/pic/enc/cGJzLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy8xNTI2Njg3OTcyMDU3MzkxMTExL0JXbm41T0dZXzQwMHg0MDAuanBn", "http://alpha.podcasttoradio.com/335283", "Sports, College Sports, Talk", "", "live"),
-new Channel("Latest Hacking News", "https://feeds.podcastmirror.com/~images/989171561970943.jpeg", "http://alpha.podcasttoradio.com/555587", "Talk, Podcast", "", "live"),
+new Channel("Latest Hacking News", "https://feeds.podcastmirror.com/~images/989171561970943.jpeg", "http://alpha.podcasttoradio.com/555587", "Talk, Podcast, Tech", "", "live"),
 new Channel("Cinemavino", "https://yt3.ggpht.com/ytc/AKedOLQ-Msi8rTlEayu0JlzCwt3P-qy03I1bjWhw45qk=s900-c-k-c0x00ffffff-no-rj", "http://alpha.podcasttoradio.com/665266", "Talk, Podcast, Entertainment", "", "live"),
 new Channel("Full Cast And Crew", "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/db/ff/a3/dbffa321-b171-1c4f-67cb-b243e870f0a9/mza_3916211285975972883.jpg/1200x1200bb-75.jpg", "http://alpha.podcasttoradio.com/666558", "Talk, Podcast, Entertainment", "", "live"),
 new Channel("Gun Guy TV", "https://yt3.ggpht.com/ytc/AAUvwng4AGrmn83WJLzhYoMX7IEHct9ABxB6q_Eb_6RL=s900-c-k-c0x00ffffff-no-rj", "http://alpha.podcasttoradio.com/711601", "Talk, Podcast, Politics", "", "live"),
