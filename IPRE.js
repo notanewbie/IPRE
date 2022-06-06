@@ -612,7 +612,7 @@ title: channels[ID].name,
 artist: site.name,
 album: '',
 artwork: [
-{ src: channels[ID].img, sizes: '96x96', type: 'image/png' },
+{ src: channels[ID].img},
 ]
 });
 }
