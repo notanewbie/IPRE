@@ -606,6 +606,16 @@ document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + channels
 document.getElementsByTagName("audio")[0].volume = volume;
 document.getElementsByTagName("input")[0].value = volume * 100;
 document.getElementsByTagName("input")[0].onchange = function() {setVol();}
+if('mediaSession' in navigator) {
+navigator.mediaSession.metadata = new MediaMetadata({
+title: channels[ID].name,
+artist: site.name,
+album: '',
+artwork: [
+{ src: channels[ID].img, sizes: '96x96', type: 'image/png' },
+]
+});
+}
 playPause();
 checkLike();
 showPlay();
