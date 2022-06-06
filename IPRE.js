@@ -606,6 +606,9 @@ document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + channels
 document.getElementsByTagName("audio")[0].volume = volume;
 document.getElementsByTagName("input")[0].value = volume * 100;
 document.getElementsByTagName("input")[0].onchange = function() {setVol();}
+playPause();
+checkLike();
+showPlay();
 if('mediaSession' in navigator) {
 navigator.mediaSession.metadata = new MediaMetadata({
 title: channels[ID].name,
@@ -616,9 +619,6 @@ artwork: [
 ]
 });
 }
-playPause();
-checkLike();
-showPlay();
 }
 
 if(location.search.indexOf("s=") > -1) {
