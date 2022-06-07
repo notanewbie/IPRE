@@ -371,17 +371,34 @@ function addHead(label) {
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<chanhead>' + label + '</chanhead>'
 }
 function playPause() {
+ID = currentID;
 hasPlayed = 1;
 document.getElementsByTagName("navcenter")[0].getElementsByTagName("a")[4].href = "javascript:showNP()";
 if(document.getElementsByTagName("audio")[0].paused) {
 document.getElementsByTagName("audio")[0].src = document.getElementsByTagName("audio")[0].src;
 document.getElementsByTagName("audio")[0].play();
 document.getElementsByTagName("npc")[0].getElementsByTagName("img")[1].src = site.stopimg;
+document.getElementsByTagName("link")[0].href = channels[ID].img;
+document.title = channels[ID].name;
+if('mediaSession' in navigator) {
+navigator.mediaSession.metadata = new MediaMetadata({
+title: channels[ID].name,
+artist: site.name,
+album: '',
+artwork: [
+{ src: channels[ID].img},
+]
+});
+}
+
 }
 else {
+document.getElementsByTagName("link")[0].href = site.logo;
+document.title = site.name;
 document.getElementsByTagName("audio")[0].pause();
 document.getElementsByTagName("audio")[0].src = document.getElementsByTagName("audio")[0].src;
 document.getElementsByTagName("npc")[0].getElementsByTagName("img")[1].src = site.playimg;
+
 }
 }
 
@@ -609,16 +626,6 @@ document.getElementsByTagName("input")[0].onchange = function() {setVol();}
 playPause();
 checkLike();
 showPlay();
-if('mediaSession' in navigator) {
-navigator.mediaSession.metadata = new MediaMetadata({
-title: channels[ID].name,
-artist: site.name,
-album: '',
-artwork: [
-{ src: channels[ID].img},
-]
-});
-}
 }
 
 if(location.search.indexOf("s=") > -1) {
