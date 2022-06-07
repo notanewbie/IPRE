@@ -450,5 +450,6 @@ new Channel("Word Of Truth Instrumental Hymns", "https://cdn.ntnwb.cc/WOTR.png",
 new Channel("Word Of Truth Acoustic Praise", "https://cdn.ntnwb.cc/WOTR.png", "http://wotrstream.com:8025/acoustic", "Music, Alternative, Worship", "", "live"),
 new Channel("Word Of Truth Instrumental Christmas", "https://cdn.ntnwb.cc/WOTR.png", "https://wotrstream.com:8443/christmas1", "Music, Holiday", "", "live"),
 new Channel("Word Of Truth Acoustic Christmas", "https://cdn.ntnwb.cc/WOTR.png", "https://wotrstream.com:8443/christmas2", "Music, Holiday, Alternative", "", "live"),
-new Channel("Radio Station Net", "http://radiostationnet.com/images/rsn-logo-200x200.png", "http://s3.voscast.com:8170", "Music, Hip-Hop, Pop", "", "live")
+new Channel("Radio Station Net", "http://radiostationnet.com/images/rsn-logo-200x200.png", "http://s3.voscast.com:8170", "Music, Hip-Hop, Pop", "", "live"),
+new Channel("Progressive Voices", "https://cdn-profiles.tunein.com/s189055/images/logog.png", "https://tunein.streamguys1.com/progressivevoices", "Talk", "", "live")
 ]
