@@ -335,4 +335,6 @@ display: block;
 position: relative;
 left: 2vw;
 right: 2vw;
+margin-top: 2vh;
+margin-bottom: 2vh;
 }
