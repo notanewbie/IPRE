@@ -403,11 +403,13 @@ document.getElementsByTagName("npc")[0].getElementsByTagName("img")[1].src = sit
 }
 
 function checkLike() {
+if(currentID > -1) {
 if(channels[currentID].liked == 0) {
 document.getElementsByTagName("npc")[0].getElementsByTagName("img")[2].src = site.heartimg;
 }
 else {
 document.getElementsByTagName("npc")[0].getElementsByTagName("img")[2].src = site.heartaltimg;
+}
 }
 }
 
@@ -574,11 +576,12 @@ function openLink(url) {
 window.open(url, '_blank')
 }
 function showMessage(hero, header, message, options, functions) {
+hideOptions();
 t = [];
 t.push("t");
 //console.log(options[0]);
 document.getElementsByTagName("msgspace")[0].id = "visible";
-document.getElementsByTagName("msgspace")[0].getElementsByTagName("msg")[0].innerHTML = '<img src="' + hero + '" id="msg"></img>' + '<h2 id="msg">' + header + '</h2>' + '<p id="msg">' + message + '<br />' + '</p><a href="javascript:hideMessage()"><img src="https://js-cdn.music.apple.com/musickit/v3/components/musickit-components/assets/icons/web-VideoPlayer-close.svg" id="close"></img></a>';;
+document.getElementsByTagName("msgspace")[0].getElementsByTagName("msg")[0].innerHTML = '<img src="' + hero + '" id="msg"></img>' + '<h2 id="msg">' + header + '</h2>' + '<p id="msg">' + message + '<br />' + '</p><a href="javascript:hideMessage()"><img src="' + site.closeimg + '" id="close"></img></a>';;
 x = 0;
 newstring = "";
 while(options[x] && functions[x]) {
@@ -603,14 +606,16 @@ hideMenu();
 currentID = searchResults(name)[0].id;
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 document.getElementsByTagName("audio")[0].src = url;
-document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + img + '"></npbg><npimg><img src="' + img + '"></npimg><nptitle>' + name + '<br /><img src="' + site.heartimg + '"></nptitle><npc><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a></npc>';
+document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + img + '"></npbg><npimg><img src="' + img + '"></npimg><nptitle>' + name + '<img src="' + site.heartimg + '"><br /><img src="' + site.heartimg + '"></nptitle><npc><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a></npc>';
 showPlay();
 }
-function setVol() {
-volume = document.getElementsByTagName("input")[0].value / 100
+function setVol(myVol) {
+volume = myVol / 100;
+if(document.getElementsByTagName("audio").length > 0) {
 document.getElementsByTagName("audio")[0].volume = volume;
+}
+document.getElementsByTagName("input")[0].value = myVol;
 document.cookie = "VOLUME_LEVEL=" + volume.toString() + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
-
 }
 function playChan2(ID) {
 hideMenu();
@@ -619,10 +624,12 @@ hideMessage()
 window.history.replaceState(null, null, "?s=" + ID.toString());
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 document.getElementsByTagName("audio")[0].src = channels[ID].url;
-document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + channels[ID].img + '"></npbg><npimg><img src="' + channels[ID].img + '"></npimg><nptitle>' + channels[ID].name + '</nptitle><npc><a href="javascript:Share(' + currentID + ')"><img src="' + site.shareimg + '" id="icon2"></img></a><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a><a href="javascript:setLike(' + ID + ')"><img src="' + site.heartimg + '" id="icon2"></img></a><br /><input type="range" id="vol"></input></npc>';
+document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + channels[ID].img + '"></npbg><npimg><img src="' + channels[ID].img + '"></npimg><nptitle>' + channels[ID].name + '<a href="javascript:showOptions(' + ID + ')"><img src="' + site.menuimg + '" id="menu"></a></nptitle><br /><npc><a href="javascript:Share(' + currentID + ')"><img src="' + site.shareimg + '" id="icon2"></img></a><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a><a href="javascript:setLike(' + ID + ')"><img src="' + site.heartimg + '" id="icon2"></img></a></npc>';
 document.getElementsByTagName("audio")[0].volume = volume;
+if(document.getElementsByTagName("input").length > 0) {
 document.getElementsByTagName("input")[0].value = volume * 100;
-document.getElementsByTagName("input")[0].onchange = function() {setVol();}
+document.getElementsByTagName("input")[0].onchange = function() {setVol(this.value);}
+}
 playPause();
 checkLike();
 showPlay();
@@ -643,7 +650,7 @@ function Share(a) {
 shareInfo = {
 title: channels[a].name,
 text: "Listen to " + channels[a].name + " on " + site.name + "!",
-url: location.href
+url: location.href.split("?")[0] + "?s=" + a,
 }
 try {
 navigator.share(shareInfo);
@@ -654,3 +661,24 @@ showMessage(channels[a].img, "Link copied!", "Share the link to share the statio
 }
 }
 setInterval(addRating, 1000);
+
+function hideOptions() {
+document.getElementsByTagName("menuspace")[0].id = "";
+document.getElementsByTagName("menuitems")[0].innerHTML = "";
+}
+function showOptions(ID) {
+document.getElementsByTagName("menuspace")[0].id = "show";
+document.getElementsByTagName("menuitems")[0].innerHTML = '<a href="javascript:hideOptions()"><menuitem><img src="' + site.closeimg + '" id="menu"></img>Close<br /></menuitem></a><a href="javascript:showInfo(' + ID + ')"><menuitem><img src="' + site.infoimg + '" id="menu"></img>Info<br /></menuitem></a><a href="javascript:setLike(' + ID + ')"><menuitem><img src="' + site.heartimg + '" id="menu"></img>Like<br /></menuitem></a><a href="javascript:Share(' + ID + ')"><menuitem><img src="share.png" id="menu"></img>Share<br /></menuitem></a><menuitem><input type="range" id="vol2"></input><br /></menuitem>';
+if(document.getElementsByTagName("input").length > 0) {
+document.getElementsByTagName("input")[0].onchange = function() {setVol(this.value);}
+document.getElementsByTagName("input")[0].value = volume * 100;
+}
+if(document.getElementsByTagName("input").length > 1) {
+document.getElementsByTagName("input")[1].onchange = function() {setVol(this.value);}
+document.getElementsByTagName("input")[1].value = volume * 100;
+}
+}
+function showInfo(ID) {
+showMessage("https://cdn-web.tunein.com/assets/img/default-item-v2.png", "TuneIn Bad", "TuneIn freaking sucks dude.", ["You Right You Right", "But I Like TuneIn"], ["hideMessage()", "openLink('http://tunein.com')"])
+showMessage(channels[ID].img, channels[ID].name, channels[ID].description, ["Close"], ["hideMessage()"])
+}
