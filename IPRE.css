@@ -15,12 +15,20 @@ background-color: white;
 position: fixed;
 width: 100vw;
 height: 100vh;
-top: 0vh;
 left: 0vw;
-bottom: 0vh;
+bottom: 8vh;
 right: 0vw;
 z-index: 5;
+top: 0px;
 }
+#vol2 {
+position: absolute;
+width: 50vw;
+left: 25vw;
+background: black;
+height: 0.5vh;
+}
+
 p#msg {
 font-size: 2.5vw;
 text-align: center;
@@ -291,4 +299,39 @@ border-radius: 100%;
 outline: none;
 border: black;
 background: black;
+}
+menuspace {
+position: fixed;
+top: 500vh;
+}
+menuspace#show {
+position: fixed;
+top: 0vh;
+bottom: 9vh;
+left: 0vw;
+right: 0vw;
+z-index: 5;
+background-color: rgba(0, 0, 0, .5);
+}
+menuitems {
+position: fixed;
+left: 0px;
+right: 0px;
+height: auto;
+background-color: white;
+bottom: 9vh;
+}
+img#menu {
+position: relative;
+top: 0.5vh;
+width: 5vh;
+height: 5vh;
+margin-left: 1vw;
+margin-right: 1vw;
+}
+menuitem {
+display: block;
+position: relative;
+left: 2vw;
+right: 2vw;
 }
