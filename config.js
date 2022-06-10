@@ -15,6 +15,9 @@ site = {
 "heartimg": "heart.png",
 "heartaltimg": "heartfull.png",
 "shareimg": "share.png",
+"menuimg": "dots.png",
+"closeimg": "https://js-cdn.music.apple.com/musickit/v3/components/musickit-components/assets/icons/web-VideoPlayer-close.svg",
+"infoimg": "i.png",
 }
 startup = {
 "x": 3,
