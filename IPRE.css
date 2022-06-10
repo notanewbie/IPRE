@@ -27,6 +27,7 @@ width: 50vw;
 left: 25vw;
 background: black;
 height: 0.5vh;
+z-index: 6;
 }
 
 p#msg {
