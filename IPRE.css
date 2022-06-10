@@ -27,7 +27,6 @@ width: 50vw;
 left: 25vw;
 background: black;
 height: 0.5vh;
-z-index: 6;
 }
 
 p#msg {
@@ -300,6 +299,7 @@ border-radius: 100%;
 outline: none;
 border: black;
 background: black;
+z-index: 10;
 }
 menuspace {
 position: fixed;
@@ -311,7 +311,7 @@ top: 0vh;
 bottom: 9vh;
 left: 0vw;
 right: 0vw;
-z-index: 5;
+z-index: 6;
 background-color: rgba(0, 0, 0, .5);
 }
 menuitems {
