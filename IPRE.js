@@ -377,7 +377,7 @@ document.getElementsByTagName("navcenter")[0].getElementsByTagName("a")[4].href 
 if(document.getElementsByTagName("audio")[0].paused) {
 document.getElementsByTagName("audio")[0].src = document.getElementsByTagName("audio")[0].src;
 document.getElementsByTagName("audio")[0].play();
-document.getElementsByTagName("npc")[0].getElementsByTagName("img")[1].src = site.stopimg;
+document.getElementsByTagName("npc")[0].getElementsByTagName("img")[0].src = site.stopimg;
 document.getElementsByTagName("link")[0].href = channels[ID].img;
 document.title = channels[ID].name;
 if('mediaSession' in navigator) {
@@ -397,7 +397,7 @@ document.getElementsByTagName("link")[0].href = site.logo;
 document.title = site.name;
 document.getElementsByTagName("audio")[0].pause();
 document.getElementsByTagName("audio")[0].src = document.getElementsByTagName("audio")[0].src;
-document.getElementsByTagName("npc")[0].getElementsByTagName("img")[1].src = site.playimg;
+document.getElementsByTagName("npc")[0].getElementsByTagName("img")[0].src = site.playimg;
 
 }
 }
@@ -405,10 +405,10 @@ document.getElementsByTagName("npc")[0].getElementsByTagName("img")[1].src = sit
 function checkLike() {
 if(currentID > -1) {
 if(channels[currentID].liked == 0) {
-document.getElementsByTagName("npc")[0].getElementsByTagName("img")[2].src = site.heartimg;
+document.getElementsByTagName("menuitem")[2].getElementsByTagName("img")[0].src = site.heartimg;
 }
 else {
-document.getElementsByTagName("npc")[0].getElementsByTagName("img")[2].src = site.heartaltimg;
+document.getElementsByTagName("menuitem")[2].getElementsByTagName("img")[0].src = site.heartaltimg;
 }
 }
 }
@@ -443,6 +443,7 @@ z = z + 1
 }
 hideMenu();
 hidePlay();
+hideOptions();
 document.getElementsByTagName("chanhead")[0].scrollIntoView();
 }
 function showRecc() {
@@ -521,6 +522,7 @@ z = z + 1;
 }
 hideMenu();
 hidePlay();
+hideOptions();
 document.getElementsByTagName("chanhead")[0].scrollIntoView()
 }
 
@@ -536,6 +538,7 @@ z = z + 1;
 }
 hideMenu();
 hidePlay();
+hideOptions();
 if(z == 0) {
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + 'You like nothing.';
 }
@@ -570,6 +573,7 @@ z = z + 1
 }
 hideMenu();
 hidePlay();
+hideOptions();
 document.getElementsByTagName("chanhead")[0].scrollIntoView();
 }
 function openLink(url) {
@@ -598,6 +602,7 @@ document.getElementsByTagName("msgspace")[0].id = "";
 function showNP() {
 window.history.replaceState(null, null, "?s=" + currentID.toString());
 hideMenu();
+hideOptions();
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 showPlay();
 }
@@ -624,14 +629,14 @@ hideMessage()
 window.history.replaceState(null, null, "?s=" + ID.toString());
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 document.getElementsByTagName("audio")[0].src = channels[ID].url;
-document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + channels[ID].img + '"></npbg><npimg><img src="' + channels[ID].img + '"></npimg><nptitle>' + channels[ID].name + '<a href="javascript:showOptions(' + ID + ')"><img src="' + site.menuimg + '" id="menu"></a></nptitle><br /><npc><a href="javascript:Share(' + currentID + ')"><img src="' + site.shareimg + '" id="icon2"></img></a><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a><a href="javascript:setLike(' + ID + ')"><img src="' + site.heartimg + '" id="icon2"></img></a></npc>';
+document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + channels[ID].img + '"></npbg><npimg><img src="' + channels[ID].img + '"></npimg><nptitle>' + channels[ID].name + '<a href="javascript:showOptions(' + ID + ')"><img src="' + site.menuimg + '" id="menu"></a></nptitle><br /><npc><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a></npc>';
 document.getElementsByTagName("audio")[0].volume = volume;
 if(document.getElementsByTagName("input").length > 0) {
 document.getElementsByTagName("input")[0].value = volume * 100;
 document.getElementsByTagName("input")[0].onchange = function() {setVol(this.value);}
 }
 playPause();
-checkLike();
+//checkLike();
 showPlay();
 }
 
