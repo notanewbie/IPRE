@@ -24,7 +24,7 @@ top: 0px;
 #vol2 {
 position: absolute;
 width: 50vw;
-left: 25vw;
+left: 24vw;
 background: black;
 height: 0.5vh;
 }
@@ -335,6 +335,6 @@ display: block;
 position: relative;
 left: 2vw;
 right: 2vw;
-margin-top: 2vh;
-margin-bottom: 2vh;
+margin-top: 1vh;
+margin-bottom: 1vh;
 }
