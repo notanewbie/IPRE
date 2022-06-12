@@ -355,12 +355,12 @@ document.getElementsByTagName("navmenu")[0].id=""
 function clearChanList() {
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 }
-function addShow(name, img, url) {
+function addShow(name, img, url, id) {
 if(currentID == searchResults(name)[0].id) {
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:showNP()"><chantab><img src="' + img + '"></img><chantext>' + name + '</chantext></chantab></a>';
 }
 else {
-document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:playChan2(' + searchResults(name)[0].id + ')"><chantab><img src="' + img + '"></img><chantext>' + name + '</chantext></chantab></a>';
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:playChan2(' + id + ')"><chantab><img src="' + img + '"></img><chantext>' + name + '</chantext></chantab></a>';
 }
 }
 function addCat(label) {
@@ -437,7 +437,7 @@ addHead("Browse");
 z = 0;
 while(z < 20 && z < TopChan().length) {
 if(TopChan()[z].status == "live") {
-addShow(TopChan()[z].name, TopChan()[z].img, TopChan()[z].url)
+addShow(TopChan()[z].name, TopChan()[z].img, TopChan()[z].url, TopChan()[z].id)
 }
 z = z + 1
 }
@@ -453,7 +453,7 @@ addHead("Discover");
 z = 0;
 while(z < 20 && z < GetSug().length) {
 if(GetSug()[z].status == "live") {
-addShow(GetSug()[z].name, GetSug()[z].img, GetSug()[z].url)
+addShow(GetSug()[z].name, GetSug()[z].img, GetSug()[z].url, GetSug()[z].id)
 }
 z = z + 1
 }
@@ -479,7 +479,7 @@ a = b;
 //console.log(a)
 //console.log(mySearchResults.length)
 if(mySearchResults[a].status == "live") {
-addShow(mySearchResults[a].name, mySearchResults[a].img, mySearchResults[a].url)
+addShow(mySearchResults[a].name, mySearchResults[a].img, mySearchResults[a].url, mySearchResults[a].id)
 }
 a = b + 1;
 //console.log("Test: " + mySearchResults[a])
@@ -517,7 +517,7 @@ z = 0;
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "<chanhead>" + cat + "</chanhead>";
 catList = byRating(catArray(cat));
 while(catList[z]) {
-addShow(catList[z].name, catList[z].img, catList[z].url)
+addShow(catList[z].name, catList[z].img, catList[z].url, catList[z].id)
 z = z + 1;
 }
 hideMenu();
@@ -533,7 +533,7 @@ document.getElementsByTagName("topchan")[0].innerHTML = "";
 z = 0;
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "<chanhead>Likes</chanhead>";
 while(getLikes()[z]) {
-addShow(getLikes()[z].name, getLikes()[z].img, getLikes()[z].url)
+addShow(getLikes()[z].name, getLikes()[z].img, getLikes()[z].url, getLikes()[z].id)
 z = z + 1;
 }
 hideMenu();
