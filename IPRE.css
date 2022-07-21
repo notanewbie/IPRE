@@ -338,3 +338,158 @@ right: 2vw;
 margin-top: 1vh;
 margin-bottom: 1vh;
 }
+encased1#show {
+background-color: blue;
+position: fixed;
+left: 0px;
+top: 0px;
+right: 0px;
+bottom: 0px;
+z-index: 5;
+}
+encased1 {
+position: fixed;
+left: 10000vw;
+}
+bigwords {
+color: fuchsia;
+font-weight: bold;
+font-size: 12vw;
+}
+midwords {
+color: fuchsia;
+font-weight: bold;
+font-size: 7vw;
+width: 60vw;
+display: block;
+position: relative;
+left: 5vw;
+top: 10vh;
+}
+mid_desc {
+color: fuchsia;
+font-weight: bold;
+font-size: 3vh;
+width: 50vw;
+display: block;
+position: relative;
+left: 5vw;
+top: 15vh;
+line-height: 2;
+}
+#en_photo {
+max-width: 100%;
+position: fixed;
+left: 60vw;
+height: 50vh;
+}
+widewords {
+color: fuchsia;
+font-weight: bold;
+font-size: 5.5vw;
+position: fixed;
+left: 5vw;
+right: 5vw;
+width: 90vw;
+text-align: center;
+top: 10vh;
+}
+wide_desc {
+color: fuchsia;
+position: fixed;
+left: 5vw;
+right: 5vw;
+text-align: center;
+top: 45vh;
+width: 90vw;
+}
+#ch1 {
+position: fixed;
+left: 5vw;
+width: 12vw;
+height: auto;
+top: 35vh;
+}
+#ch2 {
+position: fixed;
+left: 25vw;
+width: 12vw;
+height: auto;
+top: 35vh;
+}
+#ch3 {
+position: fixed;
+left: 45vw;
+width: 12vw;
+height: auto;
+top: 35vh;
+}
+#ch4 {
+position: fixed;
+left: 65vw;
+width: 12vw;
+height: auto;
+top: 35vh;
+}
+#ch5 {
+position: fixed;
+left: 85vw;
+width: 12vw;
+height: auto;
+top: 35vh;
+}
+ch1 {
+color: fuchsia;
+position: fixed;
+top: calc(12vw + 45vh);
+left: 5vw;
+width: 12vw;
+font-size: 3vh;
+text-align: center;
+}
+ch2 {
+color: fuchsia;
+position: fixed;
+top: calc(12vw + 45vh);
+left: calc(12vw + 13vw);
+width: 12vw;
+font-size: 3vh;
+text-align: center;
+}
+ch3 {
+color: fuchsia;
+position: fixed;
+top: calc(12vw + 45vh);
+left: calc(12vw + 32.5vw);
+width: 12vw;
+font-size: 3vh;
+text-align: center;
+}
+ch4 {
+color: fuchsia;
+position: fixed;
+top: calc(12vw + 45vh);
+left: calc(12vw + 52.5vw);
+width: 12vw;
+font-size: 3vh;
+text-align: center;
+}
+ch5 {
+color: fuchsia;
+position: fixed;
+top: calc(12vw + 45vh);
+left: calc(12vw + 72.5vw);
+width: 12vw;
+font-size: 3vh;
+text-align: center;
+}
+#panel1 {
+position: fixed;
+right: 20vw;
+top: 80vh;
+}
+#panel2 {
+position: fixed;
+right: 5vw;
+top: 80vh;
+}
