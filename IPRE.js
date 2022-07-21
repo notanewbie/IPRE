@@ -348,6 +348,8 @@ document.getElementsByTagName("navmenu")[0].id="visible"
 //document.getElementsByTagName("navbutton")[0].getElementsByTagName("a")[0].href="javascript:hideMenu()";
 }
 function hideMenu() {
+document.getElementsByTagName("encased1")[0].innerHTML = "";
+document.getElementsByTagName("encased1")[0].id = "";
 document.getElementsByTagName("navmenu")[0].id=""
 //document.getElementsByTagName("navbutton")[0].getElementsByTagName("a")[0].href="javascript:showMenu()";
 }
@@ -647,8 +649,14 @@ playPause();
 }
 
 else {
+if(location.search=="?recap") {
+RadioRecap();
+}
+
+else {
 clearChanList();
 showBrowse();
+}
 }
 
 function Share(a) {
@@ -665,6 +673,35 @@ navigator.clipboard.writeText(shareInfo.url)
 showMessage(channels[a].img, "Link copied!", "Share the link to share the station!", ["Okay"], ["hideMessage()"])
 }
 }
+
+function RadioRecap() {
+showPanel1();
+}
+
+function showPanel1() {
+hideMenu();
+document.getElementsByTagName("encased1")[0].innerHTML = '<bigwords>We got your ' + new Date().getFullYear() + ' Radio Recap on tap! Are you ready?</bigwords><a href="javascript:showPanel2()"><coolbutton id="panel2">Yep</coolbutton></a>';
+document.getElementsByTagName("encased1")[0].id = "show";
+}
+
+function showPanel2() {
+hideMenu();
+document.getElementsByTagName("encased1")[0].innerHTML = '<midwords>Your top station is ' + TopChan()[0].name + '.</midwords><mid_desc>Do you need to favorite this channel? Nope! Cuz you have it on speed dial!<br />You have listened to this channel for ' + TopChan()[0].rating + ' seconds!<br />How many minutes is that? Hours? Days? IDK dude :P Sounds like a lot tho!</mid_desc><img src="' + TopChan()[0].img + '" id="en_photo"><a href="javascript:showPanel1()"><coolbutton id="panel1">Back</coolbutton></a><a href="javascript:showPanel3()"><coolbutton id="panel2">Next</coolbutton></a>';
+document.getElementsByTagName("encased1")[0].id = "show";
+}
+
+function showPanel3() {
+hideMenu();
+document.getElementsByTagName("encased1")[0].innerHTML = '<midwords>Your Top Stations</midwords><img src="' + TopChan()[0].img + '" id="ch1"><img src="' + TopChan()[1].img + '" id="ch2"><img src="' + TopChan()[2].img + '" id="ch3"><img src="' + TopChan()[3].img + '" id="ch4"><img src="' + TopChan()[4].img + '" id="ch5"><ch1>' + TopChan()[0].name + '<br />' + TopChan()[0].rating + ' Seconds</ch1><ch2>' + TopChan()[1].name + '<br />' + TopChan()[1].rating + ' Seconds</ch2><ch3>' + TopChan()[2].name + '<br />' + TopChan()[2].rating + ' Seconds</ch3><ch4>' + TopChan()[3].name + '<br />' + TopChan()[3].rating + ' Seconds</ch4><ch5>' + TopChan()[4].name + '<br />' + TopChan()[4].rating + ' Seconds</ch5><a href="javascript:showPanel2()"><coolbutton id="panel1">Back</coolbutton></a><a href="javascript:showPanel4()"><coolbutton id="panel2">Next</coolbutton></a>';
+document.getElementsByTagName("encased1")[0].id = "show";
+}
+
+function showPanel4() {
+hideMenu();
+document.getElementsByTagName("encased1")[0].innerHTML = '<midwords>' + TopCatList[0].name + ' is dope but you like other genres too.</midwords><mid_desc>Like look at these genres!<br />' + TopCatList[0].name + '<br />' + TopCatList[1].name + '<br />' + TopCatList[2].name + '<br />' + TopCatList[3].name + '<br />' + TopCatList[4].name + '<a href="javascript:showPanel1()"><coolbutton id="panel1">Back</coolbutton></a><a href="javascript:showBrowse()"><coolbutton id="panel2">Home</coolbutton></a>';
+document.getElementsByTagName("encased1")[0].id = "show";
+}
+
 setInterval(addRating, 1000);
 
 function hideOptions() {
