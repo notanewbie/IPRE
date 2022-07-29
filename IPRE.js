@@ -698,7 +698,7 @@ document.getElementsByTagName("encased1")[0].id = "show";
 
 function showPanel4() {
 hideMenu();
-document.getElementsByTagName("encased1")[0].innerHTML = '<midwords>' + TopCatList[0].name + ' is dope but you like other genres too.</midwords><mid_desc>Like look at these genres!<br />' + TopCatList[0].name + '<br />' + TopCatList[1].name + '<br />' + TopCatList[2].name + '<br />' + TopCatList[3].name + '<br />' + TopCatList[4].name + '<a href="javascript:showPanel1()"><coolbutton id="panel1">Back</coolbutton></a><a href="javascript:showBrowse()"><coolbutton id="panel2">Home</coolbutton></a>';
+document.getElementsByTagName("encased1")[0].innerHTML = '<midwords>' + TopCatList[0].name + ' is dope but you like other genres too.</midwords><mid_desc>Like look at these genres!<br />' + TopCatList[0].name + '<br />' + TopCatList[1].name + '<br />' + TopCatList[2].name + '<br />' + TopCatList[3].name + '<br />' + TopCatList[4].name + '<a href="javascript:showPanel3()"><coolbutton id="panel1">Back</coolbutton></a><a href="javascript:showBrowse()"><coolbutton id="panel2">Home</coolbutton></a>';
 document.getElementsByTagName("encased1")[0].id = "show";
 }
 
