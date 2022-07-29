@@ -469,5 +469,20 @@ new Channel("Korea Love Radio Miami", "https://static2.mytuner.mobi/media/tvos_r
 new Channel("K-Pop Live", "https://static2.mytuner.mobi/media/tvos_radios/hxdhqbqnccaq.jpg", "https://streamprivate.live:10977/;", "Music, K-Pop", "", "live"),
 new Channel("K-Pop Radio", "https://i.iheart.com/v3/re/new_assets/60e75d98af48dc9f8b08fb50", "https://n12b-e2.revma.ihrhls.com/zc9003", "Music, K-Pop", "", "live"),
 new Channel("WiLD", "https://i.iheart.com/v3/re/new_assets/5ca63369a162893819640943", "https://n12b-e2.revma.ihrhls.com/zc4722", "Music, Pop, Top 40, Hip-Hop", "", "live"),
-new Channel("POWER 106", "https://i.iheart.com/v3/re/assets/~52bca6e423d90a50228ff760/images/6045.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/KPWR.mp3", "Music, Hip-Hop", "POWER106 KPWR", "live")
+new Channel("POWER 106", "https://i.iheart.com/v3/re/assets/~52bca6e423d90a50228ff760/images/6045.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/KPWR.mp3", "Music, Hip-Hop", "POWER106 KPWR", "live"),
+new Channel("Liberty Radio Network", "https://cdn-profiles.tunein.com/s100275/images/logog.png", "https://streams.freetalklive.com:8443/lrn64", "Talk, Podcast", "LRN", "live"),
+new Channel("CINEMIX", "https://2.bp.blogspot.com/-VwQK0rg-Exg/XDoD7_im_pI/AAAAAAAAqPc/Fxlt2IcXQl4SKiuud62GyUK64oosiBvxACK4BGAYYCw/s320/e32b5e31-0ebe-42e8-bb90-6aa0dff1f787%255B1%255D-765079.png", "https://kathy.torontocast.com:1825/stream", "Music, Classical", "", "live"),
+new Channel("Fun Kids Soundtracks", "https://cdn-profiles.tunein.com/s309604/images/logog.png", "https://stream.rcs.revma.com/x8wbda03tm0uv", "Music, Classical, Top 40, Pop", "", "live"),
+new Channel("Soundtrax", "https://cdn-radiotime-logos.tunein.com/s141764g.png", "https://ais-sa5.cdnstream1.com/b31436_128mp3", "Music, Classical", "", "live"),
+new Channel("Jazz Club", "https://cdn-profiles.tunein.com/s250015/images/logog.jpg", "https://rfcmedia.streamguys1.com/jazzclub.mp3", "Music, Jazz", "", "live"),
+new Channel("Smooth Jazz", "https://cdn-profiles.tunein.com/s249973/images/logog.jpg", "https://rfcmedia.streamguys1.com/smoothjazz.mp3", "Music, Jazz", "", "live"),
+new Channel("WTF with Marc Maron 24/7", "https://cdn-radiotime-logos.tunein.com/s225115g.png", "https://tunein.streamguys1.com/WTFwithMarcMaron", "Podcast, Comedy", "", "live"),
+new Channel("Demented Radio", "https://cdn-radiotime-logos.tunein.com/s109371d.png", "https://dementedradio.online/listen-mp3", "Talk, Comedy, OTR, Music, Podcast", "", "live"),
+new Channel("Pirate Radio 13", "https://cdn-profiles.tunein.com/s194351/images/logog.jpg", "https://ais-edge51-live365-dal02.cdnstream.com/a90958", "Music, Rock, Comedy", "", "live"),
+new Channel("Rant Entertainent Media", "https://cdn-profiles.tunein.com/s198431/images/logog.jpg", "https://streamer.radio.co/s6dbdef606/listen", "Comedy", "", "live"),
+new Channel("The Humor Mill", "https://cdn-radiotime-logos.tunein.com/s175929g.png", "https://streaming.radio.co/s3174808b3/listen", "Comedy, Talk", "", "live"),
+new Channel("FunHouse Radio", "https://cdn-profiles.tunein.com/s248315/images/logog.png", "https://streaming.live365.com/a02627", "Comedy, Rock", "", "live"),
+new Channel("No Holds Barred Radio", "https://img1.wsimg.com/isteam/ip/852d97b5-4797-4506-81ed-dd500c81beaa/50E07F03-BCA7-4754-9530-A2B323BEA068.webp/:/", "http://nhbradio.com:8000/;", "Comedy, Podcast", "", "live"),
+new Channel("Laugh Factory Radio", "https://cdn-radiotime-logos.tunein.com/s112881d.png", "https://ice55.securenetsystems.net/DASH92", "Comedy", "", "live"),
+new Channel("Monstercat Radio", "https://s3.amazonaws.com/dashradio-files/now_playing_artwork/MonsterCat_2.jpg", "https://ice55.securenetsystems.net/DASH63", "Music, EDM", "", "live")
 ]
