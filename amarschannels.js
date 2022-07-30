@@ -484,5 +484,6 @@ new Channel("The Humor Mill", "https://cdn-radiotime-logos.tunein.com/s175929g.p
 new Channel("FunHouse Radio", "https://cdn-profiles.tunein.com/s248315/images/logog.png", "https://streaming.live365.com/a02627", "Comedy, Rock", "", "live"),
 new Channel("No Holds Barred Radio", "https://img1.wsimg.com/isteam/ip/852d97b5-4797-4506-81ed-dd500c81beaa/50E07F03-BCA7-4754-9530-A2B323BEA068.webp/:/", "http://nhbradio.com:8000/;", "Comedy, Podcast", "", "live"),
 new Channel("Laugh Factory Radio", "https://cdn-radiotime-logos.tunein.com/s112881d.png", "https://ice55.securenetsystems.net/DASH92", "Comedy", "", "live"),
-new Channel("Monstercat Radio", "https://s3.amazonaws.com/dashradio-files/now_playing_artwork/MonsterCat_2.jpg", "https://ice55.securenetsystems.net/DASH63", "Music, EDM", "", "live")
+new Channel("Monstercat Radio", "https://s3.amazonaws.com/dashradio-files/now_playing_artwork/MonsterCat_2.jpg", "https://ice55.securenetsystems.net/DASH63", "Music, EDM", "", "live"),
+new Channel("Comic Con Radio", "https://comiccon-radio.com/wp-content/uploads/2022/06/PP3000x3000-559x559.jpg", "https://listen.radioking.com/radio/324901/stream/372856", "Talk, Podcast, Entertainment", "", "live")
 ]
