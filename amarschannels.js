@@ -336,7 +336,7 @@ new Channel("AFR Music", "https://www.radio.net/images/broadcasts/29/a6/112778/1
 new Channel("AFR Hybrid", "https://cdn-profiles.tunein.com/s68040/images/logog.png", "https://mediaserver3.afa.net:8443/inspo.mp3", "Christianity", "", "live"),
 new Channel("Transformation Radio 12.2", "https://cdn-profiles.tunein.com/s263718/images/logog.png", "https://ais-edge37-live365-dal02.cdnstream.com/a09962", "Christianity, Music, CHH, Hip-Hop", "", "live"),
 new Channel("The Revolution Show", "https://cdn-profiles.tunein.com/s30711/images/logog.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/SP_R2617659.mp3", "Christian Pop, CCM, Worship, Gospel, Music, CHH, Hip-Hop", "", "live"),
-new Channel("ESPN New York", "https://i.iheart.com/v3/re/new_assets/5323566d-b36a-43a0-b80b-ddc9c68756c9", "https://live.wostreaming.net/direct/espn-wepnmp3-32", "Sports, Talk", "", "live"),
+new Channel("ESPN New York", "https://i.iheart.com/v3/re/new_assets/5323566d-b36a-43a0-b80b-ddc9c68756c9", "https://live.wostreaming.net/direct/goodkarma-wepnfmaac-ibc", "Sports, Talk", "", "live"),
 new Channel("CBC Radio News", "https://play-lh.googleusercontent.com/sU34PqRAGjVaUvjITJLHFDWmoLkBKFtOsK7gYN2N6wdv4-koovT-7DiEnLeYcp9weA=s520", "https://podcast.cbc.ca/mp3/hourlynews.mp3", "News", "", "dead"),
 new Channel("talkRADIO", "https://cdn-radiotime-logos.tunein.com/s265666d.png", "https://radio.talkradio.co.uk/stream", "Talk", "", "live"),
 new Channel("Times Radio", "https://cdn-profiles.tunein.com/s309354/images/logog.png", "https://timesradio.wireless.radio/stream", "Talk, News", "", "live"),
