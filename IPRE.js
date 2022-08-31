@@ -251,6 +251,7 @@ function TopChan() {
 return topchannels;
 }
 function byRating2(chanlist) {
+/*
 chanlist2 = chanlist
 try {
 return chanlist.sort((a, b) => a.rating < b.rating ? 1 : -1)[0];
@@ -260,6 +261,8 @@ console.log("Hey, this is experimental code.");
 console.log(err);
 return byRating(chanlist2);
 }
+*/
+return byRating(chanlist);
 }
 function byRating(chanlist) {
 TOP = [];
