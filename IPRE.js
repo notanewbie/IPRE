@@ -164,7 +164,6 @@ document.cookie = "RADIO_MESSAGE_COUNT=" + count + '; expires=Tue, 19 Jan 2038 0
 }
 else {
 document.cookie = "RADIO_MESSAGE_COUNT=" + startup.x + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
-checkMessages();
 }
 }
 }
@@ -251,17 +250,15 @@ function TopChan() {
 return topchannels;
 }
 function byRating2(chanlist) {
-/*
 chanlist2 = chanlist
 try {
-return chanlist.sort((a, b) => a.rating < b.rating ? 1 : -1)[0];
+return chanlist.sort((a, b) => a.rating < b.rating ? 1 : -1);
 }
 catch(err) {
 console.log("Hey, this is experimental code.");
 console.log(err);
 return byRating(chanlist2);
 }
-*/
 return byRating(chanlist);
 }
 function byRating(chanlist) {
