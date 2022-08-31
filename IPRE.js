@@ -250,7 +250,16 @@ TopChan0();
 function TopChan() {
 return topchannels;
 }
-
+function byRating2(chanlist) {
+try {
+return chanlist.sort((a, b) => a.rating < b.rating ? 1 : -1)[0];
+}
+catch(err) {
+console.log("Hey, this is experimental code.");
+console.log(err);
+return byRating(chanlist);
+}
+}
 function byRating(chanlist) {
 TOP = [];
 //alert("TopChan");
@@ -465,7 +474,7 @@ document.getElementsByTagName("chanhead")[0].scrollIntoView();
 }
 function doSearch() {
 w = document.getElementsByTagName("input")[0].value;
-arr = byRating(searchResults(w));
+arr = byRating2(searchResults(w));
 if(document.getElementsByTagName("input")[0] == document.activeElement && event.keyCode != 27 && arr.length < channels.length * .5) {
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML.split("<br>")[0] + "<br>";
 mySearchResults = arr;
@@ -517,7 +526,7 @@ hideMenu();
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 z = 0;
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "<chanhead>" + cat + "</chanhead>";
-catList = byRating(catArray(cat));
+catList = byRating2(catArray(cat));
 while(catList[z]) {
 addShow(catList[z].name, catList[z].img, catList[z].url, catList[z].id)
 z = z + 1;
