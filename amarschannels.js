@@ -485,5 +485,11 @@ new Channel("FunHouse Radio", "https://cdn-profiles.tunein.com/s248315/images/lo
 new Channel("No Holds Barred Radio", "https://img1.wsimg.com/isteam/ip/852d97b5-4797-4506-81ed-dd500c81beaa/50E07F03-BCA7-4754-9530-A2B323BEA068.webp/:/", "http://nhbradio.com:8000/;", "Hot Talk", "", "live"),
 new Channel("Laugh Factory Radio", "https://cdn-radiotime-logos.tunein.com/s112881d.png", "https://ice55.securenetsystems.net/DASH92", "Hot Talk", "", "live"),
 new Channel("Monstercat Radio", "https://s3.amazonaws.com/dashradio-files/now_playing_artwork/MonsterCat_2.jpg", "https://ice55.securenetsystems.net/DASH63", "EDM", "", "live"),
-new Channel("Comic Con Radio", "https://comiccon-radio.com/wp-content/uploads/2022/06/PP3000x3000-559x559.jpg", "https://listen.radioking.com/radio/324901/stream/372856", "Entertainment Talk", "", "live")
+new Channel("Comic Con Radio", "https://comiccon-radio.com/wp-content/uploads/2022/06/PP3000x3000-559x559.jpg", "https://listen.radioking.com/radio/324901/stream/372856", "Entertainment Talk", "", "live"),
+new Channel("Longplayer", "https://longplayer.org/wp-content/uploads/2014/05/Score_Manchester_2014-03-29T1800.png", "http://icecast.spc.org:8000/longplayer", "Classical", "", "live"),
+new Channel("INDYCAR Radio Network", "https://i1.sndcdn.com/avatars-000216255609-1fuvb7-t500x500.jpg", "https://listen.mixlr.com/df22ed167e52925221d50b28a84f6592", "Live Sports", "", "live"),
+new Channel("Rugby World Cup", "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Rugby_World_Cup_Logo.png/515px-Rugby_World_Cup_Logo.png", "https://tunein.streamguys1.com/rugbyworldcup2", "Live Sports", "", "live"),
+new Channel("FiveTwenty Radio", "https://www.radioking.com/api/track/cover/217ff652-a44a-4b8c-8ec0-f44c36622f65", "https://listen.radioking.com/radio/238597/stream/282544", "CHH", "", "live"),
+new Channel("Launch Radio FM", "https://media.swncdn.com/christianradio/logos/wlrf.png", "http://s8.voscast.com:7880/stream.mp3", "CHH", "", "live"),
+new Channel("Dash Radio", "https://dashradio-files.s3.amazonaws.com/icon_logos/GH3/GH3_1080.jpg", "https://ice55.securenetsystems.net/DASH77", "CHH", "", "live")
 ]
