@@ -18,6 +18,8 @@ site = {
 "menuimg": "dots.png",
 "closeimg": "https://js-cdn.music.apple.com/musickit/v3/components/musickit-components/assets/icons/web-VideoPlayer-close.svg",
 "infoimg": "i.png",
+"toggle1img": "toggle1.svg",
+"toggle2img": "toggle2.svg",
 }
 startup = {
 "x": 3,
