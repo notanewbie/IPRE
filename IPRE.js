@@ -29,6 +29,20 @@ document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[2].src
 document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[3].src = site.searchimg
 document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[4].src = site.npimg
 document.body.getElementsByTagName("link")[0].href=site.logo
+settings = [];
+settings[0] = 0;
+settingstext = [];
+settingstext[0] = "EXPLICIT_FILTER";
+// 0 = explicit
+
+if(parseInt(getCookie("EXPLICIT_FILTER")) > -1) {
+settings[0] = parseFloat(getCookie("EXPLICIT_FILTER"));
+}
+else {
+volume = 1;
+document.cookie = "EXPLICIT_FILTER=" + '1; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+}
+
 
 if(parseInt(getCookie("VOLUME_LEVEL")) > -1) {
 volume = parseFloat(getCookie("VOLUME_LEVEL"));
@@ -367,6 +381,12 @@ document.getElementsByTagName("navmenu")[0].id=""
 function clearChanList() {
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 }
+function addItem(text, command) {
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:' + command + '"><chantab><chantext2>' + text + '</chantext2></chantab></a>';
+}
+function addToggle(text, command, id) {
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:' + command + '"><chantab id="set' + id + '"><chantext>' + text + '</chantext><img src="' + site.toggle1img + '" id="setpic"></img></chantab></a>';
+}
 function addShow(name, img, url, id) {
 if(currentID == searchResults(name)[0].id) {
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:showNP()"><chantab><img src="' + img + '"></img><chantext>' + name + '</chantext></chantab></a>';
@@ -652,6 +672,32 @@ playPause();
 showPlay();
 }
 
+function showSettings() {
+window.history.replaceState(null, null, window.location.pathname);
+document.getElementsByTagName("topchan")[0].innerHTML = "";
+addHead("Settings");
+addToggle("test", "toggleSetting(0)", 0);
+addItem("test", "test");
+hideMenu();
+hidePlay();
+hideOptions();
+document.getElementsByTagName("chanhead")[0].scrollIntoView();
+}
+
+function toggleSetting(a) {
+console.log(this);
+console.log(this.src);
+if(settings[a] == 0) {
+settings[a] = 1;
+document.getElementById("set" + a).getElementsByTagName("img")[0].src =site.toggle2img;
+}
+else {
+settings[a] = 0;
+document.getElementById("set" + a).getElementsByTagName("img")[0].src =site.toggle1img;
+}
+document.cookie = settingstext[a] + "=" + settings[a] + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+}
+
 if(location.search.indexOf("s=") > -1) {
 playChan2(parseInt(location.search.split("s=")[1]))
 playPause();
@@ -664,8 +710,15 @@ RadioRecap();
 }
 
 else {
+if(location.search=="?settings") {
+clearChanList();
+showSettings();
+}
+
+else {
 clearChanList();
 showBrowse();
+}
 }
 }
 
