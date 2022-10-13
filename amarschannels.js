@@ -90,7 +90,7 @@ new Channel("Urban Praise", "https://cdn-profiles.tunein.com/s105742/images/logo
 new Channel("VCY America", "https://cdn-radiotime-logos.tunein.com/s36008q.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/KVCXFM_SC", "Worship, Audio Drama, Lifestyle, Sermons", "", "live"),
 new Channel("VCY Sacred Stylings", "https://cdn-radiotime-logos.tunein.com/s36008q.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/VCY_SACRED_STYLINGS_S01_SC", "Worship", "", "live"),
 new Channel("War Room with Owen Shroyer", "https://is5-ssl.mzstatic.com/image/thumb/Podcasts118/v4/bd/87/7e/bd877e44-bae9-b29c-2b64-b7ece358ed91/mza_1200762605813509501.jpg/400x400bb.jpg", "https://streams.infowars.com/warrooom", "Conservative Talk, Hot Talk", "", "live"),
-new Channel("WEEB 990", "https://cdn-profiles.tunein.com/s28449/images/logog.jpg", "http://ice.weeb990.com:8000/weeb990", "Conservative Talk", "", "dead"),
+new Channel("WEEB 990", "https://cdn-profiles.tunein.com/s28449/images/logog.jpg", "http://216.119.148.50:8000/weeb990", "Conservative Talk", "", "live"),
 new Channel("Hot 99.5", "https://i.iheart.com/v3/re/assets.brands/5b3a2f8f0abf50ca9a24a060", "https://stream.revma.ihrhls.com/zc2509", "Top 40", "", "live"),
 new Channel("CBN Radio Classic", "https://cdn-radiotime-logos.tunein.com/s128894q.png", "https://streams.cbnradio.com/Classic-Christian-128K?app=cbnplayer", "90s, 2000s", "", "live"),
 new Channel("YesFM", "https://cdn-profiles.tunein.com/s14405/images/logod.png", "https://stream.streamgenial.stream/ydyh67w4xp8uv", "Pop", "", "live"),
