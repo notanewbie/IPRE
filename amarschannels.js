@@ -43,7 +43,7 @@ new Channel("Radio FEST", "https://www.radio.net/images/broadcasts/32/06/17229/c
 new Channel("MPIR Comedy OTR", "https://cdn-radiotime-logos.tunein.com/s283968q.png", "https://s3.voscast.com:8454/;", "Audio Drama", "", "dead"),
 new Channel("MSNBC", "https://cdn-profiles.tunein.com/s297990/images/logog.jpg", "http://tunein.streamguys1.com/msnbc-free", "TV, Progressive Talk, News", "", "live"),
 new Channel("NBC News Radio", "https://i.iheart.com/v3/re/new_assets/d9466b96-953d-4965-8f43-cfd42aca24fe", "http://stream.revma.ihrhls.com/zc6043", "News, Entertainment Talk", "", "live"),
-new Channel("No Agenda Stream", "https://upload.wikimedia.org/wikipedia/commons/b/ba/No_Agenda_cover_placeholder.jpg", "http://listen.noagendastream.com/noagenda", "Conservative Talk, Hot Talk", "", "live"),
+new Channel("No Agenda Stream", "https://upload.wikimedia.org/wikipedia/commons/b/ba/No_Agenda_cover_placeholder.jpg", "http://listen.noagendastream.com/noagenda", "Conservative Talk, Hot Talk", "", "live", "Explicit"),
 new Channel("Proclaim Channel", "https://cdn-radiotime-logos.tunein.com/s142659q.png", "http://primary.moodyradiostream.org/proclaim-high.aac.m3u", "Worship", "", "dead"),
 new Channel("Real News with David Knight", "https://i.iheart.com/v3/catalog/podcast/29787299", "https://streams.infowars.com/stream/3/;", "Hot Talk, Libertarian Talk", "", "live"),
 new Channel("RefNet", "https://hopechurchtw.ca/wp-content/uploads/2020/01/RefNet_logo.jpg", "https://icecast.refnet.fm/utc/0000", "Sermons, Worship", "", "live"),
