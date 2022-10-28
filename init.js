@@ -1,5 +1,5 @@
 class Channel {
-constructor(name, img, url, category, description, status) {
+constructor(name, img, url, category, description, status, warning = "none") {
 this.name = name;
 this.img = img;
 this.url = url;
@@ -10,7 +10,7 @@ this.id = 0;
 this.rating = 0;
 this.liked = 0;
 this.order = -1;
-this.warning = "none";
+this.warning = warning;
 }
 }
 
