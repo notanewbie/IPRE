@@ -87,6 +87,37 @@ TopCatList.push(new Cat(categoryList[a]))
 a = a + 1;
 }
 
+warningList = []
+a = 0;
+while(channels[a]) {
+warningList.push(channels[a].warning)
+a = a + 1;
+}
+
+warningList = new Set(warningList);
+warningList = Array.from(warningList).sort();
+
+warnFilter = [];
+hideFilter = [];
+a = 0;
+while(warningList[a]) {
+if(parseInt(getCookie("FILTER_" + warningList[a])) > -1) {
+warnFilter[0] = parseFloat(getCookie("FILTER_" + warningList[a]));
+}
+else {
+warnFilter[a] = 0;
+document.cookie = "FILTER_" + warningList[a] + "=" + '1; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+}
+if(parseInt(getCookie("WARN_" + warningList[a])) > -1) {
+hideFilter[0] = parseFloat(getCookie("WARN_" + warningList[a]));
+}
+else {
+hideFilter[a] = 0;
+document.cookie = "WARN_" + warningList[a] + "=" + '1; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+}
+a = a + 1;
+}
+
 function getLikes() {
 a = 0;
 tempChans = [];
@@ -676,8 +707,8 @@ function showSettings() {
 window.history.replaceState(null, null, window.location.pathname);
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 addHead("Settings");
-addToggle("test", "toggleSetting(0)", 0);
-addItem("test", "test");
+//addToggle("test", "toggleSetting(0)", 0);
+addItem("Content Settings", "test");
 hideMenu();
 hidePlay();
 hideOptions();
