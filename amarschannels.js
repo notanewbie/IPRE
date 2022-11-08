@@ -114,7 +114,7 @@ new Channel("Nightline Radio", "https://static.radio.net/images/broadcasts/6f/d8
 new Channel("One World Radio International", "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/70/6f/42/706f428e-db94-30c7-dbc3-6021cde39c61/AppIcon-iOS-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/OWR_INTERNATIONAL_SC", "EDM", "", "live"),
 new Channel("CBS News Radio", "https://raw.githubusercontent.com/notanewbie/cdn/main/CBSNR%20NEW.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/CBSNEWSAAC_SC", "News", "", "live"),
 new Channel("Current FM", "https://cdn-radiotime-logos.tunein.com/s21660q.png", "http://ic2.christiannetcast.com/wjlz-fm", "CCM, Christian Pop", "", "live"),
-new Channel("SoundCloud Radio Australia", "https://i1.sndcdn.com/avatars-T5RJuYvDa0mkGjVP-4HKUxA-t500x500.jpg", "https://wz2drp.scahw.com.au/live/2soundcloud_128.stream", "Pop", "", "live"),
+new Channel("SoundCloud Radio Australia", "https://github.com/notanewbie/cdn/blob/main/SoundCloud%20Radio%20Australia.jpg?raw=true", "https://wz2drp.scahw.com.au/live/2soundcloud_128.stream", "Pop", "", "live"),
 new Channel("1WAY FM", "https://pbs.twimg.com/profile_images/1794079317/tuneinlogo_400x400.jpg", "http://s2.viastreaming.net:6165/;", "CCM", "", "dead"),
 new Channel("Insomniac Radio", "https://www.insomniacradio.com/wp-content/assets/splashpages/insomniac-radio/images/logo_middle.png", "https://ice55.securenetsystems.net/DASH65", "EDM", "", "live"),
 new Channel("Alpha Geek Radio Channel 1", "https://pbs.twimg.com/profile_images/738444788530216960/mzt2nSwH_400x400.jpg", "https://listen.alphageekradio.com:8000/;stream/1", "Comedy", "", "dead"),
