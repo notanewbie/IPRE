@@ -610,18 +610,18 @@ console.log(w);
 console.log(searchResults(w)[0]);
 console.log(mySearchResults);
 if(mySearchResults[0]) {
-a = 0;
-while(a < mySearchResults.length) {
-b = a;
-a = b;
+z = 0;
+while(z < mySearchResults.length) {
+//alert(z)
 //console.log(a)
 //console.log(mySearchResults.length)
-if(mySearchResults[a].status == "live") {
-if(warnState(getWarnID(channels[ID].warning)) != "Hide") {
-addShow(mySearchResults[a].name, mySearchResults[a].img, mySearchResults[a].url, mySearchResults[a].id)
+if(mySearchResults[z].status == "live") {
+if(warnState(getWarnID(channels[z].warning)) != "Hide") {
+addShow(mySearchResults[z].name, mySearchResults[z].img, mySearchResults[z].url, mySearchResults[z].id)
 }
 }
-a = b + 1;
+z = z + 1;
+//alert(z + " (2)");
 //console.log("Test: " + mySearchResults[a])
 //console.log("Test: " + a)
 }
@@ -780,12 +780,12 @@ document.getElementsByTagName("audio")[0].src = channels[ID].url;
 playPause();
 //alert("Hide!");
 hideMessage();
-}
 document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + channels[ID].img + '"></npbg><npimg><img src="' + channels[ID].img + '"></npimg><nptitle>' + channels[ID].name + '<a href="javascript:showOptions(' + ID + ')"><img src="' + site.menuimg + '" id="menu"></a></nptitle><br /><npc><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a></npc>';
 document.getElementsByTagName("audio")[0].volume = volume;
 if(document.getElementsByTagName("input").length > 0) {
 document.getElementsByTagName("input")[0].value = volume * 100;
 document.getElementsByTagName("input")[0].onchange = function() {setVol(this.value);}
+}
 }
 //checkLike();
 showPlay();
