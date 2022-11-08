@@ -673,7 +673,7 @@ document.getElementsByTagName("topchan")[0].innerHTML = "";
 z = 0;
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "<chanhead>Likes</chanhead>";
 while(getLikes()[z]) {
-if(warnState(getWarnID(channels[ID].warning)) != "Hide") {
+if(warnState(getWarnID(channels[z].warning)) != "Hide") {
 addShow(getLikes()[z].name, getLikes()[z].img, getLikes()[z].url, getLikes()[z].id)
 }
 z = z + 1;
