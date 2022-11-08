@@ -28,6 +28,7 @@ document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[1].src
 document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[2].src = site.heartimg
 document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[3].src = site.searchimg
 document.getElementsByTagName("navcenter")[0].getElementsByTagName("img")[4].src = site.npimg
+document.getElementsByTagName("navbutton2")[0].getElementsByTagName("img")[0].src = site.setimg
 document.body.getElementsByTagName("link")[0].href=site.logo
 settings = [];
 settings[0] = 0;
@@ -40,7 +41,7 @@ settings[0] = parseFloat(getCookie("EXPLICIT_FILTER"));
 }
 else {
 volume = 1;
-document.cookie = "EXPLICIT_FILTER=" + '1; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+document.cookie = "EXPLICIT_FILTER=" + '0; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
 }
 
 
@@ -49,7 +50,7 @@ volume = parseFloat(getCookie("VOLUME_LEVEL"));
 }
 else {
 volume = 1;
-document.cookie = "VOLUME_LEVEL=" + '1; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+document.cookie = "VOLUME_LEVEL=" + '0; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
 }
 
 currentID = -1
@@ -102,18 +103,19 @@ hideFilter = [];
 a = 0;
 while(warningList[a]) {
 if(parseInt(getCookie("FILTER_" + warningList[a])) > -1) {
-warnFilter[0] = parseFloat(getCookie("FILTER_" + warningList[a]));
+hideFilter[a] = parseFloat(getCookie("FILTER_" + warningList[a]));
 }
 else {
 warnFilter[a] = 0;
-document.cookie = "FILTER_" + warningList[a] + "=" + '1; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+document.cookie = "FILTER_" + warningList[a] + "=" + '0; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
 }
 if(parseInt(getCookie("WARN_" + warningList[a])) > -1) {
-hideFilter[0] = parseFloat(getCookie("WARN_" + warningList[a]));
+//alert(getCookie("WARN_" + warningList[a]))
+warnFilter[a] = parseFloat(getCookie("WARN_" + warningList[a]));
 }
 else {
 hideFilter[a] = 0;
-document.cookie = "WARN_" + warningList[a] + "=" + '1; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+document.cookie = "WARN_" + warningList[a] + "=" + '0; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
 }
 a = a + 1;
 }
@@ -412,8 +414,8 @@ document.getElementsByTagName("navmenu")[0].id=""
 function clearChanList() {
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 }
-function addItem(text, command) {
-document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:' + command + '"><chantab><chantext2>' + text + '</chantext2></chantab></a>';
+function addItem(text, command, subtext="") {
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:' + command + '"><chantab><chantext2>' + text + '</chantext2><br /><chantext3>' + subtext + '</chantext3></chantab></a>';
 }
 function addToggle(text, command, id) {
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:' + command + '"><chantab id="set' + id + '"><chantext>' + text + '</chantext><img src="' + site.toggle1img + '" id="setpic"></img></chantab></a>';
@@ -433,6 +435,64 @@ document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTa
 function addHead(label) {
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<chanhead>' + label + '</chanhead>'
 }
+
+function warnState(a) {
+if(hideFilter[a] == 0) {
+if(warnFilter[a] == 0) {
+return "Off";
+}
+else {
+return "Warn";
+}
+}
+if(hideFilter[a] == 1) {
+if(warnFilter[a] == 0) {
+return "Hide";
+}
+else {
+return "Error";
+}
+}
+}
+function contentOptions() {
+window.history.replaceState(null, null, window.location.pathname);
+document.getElementsByTagName("topchan")[0].innerHTML = "";
+addHead("Content Options");
+z = 0;
+while(warningList[z]) {
+addItem(warningList[z], "setAdvisory(" + z + ")", warnState(z));
+z = z + 1;
+}
+
+}
+
+function setAdvisory(id) {
+if(warnFilter[id] == 0 && hideFilter[id] == 0) {
+document.getElementsByTagName("chantext3")[id].innerHTML = "Warn";
+//set this content advisory to "warn";
+warnFilter[id] = 1;
+hideFilter[id] = 0;
+document.cookie = "WARN_" + warningList[id] + "=" + '1; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+document.cookie = "FILTER_" + warningList[id] + "=" + '0; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+}
+else if(warnFilter[id] == 1 && hideFilter[id] == 0) {
+document.getElementsByTagName("chantext3")[id].innerHTML = "Hide";
+//set this content advisory to "hide";
+warnFilter[id] = 0;
+hideFilter[id] = 1;
+document.cookie = "WARN_" + warningList[id] + "=" + '0; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+document.cookie = "FILTER_" + warningList[id] + "=" + '1; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+}
+else if(warnFilter[id] == 0 && hideFilter[id] == 1) {
+document.getElementsByTagName("chantext3")[id].innerHTML = "Off";
+//set this content advisory to "no warning";
+warnFilter[id] = 0;
+hideFilter[id] = 0;
+document.cookie = "WARN_" + warningList[id] + "=" + '0; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+document.cookie = "FILTER_" + warningList[id] + "=" + '0; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+}
+}
+
 function playPause() {
 ID = currentID;
 hasPlayed = 1;
@@ -498,9 +558,11 @@ window.history.replaceState(null, null, window.location.pathname);
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 addHead("Browse");
 z = 0;
-while(z < 20 && z < TopChan().length) {
-if(TopChan()[z].status == "live") {
+c = 0;
+while(c < 20 && z < TopChan().length) {
+if(TopChan()[z].status == "live" && warnState(getWarnID(TopChan()[z].warning)) != "Hide") {
 addShow(TopChan()[z].name, TopChan()[z].img, TopChan()[z].url, TopChan()[z].id)
+c = c + 1;
 }
 z = z + 1
 }
@@ -542,7 +604,9 @@ a = b;
 //console.log(a)
 //console.log(mySearchResults.length)
 if(mySearchResults[a].status == "live") {
+if(warnState(getWarnID(channels[ID].warning)) != "Hide") {
 addShow(mySearchResults[a].name, mySearchResults[a].img, mySearchResults[a].url, mySearchResults[a].id)
+}
 }
 a = b + 1;
 //console.log("Test: " + mySearchResults[a])
@@ -596,7 +660,9 @@ document.getElementsByTagName("topchan")[0].innerHTML = "";
 z = 0;
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "<chanhead>Likes</chanhead>";
 while(getLikes()[z]) {
+if(warnState(getWarnID(channels[ID].warning)) != "Hide") {
 addShow(getLikes()[z].name, getLikes()[z].img, getLikes()[z].url, getLikes()[z].id)
+}
 z = z + 1;
 }
 hideMenu();
@@ -685,30 +751,40 @@ document.getElementsByTagName("audio")[0].volume = volume;
 document.getElementsByTagName("input")[0].value = myVol;
 document.cookie = "VOLUME_LEVEL=" + volume.toString() + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
 }
-function playChan2(ID) {
+function playChan2(ID, audioBypass = 0) {
 hideMenu();
 currentID = ID;
-hideMessage()
+if(warnState(getWarnID(channels[ID].warning)) == "Off") {
+audioBypass = 1;
+}
+if(warnState(getWarnID(channels[ID].warning)) == "Warn") {
+showMessage(channels[ID].img, "This station is " + channels[ID].warning + ".", "This channel includes " + channels[ID].warning + " content. Are you sure you would like to play it?", ["Yes", "No"], ["playChan2(" + ID + ", 1)", "showBrowse()"])
+}
 window.history.replaceState(null, null, "?s=" + ID.toString());
 document.getElementsByTagName("topchan")[0].innerHTML = "";
+if(audioBypass == 1) {
 document.getElementsByTagName("audio")[0].src = channels[ID].url;
+playPause();
+//alert("Hide!");
+hideMessage();
+}
 document.getElementsByTagName("np")[0].innerHTML = '<npbg><img src="' + channels[ID].img + '"></npbg><npimg><img src="' + channels[ID].img + '"></npimg><nptitle>' + channels[ID].name + '<a href="javascript:showOptions(' + ID + ')"><img src="' + site.menuimg + '" id="menu"></a></nptitle><br /><npc><a href="javascript:playPause()"><img src="' + site.stopimg + '" id="icon2"></img></a></npc>';
 document.getElementsByTagName("audio")[0].volume = volume;
 if(document.getElementsByTagName("input").length > 0) {
 document.getElementsByTagName("input")[0].value = volume * 100;
 document.getElementsByTagName("input")[0].onchange = function() {setVol(this.value);}
 }
-playPause();
 //checkLike();
 showPlay();
 }
 
 function showSettings() {
+clearChanList();
 window.history.replaceState(null, null, window.location.pathname);
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 addHead("Settings");
 //addToggle("test", "toggleSetting(0)", 0);
-addItem("Content Settings", "test");
+addItem("Content Settings", "contentOptions()");
 hideMenu();
 hidePlay();
 hideOptions();
@@ -742,7 +818,6 @@ RadioRecap();
 
 else {
 if(location.search=="?settings") {
-clearChanList();
 showSettings();
 }
 
@@ -817,4 +892,13 @@ document.getElementsByTagName("input")[1].value = volume * 100;
 function showInfo(ID) {
 showMessage("https://cdn-web.tunein.com/assets/img/default-item-v2.png", "TuneIn Bad", "TuneIn freaking sucks dude.", ["You Right You Right", "But I Like TuneIn"], ["hideMessage()", "openLink('http://tunein.com')"])
 showMessage(channels[ID].img, channels[ID].name, channels[ID].description, ["Close"], ["hideMessage()"])
+}
+function getWarnID(q) {
+b = 0;
+while(warningList[b]) {
+if(warningList[b] == q) {
+return b;
+}
+b = b + 1;
+}
 }
