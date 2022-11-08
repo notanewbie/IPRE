@@ -24,10 +24,10 @@ site = {
 }
 startup = {
 "x": 3,
-"img": "https://radio.ntnwb.cc/heartfull.png",
-"header": "You'll...Like This",
-"message": "Likes have been added as a beta feature! Like your favorite stations to easily find them whenever you wish. Try it out and let the developers know what you think!",
-"button_text": ["Learn More", "Okay"],
-"button_action": ["openLink('https://github.com/notanewbie/IPRE/issues/19')", "hideMessage()"],
-"date": "6/5/22"
+"img": "https://media.13newsnow.com/assets/WVEC/images/d916f222-b461-476c-8744-61efb5f3286e/d916f222-b461-476c-8744-61efb5f3286e_1920x1080.jpg",
+"header": "Follow Your Vote",
+"message": "Stay up-to-date with all of the latest US midterm election results.",
+"button_text": ["Find Coverage", "Okay"],
+"button_action": ["showCategory('News'); hideMessage()", "hideMessage()"],
+"date": "11/14/22"
 }
