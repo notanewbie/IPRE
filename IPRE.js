@@ -120,6 +120,19 @@ document.cookie = "WARN_" + warningList[a] + "=" + '0; expires=Tue, 19 Jan 2038 
 a = a + 1;
 }
 
+//QUALITY CONTROL
+a = 0;
+while(warningList[a]) {
+if(warnFilter[a] == 1 && hideFilter[a] == 1) {
+warnFilter[a] = 0;
+document.cookie = "FILTER_" + warningList[a] + "=" + '0; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+hideFilter[a] = 0;
+document.cookie = "WARN_" + warningList[a] + "=" + '0; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+}
+a = a + 1;
+}
+//END QUALITY CONTROL
+
 function getLikes() {
 a = 0;
 tempChans = [];
