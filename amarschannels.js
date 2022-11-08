@@ -260,7 +260,7 @@ new Channel("ABC Radio Sydney", "https://www.abc.net.au/radio/images/service/ABC
 new Channel("ABC News Radio", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/YmJQ4TxPYB.jpg", "https://live-radio01.mediahubaustralia.com/PBW/mp3/", "News, Liberal Talk", "", "live"),
 new Channel("ABC RN", "https://www.abc.net.au/radio/images/service/rn-circle-logo-1400-1400.png", "https://live-radio01.mediahubaustralia.com/2RNW/mp3/", "Liberal Talk", "ABC Radio National Sydney", "live"),
 new Channel("Triple J", "https://www.abc.net.au/radio/images/service/2018/triplej_700.png", "https://live-radio01.mediahubaustralia.com/2TJW/mp3/", "Entertainment Talk, Pop", "", "live"),
-new Channel("Triple J Unearthed", "https://www.abc.net.au/radio/images/service/2018/unearthed_700.png", "http://live-radio02.mediahubaustralia.com/UNEW/mp3/", "Entertainment Talk, Indie Pop", "", "live"),
+new Channel("Triple J Unearthed", "https://www.abc.net.au/radio/images/service/2018/unearthed_700.png", "http://live-radio02.mediahubaustralia.com/UNEW/mp3/", "Entertainment Talk, Indie Pop", "", "live", "Explicit"),
 new Channel("Double J", "https://www.abc.net.au/radio/images/service/2018/Double_J_700.png", "https://live-radio01.mediahubaustralia.com/DJDW/mp3/", "Pop, Rock, Country, Jazz", "", "live"),
 new Channel("ABC Classic", "https://www.abc.net.au/radio/images/service/ABC_Classic_Logo_with_border.png", "http://live-radio01.mediahubaustralia.com/2FMW/mp3/", "Classical", "", "live"),
 new Channel("ABC Classic 2", "https://www.abc.net.au/radio/images/service/2018/abc_classic_2_700.png", "https://live-radio01.mediahubaustralia.com/FM2W/mp3/", "Classical", "", "live"),
