@@ -786,9 +786,9 @@ if(document.getElementsByTagName("input").length > 0) {
 document.getElementsByTagName("input")[0].value = volume * 100;
 document.getElementsByTagName("input")[0].onchange = function() {setVol(this.value);}
 }
+showPlay();
 }
 //checkLike();
-showPlay();
 }
 
 function showSettings() {
