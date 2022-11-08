@@ -20,6 +20,7 @@ site = {
 "infoimg": "i.png",
 "toggle1img": "toggle1.svg",
 "toggle2img": "toggle2.svg",
+"setimg": "setimg.svg"
 }
 startup = {
 "x": 3,
