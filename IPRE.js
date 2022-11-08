@@ -765,7 +765,6 @@ document.getElementsByTagName("input")[0].value = myVol;
 document.cookie = "VOLUME_LEVEL=" + volume.toString() + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
 }
 function playChan2(ID, audioBypass = 0) {
-hideMenu();
 if(warnState(getWarnID(channels[ID].warning)) == "Off") {
 audioBypass = 1;
 }
@@ -773,6 +772,7 @@ if(warnState(getWarnID(channels[ID].warning)) == "Warn") {
 showMessage(channels[ID].img, "This station is " + channels[ID].warning + ".", "This channel includes " + channels[ID].warning + " content. Are you sure you would like to play it?", ["Yes", "No"], ["playChan2(" + ID + ", 1)", "hideMessage()"])
 }
 if(audioBypass == 1) {
+hideMenu();
 currentID = ID;
 window.history.replaceState(null, null, "?s=" + ID.toString());
 document.getElementsByTagName("topchan")[0].innerHTML = "";
