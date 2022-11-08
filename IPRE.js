@@ -766,16 +766,16 @@ document.cookie = "VOLUME_LEVEL=" + volume.toString() + '; expires=Tue, 19 Jan 2
 }
 function playChan2(ID, audioBypass = 0) {
 hideMenu();
-currentID = ID;
 if(warnState(getWarnID(channels[ID].warning)) == "Off") {
 audioBypass = 1;
 }
 if(warnState(getWarnID(channels[ID].warning)) == "Warn") {
 showMessage(channels[ID].img, "This station is " + channels[ID].warning + ".", "This channel includes " + channels[ID].warning + " content. Are you sure you would like to play it?", ["Yes", "No"], ["playChan2(" + ID + ", 1)", "showBrowse()"])
 }
+if(audioBypass == 1) {
+currentID = ID;
 window.history.replaceState(null, null, "?s=" + ID.toString());
 document.getElementsByTagName("topchan")[0].innerHTML = "";
-if(audioBypass == 1) {
 document.getElementsByTagName("audio")[0].src = channels[ID].url;
 playPause();
 //alert("Hide!");
