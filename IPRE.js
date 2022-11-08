@@ -770,7 +770,7 @@ if(warnState(getWarnID(channels[ID].warning)) == "Off") {
 audioBypass = 1;
 }
 if(warnState(getWarnID(channels[ID].warning)) == "Warn") {
-showMessage(channels[ID].img, "This station is " + channels[ID].warning + ".", "This channel includes " + channels[ID].warning + " content. Are you sure you would like to play it?", ["Yes", "No"], ["playChan2(" + ID + ", 1)", "showBrowse()"])
+showMessage(channels[ID].img, "This station is " + channels[ID].warning + ".", "This channel includes " + channels[ID].warning + " content. Are you sure you would like to play it?", ["Yes", "No"], ["playChan2(" + ID + ", 1)", "hideMessage()"])
 }
 if(audioBypass == 1) {
 currentID = ID;
