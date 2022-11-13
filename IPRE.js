@@ -306,6 +306,14 @@ topchannels = channels;
 
 TopChan0();
 
+function TopChan1() {
+TOP1 = channels;
+TOP1.sort((a, b) => {
+    return a.rating - b.rating;
+});
+return TOP1;
+}
+
 function TopChan() {
 return topchannels;
 }
