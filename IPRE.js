@@ -101,7 +101,7 @@ warningList = Array.from(warningList).sort();
 warnFilter = [];
 hideFilter = [];
 a = 0;
-while(warningList[a]) {
+while(a < warningList.length) {
 if(parseInt(getCookie("FILTER_" + warningList[a])) > -1) {
 hideFilter[a] = parseFloat(getCookie("FILTER_" + warningList[a]));
 }
@@ -122,7 +122,7 @@ a = a + 1;
 
 //QUALITY CONTROL
 a = 0;
-while(warningList[a]) {
+while(a < warningList.length) {
 if(warnFilter[a] == 1 && hideFilter[a] == 1) {
 warnFilter[a] = 0;
 document.cookie = "FILTER_" + warningList[a] + "=" + '0; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
@@ -472,8 +472,10 @@ window.history.replaceState(null, null, window.location.pathname);
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 addHead("Content Options");
 z = 0;
-while(warningList[z]) {
+while(z < warningList.length) {
+if(warningList[z] != "") {
 addItem(warningList[z], "setAdvisory(" + z + ")", warnState(z));
+}
 z = z + 1;
 }
 
