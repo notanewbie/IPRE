@@ -455,7 +455,12 @@ if(warnFilter[a] == 0) {
 return "Off";
 }
 else {
+if(channels[a].warning == "") {
+return "Off";
+}
+else {
 return "Warn";
+}
 }
 }
 if(hideFilter[a] == 1) {
@@ -475,6 +480,9 @@ z = 0;
 while(z < warningList.length) {
 if(warningList[z] != "") {
 addItem(warningList[z], "setAdvisory(" + z + ")", warnState(z));
+}
+if(warningList[z] == "") {
+addItem("[Blank]", "setAdvisory(" + z + ")", warnState(z));
 }
 z = z + 1;
 }
@@ -769,12 +777,15 @@ document.getElementsByTagName("input")[0].value = myVol;
 document.cookie = "VOLUME_LEVEL=" + volume.toString() + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
 }
 function playChan2(ID, audioBypass = 0) {
+//alert(channels[ID].warning);
 if(warnState(getWarnID(channels[ID].warning)) == "Off" || channels[ID].warning == "") {
 audioBypass = 1;
 }
 if(warnState(getWarnID(channels[ID].warning)) == "Warn") {
 showMessage(channels[ID].img, "This station is " + channels[ID].warning + ".", "This channel includes " + channels[ID].warning + " content. Are you sure you would like to play it?", ["Yes", "No"], ["playChan2(" + ID + ", 1)", "hideMessage()"])
 }
+//alert(warnState(getWarnID(channels[ID].warning)))
+//alert(audioBypass)
 if(audioBypass == 1) {
 hideMenu();
 currentID = ID;
@@ -911,9 +922,13 @@ showMessage("https://cdn-web.tunein.com/assets/img/default-item-v2.png", "TuneIn
 showMessage(channels[ID].img, channels[ID].name, channels[ID].description, ["Close"], ["hideMessage()"])
 }
 function getWarnID(q) {
+console.log("WARNID");
+console.log(q);
+console.log(warningList[b]);
 b = 0;
-while(warningList[b]) {
+while(b < warningList.length) {
 if(warningList[b] == q) {
+console.log(b);
 return b;
 }
 b = b + 1;
