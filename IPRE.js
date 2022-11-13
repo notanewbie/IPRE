@@ -575,9 +575,11 @@ addHead("Browse");
 z = 0;
 c = 0;
 while(c < 20 && z < TopChan().length) {
-if(TopChan()[z].status == "live" && warnState(getWarnID(TopChan()[z].warning)) != "Hide") {
+if(TopChan()[z].status == "live") {
+if(warnState(getWarnID(TopChan()[z].warning)) != "Hide" || channels[ID].warning == "") {
 addShow(TopChan()[z].name, TopChan()[z].img, TopChan()[z].url, TopChan()[z].id)
 c = c + 1;
+}
 }
 z = z + 1
 }
@@ -618,7 +620,7 @@ while(z < mySearchResults.length) {
 //console.log(a)
 //console.log(mySearchResults.length)
 if(mySearchResults[z].status == "live") {
-if(warnState(getWarnID(channels[z].warning)) != "Hide") {
+if(warnState(getWarnID(channels[z].warning)) != "Hide" || channels[ID].warning == "") {
 addShow(mySearchResults[z].name, mySearchResults[z].img, mySearchResults[z].url, mySearchResults[z].id)
 }
 }
@@ -767,7 +769,7 @@ document.getElementsByTagName("input")[0].value = myVol;
 document.cookie = "VOLUME_LEVEL=" + volume.toString() + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
 }
 function playChan2(ID, audioBypass = 0) {
-if(warnState(getWarnID(channels[ID].warning)) == "Off") {
+if(warnState(getWarnID(channels[ID].warning)) == "Off" || channels[ID].warning == "") {
 audioBypass = 1;
 }
 if(warnState(getWarnID(channels[ID].warning)) == "Warn") {
