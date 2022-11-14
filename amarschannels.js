@@ -561,5 +561,6 @@ new Channel("NOAA Weather Radio WWG24", "https://www.weatherusa.net/assets/image
 new Channel("NOAA Weather Radio WWF56", "https://www.weatherusa.net/assets/images/logo_nwr.png", "https://radio.weatherusa.net/NWR/WWF56_2.mp3", "News", "Richland, Washington", "live", ""),
 new Channel("NOAA Weather Radio WXJ88", "https://www.weatherusa.net/assets/images/logo_nwr.png", "https://radio.weatherusa.net/NWR/WXJ88.mp3", "News", "Menomonie, Wisconsin", "live", ""),
 new Channel("NOAA Weather Radio KGG95", "https://www.weatherusa.net/assets/images/logo_nwr.png", "https://radio.weatherusa.net/NWR/KGG95.mp3", "News", "Winona, Wisconsin", "live", ""),
-new Channel("NOAA Weather Radio WXM61", "https://www.weatherusa.net/assets/images/logo_nwr.png", "https://radio.weatherusa.net/NWR/WXM61.mp3", "News", "Lander, Wyoming", "live", "")
+new Channel("NOAA Weather Radio WXM61", "https://www.weatherusa.net/assets/images/logo_nwr.png", "https://radio.weatherusa.net/NWR/WXM61.mp3", "News", "Lander, Wyoming", "live", ""),
+new Channel("97.1 WASH-FM", "https://i1.sndcdn.com/artworks-8FAImgOHwYTPRdIx-IzEDSQ-t500x500.jpg", "https://stream.revma.ihrhls.com/zc2501", "Hot AC, Pop", "", "live", "")
 ]
