@@ -320,7 +320,7 @@ return topchannels;
 function byRating2(chanlist) {
 chanlist2 = chanlist
 try {
-return chanlist.sort((a, b) => a.rating < b.rating ? 1 : -1);
+return chanlist2.sort((a, b) => a.rating < b.rating ? 1 : -1);
 }
 catch(err) {
 console.log("Hey, this is experimental code.");
