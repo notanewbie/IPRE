@@ -607,7 +607,7 @@ z = 0;
 c = 0;
 while(c < 20 && z < TopChan().length) {
 if(TopChan()[z].status == "live") {
-if(warnState(getWarnID(TopChan()[z].warning)) != "Hide" || channels[z].warning == "") {
+if(warnState(getWarnID(TopChan()[z].warning)) != "Hide" || TopChan()[z].warning == "") {
 addShow(TopChan()[z].name, TopChan()[z].img, TopChan()[z].url, TopChan()[z].id)
 c = c + 1;
 }
