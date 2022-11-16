@@ -457,6 +457,7 @@ function addHead(label) {
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<chanhead>' + label + '</chanhead>'
 }
 
+/*
 function warnState(a) {
 if(hideFilter[a] == 0) {
 if(warnFilter[a] == 0) {
@@ -479,6 +480,20 @@ else {
 return "Error";
 }
 }
+}
+*/
+
+function warnState(a) {
+if(hideFilter[a] == 0 && warnFilter[a] == 0) {
+return "Off";
+}
+if(hideFilter[a] == 1 && warnFilter[a] == 0) {
+return "Hide";
+}
+if(hideFilter[a] == 0 && warnFilter[a] == 1) {
+return "Warn";
+}
+return "Off";
 }
 function contentOptions() {
 window.history.replaceState(null, null, window.location.pathname);
