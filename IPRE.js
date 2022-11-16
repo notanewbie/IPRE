@@ -857,6 +857,7 @@ document.cookie = settingstext[a] + "=" + settings[a] + '; expires=Tue, 19 Jan 2
 }
 
 if(location.search.indexOf("s=") > -1) {
+showBrowse()
 playChan2(parseInt(location.search.split("s=")[1]))
 playPause();
 playPause();
