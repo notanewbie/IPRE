@@ -857,12 +857,13 @@ document.cookie = settingstext[a] + "=" + settings[a] + '; expires=Tue, 19 Jan 2
 }
 
 if(location.search.indexOf("s=") > -1) {
+temp1 = location.search.split("s=")[1];
 console.log("clearing");
 clearChanList();
 console.log("browsing");
 showBrowse();
 console.log("playing");
-playChan2(parseInt(location.search.split("s=")[1]))
+playChan2(parseInt(temp1))
 }
 
 else {
