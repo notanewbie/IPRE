@@ -653,7 +653,7 @@ while(z < mySearchResults.length) {
 //console.log(a)
 //console.log(mySearchResults.length)
 if(mySearchResults[z].status == "live") {
-if(warnState(getWarnID(channels[z].warning)) != "Hide" || channels[ID].warning == "") {
+if(warnState(getWarnID(channels[z].warning)) != "Hide" || channels[z].warning == "") {
 addShow(mySearchResults[z].name, mySearchResults[z].img, mySearchResults[z].url, mySearchResults[z].id)
 }
 }
