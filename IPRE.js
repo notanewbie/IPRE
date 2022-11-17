@@ -315,7 +315,8 @@ return TOP1;
 }
 
 function TopChan() {
-return topchannels;
+return byRating2(channels);
+//return topchannels;
 }
 function byRating2(chanlist) {
 chanlist2 = chanlist
