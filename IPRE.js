@@ -314,8 +314,9 @@ TOP1.sort((a, b) => {
 return TOP1;
 }
 
+tc2 = byRating2(channels);
 function TopChan() {
-return byRating2(channels);
+return tc2;
 //return topchannels;
 }
 function byRating2(chanlist) {
