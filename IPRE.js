@@ -67,7 +67,6 @@ channels[a].order = parseInt(getCookie("S_" + a + "_ORDER"));
 a = a + 1;
 }
 categoryList = []
-TopCatList =[]
 a = 0;
 b = 0;
 while(channels[a]) {
@@ -79,9 +78,9 @@ a = a + 1;
 b = 0;
 }
 
-categoryList = new Set(categoryList);
-categoryList = Array.from(categoryList).sort();
+categoryList = Array.from(new Set(categoryList)).sort();
 
+TopCatList = []
 a = 0;
 while(categoryList[a]) {
 TopCatList.push(new Cat(categoryList[a]))
@@ -95,8 +94,7 @@ warningList.push(channels[a].warning)
 a = a + 1;
 }
 
-warningList = new Set(warningList);
-warningList = Array.from(warningList).sort();
+warningList = Array.from(new Set(warningList)).sort();
 
 warnFilter = [];
 hideFilter = [];
@@ -169,33 +167,8 @@ q = q.toLowerCase()
 tempChans = []
 a = 0;
 while(channels[a]) {
-if(channels[a].description.toLowerCase().includes(q)) {
+if(channels[a].description.toLowerCase().includes(q) || channels[a].name.toLowerCase().includes(q) || channels[a].name.toLowerCase() == q || channels[a].description.toLowerCase() == q || channels[a].category.toLowerCase().includes(q) || channels[a].category.toLowerCase() == q) {
 tempChans.push(channels[a])
-}
-else {
-if(channels[a].name.toLowerCase().includes(q)) {
-tempChans.push(channels[a])
-}
-else {
-if(channels[a].name.toLowerCase() == q) {
-tempChans.push(channels[a])
-}
-else {
-if(channels[a].description.toLowerCase() == q) {
-tempChans.push(channels[a])
-}
-else {
-if(channels[a].category.toLowerCase().includes(q)) {
-tempChans.push(channels[a])
-}
-else {
-if(channels[a].category.toLowerCase() == q) {
-tempChans.push(channels[a])
-}
-}
-}
-}
-}
 }
 a = a + 1;
 }
@@ -231,7 +204,6 @@ function resetMessages() {
 document.cookie = "RADIO_MESSAGE_COUNT=" + startup.x + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
 }
 checkMessages();
-//resetMessages();
 function addRating() {
 z = 0;
 while(channels[z]) {
@@ -410,10 +382,10 @@ b = b + 1;
 }
 a = a + 1;
 }
-
-disChan.sort((a, b) => (a.id > b.id) ? 1 : -1).reverse()
-disChan.sort((a, b) => (a.rating > b.rating) ? 1 : -1)
-//disChan.sort((a, b) => (a.rating > b.rating) ? 1 : -1).reverse()
+disChan = disChan.slice().sort((a, b) => 0.5 - Math.random())
+console.log(disChan[0]);
+//disChan.sort((a, b) => (a.id > b.id) ? 1 : -1).reverse()
+disChan = byRating2(disChan).reverse();
 
 return disChan;
 }
@@ -625,10 +597,11 @@ function showRecc() {
 window.history.replaceState(null, null, window.location.pathname);
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 addHead("Discover");
+suggs = GetSug()
 z = 0;
-while(z < 20 && z < GetSug().length) {
-if(GetSug()[z].status == "live") {
-addShow(GetSug()[z].name, GetSug()[z].img, GetSug()[z].url, GetSug()[z].id)
+while(z < 20 && z < suggs.length) {
+if(suggs[z].status == "live") {
+addShow(suggs[z].name, suggs[z].img, suggs[z].url, suggs[z].id)
 }
 z = z + 1
 }
