@@ -159,7 +159,8 @@ b = b + 1;
 }
 a = a + 1;
 }
-return tempChans;
+return Array.from(new Set(tempChans))
+//return tempChans;
 }
 
 function searchResults(q) {
