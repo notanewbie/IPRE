@@ -94,7 +94,7 @@ new Channel("WEEB 990", "https://cdn-profiles.tunein.com/s28449/images/logog.jpg
 new Channel("Hot 99.5", "https://i.iheart.com/v3/re/assets.brands/5b3a2f8f0abf50ca9a24a060", "https://stream.revma.ihrhls.com/zc2509", "Top 40", "", "live", "Clean"),
 new Channel("CBN Radio Classic", "https://cdn-radiotime-logos.tunein.com/s128894q.png", "https://streams.cbnradio.com/Classic-Christian-128K?app=cbnplayer", "90s, 2000s", "", "live", ""),
 new Channel("YesFM", "https://cdn-profiles.tunein.com/s14405/images/logod.png", "https://stream.streamgenial.stream/ydyh67w4xp8uv", "Pop", "", "live", "Clean"),
-new Channel("BBC Radio 1", "https://cdn-radiotime-logos.tunein.com/s24939q.png", "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_one", "Pop, Hip-Hop", "", "live", "Live"),
+new Channel("BBC Radio 1", "https://cdn-radiotime-logos.tunein.com/s24939q.png", "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/cfs/bbc_radio_one.mpd", "Pop, Hip-Hop", "", "live", "Live"),
 new Channel("BBC Radio 2", "https://cdn-radiotime-logos.tunein.com/s24940q.png", "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_two", "Hot AC", "", "live", "Live"),
 new Channel("BBC Radio 3", "https://cdn-radiotime-logos.tunein.com/s24941q.png", "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_three", "Classical", "", "live", "Live"),
 new Channel("BBC Radio 5 Live", "https://cdn-radiotime-logos.tunein.com/s24943q.png", "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_five_live_online_nonuk", "Live Sports, Sports Talk", "", "live", "Live"),
