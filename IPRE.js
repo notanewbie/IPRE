@@ -238,107 +238,20 @@ z = z + 1;
 }
 addRating();
 
-
-topchannels = [];
-
-function TopChan0() {
-TOP = [];
-//alert("TopChan");
-v = 0;
-a = 0;
-maxval = 0;
-while(channels[a]) {
-console.log(channels[a].rating)
-if(channels[a].rating > maxval) {
-maxval = channels[a].rating;
-}
-a = a + 1;
-}
-a = 0;
-v = maxval;
-while(v >= 0) {
-if(channels[a].rating == v) {
-TOP.push(channels[a])
-console.log("Added " + channels[a].name);
-}
-if(channels[a + 1]) {
-a = a + 1;
-}
-else {
-a = 0;
-v = v - 1;
-}
-}
-if(TOP[0]) {
-topchannels = TOP;
-}
-else {
-topchannels = channels;
-}
-}
-
-TopChan0();
-
-function TopChan1() {
-TOP1 = channels;
-TOP1.sort((a, b) => {
-    return a.rating - b.rating;
-});
-return TOP1;
-}
-
 tc2 = byRating2(channels);
 function TopChan() {
 return tc2;
 //return topchannels;
 }
+
 function byRating2(chanlist) {
 chanlist2 = chanlist
-try {
 return chanlist2.slice().sort((a, b) => a.rating < b.rating ? 1 : -1);
 }
-catch(err) {
-console.log("Hey, this is experimental code.");
-console.log(err);
-return byRating(chanlist2);
-}
-return byRating(chanlist);
-}
-function byRating(chanlist) {
-TOP = [];
-//alert("TopChan");
-v = 0;
-a = 0;
-maxval = 0;
-if(chanlist.length > a) {
-while(chanlist[a]) {
-console.log(chanlist[a].rating)
-if(chanlist[a].rating > maxval) {
-maxval = chanlist[a].rating;
-}
-a = a + 1;
-}
-a = 0;
-v = maxval;
-while(v >= 0) {
-if(chanlist[a].rating == v) {
-TOP.push(chanlist[a])
-console.log("Added " + chanlist[a].name);
-}
-if(chanlist[a + 1]) {
-a = a + 1;
-}
-else {
-a = 0;
-v = v - 1;
-}
-}
-return TOP
-}
-else {
-return []
-}
-}
+
+topchannels = [];
+
+topchannels = byRating2(channels);
 
 a = 0;
 while(TopCatList[a]) {
@@ -362,7 +275,7 @@ b = b + 1;
 a = a + 1;
 }
 
-TopCatList.sort((a, b) => (a.rating > b.rating) ? 1 : -1).reverse()
+TopCatList = byRating2(TopCatList);
 
 function GetSug() {
 disChan = [];
@@ -431,32 +344,6 @@ document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTa
 function addHead(label) {
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<chanhead>' + label + '</chanhead>'
 }
-
-/*
-function warnState(a) {
-if(hideFilter[a] == 0) {
-if(warnFilter[a] == 0) {
-return "Off";
-}
-else {
-if(channels[a].warning == "") {
-return "Off";
-}
-else {
-return "Warn";
-}
-}
-}
-if(hideFilter[a] == 1) {
-if(warnFilter[a] == 0) {
-return "Hide";
-}
-else {
-return "Error";
-}
-}
-}
-*/
 
 function warnState(a) {
 if(hideFilter[a] == 0 && warnFilter[a] == 0) {
