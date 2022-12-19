@@ -562,5 +562,8 @@ new Channel("NOAA Weather Radio WWF56", "https://www.weatherusa.net/assets/image
 new Channel("NOAA Weather Radio WXJ88", "https://www.weatherusa.net/assets/images/logo_nwr.png", "https://radio.weatherusa.net/NWR/WXJ88.mp3", "News", "Menomonie, Wisconsin", "live", ""),
 new Channel("NOAA Weather Radio KGG95", "https://www.weatherusa.net/assets/images/logo_nwr.png", "https://radio.weatherusa.net/NWR/KGG95.mp3", "News", "Winona, Wisconsin", "live", ""),
 new Channel("NOAA Weather Radio WXM61", "https://www.weatherusa.net/assets/images/logo_nwr.png", "https://radio.weatherusa.net/NWR/WXM61.mp3", "News", "Lander, Wyoming", "live", ""),
-new Channel("97.1 WASH-FM", "https://i1.sndcdn.com/artworks-8FAImgOHwYTPRdIx-IzEDSQ-t500x500.jpg", "https://stream.revma.ihrhls.com/zc2501", "Hot AC, Pop", "", "live", "Clean")
+new Channel("97.1 WASH-FM", "https://i1.sndcdn.com/artworks-8FAImgOHwYTPRdIx-IzEDSQ-t500x500.jpg", "https://stream.revma.ihrhls.com/zc2501", "Hot AC, Pop", "", "live", "Clean"),
+new Channel("Xmas Melody", "https://cdn-radiotime-logos.tunein.com/s90187g.png", "http://kos.broadstreamer.com:7000/;", "Holiday", "", "live", "Clean"),
+new Channel("Worship Messiah Jesus", "https://media.live365.com/download/33459f72-59a4-45ee-9b60-9c92f92eb560.jpg", "http://ais-edge51-live365-dal02.cdnstream.com/a76673", "Holiday, Worship", "", "live", "Clean"),
+new Channel("Jingle Boss Radio", "https://pbs.twimg.com/profile_images/1059131576225648640/D_LQpwg-_400x400.jpg", "https://streaming.live365.com/a52821", "Holiday", "", "live", "Clean")
 ]
