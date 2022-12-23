@@ -565,5 +565,13 @@ new Channel("NOAA Weather Radio WXM61", "https://www.weatherusa.net/assets/image
 new Channel("97.1 WASH-FM", "https://i1.sndcdn.com/artworks-8FAImgOHwYTPRdIx-IzEDSQ-t500x500.jpg", "https://stream.revma.ihrhls.com/zc2501", "Hot AC, Pop", "", "live", "Clean"),
 new Channel("Xmas Melody", "https://cdn-radiotime-logos.tunein.com/s90187g.png", "http://kos.broadstreamer.com:7000/;", "Holiday", "", "live", "Clean"),
 new Channel("Worship Messiah Jesus", "https://media.live365.com/download/33459f72-59a4-45ee-9b60-9c92f92eb560.jpg", "http://ais-edge51-live365-dal02.cdnstream.com/a76673", "Holiday, Worship", "", "live", "Clean"),
-new Channel("Jingle Boss Radio", "https://pbs.twimg.com/profile_images/1059131576225648640/D_LQpwg-_400x400.jpg", "https://streaming.live365.com/a52821", "Holiday", "", "live", "Clean")
+new Channel("Jingle Boss Radio", "https://pbs.twimg.com/profile_images/1059131576225648640/D_LQpwg-_400x400.jpg", "https://streaming.live365.com/a52821", "Holiday", "", "live", "Clean"),
+new Channel("Halloween Radio", "https://cdn-profiles.tunein.com/s113678/images/logog.png", "https://radio1.streamserver.link:8000/hrm-aac", "Holiday", "", "live", "Clean"),
+new Channel("Halloween Radio Oldies", "https://cdn-profiles.tunein.com/s118262/images/logog.png", "https://radio1.streamserver.link/radio/8020/hro-aac", "Holiday", "", "live", "Clean"),
+new Channel("Halloween Radio Movies", "https://cdn-profiles.tunein.com/s233759/images/logog.png", "https://radio1.streamserver.link/radio/8050/hrs-aac", "Holiday, Soundtrack", "", "live", "Clean"),
+new Channel("Halloween Radio Atmosphere", "https://cdn-profiles.tunein.com/s118259/images/logog.png", "https://radio1.streamserver.link/radio/8040/hra-aac", "Holiday", "", "live", "Clean"),
+new Channel("Christmas Jazz", "https://i.iheart.com/v3/re/new_assets/26c7d6fa-1003-4ccc-967c-c6bb3b7949b4", "https://stream.revma.ihrhls.com/zc7251", "Holiday, Jazz", "", "live", "Clean"),
+new Channel("Christmas Hope", "https://hope1032.com.au/wp-content/uploads/2015/10/ChristmasHope_logo.png", "https://stream2.cnmns.net/christmashope-mp3", "Holiday", "", "live", "Clean"),
+new Channel("Christmas Every Day", "https://cdn-profiles.tunein.com/s302328/images/logog.png", "https://ais-edge37-live365-dal02.cdnstream.com/a10731", "Holiday", "", "live", "Clean"),
+new Channel("Christmas Court Radio", "https://cdn-profiles.tunein.com/s234383/images/logog.png", "http://icyglb.smittystream.com/kccr", "Holiday", "", "live", "Clean")
 ]
