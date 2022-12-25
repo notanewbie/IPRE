@@ -149,7 +149,7 @@ new Channel("One Hit Wonder Radio", "https://i.iheart.com/v3/re/assets/images/1a
 new Channel("Alternative Radio", "https://i.iheart.com/v3/re/new_assets/3592afad-2be2-4b84-ab2d-f155b78f348b", "http://stream.revma.ihrhls.com/zc4447", "Alternative", "", "live", "Clean"),
 new Channel("Alternative Radio Rewind", "https://i.iheart.com/v3/re/new_assets/c96abf74-4458-4a44-a19c-c1975926e1d9", "http://stream.revma.ihrhls.com/zc6950", "Alternative, 80s, 90s", "", "live", "Clean"),
 new Channel("NPR", "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/a6/18/b4/a618b419-3b3c-e54f-05ea-2c6d0b61364e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/320x0w.jpg", "http://npr-ice.streamguys1.com/live.mp3", "News, Liberal Talk, Entertainment Talk", "", "live", "Live"),
-new Channel("BBC World Service", "https://sounds.files.bbci.co.uk/2.3.0/networks/bbc_world_service/colour_default.svg", "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service", "Entertainment Talk, News, Liberal Talk", "", "live", "Live"),
+new Channel("BBC World Service UK", "https://cdn-profiles.tunein.com/s50646/images/logog.jpg", "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service", "Entertainment Talk, News, Liberal Talk", "", "live", "Live"),
 new Channel("Sky News Radio", "https://upload.wikimedia.org/wikipedia/en/9/98/Sky_News_Radio.jpg", "http://ais-arn.streamguys1.com/au_033_icy", "Conservative Talk", "", "live", "Live"),
 new Channel("Apple Music 1", "https://www.apple.com/newsroom/images/product/apple-music/Apple_announces-apple-music-radio-apple-music-1_08182020_inline.jpg.medium.jpg", "https://itsliveradio.apple.com/streams/live/beats-1/master_web.m3u8", "Pop, Hip-Hop, EDM", "", "dead", "Explicit"),
 new Channel("Apple Music Hits", "https://www.apple.com/newsroom/images/product/apple-music/Apple_announces-apple-music-hits_08182020_inline.jpg.medium.jpg", "https://itsliveradio.apple.com/streams/live/1498155548/master_web.m3u8", "Pop, Top 40", "", "dead", "Explicit"),
@@ -257,7 +257,7 @@ new Channel("NTS Live 1", "https://cdn-profiles.tunein.com/s150238/images/logog.
 new Channel("NTS Live 2", "https://cdn-profiles.tunein.com/s286827/images/logog.jpg", "https://stream-relay-geo.ntslive.net/stream2", "Indie Pop, Pop, Indie Pop, Rock, EDM, Hip-Hop, Reggae, Jazz", "", "live", "Live"),
 new Channel("ABC Sport", "https://www.abc.net.au/radio/images/service/abc-sport-logo-2020.png", "https://live-radio01.mediahubaustralia.com/GSDW/mp3/", "Sports Talk, Live Sports", "ABC Grandstand", "live", ""),
 new Channel("ABC Radio Sydney", "https://www.abc.net.au/radio/images/service/ABC-Radio-Sydney.png", "http://live-radio01.mediahubaustralia.com/2LRW/mp3/", "News, Liberal Talk", "", "live", ""),
-new Channel("ABC News Radio", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/YmJQ4TxPYB.jpg", "https://live-radio01.mediahubaustralia.com/PBW/mp3/", "News, Liberal Talk", "", "live", ""),
+new Channel("ABC News Radio", "https://cdn-profiles.tunein.com/s7016/images/logog.png", "https://live-radio01.mediahubaustralia.com/PBW/mp3/", "News, Liberal Talk", "", "live", ""),
 new Channel("ABC RN", "https://www.abc.net.au/radio/images/service/rn-circle-logo-1400-1400.png", "https://live-radio01.mediahubaustralia.com/2RNW/mp3/", "Liberal Talk", "ABC Radio National Sydney", "live", ""),
 new Channel("Triple J", "https://www.abc.net.au/radio/images/service/2018/triplej_700.png", "https://live-radio01.mediahubaustralia.com/2TJW/mp3/", "Entertainment Talk, Pop", "", "live", "Explicit"),
 new Channel("Triple J Unearthed", "https://www.abc.net.au/radio/images/service/2018/unearthed_700.png", "http://live-radio02.mediahubaustralia.com/UNEW/mp3/", "Entertainment Talk, Indie Pop", "", "live", "Explicit", "Explicit"),
@@ -573,5 +573,6 @@ new Channel("Halloween Radio Atmosphere", "https://cdn-profiles.tunein.com/s1182
 new Channel("Christmas Jazz", "https://i.iheart.com/v3/re/new_assets/26c7d6fa-1003-4ccc-967c-c6bb3b7949b4", "https://stream.revma.ihrhls.com/zc7251", "Holiday, Jazz", "", "live", "Clean"),
 new Channel("Christmas Hope", "https://hope1032.com.au/wp-content/uploads/2015/10/ChristmasHope_logo.png", "https://stream2.cnmns.net/christmashope-mp3", "Holiday", "", "live", "Clean"),
 new Channel("Christmas Every Day", "https://cdn-profiles.tunein.com/s302328/images/logog.png", "https://ais-edge37-live365-dal02.cdnstream.com/a10731", "Holiday", "", "live", "Clean"),
-new Channel("Christmas Court Radio", "https://cdn-profiles.tunein.com/s234383/images/logog.png", "http://icyglb.smittystream.com/kccr", "Holiday", "", "live", "Clean")
+new Channel("Christmas Court Radio", "https://cdn-profiles.tunein.com/s234383/images/logog.png", "http://icyglb.smittystream.com/kccr", "Holiday", "", "live", "Clean"),
+new Channel("TheLight Christmas", "https://cdn-profiles.tunein.com/s186638/images/logog.png", "https://stream.thelight.com.au:8150/;", "Holiday, Worship", "", "live", "")
 ]
