@@ -60,25 +60,40 @@ function clearChanList() {
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 }
 function addItem(text, command, subtext="") {
-document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:' + command + '"><chantab><chantext2>' + text + '</chantext2><br /><chantext3>' + subtext + '</chantext3></chantab></a>';
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:' + command + '"><chantab2><chantext2>' + text + '</chantext2><br /><chantext3>' + subtext + '</chantext3></chantab2></a>';
 }
 function addToggle(text, command, id) {
-document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:' + command + '"><chantab id="set' + id + '"><chantext>' + text + '</chantext><img src="' + site.toggle1img + '" id="setpic"></img></chantab></a>';
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:' + command + '"><chantab2 id="set' + id + '"><chantext>' + text + '</chantext><img src="' + site.toggle1img + '" id="setpic"></img></chantab2></a>';
 }
-function addShow(name, img, url, id) {
+function addShow(name, img, url, id, row) {
+//alert(row > -1)
 if(currentID == searchResults(name)[0].id) {
-document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:showNP()"><chantab><img src="' + img + '"></img><chantext>' + name + '</chantext></chantab></a>';
+if(row > -1) {
+//alert(row)
+document.getElementsByTagName("chanrow")[row].innerHTML = document.getElementsByTagName("chanrow")[row].innerHTML + '<a href="javascript:showNP()"><chantab><img id="c_icon" src="' + img + '"></img><br /><chantext>' + name + '</chantext></chantab></a>';
 }
 else {
-document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:playChan2(' + id + ')"><chantab><img src="' + img + '"></img><chantext>' + name + '</chantext></chantab></a>';
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:showNP()"><chantab><img id="c_icon" src="' + img + '"></img><br /><chantext>' + name + '</chantext></chantab></a>';
+}
+}
+else {
+if(row > -1) {
+document.getElementsByTagName("chanrow")[row].innerHTML = document.getElementsByTagName("chanrow")[row].innerHTML + '<a href="javascript:playChan2(' + id + ')"><chantab><img id="c_icon" src="' + img + '"></img><br /><chantext>' + name + '</chantext></chantab></a>';
+}
+else {
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href="javascript:playChan2(' + id + ')"><chantab><img id="c_icon" src="' + img + '"></img><br /><chantext>' + name + '</chantext></chantab></a>';
+}
 }
 }
 function addCat(label) {
 linkstring = 'javascript:showCategory("' + label + '")';
-document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<chanhead><a href=' + "'" + linkstring + "'>" + label + '</a></chanhead>'
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href=' + "'" + linkstring + "'>" + '<chanhead>' + label + '</chanhead></a>'
 }
 function addHead(label) {
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<chanhead>' + label + '</chanhead>'
+}
+function addHead2(label, link) {
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href=javascript:' + link + '><chanhead2>' + label + '</chanhead2></a>'
 }
 //
 
@@ -190,10 +205,11 @@ document.getElementsByTagName("npimg")[0].id = "";
 document.getElementsByTagName("nptitle")[0].id = "";
 document.getElementsByTagName("npc")[0].id = "";
 }
-function showBrowse() {
+function showPlays() {
 window.history.replaceState(null, null, window.location.pathname);
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 addHead("Browse");
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "";
 z = 0;
 c = 0;
 while(c < 20 && z < TopChan().length) {
@@ -205,6 +221,29 @@ c = c + 1;
 }
 z = z + 1
 }
+}
+function addRow(listName, chanList, listFunc) {
+addHead2(listName, listFunc);
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "<chanrow></chanrow>";
+z = 0;
+c = 0;
+while(c < 6 && z < chanList.length) {
+if(chanList[z].status == "live") {
+if(warnState(getWarnID(chanList[z].warning)) != "Hide" || chanList[z].warning == "") {
+addShow(chanList[z].name, chanList[z].img, chanList[z].url, chanList[z].id, document.getElementsByTagName("chanrow").length - 1)
+c = c + 1;
+}
+}
+z = z + 1
+}
+}
+
+function showBrowse() {
+window.history.replaceState(null, null, window.location.pathname);
+document.getElementsByTagName("topchan")[0].innerHTML = "";
+addHead("Browse");
+addRow("Listen Now", TopChan(), "showPlays()");
+//addRow("Something New", TopChan(), "showPlays()");
 hideMenu();
 hidePlay();
 hideOptions();
