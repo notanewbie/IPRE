@@ -131,7 +131,7 @@ top: 10vh;
 left: 4.5vw;
 right: 5vw;
 bottom: 10vh;
-overflow-y: auto;
+overflow-y: scroll;
 }
 chanhead#new {
 display: inline-block;
@@ -152,31 +152,64 @@ font-weight: bold;
 font-size: 5vh;
 margin-bottom: 2.5vh;
 }
-chantab {
+chanhead2 {
 display: block;
+font-weight: bold;
+font-size: 2.5vh;
+margin-bottom: 1.25vh;
 position: relative;
-height: 10vh;
-line-height: 10vh;
+top: 5vh;
+}
+chantab {
+display: inline-block;
+position: relative;
+height: 10vw;
+line-height: 4vh;
 margin-bottom: 5vh;
+width: 10vw;
+left: -4vw;
+margin-left: 4.9vw;
+margin-top: 2vw;
+}
+chantab2 {
+position: relative;
+left: -2vw;
+top: 2vh;
 }
 chantext {
 position: relative;
-top: -5vh;
-left: 2vw;
-font-size: 3vh;
+display: inline-flex;
+font-size: 1vw;
+top: 1vh;
+width: 10vw;
+justify-content: center;
+}
+#c_icon {
+width: 10vw;
+height: 10vw;
+}
+chanrow {
+display: flex;
+height: 19vw;
+overflow: hidden;
+position: relative;
+top: 1.5vw;
 }
 chantext2 {
 position: relative;
 top: 0vh;
 left: 2vw;
 font-size: 3vh;
+line-height: 0vh;
+display: flex;
 }
 chantext3 {
 position: relative;
-top: -5vh;
+top: -3.5vh;
 left: 2vw;
 font-size: 3vh;
 color: gray;
+line-height: 6vh;
 }
 npbg#visible {
 background-color: white;
