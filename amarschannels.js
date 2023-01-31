@@ -574,5 +574,6 @@ new Channel("Christmas Jazz", "https://i.iheart.com/v3/re/new_assets/26c7d6fa-10
 new Channel("Christmas Hope", "https://hope1032.com.au/wp-content/uploads/2015/10/ChristmasHope_logo.png", "https://stream2.cnmns.net/christmashope-mp3", "Holiday", "", "live", "Clean"),
 new Channel("Christmas Every Day", "https://cdn-profiles.tunein.com/s302328/images/logog.png", "https://ais-edge37-live365-dal02.cdnstream.com/a10731", "Holiday", "", "live", "Clean"),
 new Channel("Christmas Court Radio", "https://cdn-profiles.tunein.com/s234383/images/logog.png", "http://icyglb.smittystream.com/kccr", "Holiday", "", "live", "Clean"),
-new Channel("TheLight Christmas", "https://cdn-profiles.tunein.com/s186638/images/logog.png", "https://stream.thelight.com.au:8150/;", "Holiday, Worship", "", "live", "")
+new Channel("TheLight Christmas", "https://cdn-profiles.tunein.com/s186638/images/logog.png", "https://stream.thelight.com.au:8150/;", "Holiday, Worship", "", "live", ""),
+new Channel("Fox News", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/1024px-Fox_News_Channel_logo.svg.png", "http://tunein.streamguys1.com/foxnews-free", "Conservative Talk, TV", "", "live", "Live")
 ]
