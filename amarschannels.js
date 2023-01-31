@@ -18,7 +18,7 @@ new Channel("ESPN2", "https://www.logolynx.com/images/logolynx/e5/e5d85d854d02d7
 new Channel("ESPNews", "https://www.dieselhdtv.com/wp-content/uploads/2019/06/espnews_color.png", "http://espn-news.akacast.akamaistream.net/7/44/126490/v1/espn.akacast.akamaistream.net/espn-news?c_yob=2000&c_gender=m&source=TuneIn", "Sports, TV", "", "dead", ""),
 new Channel("ESPNU", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ESPN_U_logo.svg/512px-ESPN_U_logo.svg.png", "http://espnu.akacast.akamaistream.net/7/313/126490/v1/espn.akacast.akamaistream.net/espnu?c_yob=2000&c_gender=m&source=TuneIn", "Sports, TV", "", "dead", ""),
 new Channel("Evolution", "https://i.iheart.com/v3/re/new_assets/7b78fd03-66b1-4b9a-bd41-fb9638a82a24", "http://stream.revma.ihrhls.com/zc5953", "EDM", "", "live", "Clean"),
-new Channel("Fox News Radio", "https://cdn-profiles.tunein.com/s20431/images/logog.jpg", "http://tunein.streamguys1.com/foxnews", "Conservative Talk, TV", "", "live", "Live"),
+new Channel("Fox News Radio", "https://cdn-profiles.tunein.com/s20431/images/logog.jpg", "https://live.wostreaming.net/direct/foxnewsradio-foxnewsradioaac-imc", "Conservative Talk, TV", "", "live", "Live"),
 new Channel("FRESH Radio", "https://cdn-radiotime-logos.tunein.com/s181489q.png", "http://stream.hopemedia.com.au/fresh-mp3", "Christian Pop, CCM, Top 40", "", "live", "Clean"),
 new Channel("God's DJs", "https://cdn-radiotime-logos.tunein.com/s140701q.png", "http://www.godsdjsradio.com:8080/stream", "CEDM", "", "live", ""),
 new Channel("Hit Nation", "https://i.iheart.com/v3/re/new_assets/34da42a4-45ef-44b5-b587-8587b2cad460", "http://stream.revma.ihrhls.com/zc4422", "Top 40", "", "live", "Clean"),
