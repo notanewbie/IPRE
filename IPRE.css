@@ -163,13 +163,13 @@ top: 3vh;
 chantab {
 display: inline-block;
 position: relative;
-height: 10vw;
+height: 25vh;
 line-height: 4vh;
-margin-bottom: 5vh;
-width: 10vw;
+margin-bottom: 10vh;
+width: 25vh;
 left: -4vw;
 margin-left: 4.9vw;
-margin-top: 2vw;
+margin-top: 3vh;
 }
 chantab2 {
 position: relative;
@@ -179,21 +179,24 @@ top: 2vh;
 chantext {
 position: relative;
 display: inline-flex;
-font-size: 1vw;
+font-size: 3vh;
 top: 1vh;
-width: 10vw;
+width: 20vh;
 justify-content: center;
+text-align: center;
 }
 #c_icon {
-width: 10vw;
-height: 10vw;
+width: 20vh;
+height: 20vh;
 }
 chanrow {
-display: flex;
-height: 19vw;
-overflow: hidden;
 position: relative;
-top: 2.5vw;
+top: 2.5vh;
+display: grid;
+grid-auto-flow: row;
+grid-template-columns: repeat(auto-fill, minmax(30vh, 1fr));
+height: 40vh;
+overflow: hidden;
 }
 chantext2 {
 position: relative;
