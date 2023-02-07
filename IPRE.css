@@ -181,13 +181,13 @@ position: relative;
 display: inline-flex;
 font-size: 3vh;
 top: 1vh;
-width: 20vh;
+width: 15vh;
 justify-content: center;
 text-align: center;
 }
 #c_icon {
-width: 20vh;
-height: 20vh;
+width: 15vh;
+height: 15vh;
 }
 chanrow {
 position: relative;
