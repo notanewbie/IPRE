@@ -166,7 +166,7 @@ position: relative;
 height: 25vh;
 line-height: 4vh;
 margin-bottom: 10vh;
-width: 25vh;
+width: 20vh;
 left: -4vw;
 margin-left: 4.9vw;
 margin-top: 3vh;
@@ -181,13 +181,13 @@ position: relative;
 display: inline-flex;
 font-size: 3vh;
 top: 1vh;
-width: 15vh;
+width: 18vh;
 justify-content: center;
 text-align: center;
 }
 #c_icon {
-width: 15vh;
-height: 15vh;
+width: 18vh;
+height: 18vh;
 }
 chanrow {
 position: relative;
