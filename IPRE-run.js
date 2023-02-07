@@ -67,7 +67,7 @@ document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTa
 }
 function addShow(name, img, url, id, row) {
 //alert(row > -1)
-if(currentID == id) {
+if(currentID == searchResults(name)[0].id) {
 if(row > -1) {
 //alert(row)
 document.getElementsByTagName("chanrow")[row].innerHTML = document.getElementsByTagName("chanrow")[row].innerHTML + '<a href="javascript:showNP()"><chantab><img id="c_icon" src="' + img + '"></img><br /><chantext>' + name + '</chantext></chantab></a>';
@@ -93,7 +93,7 @@ function addHead(label) {
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<chanhead>' + label + '</chanhead>'
 }
 function addHead2(label, link) {
-document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href=javascript:' + link + '><chanhead2>' + label + '</chanhead2></a>'
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href=javascript:' + encodeURIComponent(link) + '><chanhead2>' + label + '</chanhead2></a>'
 }
 //
 
@@ -208,26 +208,41 @@ document.getElementsByTagName("npc")[0].id = "";
 function showPlays() {
 window.history.replaceState(null, null, window.location.pathname);
 document.getElementsByTagName("topchan")[0].innerHTML = "";
-addHead("Browse");
+addHead("Listen Now");
+addRow("", TopChan(), "", "tall");
+hideMenu();
+hidePlay();
+hideOptions();
+document.getElementsByTagName("chanhead")[0].scrollIntoView();
+}
+
+function unfurl(PassTitle, PassChan) {
+window.history.replaceState(null, null, window.location.pathname);
+document.getElementsByTagName("topchan")[0].innerHTML = "";
+addHead(PassTitle);
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "";
 z = 0;
 c = 0;
-while(c < 20 && z < TopChan().length) {
-if(TopChan()[z].status == "live") {
-if(warnState(getWarnID(TopChan()[z].warning)) != "Hide" || TopChan()[z].warning == "") {
-addShow(TopChan()[z].name, TopChan()[z].img, TopChan()[z].url, TopChan()[z].id)
+while(c < 20 && z < PassChan.length) {
+if(PassChan[z].status == "live") {
+if(warnState(getWarnID(PassChan[z].warning)) != "Hide" || PassChan[z].warning == "") {
+addShow(PassChan[z].name, PassChan[z].img, PassChan[z].url, PassChan[z].id)
 c = c + 1;
 }
 }
 z = z + 1
 }
 }
-function addRow(listName, chanList, listFunc) {
+
+function addRow(listName, chanList, listFunc, thisHeight) {
+if(thisHeight == undefined) {
+thisHeight = ""
+}
 addHead2(listName, listFunc);
-document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "<chanrow></chanrow>";
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "<chanrow id='" + thisHeight + "'></chanrow>";
 z = 0;
 c = 0;
-while(c < 6 && z < chanList.length) {
+while(c < 25 && z < chanList.length) {
 if(chanList[z].status == "live") {
 if(warnState(getWarnID(chanList[z].warning)) != "Hide" || chanList[z].warning == "") {
 addShow(chanList[z].name, chanList[z].img, chanList[z].url, chanList[z].id, document.getElementsByTagName("chanrow").length - 1)
@@ -243,7 +258,12 @@ window.history.replaceState(null, null, window.location.pathname);
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 addHead("Browse");
 addRow("Listen Now", TopChan(), "showPlays()");
-//addRow("Something New", TopChan(), "showPlays()");
+addRow("Something New", GetSug(), "showRecc()");
+addRow(TopCatList[0].name, byRating2(catArray(TopCatList[0].name)), "showCategory('" + TopCatList[0].name + "')");
+addRow(TopCatList[1].name, byRating2(catArray(TopCatList[1].name)), "showCategory('" + TopCatList[1].name + "')");
+addRow(TopCatList[2].name, byRating2(catArray(TopCatList[2].name)), "showCategory('" + TopCatList[2].name + "')");
+addRow(TopCatList[3].name, byRating2(catArray(TopCatList[3].name)), "showCategory('" + TopCatList[3].name + "')");
+addRow(TopCatList[4].name, byRating2(catArray(TopCatList[4].name)), "showCategory('" + TopCatList[4].name + "')");
 hideMenu();
 hidePlay();
 hideOptions();
@@ -253,16 +273,10 @@ function showRecc() {
 window.history.replaceState(null, null, window.location.pathname);
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 addHead("Discover");
-suggs = GetSug()
-z = 0;
-while(z < 20 && z < suggs.length) {
-if(suggs[z].status == "live") {
-addShow(suggs[z].name, suggs[z].img, suggs[z].url, suggs[z].id)
-}
-z = z + 1
-}
+addRow("", GetSug(), "", "tall");
 hideMenu();
 hidePlay();
+hideOptions();
 document.getElementsByTagName("chanhead")[0].scrollIntoView();
 }
 function doSearch() {
@@ -275,22 +289,9 @@ a = 0;
 console.log(w);
 console.log(searchResults(w)[0]);
 console.log(mySearchResults);
+//mySearchResult
 if(mySearchResults[0]) {
-z = 0;
-while(z < mySearchResults.length) {
-//alert(z)
-//console.log(a)
-//console.log(mySearchResults.length)
-if(mySearchResults[z].status == "live") {
-if(warnState(getWarnID(channels[z].warning)) != "Hide" || channels[z].warning == "") {
-addShow(mySearchResults[z].name, mySearchResults[z].img, mySearchResults[z].url, mySearchResults[z].id)
-}
-}
-z = z + 1;
-//alert(z + " (2)");
-//console.log("Test: " + mySearchResults[a])
-//console.log("Test: " + a)
-}
+addRow("", mySearchResults, "", "tall");
 }
 else {
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML.split("<br>")[0] + "</input><br />No results found.";
@@ -317,15 +318,11 @@ hidePlay();
 }
 
 function showCategory(cat) {
-hideMenu();
+cat = decodeURIComponent(cat)
+window.history.replaceState(null, null, window.location.pathname);
 document.getElementsByTagName("topchan")[0].innerHTML = "";
-z = 0;
-document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "<chanhead>" + cat + "</chanhead>";
-catList = byRating2(catArray(cat));
-while(catList[z]) {
-addShow(catList[z].name, catList[z].img, catList[z].url, catList[z].id)
-z = z + 1;
-}
+addHead(cat);
+addRow("", byRating2(catArray(cat)), "", "tall");
 hideMenu();
 hidePlay();
 hideOptions();
