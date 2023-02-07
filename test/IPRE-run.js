@@ -333,20 +333,16 @@ function showLikes() {
 window.history.replaceState(null, null, window.location.pathname);
 hideMenu();
 document.getElementsByTagName("topchan")[0].innerHTML = "";
-z = 0;
-document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "<chanhead>Likes</chanhead>";
-while(getLikes()[z]) {
-if(warnState(getWarnID(channels[z].warning)) != "Hide") {
-addShow(getLikes()[z].name, getLikes()[z].img, getLikes()[z].url, getLikes()[z].id)
+addHead("Likes");
+if(getLikes().length == 0) {
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + 'You like nothing.';
 }
-z = z + 1;
+else {
+addRow("", byRating2(getLikes()), "", "tall");
 }
 hideMenu();
 hidePlay();
 hideOptions();
-if(z == 0) {
-document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + 'You like nothing.';
-}
 document.getElementsByTagName("chanhead")[0].scrollIntoView()
 }
 //
