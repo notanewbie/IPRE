@@ -93,7 +93,7 @@ function addHead(label) {
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<chanhead>' + label + '</chanhead>'
 }
 function addHead2(label, link) {
-document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href=javascript:' + link + '><chanhead2>' + label + '</chanhead2></a>'
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + '<a href=javascript:' + encodeURIComponent(link) + '><chanhead2>' + label + '</chanhead2></a>'
 }
 //
 
@@ -341,6 +341,7 @@ hidePlay();
 }
 
 function showCategory(cat) {
+cat = decodeURIComponent(cat)
 hideMenu();
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 z = 0;
