@@ -198,6 +198,14 @@ grid-template-columns: repeat(auto-fill, minmax(18vh, 1fr));
 height: 40vh;
 overflow: hidden;
 }
+chanrow2 {
+position: relative;
+top: 2.5vh;
+display: grid;
+grid-auto-flow: row;
+grid-template-columns: repeat(auto-fill, minmax(18vh, 1fr));
+overflow: hidden;
+}
 chantext2 {
 position: relative;
 top: 0vh;
@@ -553,4 +561,7 @@ top: 80vh;
 #setpic {
 position: relative;
 right: -70vw;
+}
+#tall {
+height: auto;
 }
