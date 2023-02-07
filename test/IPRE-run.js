@@ -67,7 +67,7 @@ document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTa
 }
 function addShow(name, img, url, id, row) {
 //alert(row > -1)
-if(currentID == id) {
+if(currentID == searchResults(name)[0].id) {
 if(row > -1) {
 //alert(row)
 document.getElementsByTagName("chanrow")[row].innerHTML = document.getElementsByTagName("chanrow")[row].innerHTML + '<a href="javascript:showNP()"><chantab><img id="c_icon" src="' + img + '"></img><br /><chantext>' + name + '</chantext></chantab></a>';
@@ -222,12 +222,31 @@ c = c + 1;
 z = z + 1
 }
 }
+
+function unfurl(PassTitle, PassChan) {
+window.history.replaceState(null, null, window.location.pathname);
+document.getElementsByTagName("topchan")[0].innerHTML = "";
+addHead(PassTitle);
+document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "";
+z = 0;
+c = 0;
+while(c < 20 && z < PassChan.length) {
+if(PassChan[z].status == "live") {
+if(warnState(getWarnID(PassChan[z].warning)) != "Hide" || PassChan[z].warning == "") {
+addShow(PassChan[z].name, PassChan[z].img, PassChan[z].url, PassChan[z].id)
+c = c + 1;
+}
+}
+z = z + 1
+}
+}
+
 function addRow(listName, chanList, listFunc) {
 addHead2(listName, listFunc);
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "<chanrow></chanrow>";
 z = 0;
 c = 0;
-while(c < 6 && z < chanList.length) {
+while(c < 15 && z < chanList.length) {
 if(chanList[z].status == "live") {
 if(warnState(getWarnID(chanList[z].warning)) != "Hide" || chanList[z].warning == "") {
 addShow(chanList[z].name, chanList[z].img, chanList[z].url, chanList[z].id, document.getElementsByTagName("chanrow").length - 1)
@@ -243,7 +262,12 @@ window.history.replaceState(null, null, window.location.pathname);
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 addHead("Browse");
 addRow("Listen Now", TopChan(), "showPlays()");
-//addRow("Something New", TopChan(), "showPlays()");
+addRow("Something New", GetSug(), "showRecc()");
+addRow(TopCatList[0].name, byRating2(catArray(TopCatList[0].name)), "showCategory('" + TopCatList[0].name + "')");
+addRow(TopCatList[1].name, byRating2(catArray(TopCatList[1].name)), "showCategory('" + TopCatList[1].name + "')");
+addRow(TopCatList[2].name, byRating2(catArray(TopCatList[2].name)), "showCategory('" + TopCatList[2].name + "')");
+addRow(TopCatList[3].name, byRating2(catArray(TopCatList[3].name)), "showCategory('" + TopCatList[3].name + "')");
+addRow(TopCatList[4].name, byRating2(catArray(TopCatList[4].name)), "showCategory('" + TopCatList[4].name + "')");
 hideMenu();
 hidePlay();
 hideOptions();
