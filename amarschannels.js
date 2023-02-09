@@ -490,7 +490,7 @@ new Channel("INDYCAR Radio Network", "https://i1.sndcdn.com/avatars-000216255609
 new Channel("Rugby World Cup", "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Rugby_World_Cup_Logo.png/515px-Rugby_World_Cup_Logo.png", "https://tunein.streamguys1.com/rugbyworldcup2", "Live Sports", "", "live", ""),
 new Channel("FiveTwenty Radio", "https://www.radioking.com/api/track/cover/217ff652-a44a-4b8c-8ec0-f44c36622f65", "https://listen.radioking.com/radio/238597/stream/282544", "CHH", "", "live", ""),
 new Channel("Launch Radio FM", "https://media.swncdn.com/christianradio/logos/wlrf.png", "http://s8.voscast.com:7880/stream.mp3", "CHH", "", "live", ""),
-new Channel("Dash Radio", "https://dashradio-files.s3.amazonaws.com/icon_logos/GH3/GH3_1080.jpg", "https://ice55.securenetsystems.net/DASH77", "CHH", "", "live", ""),
+new Channel("GH3", "https://dashradio-files.s3.amazonaws.com/icon_logos/GH3/GH3_1080.jpg", "https://ice55.securenetsystems.net/DASH77", "CHH", "", "live", ""),
 new Channel("NOAA Weather Radio KEC61", "https://www.weatherusa.net/assets/images/logo_nwr.png", "https://radio.weatherusa.net/NWR/KEC61_2.mp3", "News", "Mobile, Alabama", "live", ""),
 new Channel("NOAA Weather Radio KXI97", "https://www.weatherusa.net/assets/images/logo_nwr.png", "https://ice41.securenetsystems.net/NOAA?playSessionID=1411C175-C2AC-AD23-94D64E0623AEB459", "News", "Mena, Arkansas", "live", ""),
 new Channel("NOAA Weather Radio KWO37", "https://www.weatherusa.net/assets/images/logo_nwr.png", "https://radio.weatherusa.net/NWR/KWO37.mp3", "News", "Los Angeles, California", "live", ""),
