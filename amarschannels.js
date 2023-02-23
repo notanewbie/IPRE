@@ -31,7 +31,7 @@ new Channel("Infowars", "https://www.logolynx.com/images/logolynx/97/9728c04cedf
 new Channel("Infowars.com Live Events", "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Infowars.com_Logo.svg/512px-Infowars.com_Logo.svg.png", "https://streams.infowars.com/stream/7/;", "Hot Talk, Libertarian Talk", "", "dead", "Explicit"),
 new Channel("K-LOVE", "https://cdn-profiles.tunein.com/s33828/images/logoq.png?t=1", "https://maestro.emfcdn.com/stream_for/k-love/tunein/aac", "CCM, Worship", "", "live", ""),
 new Channel("Majesty Radio", "https://cdn-profiles.tunein.com/s102763/images/logog.jpg", "http://primary.moodyradiostream.org/majesty-high.aac.m3u", "Worship", "", "dead", ""),
-new Channel("Mark Levin Show", "https://i.iheart.com/v3/re/assets/images/5522.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/MARK_LEVINAAC_SC", "Conservative Talk", "", "live", ""),
+new Channel("Mark Levin Show", "https://i.iheart.com/v3/re/assets/images/5522.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/MARK_LEVIN.mp3", "Conservative Talk", "", "live", ""),
 new Channel("Moody Campus Radio", "http://db.radioline.fr/pictures/radio_168c3fa9a0addfbeff46a86d56ea3dbf/logo600.jpg?size=600", "http://primary.moodyradiostream.org/mcr.mp3.m3u", "CCM, Lifestyle, Sermons", "", "dead", ""),
 new Channel("Moody Music of Christmas", "https://cdn-profiles.tunein.com/s308881/images/logog.jpg?t=157434", "http://primary.moodyradiostream.org/christmas.aac.m3u", "Holiday", "", "dead", ""),
 new Channel("Moody Praise and Worship", "https://cdn-radiotime-logos.tunein.com/s105741q.png", "http://primary.moodyradiostream.org/inspo.aac.m3u", "Worship, CCM", "", "dead", ""),
@@ -576,5 +576,13 @@ new Channel("Christmas Every Day", "https://cdn-profiles.tunein.com/s302328/imag
 new Channel("Christmas Court Radio", "https://cdn-profiles.tunein.com/s234383/images/logog.png", "http://icyglb.smittystream.com/kccr", "Holiday", "", "live", "Clean"),
 new Channel("TheLight Christmas", "https://cdn-profiles.tunein.com/s186638/images/logog.png", "https://stream.thelight.com.au:8150/;", "Holiday, Worship", "", "live", ""),
 new Channel("Fox News Podcasts+", "https://s3.amazonaws.com/abn-prod/wp-content/uploads/sites/3/2021/06/fox-news-podcasts-862x844.png", "http://tunein.streamguys1.com/foxnews-free", "Conservative Talk", "", "live", "Clean"),
-new Channel("SermonAudio Radio", "https://media.sermonaudio.com/images/broadcasters/albumart/gospelradio.1658939200.jpg", "http://radio.sa-media.com:8000/;", "Sermons", "", "live", "")
+new Channel("SermonAudio Radio", "https://media.sermonaudio.com/images/broadcasters/albumart/gospelradio.1658939200.jpg", "http://radio.sa-media.com:8000/;", "Sermons", "", "live", ""),
+new Channel("104.7 The Beat", "https://cdn-profiles.tunein.com/s43774/images/logog.jpg", "https://ice5.securenetsystems.net/KKBT", "Hip-Hop", "", "live", ""),
+new Channel("Hott 107.5", "https://cdn-radiotime-logos.tunein.com/s47638g.png", "https://cp12.shoutcheap.com:18151/stream", "Hip-Hop", "", "live", ""),
+new Channel("Wrbf Irie FM", "https://yt3.googleusercontent.com/ytc/AL5GRJXfJUOSAieo7aCKvV45qo_8mnefaPd81Fqo7E_6=s900-c-k-c0x00ffffff-no-rj", "https://cp12.shoutcheap.com:18151/stream", "Reggae", "", "live", ""),
+new Channel("Vibe FM", "https://www.internationalradiofestival.com/wp-content/uploads/2018/09/1022f4de9c48-Vibe_FinalHDLogo_Purple.jpg", "http://cp11.serverse.com:7099/mp3", "Reggae", "", "live", ""),
+new Channel("Radio GRK", "https://cdn-profiles.tunein.com/s8963/images/logog.png", "http://s16.myradiostream.com:9362/listen.mp3", "Liberal Talk, Entertainment Talk, Lifestyle", "", "live", ""),
+new Channel("Tros FM", "https://www.radio.net/images/broadcasts/1f/50/121473/2/c300.png", "http://s16.myradiostream.com:9362/listen.mp3", "EDM", "", "live", ""),
+new Channel("Stadsradio IRO", "https://images.zeno.fm/MsKYK1sLAefs-0ghqascLibzcdokuq_UrskVNlDe2kM/rs:fit:500:500/g:ce:0:0/aHR0cHM6Ly9zdHJlYW0tdG9vbHMuemVub21lZGlhLmNvbS9jb250ZW50L3N0YXRpb25zL2FneHpmbnBsYm04dGMzUmhkSE55TWdzU0NrRjFkR2hEYkdsbGJuUVlnSUNRelBqUjJna01DeElPVTNSaGRHbHZibEJ5YjJacGJHVVlnSUNRckliWnNBa01vZ0VFZW1WdWJ3L2ltYWdlLz91cGRhdGVkPTE2NjE3MjAxOTIwMDA.webp", "http://www.mvserver.be:3001/;", "EDM", "", "live", ""),
+new Channel("Joe FM", "https://play-lh.googleusercontent.com/zagdL2RFfMfw4a2FKjzCd7gvH9C-5JHCoi7KWHxTiTIPfsOMUZjj7pUKFcfOu6ojd1PU", "https://playerservices.streamtheworld.com/api/livestream-redirect/JOE.mp3", "Pop, 70s, 80s, 90s, 2000s", "", "live", "")
 ]
