@@ -584,5 +584,6 @@ new Channel("Vibe FM", "https://www.internationalradiofestival.com/wp-content/up
 new Channel("Radio GRK", "https://cdn-profiles.tunein.com/s8963/images/logog.png", "http://s16.myradiostream.com:9362/listen.mp3", "Liberal Talk, Entertainment Talk, Lifestyle", "", "live", ""),
 new Channel("Tros FM", "https://www.radio.net/images/broadcasts/1f/50/121473/2/c300.png", "http://s16.myradiostream.com:9362/listen.mp3", "EDM", "", "live", ""),
 new Channel("Stadsradio IRO", "https://images.zeno.fm/MsKYK1sLAefs-0ghqascLibzcdokuq_UrskVNlDe2kM/rs:fit:500:500/g:ce:0:0/aHR0cHM6Ly9zdHJlYW0tdG9vbHMuemVub21lZGlhLmNvbS9jb250ZW50L3N0YXRpb25zL2FneHpmbnBsYm04dGMzUmhkSE55TWdzU0NrRjFkR2hEYkdsbGJuUVlnSUNRelBqUjJna01DeElPVTNSaGRHbHZibEJ5YjJacGJHVVlnSUNRckliWnNBa01vZ0VFZW1WdWJ3L2ltYWdlLz91cGRhdGVkPTE2NjE3MjAxOTIwMDA.webp", "http://www.mvserver.be:3001/;", "EDM", "", "live", ""),
-new Channel("Joe FM", "https://play-lh.googleusercontent.com/zagdL2RFfMfw4a2FKjzCd7gvH9C-5JHCoi7KWHxTiTIPfsOMUZjj7pUKFcfOu6ojd1PU", "https://playerservices.streamtheworld.com/api/livestream-redirect/JOE.mp3", "Pop, 70s, 80s, 90s, 2000s", "", "live", "")
+new Channel("Joe FM", "https://play-lh.googleusercontent.com/zagdL2RFfMfw4a2FKjzCd7gvH9C-5JHCoi7KWHxTiTIPfsOMUZjj7pUKFcfOu6ojd1PU", "https://playerservices.streamtheworld.com/api/livestream-redirect/JOE.mp3", "Pop, 70s, 80s, 90s, 2000s", "", "live", ""),
+new Channel("Cities Talk FM 92.9", "https://media.socastsrm.com/uploads/station/1807/hero_logo-5ecffaf4722fc.png", "https://ice23.securenetsystems.net/WRPW", "Conservative Talk", "", "live", "")
 ]
