@@ -2,7 +2,6 @@ function setCookie(n, v) {
 	localStorage.setItem(n, v);
 }
 function getCookie(Name) {
-	//document.cookie="radio_central=It works, woo-hoo!";
 	return localStorage.getItem(Name)
 }
 
