@@ -22,7 +22,7 @@ settings[0] = parseFloat(getCookie("EXPLICIT_FILTER"));
 }
 else {
 volume = 1;
-setCookie(EXPLICIT_FILTER",'0')
+setCookie("EXPLICIT_FILTER",'0')
 }
 
 
