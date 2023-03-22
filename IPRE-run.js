@@ -30,16 +30,16 @@ count = parseInt(getCookie("RADIO_MESSAGE_COUNT")) - 1;
 if(parseInt(getCookie("RADIO_MESSAGE_COUNT")) >= -1 || parseInt(getCookie("RADIO_MESSAGE_COUNT")) < -1) {
 if(parseInt(getCookie("RADIO_MESSAGE_COUNT")) != 0) {
 showMessage(startup.img, startup.header, startup.message, startup.button_text, startup.button_action)
-document.cookie = "RADIO_MESSAGE_COUNT=" + count + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+setCookie("RADIO_MESSAGE_COUNT", count)
 }
 }
 else {
-document.cookie = "RADIO_MESSAGE_COUNT=" + startup.x + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+setCookie("RADIO_MESSAGE_COUNT", startup.x)
 }
 }
 }
 function resetMessages() {
-document.cookie = "RADIO_MESSAGE_COUNT=" + startup.x + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+setCookie("RADIO_MESSAGE_COUNT", startup.x)
 }
 checkMessages();
 //End message code
@@ -124,24 +124,24 @@ document.getElementsByTagName("chantext3")[id].innerHTML = "Warn";
 //set this content advisory to "warn";
 warnFilter[id] = 1;
 hideFilter[id] = 0;
-document.cookie = "WARN_" + warningList[id] + "=" + '1; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
-document.cookie = "FILTER_" + warningList[id] + "=" + '0; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+setCookie("WARN_" + warningList[id],'1')
+setCookie("FILTER_" + warningList[id],'0')
 }
 else if(warnFilter[id] == 1 && hideFilter[id] == 0) {
 document.getElementsByTagName("chantext3")[id].innerHTML = "Hide";
 //set this content advisory to "hide";
 warnFilter[id] = 0;
 hideFilter[id] = 1;
-document.cookie = "WARN_" + warningList[id] + "=" + '0; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
-document.cookie = "FILTER_" + warningList[id] + "=" + '1; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+setCookie("WARN_" + warningList[id],'0')
+setCookie("FILTER_" + warningList[id],'1')
 }
 else if(warnFilter[id] == 0 && hideFilter[id] == 1) {
 document.getElementsByTagName("chantext3")[id].innerHTML = "Off";
 //set this content advisory to "no warning";
 warnFilter[id] = 0;
 hideFilter[id] = 0;
-document.cookie = "WARN_" + warningList[id] + "=" + '0; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
-document.cookie = "FILTER_" + warningList[id] + "=" + '0; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+setCookie("WARN_" + warningList[id],'0')
+setCookie("FILTER_" + warningList[id],'0')
 }
 }
 
@@ -415,7 +415,7 @@ if(document.getElementsByTagName("audio").length > 0) {
 document.getElementsByTagName("audio")[0].volume = volume;
 }
 document.getElementsByTagName("input")[0].value = myVol;
-document.cookie = "VOLUME_LEVEL=" + volume.toString() + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+setCookie("VOLUME_LEVEL",volume.toString())
 }
 function playChan2(ID, audioBypass = 0) {
 //alert(channels[ID].warning);
@@ -471,7 +471,7 @@ else {
 settings[a] = 0;
 document.getElementById("set" + a).getElementsByTagName("img")[0].src =site.toggle1img;
 }
-document.cookie = settingstext[a] + "=" + settings[a] + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+setCookie(settingstext[a],settings[a])
 }
 
 if(location.search.indexOf("s=") > -1) {
