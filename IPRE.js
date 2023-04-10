@@ -283,7 +283,7 @@ alert(TopCatList.length)
 alert(a < TopCatList.length)
 alert(1 < TopCatList.length)
 alert(2 < TopCatList.length)
-while(a < TopCatList.length) {
+while(a < a + 1) {
 console.log(TopCatList[a].name)
 alert(TopCatList[a].name)
 disChan = disChan.concat(catArray(TopCatList[a].name))
