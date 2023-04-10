@@ -278,14 +278,16 @@ disChan = byRating2(disChan).reverse();
 */
 
 a = 0;
-alert(TopCatList)
-alert(TopCatList.length)
-alert(a < TopCatList.length)
-alert(1 < TopCatList.length)
-alert(2 < TopCatList.length)
+//alert(TopCatList)
+//alert(TopCatList.length)
+//alert(a < TopCatList.length)
+//alert(1 < TopCatList.length)
+//alert(2 < TopCatList.length)
 while(a < a + 1) {
+console.log(TopCatList)
 console.log(TopCatList[a].name)
-alert(TopCatList[a].name)
+console.log(TopCatList[a + 1].name)
+//alert(TopCatList[a].name)
 disChan = disChan.concat(catArray(TopCatList[a].name))
 a = a + 1;
 }
