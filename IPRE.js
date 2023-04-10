@@ -229,7 +229,7 @@ a = a + 1;
 
 TopCatList = byRating2(TopCatList);
 
-function GetSug() {
+function GetSug_old() {
 disChan = [];
 a = 0;
 while(TopCatList[a] && a < 10) {
@@ -253,6 +253,17 @@ console.log(disChan[0]);
 //disChan.sort((a, b) => (a.id > b.id) ? 1 : -1).reverse()
 disChan = byRating2(disChan).reverse();
 
+return disChan;
+}
+
+function GetSug() {
+disChan = [0];
+a = 0;
+while(TopCatList[a] && a < 10) {
+	disChan = disChan.concat(catArray(TopCatList.name))
+	a = a + 1;
+}
+disChan = byRating2(disChan).reverse();
 return disChan;
 }
 
