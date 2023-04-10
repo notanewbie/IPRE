@@ -279,6 +279,9 @@ disChan = byRating2(disChan).reverse();
 
 alert(TopCatList)
 alert(TopCatList.length)
+alert(a < TopCatList.length)
+alert(1 < TopCatList.length)
+alert(2 < TopCatList.length)
 while(a < TopCatList.length) {
 console.log(TopCatList[a].name)
 alert(TopCatList[a].name)
