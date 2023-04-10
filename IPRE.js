@@ -232,8 +232,8 @@ TopCatList = byRating2(TopCatList);
 function GetSug() {
 disChan = [];
 a = 0;
-d = 0;
 while(TopCatList[a] && a < 10) {
+d = 0;
 b = 0;
 while(channels[b]) {
 c = 0;
