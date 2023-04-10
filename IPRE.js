@@ -229,7 +229,7 @@ a = a + 1;
 
 TopCatList = byRating2(TopCatList);
 
-function GetSug_old() {
+function GetSug() {
 disChan = [];
 a = 0;
 while(TopCatList[a] && a < 10) {
@@ -256,7 +256,7 @@ disChan = byRating2(disChan).reverse();
 return disChan;
 }
 
-function GetSug() {
+function GetSug2() {
 disChan = [];
 /*
 a = 0;
