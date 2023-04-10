@@ -268,6 +268,7 @@ console.log(TopCatList[k + 1].name)
 disChan = disChan.concat(catArray(TopCatList[k].name))
 k = k + 1;
 }
+disChan = byRating2(disChan).reverse();
 return disChan;
 }
 
