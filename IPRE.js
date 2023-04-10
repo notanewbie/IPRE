@@ -259,7 +259,7 @@ return disChan;
 function GetSug() {
 disChan = [0];
 a = 0;
-while(TopCatList[a] && a < 20) {
+while(a < TopCatList.length && a < 20) {
 	console.log(TopCatList[a].name)
 	alert(TopCatList[a].name)
 	disChan = disChan.concat(catArray(TopCatList[a].name))
