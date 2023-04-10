@@ -277,6 +277,8 @@ disChan = disChan.concat(catArray(TopCatList[4].name))
 disChan = byRating2(disChan).reverse();
 */
 
+alert(TopCatList)
+alert(TopCatList.length)
 while(a < TopCatList.length) {
 console.log(TopCatList[a].name)
 alert(TopCatList[a].name)
