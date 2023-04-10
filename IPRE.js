@@ -257,14 +257,21 @@ return disChan;
 }
 
 function GetSug() {
-disChan = [0];
+disChan = [];
+/*
 a = 0;
 while(a < 20) {
-	console.log(TopCatList[a].name)
-	alert(TopCatList[a].name)
-	disChan = disChan.concat(catArray(TopCatList[a].name))
-	a = a + 1;
+console.log(TopCatList[a].name)
+alert(TopCatList[a].name)
+disChan = disChan.concat(catArray(TopCatList[a].name))
+a = a + 1;
 }
+*/
+disChan = disChan.concat(catArray(TopCatList[0].name))
+disChan = disChan.concat(catArray(TopCatList[1].name))
+disChan = disChan.concat(catArray(TopCatList[2].name))
+disChan = disChan.concat(catArray(TopCatList[3].name))
+disChan = disChan.concat(catArray(TopCatList[4].name))
 disChan = byRating2(disChan).reverse();
 return disChan;
 }
