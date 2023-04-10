@@ -233,7 +233,7 @@ function GetSug() {
 disChan = [];
 a = 0;
 d = 0;
-while(TopCatList[a] && a < 5) {
+while(TopCatList[a] && a < 10) {
 b = 0;
 while(channels[b]) {
 c = 0;
