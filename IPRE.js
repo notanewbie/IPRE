@@ -229,7 +229,7 @@ a = a + 1;
 
 TopCatList = byRating2(TopCatList);
 
-function GetSug() {
+function GetSug_old() {
 disChan = [];
 a = 0;
 while(TopCatList[a] && a < 10) {
@@ -256,34 +256,10 @@ disChan = byRating2(disChan).reverse();
 return disChan;
 }
 
-function GetSug2() {
+function GetSug() {
 disChan = [];
-/*
-a = 0;
-while(a < 20) {
-console.log(TopCatList[a].name)
-alert(TopCatList[a].name)
-disChan = disChan.concat(catArray(TopCatList[a].name))
-a = a + 1;
-}
-*/
-
-/*
-disChan = disChan.concat(catArray(TopCatList[0].name))
-disChan = disChan.concat(catArray(TopCatList[1].name))
-disChan = disChan.concat(catArray(TopCatList[2].name))
-disChan = disChan.concat(catArray(TopCatList[3].name))
-disChan = disChan.concat(catArray(TopCatList[4].name))
-disChan = byRating2(disChan).reverse();
-*/
-
 k = 0;
-//alert(TopCatList)
-//alert(TopCatList.length)
-//alert(a < TopCatList.length)
-//alert(1 < TopCatList.length)
-//alert(2 < TopCatList.length)
-while(k < k + 1) {
+while(k < 10) {
 console.log(k)
 console.log(TopCatList)
 console.log(TopCatList[k].name)
