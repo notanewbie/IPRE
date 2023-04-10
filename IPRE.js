@@ -277,6 +277,7 @@ disChan = disChan.concat(catArray(TopCatList[4].name))
 disChan = byRating2(disChan).reverse();
 */
 
+a = 0;
 alert(TopCatList)
 alert(TopCatList.length)
 alert(a < TopCatList.length)
