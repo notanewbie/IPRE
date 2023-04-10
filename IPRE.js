@@ -259,7 +259,7 @@ return disChan;
 function GetSug() {
 disChan = [0];
 a = 0;
-while(TopCatList[a] && a < 10) {
+while(TopCatList[a] && a < 20) {
 	disChan = disChan.concat(catArray(TopCatList[a].name))
 	a = a + 1;
 }
