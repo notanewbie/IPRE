@@ -260,7 +260,7 @@ function GetSug() {
 disChan = [0];
 a = 0;
 while(TopCatList[a] && a < 10) {
-	disChan = disChan.concat(catArray(TopCatList.name))
+	disChan = disChan.concat(catArray(TopCatList[a].name))
 	a = a + 1;
 }
 disChan = byRating2(disChan).reverse();
