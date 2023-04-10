@@ -284,6 +284,7 @@ a = 0;
 //alert(1 < TopCatList.length)
 //alert(2 < TopCatList.length)
 while(a < a + 1) {
+console.log(a)
 console.log(TopCatList)
 console.log(TopCatList[a].name)
 console.log(TopCatList[a + 1].name)
