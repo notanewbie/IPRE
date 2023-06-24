@@ -223,7 +223,7 @@ addHead(PassTitle);
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "";
 z = 0;
 c = 0;
-while(c < 20 && z < PassChan.length) {
+while(c < 51 && z < PassChan.length) {
 if(PassChan[z].status == "live") {
 if(warnState(getWarnID(PassChan[z].warning)) != "Hide" || PassChan[z].warning == "") {
 addShow(PassChan[z].name, PassChan[z].img, PassChan[z].url, PassChan[z].id)
