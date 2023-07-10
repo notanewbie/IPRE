@@ -599,5 +599,6 @@ new Channel("Voice of America Somali", "https://cdn-profiles.tunein.com/s25696/i
 new Channel("Voice of America Portuguese", "https://cdn-profiles.tunein.com/s25696/images/logog.png", "https://stream.radiojar.com/t2n88q0st5quv", "Liberal Talk", "", "live", ""),
 new Channel("Voice of America Vietnamese", "https://cdn-profiles.tunein.com/s25696/images/logog.png", "https://stream.radiojar.com/2s8xp9mna3quv", "Liberal Talk", "", "live", ""),
 new Channel("VOA1 The Hits", "https://cdn-profiles.tunein.com/s24898/images/logog.png", "https://stream.radiojar.com/867wmhpgq3quv", "Top 40", "", "live", ""),
-new Channel("NewsRadio WTAX", "https://wtax.com/wp-content/themes/wtax-news/assets/images/logo.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WTAXAM.mp3", "Conservative Talk", "", "live", "")
+new Channel("NewsRadio WTAX", "https://wtax.com/wp-content/themes/wtax-news/assets/images/logo.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WTAXAM.mp3", "Conservative Talk", "", "live", ""),
+new Channel("SBS Radio 1", "https://cdn-radiotime-logos.tunein.com/s100324g.png", "https://sbs-ice.streamguys1.com/sbs1-sbs-web", "Live Sports", "", "live", "")
 ]
