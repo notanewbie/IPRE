@@ -600,5 +600,15 @@ new Channel("Voice of America Portuguese", "https://cdn-profiles.tunein.com/s256
 new Channel("Voice of America Vietnamese", "https://cdn-profiles.tunein.com/s25696/images/logog.png", "https://stream.radiojar.com/2s8xp9mna3quv", "Liberal Talk", "", "live", ""),
 new Channel("VOA1 The Hits", "https://cdn-profiles.tunein.com/s24898/images/logog.png", "https://stream.radiojar.com/867wmhpgq3quv", "Top 40", "", "live", ""),
 new Channel("NewsRadio WTAX", "https://wtax.com/wp-content/themes/wtax-news/assets/images/logo.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WTAXAM.mp3", "Conservative Talk", "", "live", ""),
-new Channel("SBS Radio 1", "https://cdn-radiotime-logos.tunein.com/s100324g.png", "https://sbs-ice.streamguys1.com/sbs1-sbs-web", "Live Sports", "", "live", "")
+new Channel("SBS Radio 1", "https://cdn-radiotime-logos.tunein.com/s100324g.png", "https://sbs-ice.streamguys1.com/sbs1-sbs-web", "Live Sports", "", "live", ""),
+new Channel("Hyperpop", "https://cdn-profiles.tunein.com/s322543/images/logog.jpg", "https://hyperpop.stream.laut.fm/hyperpop", "Hyperpop, Indie Pop, Hip-Hop", "", "live", ""),
+new Channel("RADIOGALAXY", "https://assets.laut.fm/213e52fcc6741e6e1355d0c6c3ff1a1a", "https://laut.fm/fm-api/stations/radiogalaxy", "Indie Pop, Hip-Hop, EDM, Rock", "", "live", ""),
+new Channel("SKRRTUNES", "https://assets.laut.fm/b14dd2c91626fed1358ff1b495babf96", "https://skrrtunes.stream.laut.fm/skrrtunes", "Hip-Hop", "", "live", ""),
+new Channel("NEXUS", "https://assets.laut.fm/9436445105b0e46b8624c9304cd4a2e2", "https://nexus.stream.laut.fm/nexus", "Hip-Hop, Hyperpop, Indie Pop", "", "live", ""),
+new Channel("The Dana Show", "https://images.radio.com/logos/TheDanaShow.jpg", "https://live.wostreaming.net/direct/audacy-danashowaac-imc", "Conservative Talk", "", "live", ""),
+new Channel("DeFiance Media", "https://images.radio.com/logos/defiancemedia.png", "https://live.wostreaming.net/direct/audacy-defiancemediaaac-imc", "Conservative Talk", "", "live", ""),
+new Channel("The Homestretch Live", "https://images.radio.com/logos/TheHomestretch_1400x1400.png", "https://entercom.streamguys1.com/national-news-homestretch-live", "Liberal Talk, News", "", "live", ""),
+new Channel("The Rich Eisen Show", "https://images.radio.com/logos/RICHEISEN_Logo.jpg", "http://playerservices.streamtheworld.com/api/livestream-redirect/RICHEISEN.mp3", "Sports Talk", "", "live", ""),
+new Channel("Inside Web3", "https://images.radio.com/logos/InsideWeb3-withShira-1400X1400.jpg", "https://entercom.streamguys1.com/national-audacy-insideweb3", "Tech, Finance", "", "live", ""),
+new Channel("CHANNEL Q", "https://images.radio.com/logos/KNXHD2.jpg", "https://live.wostreaming.net/direct/audacy-knxhd2aac-imc", "Lifestyle, EDM, Top 40, Pop", "", "live", "")
 ]
