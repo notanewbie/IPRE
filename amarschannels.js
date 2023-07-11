@@ -619,5 +619,6 @@ new Channel("Loaded Radio", "https://images.radio.com/independent/logos/LoadedRa
 new Channel("FUNKY RADIO", "https://images.radio.com/independent/logos/FUNKYRADIO.jpg", "https://funkyradio.streamingmedia.it/play.mp3", "R&B", "", "live", ""),
 new Channel("Totally Country Radio", "https://images.radio.com/independent/logos/TotallyCountryRadio.jpg", "https://securestreams2.autopo.st:1281/;", "Country", "", "live", ""),
 new Channel("PERFORMANCE MOTORSPORTS NETWORK", "https://images.radio.com/independent/logos/PerformanceMotorsportsNetwork.jpg", "https://ice6.securenetsystems.net/PERFMNET", "Live Sports", "", "live", ""),
-new Channel("Wayne Allyn Root", "https://images.radio.com/logos/thewayneallynrootshow.jpg", "https://live.wostreaming.net/direct/audacy-wayneallynrootaac-imc", "Conservative Talk", "", "live", "")
+new Channel("Wayne Allyn Root", "https://images.radio.com/logos/thewayneallynrootshow.jpg", "https://live.wostreaming.net/direct/audacy-wayneallynrootaac-imc", "Conservative Talk", "", "live", ""),
+new Channel("Backstage Radio Network", "https://images.radio.com/independent/logos/BackstageRadioNetwork.jpg", "https://cbtv.out.airtime.pro/cbtv_a", "News, Entertainment Talk, Finance, Progressive Talk, Indie Pop", "", "live", "")
 ]
