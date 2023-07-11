@@ -617,5 +617,6 @@ new Channel("Pet Life Radio", "https://images.radio.com/independent/logos/PetLif
 new Channel("Hairband Havoc", "https://images.radio.com/independent/logos/Hairband.jpg", "https://streaming.live365.com/a48811", "80s, 90s", "", "live", ""),
 new Channel("Loaded Radio", "https://images.radio.com/independent/logos/LoadedRadio_Logo-1400x1400.jpg", "https://stream.rcast.net/66561", "Rock, Metal", "", "live", ""),
 new Channel("FUNKY RADIO", "https://images.radio.com/independent/logos/FUNKYRADIO.jpg", "https://funkyradio.streamingmedia.it/play.mp3", "R&B", "", "live", ""),
-new Channel("Totally Country Radio", "https://images.radio.com/independent/logos/TotallyCountryRadio.jpg", "https://securestreams2.autopo.st:1281/;", "Country", "", "live", "")
+new Channel("Totally Country Radio", "https://images.radio.com/independent/logos/TotallyCountryRadio.jpg", "https://securestreams2.autopo.st:1281/;", "Country", "", "live", ""),
+new Channel("PERFORMANCE MOTORSPORTS NETWORK", "https://images.radio.com/independent/logos/PerformanceMotorsportsNetwork.jpg", "https://ice6.securenetsystems.net/PERFMNET", "Live Sports", "", "live", "")
 ]
