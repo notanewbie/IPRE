@@ -237,12 +237,16 @@ z = z + 1
 function addRow(listName, chanList, listFunc, thisHeight) {
 if(thisHeight == undefined) {
 thisHeight = ""
+climit = 25;
+}
+if(thisHeight == "tall") {
+climit = channels.length;
 }
 addHead2(listName, listFunc);
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "<chanrow id='" + thisHeight + "'></chanrow>";
 z = 0;
 c = 0;
-while(z < chanList.length) {
+while(c < climit && z < chanList.length) {
 if(chanList[z].status == "live") {
 if(warnState(getWarnID(chanList[z].warning)) != "Hide" || chanList[z].warning == "") {
 addShow(chanList[z].name, chanList[z].img, chanList[z].url, chanList[z].id, document.getElementsByTagName("chanrow").length - 1)
