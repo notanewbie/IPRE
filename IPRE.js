@@ -135,6 +135,9 @@ tempChans.push(channels[a]);
 b = b + 1;
 }
 else {
+if(channels[a].category == cat && channels[a].status == "live") {
+tempChans.push(channels[a]);
+}
 b = b + 1;
 }
 }
