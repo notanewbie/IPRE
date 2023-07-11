@@ -615,5 +615,6 @@ new Channel("The Bet LA", "https://images.radio.com/logos/KCBSHD3.jpg", "https:/
 new Channel("Fridays with Frankie", "https://images.radio.com/logos/fridayswithfrankie.jpg", "https://entercom.streamguys1.com/national_talk_fridays_with_frankie", "Progressive Talk, Lifestyle, Entertainment Talk", "", "live", ""),
 new Channel("Pet Life Radio", "https://images.radio.com/independent/logos/PetLifeRadio.jpg", "https://petliferadio-ice.streamguys1.com/petlife", "Lifestyle", "", "live", ""),
 new Channel("Hairband Havoc", "https://images.radio.com/independent/logos/Hairband.jpg", "https://streaming.live365.com/a48811", "80s, 90s", "", "live", ""),
-new Channel("Loaded Radio", "https://images.radio.com/independent/logos/LoadedRadio_Logo-1400x1400.jpg", "https://stream.rcast.net/66561", "Rock, Metal", "", "live", "")
+new Channel("Loaded Radio", "https://images.radio.com/independent/logos/LoadedRadio_Logo-1400x1400.jpg", "https://stream.rcast.net/66561", "Rock, Metal", "", "live", ""),
+new Channel("FUNKY RADIO", "https://images.radio.com/independent/logos/FUNKYRADIO.jpg", "https://funkyradio.streamingmedia.it/play.mp3", "R&B", "", "live", "")
 ]
