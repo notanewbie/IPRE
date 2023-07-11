@@ -610,5 +610,6 @@ new Channel("DeFiance Media", "https://images.radio.com/logos/defiancemedia.png"
 new Channel("The Homestretch Live", "https://images.radio.com/logos/TheHomestretch_1400x1400.png", "https://entercom.streamguys1.com/national-news-homestretch-live", "Liberal Talk, News", "", "live", ""),
 new Channel("The Rich Eisen Show", "https://images.radio.com/logos/RICHEISEN_Logo.jpg", "http://playerservices.streamtheworld.com/api/livestream-redirect/RICHEISEN.mp3", "Sports Talk", "", "live", ""),
 new Channel("Inside Web3", "https://images.radio.com/logos/InsideWeb3-withShira-1400X1400.jpg", "https://entercom.streamguys1.com/national-audacy-insideweb3", "Tech, Finance", "", "live", ""),
-new Channel("CHANNEL Q", "https://images.radio.com/logos/KNXHD2.jpg", "https://live.wostreaming.net/direct/audacy-knxhd2aac-imc", "Lifestyle, EDM, Top 40, Pop", "", "live", "")
+new Channel("CHANNEL Q", "https://images.radio.com/logos/KNXHD2.jpg", "https://live.wostreaming.net/direct/audacy-knxhd2aac-imc", "Lifestyle, EDM, Top 40, Pop", "", "live", ""),
+new Channel("The Bet LA", "https://images.radio.com/logos/KCBSHD3.jpg", "https://live.wostreaming.net/direct/audacy-kcbshd3aac-imc", "Sports Talk, Finance", "", "live", "")
 ]
