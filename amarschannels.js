@@ -613,5 +613,6 @@ new Channel("Inside Web3", "https://images.radio.com/logos/InsideWeb3-withShira-
 new Channel("CHANNEL Q", "https://images.radio.com/logos/KNXHD2.jpg", "https://live.wostreaming.net/direct/audacy-knxhd2aac-imc", "Lifestyle, EDM, Top 40, Pop", "", "live", ""),
 new Channel("The Bet LA", "https://images.radio.com/logos/KCBSHD3.jpg", "https://live.wostreaming.net/direct/audacy-kcbshd3aac-imc", "Sports Talk, Finance", "", "live", ""),
 new Channel("Fridays with Frankie", "https://images.radio.com/logos/fridayswithfrankie.jpg", "https://entercom.streamguys1.com/national_talk_fridays_with_frankie", "Progressive Talk, Lifestyle, Entertainment Talk", "", "live", ""),
-new Channel("Pet Life Radio", "https://images.radio.com/independent/logos/PetLifeRadio.jpg", "https://petliferadio-ice.streamguys1.com/petlife", "Lifestyle", "", "live", "")
+new Channel("Pet Life Radio", "https://images.radio.com/independent/logos/PetLifeRadio.jpg", "https://petliferadio-ice.streamguys1.com/petlife", "Lifestyle", "", "live", ""),
+new Channel("Hairband Havoc", "https://images.radio.com/independent/logos/Hairband.jpg", "https://streaming.live365.com/a48811", "80s, 90s", "", "live", "")
 ]
