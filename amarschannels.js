@@ -612,5 +612,6 @@ new Channel("The Rich Eisen Show", "https://images.radio.com/logos/RICHEISEN_Log
 new Channel("Inside Web3", "https://images.radio.com/logos/InsideWeb3-withShira-1400X1400.jpg", "https://entercom.streamguys1.com/national-audacy-insideweb3", "Tech, Finance", "", "live", ""),
 new Channel("CHANNEL Q", "https://images.radio.com/logos/KNXHD2.jpg", "https://live.wostreaming.net/direct/audacy-knxhd2aac-imc", "Lifestyle, EDM, Top 40, Pop", "", "live", ""),
 new Channel("The Bet LA", "https://images.radio.com/logos/KCBSHD3.jpg", "https://live.wostreaming.net/direct/audacy-kcbshd3aac-imc", "Sports Talk, Finance", "", "live", ""),
-new Channel("Fridays with Frankie", "https://images.radio.com/logos/fridayswithfrankie.jpg", "https://entercom.streamguys1.com/national_talk_fridays_with_frankie", "Progressive Talk, Lifestyle, Entertainment Talk", "", "live", "")
+new Channel("Fridays with Frankie", "https://images.radio.com/logos/fridayswithfrankie.jpg", "https://entercom.streamguys1.com/national_talk_fridays_with_frankie", "Progressive Talk, Lifestyle, Entertainment Talk", "", "live", ""),
+new Channel("Pet Life Radio", "https://images.radio.com/independent/logos/PetLifeRadio.jpg", "https://petliferadio-ice.streamguys1.com/petlife", "Lifestyle", "", "live", "")
 ]
