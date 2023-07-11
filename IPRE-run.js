@@ -242,7 +242,7 @@ addHead2(listName, listFunc);
 document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTagName("topchan")[0].innerHTML + "<chanrow id='" + thisHeight + "'></chanrow>";
 z = 0;
 c = 0;
-while(c < 25 && z < chanList.length) {
+while(z < chanList.length) {
 if(chanList[z].status == "live") {
 if(warnState(getWarnID(chanList[z].warning)) != "Hide" || chanList[z].warning == "") {
 addShow(chanList[z].name, chanList[z].img, chanList[z].url, chanList[z].id, document.getElementsByTagName("chanrow").length - 1)
