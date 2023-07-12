@@ -209,7 +209,7 @@ function showPlays() {
 window.history.replaceState(null, null, window.location.pathname);
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 addHead("Listen Now");
-addRow("", TopChan(), "", "tall");
+addRow("", TopChan().slice(0, 25), "", "tall");
 hideMenu();
 hidePlay();
 hideOptions();
@@ -261,13 +261,13 @@ function showBrowse() {
 window.history.replaceState(null, null, window.location.pathname);
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 addHead("Browse");
-addRow("Listen Now", TopChan(), "showPlays()");
-addRow("Something New", GetSug(), "showRecc()");
-addRow(TopCatList[0].name, byRating2(catArray(TopCatList[0].name)), "showCategory('" + TopCatList[0].name + "')");
-addRow(TopCatList[1].name, byRating2(catArray(TopCatList[1].name)), "showCategory('" + TopCatList[1].name + "')");
-addRow(TopCatList[2].name, byRating2(catArray(TopCatList[2].name)), "showCategory('" + TopCatList[2].name + "')");
-addRow(TopCatList[3].name, byRating2(catArray(TopCatList[3].name)), "showCategory('" + TopCatList[3].name + "')");
-addRow(TopCatList[4].name, byRating2(catArray(TopCatList[4].name)), "showCategory('" + TopCatList[4].name + "')");
+addRow("Listen Now", TopChan().splice(0, 25), "showPlays()");
+addRow("Something New", GetSug().splice(0, 25), "showRecc()");
+addRow(TopCatList[0].name, byRating2(catArray(TopCatList[0].name)).splice(0, 25), "showCategory('" + TopCatList[0].name + "')");
+addRow(TopCatList[1].name, byRating2(catArray(TopCatList[1].name)).splice(0, 25), "showCategory('" + TopCatList[1].name + "')");
+addRow(TopCatList[2].name, byRating2(catArray(TopCatList[2].name)).splice(0, 25), "showCategory('" + TopCatList[2].name + "')");
+addRow(TopCatList[3].name, byRating2(catArray(TopCatList[3].name)).splice(0, 25), "showCategory('" + TopCatList[3].name + "')");
+addRow(TopCatList[4].name, byRating2(catArray(TopCatList[4].name)).splice(0, 25), "showCategory('" + TopCatList[4].name + "')");
 hideMenu();
 hidePlay();
 hideOptions();
@@ -277,7 +277,7 @@ function showRecc() {
 window.history.replaceState(null, null, window.location.pathname);
 document.getElementsByTagName("topchan")[0].innerHTML = "";
 addHead("Discover");
-addRow("", GetSug(), "", "tall");
+addRow("", GetSug().splice(0, 25), "", "tall");
 hideMenu();
 hidePlay();
 hideOptions();
