@@ -631,5 +631,6 @@ new Channel("SA Rock Radio", "https://cdn-profiles.tunein.com/s282623/images/log
 new Channel("Reach OnAir", "https://cdn-profiles.tunein.com/s111146/images/logog.jpg", "https://stream.reachonair.com:8443/live320", "Top 40, Pop", "", "live", ""),
 new Channel("FBRN Political Musings", "https://fbrn.us/wp-content/uploads/2022/06/newfb-logo@4x-300x300.png", "https://www.fbrncast.com:8817/live", "Lifestyle, Sermons, Conservative Talk", "", "live", ""),
 new Channel("Fahrenheit Radio", "https://cdn-radiotime-logos.tunein.com/s203992g.png", "http://n13.radiojar.com/090pg6v5a5zuv", "Rap, R&B", "", "live", ""),
-new Channel("TNT Radio", "https://tntradio.live/tntradio-cover-art-rev-min.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/TNT_RADIO.mp3", "Conservative Talk, Lifestyle, Entertainment Talk", "", "live", "")
+new Channel("TNT Radio", "https://tntradio.live/tntradio-cover-art-rev-min.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/TNT_RADIO.mp3", "Conservative Talk, Lifestyle, Entertainment Talk", "", "live", ""),
+new Channel("The Hugh Hewitt Show", "https://cdn-profiles.tunein.com/s159189/images/logog.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/HEWIIRAAC", "Conservative Talk", "", "live", "")
 ]
