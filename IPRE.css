@@ -179,7 +179,8 @@ top: 2vh;
 chantext {
 position: relative;
 display: inline-flex;
-font-size: 3vh;
+font-size: 2.5vh;
+line-height: 2.5vh;
 top: 1vh;
 width: 18vh;
 justify-content: center;
@@ -195,7 +196,7 @@ top: 2.5vh;
 display: grid;
 grid-auto-flow: row;
 grid-template-columns: repeat(auto-fill, minmax(19vh, 1fr));
-height: 40vh;
+height: 30vh;
 overflow: hidden;
 }
 chanrow2 {
@@ -247,12 +248,12 @@ visibility: visible;
 }
 nptitle#visible {
 position: fixed;
-top: 60vh;
+top: 63vh;
 width: 100vw;
 text-align: center;
 left: 0px;
-font-weight: bold;
-font-size: 5vh;
+font-weight: normal;
+font-size: 3.5vh;
 z-index: 1;
 visibility: visible;
 }
@@ -390,8 +391,8 @@ bottom: 9vh;
 img#menu {
 position: relative;
 top: 1vh;
-width: 5vh;
-height: 5vh;
+width: 4vh;
+height: 4vh;
 margin-left: 1vw;
 margin-right: 1vw;
 }
