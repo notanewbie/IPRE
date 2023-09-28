@@ -165,7 +165,7 @@ display: inline-block;
 position: relative;
 height: 25vh;
 line-height: 4vh;
-margin-bottom: 10vh;
+margin-bottom: 0vh;
 width: 20vh;
 left: -4vw;
 margin-left: 4.9vw;
@@ -180,7 +180,7 @@ chantext {
 position: relative;
 display: inline-flex;
 font-size: 2.5vh;
-line-height: 2.5vh;
+line-height: 3vh;
 top: 1vh;
 width: 18vh;
 justify-content: center;
