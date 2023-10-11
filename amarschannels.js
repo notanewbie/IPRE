@@ -637,6 +637,6 @@ new Channel("The Charlie Kirk Show", "https://assets.flagfamily.com/web/images/s
 new Channel("The Dennis Prager Show", "https://salemmedia.com/wp-content/uploads/2019/10/DennisPrager-1.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/PRAGIRAAC", "Conservative Talk", "", "live", ""),
 new Channel("The Eric Metaxas Show", "https://play-lh.googleusercontent.com/8WC-C_MhTs8nbCK97bYKO4hNUIksbeZ9sq3J4GGk4iLH74YJhDC37vtxDRm92VOHWuzp", "https://playerservices.streamtheworld.com/api/livestream-redirect/METAIRAAC", "Conservative Talk", "", "live", ""),
 new Channel("The Mike Gallagher Show", "https://salemmedia.com/wp-content/uploads/2019/10/Logo-TheMikeGallagherShow.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/GALLIRAAC", "Conservative Talk", "", "live", ""),
-new Channel("Newsnation", "https://www.cablefax.com/wp-content/uploads/2021/01/newsnation-tv.png", "https://live.wostreaming.net/direct/wgnam-newsnationmp3-imc", "News, TV, Liberal Talk", "WGN Radio WGN America", "live", ""),
+new Channel("NewsNation", "https://www.cablefax.com/wp-content/uploads/2021/01/newsnation-tv.png", "https://live.wostreaming.net/direct/wgnam-newsnationmp3-imc", "News, TV, Liberal Talk", "WGN Radio WGN America", "live", ""),
 new Channel("Israel News Talk Radio", "https://yt3.googleusercontent.com/ytc/APkrFKYFul9JrvBvXlV_rBPZ3OFNbsJOzMPdppNEFT70=s500-c-k-c0x00ffffff-no-rj", "https://dfw.audio-stream.com/proxy/israelne?mp=/live_live", "Conservative Talk, Hot Talk", "", "live", "")
 ]
