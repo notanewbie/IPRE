@@ -257,7 +257,7 @@ new Channel("NTS Live 1", "https://cdn-profiles.tunein.com/s150238/images/logog.
 new Channel("NTS Live 2", "https://cdn-profiles.tunein.com/s286827/images/logog.jpg", "https://stream-relay-geo.ntslive.net/stream2", "Indie Pop, Pop, Indie Pop, Rock, EDM, Hip-Hop, Reggae, Jazz", "", "live", "Live"),
 new Channel("ABC Sport", "https://www.abc.net.au/radio/images/service/abc-sport-logo-2020.png", "https://live-radio01.mediahubaustralia.com/GSDW/mp3/", "Sports Talk, Live Sports", "ABC Grandstand", "live", ""),
 new Channel("ABC Radio Sydney", "https://www.abc.net.au/radio/images/service/ABC-Radio-Sydney.png", "http://live-radio01.mediahubaustralia.com/2LRW/mp3/", "News, Liberal Talk", "", "live", ""),
-new Channel("ABC News Radio", "https://cdn-profiles.tunein.com/s7016/images/logog.png", "https://live-radio01.mediahubaustralia.com/PBW/mp3/", "News, Liberal Talk", "", "live", ""),
+new Channel("ABC News Radio", "https://cdn-profiles.tunein.com/s7016/images/logog.png", "https://live-radio01.mediahubaustralia.com/PBW/mp3/", "News, Liberal Talk, Live Sports", "", "live", ""),
 new Channel("ABC RN", "https://www.abc.net.au/radio/images/service/rn-circle-logo-1400-1400.png", "https://live-radio01.mediahubaustralia.com/2RNW/mp3/", "Liberal Talk", "ABC Radio National Sydney", "live", ""),
 new Channel("Triple J", "https://www.abc.net.au/radio/images/service/2018/triplej_700.png", "https://live-radio01.mediahubaustralia.com/2TJW/mp3/", "Entertainment Talk, Pop", "", "live", "Explicit"),
 new Channel("Triple J Unearthed", "https://www.abc.net.au/radio/images/service/2018/unearthed_700.png", "http://live-radio02.mediahubaustralia.com/UNEW/mp3/", "Entertainment Talk, Indie Pop", "", "live", "Explicit", "Explicit"),
