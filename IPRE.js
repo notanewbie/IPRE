@@ -185,7 +185,7 @@ if(document.getElementsByTagName("npc").length == 1) {
 document.getElementById("icon2").src="stop.png"
 }
 }
-else {
+if(document.getElementsByTagName("audio")[0].paused == true) {
 //UPDATE PLAY BUTTON
 if(document.getElementsByTagName("npc").length == 1) {
 document.getElementById("icon2").src="play.png"
