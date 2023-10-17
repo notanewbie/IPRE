@@ -187,7 +187,7 @@ document.getElementById("icon2").src="stop.png"
 }
 else {
 //UPDATE PLAY BUTTON
-if(document.getElementsByTagName("npc").length != 1) {
+if(document.getElementsByTagName("npc").length == 1) {
 document.getElementById("icon2").src="play.png"
 }
 }
