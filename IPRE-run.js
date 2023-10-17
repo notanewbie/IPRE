@@ -557,6 +557,7 @@ document.getElementsByTagName("menuitems")[0].innerHTML = "";
 function showOptions(ID) {
 document.getElementsByTagName("menuspace")[0].id = "show";
 document.getElementsByTagName("menuitems")[0].innerHTML = '<a href="javascript:hideOptions()"><menuitem><img src="' + site.closeimg + '" id="menu"></img>Close<br /></menuitem></a><a href="javascript:showInfo(' + ID + ')"><menuitem><img src="' + site.infoimg + '" id="menu"></img>Info<br /></menuitem></a><a href="javascript:setLike(' + ID + ')"><menuitem><img src="' + site.heartimg + '" id="menu"></img>Like<br /></menuitem></a><a href="javascript:Share(' + ID + ')"><menuitem><img src="share.png" id="menu"></img>Share<br /></menuitem></a><menuitem><input type="range" draggable="false" id="vol2"></input><br /></menuitem>';
+checkLike();
 if(document.getElementsByTagName("input").length > 0) {
 document.getElementsByTagName("input")[0].onchange = function() {setVol(this.value);}
 document.getElementsByTagName("input")[0].value = volume * 100;
