@@ -181,11 +181,15 @@ else {
 setCookie(myString,"0")
 }
 //UPDATE PLAY BUTTON
-//document.getElementById("icon2").src="stop.png"
+if(document.getElementsByTagName("npc").length == 1) {
+document.getElementById("icon2").src="stop.png"
+}
 }
 else {
 //UPDATE PLAY BUTTON
-//document.getElementById("icon2").src="play.png"
+if(document.getElementsByTagName("npc").length != 1) {
+document.getElementById("icon2").src="play.png"
+}
 }
 console.log(getCookie(myString));
 }
