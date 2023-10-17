@@ -181,13 +181,11 @@ else {
 setCookie(myString,"0")
 }
 //UPDATE PLAY BUTTON
-if(document.getElementsById("icon2")) {
-document.getElementById("icon2").src="stop.png"
-}
+//document.getElementById("icon2").src="stop.png"
 }
 else {
 //UPDATE PLAY BUTTON
-document.getElementById("icon2").src="play.png"
+//document.getElementById("icon2").src="play.png"
 }
 console.log(getCookie(myString));
 }
