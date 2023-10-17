@@ -181,13 +181,13 @@ else {
 setCookie(myString,"0")
 }
 //UPDATE PLAY BUTTON
-if(document.getElementsByTagName("npc").length == 1) {
+if(document.getElementById("icon2") != null) {
 document.getElementById("icon2").src="stop.png"
 }
 }
 if(document.getElementsByTagName("audio")[0].paused == true) {
 //UPDATE PLAY BUTTON
-if(document.getElementsByTagName("npc").length == 1) {
+if(document.getElementById("icon2") != null) {
 document.getElementById("icon2").src="play.png"
 }
 }
