@@ -643,5 +643,6 @@ new Channel("Breaking News Now", "https://fadefm.com/wp-content/uploads/2022/06/
 new Channel("Democracy Now", "https://npr-brightspot.s3.amazonaws.com/69/34/879932ae4dbcbb5abb2f7dce90eb/democracy-now-square-logo-2021.jpg", "http://streams.kpfa.net:8000/democracy_now_192", "Progressive Talk", "", "live", ""),
 new Channel("Dailycast Syndicated News", "https://d3wo5wojvuv7l.cloudfront.net/t_square_limited_720/images.spreaker.com/original/19bc6347e1218ee40012c6b453d5cbaa.jpg", "http://s9.voscast.com:9154/stream", "News", "", "live", ""),
 new Channel("AudioBook Radio", "https://cdn-profiles.tunein.com/s78136/images/logog.png?t=1", "https://audiobookradio.out.airtime.pro/audiobookradio_a", "Audio Drama", "", "live", ""),
-new Channel("Newstalk", "https://cdn-radiotime-logos.tunein.com/s15123g.png", "https://live-bauerie.sharp-stream.com/NT", "News, Liberal Talk", "", "live", "")
+new Channel("Newstalk", "https://cdn-radiotime-logos.tunein.com/s15123g.png", "https://live-bauerie.sharp-stream.com/NT", "News, Liberal Talk", "", "live", ""),
+new Channel("Sky News", "https://www.skynews.com.au/wp-content/themes/newscorpau-news-dna/dist/images/apple-touch-icons/skynews-apple-touch-icon.png", "https://ukradiolive.com/ldblncr/sky-news-radio/sky-news-radio", "News, TV", "", "live", "")
 ]
