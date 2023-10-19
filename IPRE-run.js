@@ -67,7 +67,7 @@ document.getElementsByTagName("topchan")[0].innerHTML = document.getElementsByTa
 }
 function addShow(name, img, url, id, row) {
 //alert(row > -1)
-if(currentID == searchResults(name)[0].id) {
+if(currentID == id) {
 if(row > -1) {
 //alert(row)
 document.getElementsByTagName("chanrow")[row].innerHTML = document.getElementsByTagName("chanrow")[row].innerHTML + '<a href="javascript:showNP()"><chantab><img id="c_icon" src="' + img + '"></img><br /><chantext>' + name + '</chantext></chantab></a>';
