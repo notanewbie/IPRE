@@ -127,7 +127,7 @@ new Channel("Alpha Geek Radio Channel 6", "https://pbs.twimg.com/profile_images/
 new Channel("Alpha Geek Radio Channel 7", "https://pbs.twimg.com/profile_images/738444788530216960/mzt2nSwH_400x400.jpg", "http://listen.alphageekradio.com:12000/;stream/1", "Comedy", "", "dead", "Explicit"),
 new Channel("Alpha Geek Radio Channel 8", "https://pbs.twimg.com/profile_images/738444788530216960/mzt2nSwH_400x400.jpg", "http://listen.alphageekradio.com:12050/;stream/1", "Comedy", "", "dead", "Explicit"),
 new Channel("Kohina", "https://static-media.streema.com/media/cache/b5/80/b580959d3d24b2876e626ce019b7b01d.jpg", "http://kohina.duckdns.org:8000/stream.ogg", "Soundtrack, Chiptune", "", "dead", ""),
-new Channel("Culture War Radio", "https://wiki.culturewar.radio/_media/logo.png", "https://live.culturewar.radio/", "Liberal Talk", "", "live", "Live"),
+new Channel("Culture War Radio", "https://cdn-profiles.tunein.com/p1281543/images/logog.png?t=4", "https://live.culturewar.radio/", "Liberal Talk", "", "live", "Live"),
 new Channel("WTOP", "https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_of_WTOP-FM_%282014%29.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WTOPFMAAC_SC", "News", "", "live", ""),
 new Channel("Fly Nation", "https://i.iheart.com/v3/re/assets/images/f7456306-62bf-49bb-ba4e-4ea704680ae2.png", "http://stream.revma.ihrhls.com/zc6732", "Hip-Hop", "", "live", "Clean"),
 new Channel("Master of the Mix", "https://i.iheart.com/v3/re/assets/images/5164.png", "http://stream.revma.ihrhls.com/zc5164", "Hip-Hop", "", "live", "Clean"),
