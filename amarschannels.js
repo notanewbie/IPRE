@@ -405,7 +405,7 @@ new Channel("KOA 850 & 94.1 FM", "https://i.iheart.com/v3/re/assets.brands/61427
 new Channel("Talkradio 630 KHOW", "https://i.iheart.com/v3/re/assets/images/377.png", "https://stream.revma.ihrhls.com/zc337", "Conservative Talk", "", "live", ""),
 new Channel("Fox Sports Radio Los Angeles AM 570", "https://thinkbluela.com/wp-content/uploads/2014/09/AM570-Logo.jpg", "https://stream.revma.ihrhls.com/zc189", "Sports Talk, Live Sports", "MLB, Los Angeles Dodgers, NBA, Los Angeles Clippers, NCAA, UCLA Bruins", "live", ""),
 new Channel("97.3 The Fan", "https://images.radio.com/logos/KWFNFM.jpg", "https://live.amperwave.net/direct/dlcmedia-wfnbfmaac-ibc4", "Sports Talk, Live Sports", "NCAA, Navy Midshipmen, MLB, San Diego Padres", "live", ""),
-new Channel("Heartland Newsfeed Radio Network", "https://cdn-profiles.tunein.com/s310386/images/logog.jpg", "https://ais-edge51-live365-dal02.cdnstream.com/a24952", "News, Live Sports, Finance", "", "live", ""),
+new Channel("Heartland Newsfeed Radio Network", "https://cdn-profiles.tunein.com/s310386/images/logog.jpg", "https://ais-edge51-live365-dal02.cdnstream.com/a24952", "News, Finance, Progressive Talk, Hot Talk, Liberal Talk, Sports Talk", "", "live", ""),
 new Channel("The Sports Leader", "https://express-images.franklymedia.com/6616/sites/82/2019/09/04082004/KNBR-AF-Sitelogo-2019-09-06.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMIHR_SC", "Sports Talk, Live Sports", "NFL, San Francsisco 49ers, MLB, San Francisco Giants", "live", ""),
 new Channel("THE FRINGE FM", "https://cdn-profiles.tunein.com/s260531/images/logog.jpg", "https://ice42.securenetsystems.net/KTLKDB", "Hot Talk, Entertainment Talk, Tech Talk", "", "live", "Live"),
 new Channel("Australian Open Radio", "https://cdn-profiles.tunein.com/s132279/images/logog.png", "https://aoradio.out.airtime.pro:8000/aoradio_a", "Live Sports", "", "live", ""),
@@ -641,7 +641,7 @@ new Channel("NewsNation", "https://www.cablefax.com/wp-content/uploads/2021/01/n
 new Channel("Israel News Talk Radio", "https://yt3.googleusercontent.com/ytc/APkrFKYFul9JrvBvXlV_rBPZ3OFNbsJOzMPdppNEFT70=s500-c-k-c0x00ffffff-no-rj", "https://dfw.audio-stream.com/proxy/israelne?mp=/live_live", "Conservative Talk, Hot Talk", "", "live", ""),
 new Channel("Breaking News Now", "https://fadefm.com/wp-content/uploads/2022/06/FadeFM-Breaking-News.png", "http://ec1.yesstreaming.net:2920/stream", "News", "FadeFM Breaking News Now", "live", ""),
 new Channel("Democracy Now", "https://npr-brightspot.s3.amazonaws.com/69/34/879932ae4dbcbb5abb2f7dce90eb/democracy-now-square-logo-2021.jpg", "http://streams.kpfa.net:8000/democracy_now_192", "Progressive Talk", "", "live", ""),
-new Channel("Dailycast Syndicated News", "https://d3wo5wojvuv7l.cloudfront.net/t_square_limited_720/images.spreaker.com/original/19bc6347e1218ee40012c6b453d5cbaa.jpg", "http://s9.voscast.com:9154/stream", "News", "", "live", ""),
+new Channel("Dailycast Syndicated News", "https://d3wo5wojvuv7l.cloudfront.net/t_square_limited_720/images.spreaker.com/original/19bc6347e1218ee40012c6b453d5cbaa.jpg", "https://s9.voscast.com:9155/stream", "News", "", "live", ""),
 new Channel("AudioBook Radio", "https://cdn-profiles.tunein.com/s78136/images/logog.png?t=1", "https://audiobookradio.out.airtime.pro/audiobookradio_a", "Audio Drama", "", "live", ""),
 new Channel("Newstalk", "https://cdn-radiotime-logos.tunein.com/s15123g.png", "https://live-bauerie.sharp-stream.com/NT", "News, Liberal Talk", "", "live", ""),
 new Channel("Sky News", "https://www.skynews.com.au/wp-content/themes/newscorpau-news-dna/dist/images/apple-touch-icons/skynews-apple-touch-icon.png", "https://ukradiolive.com/ldblncr/sky-news-radio/sky-news-radio", "News, TV", "", "live", ""),
@@ -650,5 +650,6 @@ new Channel("Golden State Warriors", "https://cdn-profiles.tunein.com/p443341/im
 new Channel("Wolverhampton FC", "https://cdn-profiles.tunein.com/s320570/images/logog.png", "https://backbonenetworks.streamguys1.com/WFC.mp3", "Sports Talk", "", "live", ""),
 new Channel("Franklin Pierce University Ravens Sports Network", "https://cdn-profiles.tunein.com/s305851/images/logog.png?t=152285", "https://backbonenetworks.streamguys1.com/franklinpierce1.mp3", "Live Sports", "", "live", ""),
 new Channel("The Talon 105.3 FM", "https://radiostation.info/images/station-logo/w/WFPC-LP-FL.jpeg", "https://backbonenetworks.streamguys1.com/franklinpierce2", "Liberal Talk", "105.3 Rindge WFPC-LP", "live", ""),
-new Channel("New York City FC Network", "https://cdn-profiles.tunein.com/s305540/images/logog.png", "https://tunein.streamguys1.com/nycfc-eng", "Live Sports", "", "live", "")
+new Channel("New York City FC Network", "https://cdn-profiles.tunein.com/s305540/images/logog.png", "https://tunein.streamguys1.com/nycfc-eng", "Live Sports", "", "live", ""),
+new Channel("RNZ Pacific", "https://i.iheart.com/v3/re/assets.streams/64d3b6874d9a385ab13187ee", "https://radionz-ice.streamguys.com/international_aac64", "News, Entertainment Talk, Indie Pop", "", "live", "Clean")
 ]
