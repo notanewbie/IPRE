@@ -651,5 +651,6 @@ new Channel("Wolverhampton FC", "https://cdn-profiles.tunein.com/s320570/images/
 new Channel("Franklin Pierce University Ravens Sports Network", "https://cdn-profiles.tunein.com/s305851/images/logog.png?t=152285", "https://backbonenetworks.streamguys1.com/franklinpierce1.mp3", "Live Sports", "", "live", ""),
 new Channel("The Talon 105.3 FM", "https://radiostation.info/images/station-logo/w/WFPC-LP-FL.jpeg", "https://backbonenetworks.streamguys1.com/franklinpierce2", "Liberal Talk", "105.3 Rindge WFPC-LP", "live", ""),
 new Channel("New York City FC Network", "https://cdn-profiles.tunein.com/s305540/images/logog.png", "https://tunein.streamguys1.com/nycfc-eng", "Live Sports", "", "live", ""),
-new Channel("RNZ Pacific", "https://i.iheart.com/v3/re/assets.streams/64d3b6874d9a385ab13187ee", "https://radionz-ice.streamguys.com/international_aac64", "News, Entertainment Talk, Indie Pop", "", "live", "Clean")
+new Channel("RNZ Pacific", "https://i.iheart.com/v3/re/assets.streams/64d3b6874d9a385ab13187ee", "https://radionz-ice.streamguys.com/international_aac64", "News, Entertainment Talk, Indie Pop", "", "live", "Clean"),
+new Channel("ABC RN VIC", "https://cdn-radiotime-logos.tunein.com/s20269g.png", "https://mediaserviceslive.akamaized.net/hls/live/2038327/rnvic/masterhq_4133914.aac", "Liberal Talk", "ABC Radio National Victorian", "live", "")
 ]
