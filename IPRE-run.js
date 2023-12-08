@@ -458,6 +458,7 @@ document.getElementsByTagName("topchan")[0].innerHTML = "";
 addHead("Settings");
 //addToggle("test", "toggleSetting(0)", 0);
 addItem("Content Settings", "contentOptions()");
+addItem("Radio Recap", "RadioRecap()");
 hideMenu();
 hidePlay();
 hideOptions();
