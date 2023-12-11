@@ -664,5 +664,6 @@ new Channel("LBC News UK", "https://herald.musicradio.com/media/02a3caa1-dacf-47
 new Channel("Capital", "https://herald.musicradio.com/media/0d3d891d-32f2-4c53-95ee-8d1e35bdd126.png", "https://ice-sov.musicradio.com/CapitalMP3", "Top 40", "", "live", ""),
 new Channel("Capital Xtra", "https://herald.musicradio.com/media/1827aafe-1932-4a6e-9c37-6111f97c8a49.png", "https://ice-sov.musicradio.com/CapitalXTRANationalMP3", "Rap, R&B", "", "live", ""),
 new Channel("Capital Xtra Reloaded", "https://herald.musicradio.com/media/526fe1bd-5c3e-4e8c-b91e-c2128d8e6c4a.png", "https://ice-sov.musicradio.com/CapitalXTRAReloadedMP3", "Rap, R&B, 90s, 2000s", "", "live", ""),
-new Channel("Capital Dance", "https://herald.musicradio.com/media/5160d58f-efb3-432b-bcfb-bd2d53a8cb26.png", "https://ice-sov.musicradio.com/CapitalDanceMP3", "EDM", "", "live", "")
+new Channel("Capital Dance", "https://herald.musicradio.com/media/5160d58f-efb3-432b-bcfb-bd2d53a8cb26.png", "https://ice-sov.musicradio.com/CapitalDanceMP3", "EDM", "", "live", ""),
+new Channel("Capital EDM", "https://herald.musicradio.com/media/a1e905a0-c59a-44fd-ba89-a4988931e5b1.png", "https://ice-sov.musicradio.com/CapitalChillMP3", "EDM", "", "live", "")
 ]
