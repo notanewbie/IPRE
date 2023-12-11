@@ -661,5 +661,6 @@ new Channel("Your Talk Radio Network", "https://web.archive.org/web/202311172031
 new Channel("Real America's Voice Network", "https://images.squarespace-cdn.com/content/5de960df24c28e6bf44873d0/1605105053505-JWFFBS2I0NGWBNP3EX2N/america%27s+voice+news+logo.png", "https://tc1.bahamatel.net:7900/;", "Conservative Talk, Hot Talk", "", "live", ""),
 new Channel("LBC News", "https://herald.musicradio.com/media/02a3caa1-dacf-47b1-ad54-c10728b66cd9.png", "https://ice-sov.musicradio.com/LBCNewsUKMP3", "News", "", "live", ""),
 new Channel("LBC News UK", "https://herald.musicradio.com/media/02a3caa1-dacf-47b1-ad54-c10728b66cd9.png", "https://ice-sov.musicradio.com/LBCNewsUKMP3", "News", "", "live", ""),
-new Channel("Capital", "https://herald.musicradio.com/media/0d3d891d-32f2-4c53-95ee-8d1e35bdd126.png", "https://ice-sov.musicradio.com/CapitalMP3", "Top 40", "", "live", "")
+new Channel("Capital", "https://herald.musicradio.com/media/0d3d891d-32f2-4c53-95ee-8d1e35bdd126.png", "https://ice-sov.musicradio.com/CapitalMP3", "Top 40", "", "live", ""),
+new Channel("Capital Xtra", "https://herald.musicradio.com/media/1827aafe-1932-4a6e-9c37-6111f97c8a49.png", "https://ice-sov.musicradio.com/CapitalXTRANationalMP3", "Rap, R&B", "", "live", "")
 ]
