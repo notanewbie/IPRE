@@ -667,5 +667,6 @@ new Channel("Capital Xtra Reloaded", "https://herald.musicradio.com/media/526fe1
 new Channel("Capital Dance", "https://herald.musicradio.com/media/5160d58f-efb3-432b-bcfb-bd2d53a8cb26.png", "https://ice-sov.musicradio.com/CapitalDanceMP3", "EDM", "", "live", ""),
 new Channel("Capital EDM", "https://herald.musicradio.com/media/a1e905a0-c59a-44fd-ba89-a4988931e5b1.png", "https://ice-sov.musicradio.com/CapitalChillMP3", "EDM", "", "live", ""),
 new Channel("Heart", "https://herald.musicradio.com/media/49b9e8cb-15bf-4bf2-8c28-a4850cc6b0f3.png", "https://ice-sov.musicradio.com/HeartUKMP3", "Hot AC", "", "live", ""),
-new Channel("Heart 70s", "https://herald.musicradio.com/media/03d8dfac-cb93-490d-912d-3175680567b2.png", "https://ice-sov.musicradio.com/Heart70sMP3", "70s", "", "live", "")
+new Channel("Heart 70s", "https://herald.musicradio.com/media/03d8dfac-cb93-490d-912d-3175680567b2.png", "https://ice-sov.musicradio.com/Heart70sMP3", "70s", "", "live", ""),
+new Channel("Heart 80s", "https://herald.musicradio.com/media/a409ae26-861a-4564-866d-7bb87e3ad917.png", "https://ice-sov.musicradio.com/Heart80sMP3", "80s", "", "live", "")
 ]
