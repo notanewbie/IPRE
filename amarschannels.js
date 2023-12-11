@@ -673,5 +673,6 @@ new Channel("Heart 90s", "https://herald.musicradio.com/media/da3108af-a6de-4a19
 new Channel("Heart 00s", "https://herald.musicradio.com/media/a659dc4a-36af-4b5c-9719-d98d55688b49.png", "https://ice-sov.musicradio.com/Heart00sMP3", "2000s", "", "live", ""),
 new Channel("Heart Dance", "https://herald.musicradio.com/media/60ca383a-0eb9-4104-ac33-9a111340e942.png", "https://ice-sov.musicradio.com/HeartDanceMP3", "Dance, R&B", "", "live", ""),
 new Channel("Heart Xmas", "https://herald.musicradio.com/media/865c3499-1d80-41a8-a5c7-174177e46666.png", "https://ice-sov.musicradio.com/HeartXmasMP3", "Holiday", "Heart Christmas", "live", ""),
-new Channel("Smooth Radio", "https://herald.musicradio.com/media/baae087f-d637-4305-997e-18104d61691a.png", "https://ice-sov.musicradio.com/SmoothUKMP3", "Hot AC", "", "live", "")
+new Channel("Smooth Radio", "https://herald.musicradio.com/media/baae087f-d637-4305-997e-18104d61691a.png", "https://ice-sov.musicradio.com/SmoothUKMP3", "Hot AC", "", "live", ""),
+new Channel("Smooth Chill", "https://herald.musicradio.com/media/f296ade8-50c9-4f60-911f-924e96873620.png", "https://ice-sov.musicradio.com/SmoothChillMP3", "Soundtrack, Rock, Jazz", "", "live", "")
 ]
