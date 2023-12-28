@@ -626,7 +626,7 @@ new Channel("eBible Fellowship", "https://cdn-radiotime-logos.tunein.com/s101541
 new Channel("The Bridge Radio", "https://bridgeradio.liberatedstreaming.com/wp-content/uploads/sites/13/2019/12/bridgeradio.png", "https://bridge-libstrm.radioca.st/stream", "Sermons, Lifestyle", "", "live", ""),
 new Channel("GB News Radio", "https://assets.radioplayer.org/826/8261541/600/600/kykcrxlh.png", "https://listen-gbnews.sharp-stream.com/gbnews.mp3", "News, Conservative Talk", "", "live", ""),
 new Channel("WRP Musicmix", "https://static.mytuner.mobi/media/tvos_radios/345nur9quhyf.png", "http://wrp.stream.dicast.fr:8000/wrpmusicmix-128.mp3", "Pop, Top 40", "", "live", ""),
-new Channel("WRP News", "https://play-lh.googleusercontent.com/JWzT4djBcuHPUWDnpMKQshTpUVlCpe-a5hrDKTc-tejHKd6hMhmRFfXzYmsV2-c7It5M", "http://wrp.stream.dicast.fr:8000/wrp-128.mp3", "News, Liberal Talk", "", "live", ""),
+new Channel("WRP News", "https://play-lh.googleusercontent.com/JWzT4djBcuHPUWDnpMKQshTpUVlCpe-a5hrDKTc-tejHKd6hMhmRFfXzYmsV2-c7It5M", "http://wrp.stream.dicast.fr:8000/wrp-128.mp3", "News, Liberal Talk", "World Radio Paris News", "live", ""),
 new Channel("SA Rock Radio", "https://cdn-profiles.tunein.com/s282623/images/logog.png", "https://sarock.radioca.st/stream;", "Rock, Alternative", "", "live", ""),
 new Channel("Reach OnAir", "https://cdn-profiles.tunein.com/s111146/images/logog.jpg", "https://stream.reachonair.com:8443/live320", "Top 40, Pop", "", "live", ""),
 new Channel("FBRN Political Musings", "https://fbrn.us/wp-content/uploads/2022/06/newfb-logo@4x-300x300.png", "https://www.fbrncast.com:8817/live", "Lifestyle, Sermons, Conservative Talk", "", "live", ""),
