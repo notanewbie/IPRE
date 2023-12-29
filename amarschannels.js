@@ -4,7 +4,7 @@ new Channel("210 Holy Hip Hop", "https://cdn-profiles.tunein.com/s188550/images/
 new Channel("Antioch OTR", "https://cdn-radiotime-logos.tunein.com/s50924q.png", "http://209.95.56.101:8000/listen", "Audio Drama", "", "dead", ""),
 new Channel("AP News", "https://cdn-radiotime-logos.tunein.com/p686763q.png", "http://apnews.streamguys1.com/apnews", "News", "", "live", ""),
 new Channel("BBC Radio 4", "https://cdn-radiotime-logos.tunein.com/s25419q.png", "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourfm", "Comedy, Audio Drama, Liberal Talk", "", "dead", "Live"),
-new Channel("BBN English", "https://cdn-radiotime-logos.tunein.com/s20438q.png", "https://stream2.bbnradio.org:8443/english", "Worship, Sermons, Lifestyle", "", "live", ""),
+new Channel("BBN English", "https://cdn-radiotime-logos.tunein.com/s20438q.png", "https://audio-edge-qse4n.yyz.g.radiomast.io/844b0a81-f4b9-485e-adaa-aab8d3ea9f7f", "Worship, Sermons, Lifestyle", "", "live", ""),
 new Channel("Bloomberg TV", "https://cdn-profiles.tunein.com/s47135/images/logog.png", "http://tunein.streamguys1.com/BloombergTV", "Finance, TV", "", "dead", ""),
 new Channel("Bott Radio Network", "https://cdn-profiles.tunein.com/s31976/images/logog.png", "https://ic1.sslstream.com/bottradio.mp3", "Lifestyle, Sermons", "", "live", ""),
 new Channel("C-SPAN Radio", "https://cdn-profiles.tunein.com/s28047/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/CSPANRADIO.mp3", "News, Liberal Talk, Conservative Talk, TV", "", "live", "Live"),
