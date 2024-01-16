@@ -343,7 +343,7 @@ new Channel("WMMS 100.7", "https://cdn-profiles.tunein.com/s21152/images/logog.j
 new Channel("Tech Talks Central", "https://cdn-radiotime-logos.tunein.com/s230969d.png", "https://n07.radiojar.com/2sr8f9ukb", "Tech Talk", "", "live", ""),
 new Channel("Pure Radio Scotland", "https://cdn-profiles.tunein.com/s282203/images/logog.png?t=157469", "https://listen-pureradio.sharp-stream.com/pure_radio.mp3", "Hot AC, Pop", "", "live", "Clean"),
 new Channel("Thom Hartmann Radio Program", "https://www.thomhartmann.com/sites/default/files/blog-logo.jpg", "https://stream1.thomhartmann.com/hartmannfp", "Progressive Talk", "", "live", ""),
-new Channel("The Head On Radio Network", "https://www.headon.live/wp-content/uploads/2017/05/HeadOn-Radio-Network-SQ.png", "https://headonradio.radioca.st/stream", "Progressive Talk", "The HORN", "live", ""),
+new Channel("The Head On Radio Network", "https://www.headon.live/wp-content/uploads/2017/05/HeadOn-Radio-Network-SQ.png", "https://headonradio.radioca.st/stream", "Progressive Talk", "The HORN", "live", "Explicit"),
 new Channel("detour TALK", "https://www.radio.net/images/broadcasts/d6/2c/123762/1/c300.png", "https://headonradio.radioca.st/stream", "Progressive Talk", "The Detour", "live", ""),
 new Channel("Air Progressive", "https://cdn-radiotime-logos.tunein.com/s141251d.png", "http://airprogressive.org:8000/stream", "Progressive Talk", "", "live", ""),
 new Channel("MLB on TuneIn", "https://cdn-profiles.tunein.com/s253402/images/logog.png", "https://t1.streamguys1.com/mlb247", "Live Sports", "", "live", ""),
