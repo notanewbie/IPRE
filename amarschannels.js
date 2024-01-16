@@ -679,5 +679,6 @@ new Channel("Smooth Country", "https://herald.musicradio.com/media/0be5b989-65d3
 new Channel("Radio X", "https://herald.musicradio.com/media/2e05011a-7517-435e-bac7-0f1cc979ee99.png", "https://ice-sov.musicradio.com/RadioXUKMP3", "Alternative", "", "live", ""),
 new Channel("Radio X Classic Rock", "https://herald.musicradio.com/media/04af66b9-6a22-47b5-a96a-a6156bc4bd5e.png", "https://ice-sov.musicradio.com/RadioXClassicRockMP3", "Rock, 60s, 70s, 80s", "", "live", ""),
 new Channel("Gold", "https://herald.musicradio.com/media/a0f78e6d-fffc-4c54-bfb7-f5450c88080b.png", "https://ice-sov.musicradio.com/GoldMP3", "50s, 60s, 70s, 80s", "", "live", ""),
-new Channel("Classic FM", "https://herald.musicradio.com/media/f2fb7e11-4a9e-4d53-a081-aab79779ea04.png", "https://ice-sov.musicradio.com/ClassicFMMP3", "Classical", "", "live", "")
+new Channel("Classic FM", "https://herald.musicradio.com/media/f2fb7e11-4a9e-4d53-a081-aab79779ea04.png", "https://ice-sov.musicradio.com/ClassicFMMP3", "Classical", "", "live", ""),
+new Channel("The Randi Rhodes Show", "https://randirhodes.com/wp-content/uploads/2018/03/black-logo-randi-rhodes.png", "https://s5.voscast.com:9875/stream", "Progressive Talk", "", "live", "")
 ]
