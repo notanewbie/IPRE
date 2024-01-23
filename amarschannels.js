@@ -489,7 +489,7 @@ new Channel("Longplayer", "https://longplayer.org/wp-content/uploads/2014/05/Sco
 new Channel("INDYCAR Radio Network", "https://i1.sndcdn.com/avatars-000216255609-1fuvb7-t500x500.jpg", "https://listen.mixlr.com/df22ed167e52925221d50b28a84f6592", "Live Sports", "", "live", ""),
 new Channel("Rugby World Cup", "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Rugby_World_Cup_Logo.png/515px-Rugby_World_Cup_Logo.png", "https://tunein.streamguys1.com/rugbyworldcup2", "Live Sports", "", "live", ""),
 new Channel("FiveTwenty Radio", "https://www.radioking.com/api/track/cover/217ff652-a44a-4b8c-8ec0-f44c36622f65", "https://listen.radioking.com/radio/238597/stream/282544", "CHH", "", "live", ""),
-new Channel("Launch Radio FM", "https://media.swncdn.com/christianradio/logos/wlrf.png", "http://s8.voscast.com:7880/stream.mp3", "CHH", "", "live", ""),
+new Channel("Launch Radio FM", "https://media.swncdn.com/christianradio/logos/wlrf.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/SP_R2709340.mp3", "CHH", "", "live", ""),
 new Channel("GH3", "https://dashradio-files.s3.amazonaws.com/icon_logos/GH3/GH3_1080.jpg", "https://ice55.securenetsystems.net/DASH77", "CHH", "", "live", ""),
 new Channel("NOAA Weather Radio KEC61", "https://www.weatherusa.net/assets/images/logo_nwr.png", "https://radio.weatherusa.net/NWR/KEC61_2.mp3", "News", "Mobile, Alabama", "live", ""),
 new Channel("NOAA Weather Radio KXI97", "https://www.weatherusa.net/assets/images/logo_nwr.png", "https://ice41.securenetsystems.net/NOAA?playSessionID=1411C175-C2AC-AD23-94D64E0623AEB459", "News", "Mena, Arkansas", "live", ""),
@@ -680,5 +680,10 @@ new Channel("Radio X", "https://herald.musicradio.com/media/2e05011a-7517-435e-b
 new Channel("Radio X Classic Rock", "https://herald.musicradio.com/media/04af66b9-6a22-47b5-a96a-a6156bc4bd5e.png", "https://ice-sov.musicradio.com/RadioXClassicRockMP3", "Rock, 60s, 70s, 80s", "", "live", ""),
 new Channel("Gold", "https://herald.musicradio.com/media/a0f78e6d-fffc-4c54-bfb7-f5450c88080b.png", "https://ice-sov.musicradio.com/GoldMP3", "50s, 60s, 70s, 80s", "", "live", ""),
 new Channel("Classic FM", "https://herald.musicradio.com/media/f2fb7e11-4a9e-4d53-a081-aab79779ea04.png", "https://ice-sov.musicradio.com/ClassicFMMP3", "Classical", "", "live", ""),
-new Channel("The Randi Rhodes Show", "https://randirhodes.com/wp-content/uploads/2018/03/black-logo-randi-rhodes.png", "https://s5.voscast.com:9875/stream", "Progressive Talk", "", "live", "")
+new Channel("The Randi Rhodes Show", "https://randirhodes.com/wp-content/uploads/2018/03/black-logo-randi-rhodes.png", "https://s5.voscast.com:9875/stream", "Progressive Talk", "", "live", ""),
+new Channel("RadioU", "https://cdn-profiles.tunein.com/s23368/images/logog.png", "https://s5.reliastream.com/proxy/live?mp=/stream", "Christian Pop, 2010s, Pop, Christian Rock, CHH", "", "live", ""),
+new Channel("RadioU Battery", "https://cdn-profiles.tunein.com/s236995/images/logog.jpg", "https://s5.reliastream.com/proxy/battery?mp=/stream", "Christian Rock, Rock, Metal", "", "live", ""),
+new Channel("RadioU Fusion: Hip Hop", "https://cdn-profiles.tunein.com/s223776/images/logog.jpg", "https://s5.reliastream.com/proxy/hiphop?mp=/stream", "CHH", "", "live", ""),
+new Channel("RadioU Fusion: EDM", "https://cdn-profiles.tunein.com/s223776/images/logog.jpg", "https://s5.reliastream.com/proxy/edm?mp=/stream", "CEDM", "", "live", ""),
+new Channel("RadioU Throwback", "https://radiou.com/assets/player/throwback.jpg", "https://s5.reliastream.com/proxy/throwback?mp=/stream", "Christian Pop, Christian Rock, 2000s", "", "live", "")
 ]
