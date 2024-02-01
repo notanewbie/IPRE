@@ -23,7 +23,7 @@ new Channel("FRESH Radio", "https://cdn-radiotime-logos.tunein.com/s181489q.png"
 new Channel("God's DJs", "https://cdn-radiotime-logos.tunein.com/s140701q.png", "http://www.godsdjsradio.com:8080/stream", "CEDM", "", "live", ""),
 new Channel("Hit Nation", "https://i.iheart.com/v3/re/new_assets/34da42a4-45ef-44b5-b587-8587b2cad460", "http://stream.revma.ihrhls.com/zc4422", "Top 40", "", "live", "Clean"),
 new Channel("Hit Nation Top 20", "https://i.iheart.com/v3/re/new_assets/30d852e9-235d-4c0a-bd90-197c5ee4db64", "http://stream.revma.ihrhls.com/zc4422", "Top 40", "", "live", "Clean"),
-new Channel("HLN", "https://cdn-profiles.tunein.com/s20408/images/logog.png", "http://tunein.streamguys1.com/cnnhln", "TV, True Crime, Entertainment Talk", "", "live", "Clean"),
+new Channel("HLN", "https://cdn-profiles.tunein.com/s20408/images/logog.png", "https://tunein.cdnstream1.com/2876_96.mp3", "TV, True Crime, Entertainment Talk", "", "live", "Clean"),
 new Channel("I Love 2 Dance", "https://cdn-radiotime-logos.tunein.com/s167727q.png", "http://stream01.iloveradio.de/iloveradio2.mp3", "EDM", "", "live", ""),
 new Channel("iHeartRadio Countdown", "https://i.iheart.com/v3/re/assets/images/6455.png", "https://n32b-e2.revma.ihrhls.com/zc6455", "Top 40", "", "live", "Clean"),
 new Channel("iHeartRadio Music Festival", "https://i.iheart.com/v3/re/new_assets/5d03aad93a01a2ea44a48a43", "https://n32b-e2.revma.ihrhls.com/zc5158", "Live Music, Pop, Hip-Hop", "", "live", "Live"),
