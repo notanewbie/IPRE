@@ -691,5 +691,6 @@ new Channel("iHeart2010s", "https://i.iheart.com/v3/re/new_assets/5de821c8d70eff
 new Channel("iHeart80s", "https://i.iheart.com/v3/re/new_assets/0a01b40d-6206-49dd-85f4-06d89f5f2065", "http://stream.revma.ihrhls.com/zc5060", "80s", "", "live", ""),
 new Channel("iHeartCountry", "https://i.iheart.com/v3/re/new_assets/0ef73f84-d613-41ff-8a36-922bf1aa815e", "http://stream.revma.ihrhls.com/zc4418", "Country", "", "live", ""),
 new Channel("iHeart70s", "https://i.iheart.com/v3/re/new_assets/a69a3c10-27f8-4d80-be9e-a03b1994779c", "http://stream.revma.ihrhls.com/zc6843", "70s", "", "live", ""),
-new Channel("iHeart90s", "https://i.iheart.com/v3/re/new_assets/329ab2f0-5d1a-4e71-9f9a-e6d5674ad982", "http://stream.revma.ihrhls.com/zc6834", "90s", "", "live", "")
+new Channel("iHeart90s", "https://i.iheart.com/v3/re/new_assets/329ab2f0-5d1a-4e71-9f9a-e6d5674ad982", "http://stream.revma.ihrhls.com/zc6834", "90s", "", "live", ""),
+new Channel("iHeart60s", "https://i.iheart.com/v3/re/new_assets/d09ac81f-c4d0-4c90-b9fe-bf65af1c614d", "http://stream.revma.ihrhls.com/zc6873", "60s", "", "live", "")
 ]
