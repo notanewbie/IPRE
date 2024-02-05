@@ -685,5 +685,6 @@ new Channel("RadioU", "https://cdn-profiles.tunein.com/s23368/images/logog.png",
 new Channel("RadioU Battery", "https://cdn-profiles.tunein.com/s236995/images/logog.jpg", "https://s5.reliastream.com/proxy/battery?mp=/stream", "Christian Rock, Rock, Metal", "", "live", ""),
 new Channel("RadioU Fusion: Hip Hop", "https://cdn-profiles.tunein.com/s223776/images/logog.jpg", "https://s5.reliastream.com/proxy/hiphop?mp=/stream", "CHH", "", "live", ""),
 new Channel("RadioU Fusion: EDM", "https://cdn-profiles.tunein.com/s223776/images/logog.jpg", "https://s5.reliastream.com/proxy/edm?mp=/stream", "CEDM", "", "live", ""),
-new Channel("RadioU Throwback", "https://radiou.com/assets/player/throwback.jpg", "https://s5.reliastream.com/proxy/throwback?mp=/stream", "Christian Pop, Christian Rock, 2000s", "", "live", "")
+new Channel("RadioU Throwback", "https://radiou.com/assets/player/throwback.jpg", "https://s5.reliastream.com/proxy/throwback?mp=/stream", "Christian Pop, Christian Rock, 2000s", "", "live", ""),
+new Channel("iHeartCountry Classics", "https://i.iheart.com/v3/re/new_assets/a7739df4-381a-4aba-9643-7ba568989b8c", "http://stream.revma.ihrhls.com/zc4435", "Country", "", "live", "")
 ]
