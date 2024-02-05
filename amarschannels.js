@@ -696,5 +696,6 @@ new Channel("iHeart60s", "https://i.iheart.com/v3/re/new_assets/d09ac81f-c4d0-4c
 new Channel("iHeart2000s", "https://i.iheart.com/v3/re/new_assets/98316aea-eed5-49f2-9b56-cc3d22663f8d", "http://stream.revma.ihrhls.com/zc6850", "2000s, Pop", "", "live", ""),
 new Channel("iHeartCountry 90s", "https://i.iheart.com/v3/re/new_assets/fd6065ae-5f96-46fe-b70d-c3b2d791cb36", "http://stream.revma.ihrhls.com/zc6870", "Country, 90s", "", "live", ""),
 new Channel("iHeart Christmas", "https://i.iheart.com/v3/re/new_assets/b85767b2-d530-468e-8979-d0aa0319b7c8", "http://stream.revma.ihrhls.com/zc4596", "Holiday", "", "live", ""),
-new Channel("iHeartClassical", "https://i.iheart.com/v3/re/new_assets/63b484b4faa942d9be265a9d", "http://stream.revma.ihrhls.com/zc6377", "Classical", "", "live", "")
+new Channel("iHeartClassical", "https://i.iheart.com/v3/re/new_assets/63b484b4faa942d9be265a9d", "http://stream.revma.ihrhls.com/zc6377", "Classical", "", "live", ""),
+new Channel("iHeartCountry Favorites", "https://i.iheart.com/v3/re/new_assets/5ee294faff0c593d2b3f705a", "http://stream.revma.ihrhls.com/zc8625", "Country", "", "live", "")
 ]
