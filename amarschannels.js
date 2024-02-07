@@ -731,5 +731,6 @@ new Channel("Black Information Network", "https://i.iheart.com/v3/re/new_assets/
 new Channel("NBC News Now", "https://cdn-profiles.tunein.com/s310584/images/logog.jpg", "https://tunein.cdnstream1.com/3602_96.mp3", "Progressive Talk, News, TV", "", "live", ""),
 new Channel("WSJ Radio", "https://cdn-profiles.tunein.com/s323001/images/logog.png", "https://tunein.cdnstream1.com/3542_128.mp3", "Finance", "", "live", ""),
 new Channel("Bleav Radio", "https://cdn-profiles.tunein.com/s320651/images/logog.jpg", "https://tunein.cdnstream1.com/3632_96.mp3", "Sports Talk", "", "live", ""),
-new Channel("Bleav Football Radio", "https://cdn-profiles.tunein.com/s320652/images/logog.jpg", "https://tunein.cdnstream1.com/3633_96.mp3", "Sports Talk", "", "live", "")
+new Channel("Bleav Football Radio", "https://cdn-profiles.tunein.com/s320652/images/logog.jpg", "https://tunein.cdnstream1.com/3633_96.mp3", "Sports Talk", "", "live", ""),
+new Channel("Fox Weather", "https://cdn-profiles.tunein.com/s322256/images/logog.jpg", "https://tunein.cdnstream1.com/3659_96.mp3", "News, Weather, TV", "", "live", "")
 ]
