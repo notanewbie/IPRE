@@ -41,7 +41,7 @@ new Channel("Moody Radio Network", "https://cdn-radiotime-logos.tunein.com/s9678
 new Channel("Radio CCM", "https://logopond.com/logos/a1017b5692a77ac2ffad55d7c9a17915.png", "http://primary.moodyradiostream.org/radioccm", "CCM", "", "live", ""),
 new Channel("Radio FEST", "https://www.radio.net/images/broadcasts/32/06/17229/c300.png", "http://primary.moodyradiostream.org/radiofest", "Top 40, Pop", "", "live", ""),
 new Channel("MPIR Comedy OTR", "https://cdn-radiotime-logos.tunein.com/s283968q.png", "https://s3.voscast.com:8454/;", "Audio Drama", "", "dead", ""),
-new Channel("MSNBC", "https://cdn-profiles.tunein.com/s297990/images/logog.jpg", "http://peridot.streamguys.com:7850/live", "TV, Progressive Talk, News", "", "live", "Live"),
+new Channel("MSNBC", "https://cdn-profiles.tunein.com/s297990/images/logog.jpg", "https://tunein.cdnstream1.com/3511_96.mp3", "TV, Progressive Talk, News", "", "live", "Live"),
 new Channel("NBC News Radio", "https://i.iheart.com/v3/re/new_assets/d9466b96-953d-4965-8f43-cfd42aca24fe", "http://stream.revma.ihrhls.com/zc6043", "News, Entertainment Talk", "", "live", ""),
 new Channel("No Agenda Stream", "https://upload.wikimedia.org/wikipedia/commons/b/ba/No_Agenda_cover_placeholder.jpg", "http://listen.noagendastream.com/noagenda", "Conservative Talk, Hot Talk", "", "live", "Explicit"),
 new Channel("Proclaim Channel", "https://cdn-radiotime-logos.tunein.com/s142659q.png", "http://primary.moodyradiostream.org/proclaim-high.aac.m3u", "Worship", "", "dead", ""),
