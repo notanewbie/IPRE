@@ -733,5 +733,7 @@ new Channel("WSJ Radio", "https://cdn-profiles.tunein.com/s323001/images/logog.p
 new Channel("Bleav Radio", "https://cdn-profiles.tunein.com/s320651/images/logog.jpg", "https://tunein.cdnstream1.com/3632_96.mp3", "Sports Talk", "", "live", ""),
 new Channel("Bleav Football Radio", "https://cdn-profiles.tunein.com/s320652/images/logog.jpg", "https://tunein.cdnstream1.com/3633_96.mp3", "Sports Talk", "", "live", ""),
 new Channel("Fox Weather", "https://cdn-profiles.tunein.com/s322256/images/logog.jpg", "https://tunein.cdnstream1.com/3659_96.mp3", "News, Weather, TV", "", "live", ""),
-new Channel("CNN Originals", "https://cdn-profiles.tunein.com/s322998/images/logog.jpg", "https://tunein.cdnstream1.com/3540_128.mp3", "Liberal Talk, Special Interest", "", "live", "")
+new Channel("CNN Originals", "https://cdn-profiles.tunein.com/s322998/images/logog.jpg", "https://tunein.cdnstream1.com/3540_128.mp3", "Liberal Talk, Special Interest", "", "live", ""),
+new Channel("John Fredricks Radio Network", "https://www.johnfredericksradio.com/wp-content/uploads/2018/06/cropped-square_JFR.png", "https://us2.maindigitalstream.com/ssl/JFRN", "Conservative Talk, Hot Talk", "", "live", ""),
+new Channel("John Fredricks Radio Show", "https://www.johnfredericksradio.com/wp-content/uploads/2022/03/JF-Radio-icon-512.jpg", "https://us2.maindigitalstream.com/ssl/JFRS", "Conservative Talk, Hot Talk", "", "live", "")
 ]
