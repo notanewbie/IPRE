@@ -736,5 +736,6 @@ new Channel("Fox Weather", "https://cdn-profiles.tunein.com/s322256/images/logog
 new Channel("CNN Originals", "https://cdn-profiles.tunein.com/s322998/images/logog.jpg", "https://tunein.cdnstream1.com/3540_128.mp3", "Liberal Talk, Special Interest", "", "live", ""),
 new Channel("John Fredricks Radio Network", "https://www.johnfredericksradio.com/wp-content/uploads/2018/06/cropped-square_JFR.png", "https://us2.maindigitalstream.com/ssl/JFRN", "Conservative Talk, Hot Talk", "", "live", ""),
 new Channel("John Fredricks Radio Show", "https://www.johnfredericksradio.com/wp-content/uploads/2022/03/JF-Radio-icon-512.jpg", "https://us2.maindigitalstream.com/ssl/JFRS", "Conservative Talk, Hot Talk", "", "live", ""),
-new Channel("Entertainment Tonight", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/US_STVP_ET_ChannelTile_1400x1400_Square-1706195079301.png", "https://live.amperwave.net/direct/audacy-entertainmenttonightaac-imc", "Entertainment Talk", "", "live", "")
+new Channel("Entertainment Tonight", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/US_STVP_ET_ChannelTile_1400x1400_Square-1706195079301.png", "https://live.amperwave.net/direct/audacy-entertainmenttonightaac-imc", "Entertainment Talk", "", "live", ""),
+new Channel("Sports USA", "https://cdn-radiotime-logos.tunein.com/s225694d.png", "http://peridot.streamguys.com:7580/live", "Sports Talk", "", "live", "")
 ]
