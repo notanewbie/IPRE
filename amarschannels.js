@@ -726,7 +726,7 @@ new Channel("iHeartMoms", "https://i.iheart.com/v3/re/new_assets/5eaf04c11761c36
 new Channel("The iHeartECO Channel", "https://i.iheart.com/v3/re/new_assets/5df7aa5a6cab6811974c06c8", "http://stream.revma.ihrhls.com/zc8480", "Lifestyle", "", "live", ""),
 new Channel("LA Clippers", "https://i.iheart.com/v3/re/new_assets/5ff35ae7c58ee6c19c03f55b", "http://stream.revma.ihrhls.com/zc7559", "Sports Talk", "", "live", ""),
 new Channel("LA CHARGERS", "https://i.iheart.com/v3/re/new_assets/611aa3d8a20d0d9af5982563", "http://stream.revma.ihrhls.com/zc7560", "Sports Talk, Alternative, Rock", "", "live", ""),
-new Channel("Sports Byline USA", "https://i.iheart.com/v3/re/assets/images/aad55ed4-9aad-4c20-8481-c3441b3faedb.png", "http://stream.revma.ihrhls.com/zc6673", "Sports Talk", "", "live", ""),
+new Channel("Sports Byline USA", "https://i.iheart.com/v3/re/assets/images/aad55ed4-9aad-4c20-8481-c3441b3faedb.png", "http://i1.stretchinternet.com:8000/sbusa", "Sports Talk", "", "live", ""),
 new Channel("Black Information Network", "https://i.iheart.com/v3/re/new_assets/5efb56ce92bde4af7401a1a9", "http://stream.revma.ihrhls.com/zc8666", "Progressive Talk", "", "live", ""),
 new Channel("NBC News Now", "https://cdn-profiles.tunein.com/s310584/images/logog.jpg", "https://tunein.cdnstream1.com/3602_96.mp3", "Progressive Talk, News, TV", "", "live", ""),
 new Channel("WSJ Radio", "https://cdn-profiles.tunein.com/s323001/images/logog.png", "https://tunein.cdnstream1.com/3542_128.mp3", "Finance", "", "live", ""),
