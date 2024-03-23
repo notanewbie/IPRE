@@ -352,7 +352,7 @@ new Channel("ESPN Fantasy", "https://d3kle7qwymxpcy.cloudfront.net/images/broadc
 new Channel("ESPN College Football", "https://a.espncdn.com/i/espnradio/podcast/CollegeFootballLive/CollegeFootballLive_1400x1400.jpg", "https://tunein.streamguys1.com/espncf", "Sports Talk, Live Sports", "espncf", "dead", ""),
 new Channel("ESPN Shout", "https://cdn-radiotime-logos.tunein.com/s25876g.png", "https://tunein.streamguys1.com/espnshout", "Sports Talk", "", "dead", ""),
 new Channel("ESPN Fantasy Sports", "https://play-lh.googleusercontent.com/agdeEPKtsU_mFdAlmUkV_vbUtdf-1ldu_N0vS5lgJkDeTOHCCxKym3C1hs3VCvT-DFE", "https://tunein.streamguys1.com/ESPNFantasySports", "Sports Talk", "", "dead", ""),
-new Channel("Fox News Channel", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/2048px-Fox_News_Channel_logo.svg.png", "http://tunein.streamguys1.com/foxnews-free", "Conservative Talk, News", "", "live", ""),
+new Channel("Fox News Channel", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/2048px-Fox_News_Channel_logo.svg.png", "http://tunein.streamguys1.com/foxnews-free", "Conservative Talk, News, TV", "", "dead", ""),
 new Channel("VSIN", "https://cdn-profiles.tunein.com/s308467/images/logog.jpg", "http://tunein.streamguys1.com/vsin", "Sports Talk, Finance", "", "live", ""),
 new Channel("MSNBC Tesla", "https://cdn-profiles.tunein.com/s297990/images/logog.jpg", "http://tunein.streamguys1.com/msnbc-tesla", "News, Progressive Talk", "", "dead", ""),
 new Channel("K-LOVE Christmas", "https://cdn-profiles.tunein.com/s258421/images/logog.png", "https://maestro.emfcdn.com/stream_for/k-love-christmas/tunein/aac", "Holiday", "", "live", ""),
