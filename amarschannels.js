@@ -653,7 +653,7 @@ new Channel("The Talon 105.3 FM", "https://radiostation.info/images/station-logo
 new Channel("New York City FC Network", "https://cdn-profiles.tunein.com/s305540/images/logog.png", "https://tunein.streamguys1.com/nycfc-eng", "Live Sports", "", "live", ""),
 new Channel("RNZ Pacific", "https://i.iheart.com/v3/re/assets.streams/64d3b6874d9a385ab13187ee", "https://radionz-ice.streamguys.com/international_aac64", "News, Entertainment Talk, Indie Pop", "", "live", "Clean"),
 new Channel("ABC RN VIC", "https://cdn-radiotime-logos.tunein.com/s20269g.png", "http://live-radio01.mediahubaustralia.com/3RNW/aac", "Liberal Talk", "ABC Radio National Victorian", "live", ""),
-new Channel("Live Air Scanner", "https://ws.shoutcast.com/images/contacts/d/dfcc/dfcc5263-d3ef-4fc9-8c2b-6f17ad722fed/radios/548b8046-e79e-40cf-88ee-6a432424c0da/548b8046-e79e-40cf-88ee-6a432424c0da.png", "http://45.144.226.14:8010/;", "News", "", "live", ""),
+new Channel("Live Air Scanner", "https://ws.shoutcast.com/images/contacts/d/dfcc/dfcc5263-d3ef-4fc9-8c2b-6f17ad722fed/radios/548b8046-e79e-40cf-88ee-6a432424c0da/548b8046-e79e-40cf-88ee-6a432424c0da.png", "http://45.144.226.14:8010/;", "News", "", "dead", ""),
 new Channel("Free Think Radio", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4aeD5j0NhbTD7aoqRhjDT5toAOPyzLE-UVEhfTrKgnw&s", "http://148.251.92.113:8026/stream", "Hot Talk", "", "dead", ""),
 new Channel("California AG News 24/7", "https://californiaagtoday.com/wp-content/uploads/2014/08/Cal-ag-news-HR.jpg", "http://73.15.67.58:8022/;", "Lifestyle", "", "live", ""),
 new Channel("The Health Wyze Report", "https://www.radio.net/images/broadcasts/76/60/11476/c300.png", "http://healthwyze.org:7777/listen.pls", "Lifestyle, Hot Talk", "", "live", ""),
