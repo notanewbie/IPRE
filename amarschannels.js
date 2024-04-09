@@ -620,7 +620,7 @@ new Channel("FUNKY RADIO", "https://images.radio.com/independent/logos/FUNKYRADI
 new Channel("Totally Country Radio", "https://images.radio.com/independent/logos/TotallyCountryRadio.jpg", "https://securestreams2.autopo.st:1281/;", "Country", "", "live", ""),
 new Channel("PERFORMANCE MOTORSPORTS NETWORK", "https://images.radio.com/independent/logos/PerformanceMotorsportsNetwork.jpg", "https://ice6.securenetsystems.net/PERFMNET", "Live Sports", "", "live", ""),
 new Channel("Wayne Allyn Root", "https://images.radio.com/logos/thewayneallynrootshow.jpg", "https://live.amperwave.net/direct/audacy-wayneallynrootaac-imc", "Conservative Talk", "", "live", ""),
-new Channel("Backstage Radio Network", "https://images.radio.com/independent/logos/BackstageRadioNetwork.jpg", "https://cbtv.out.airtime.pro/cbtv_a", "News, Entertainment Talk, Finance, Progressive Talk, Indie Pop", "", "live", ""),
+new Channel("Backstage Radio Network", "https://images.radio.com/independent/logos/BackstageRadioNetwork.jpg", "https://cbtv.out.airtime.pro/cbtv_a", "Entertainment Talk, Progressive Talk, R&B", "", "live", ""),
 new Channel("Gold Legacy Radio", "https://cdn-profiles.tunein.com/s277491/images/logog.jpg", "https://stream-053.zeno.fm/33crgrhvfnzuv", "Worship", "", "live", ""),
 new Channel("eBible Fellowship", "https://cdn-radiotime-logos.tunein.com/s101541g.png", "https://listen.ebiblefellowship.org/mp3", "Worship, Sermons, Lifestyle", "", "live", ""),
 new Channel("The Bridge Radio", "https://bridgeradio.liberatedstreaming.com/wp-content/uploads/sites/13/2019/12/bridgeradio.png", "https://bridge-libstrm.radioca.st/stream", "Sermons, Lifestyle", "", "live", ""),
