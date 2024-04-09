@@ -268,6 +268,11 @@ addRow(TopCatList[1].name, byRating2(catArray(TopCatList[1].name)).slice(0, 25),
 addRow(TopCatList[2].name, byRating2(catArray(TopCatList[2].name)).slice(0, 25), "showCategory('" + TopCatList[2].name + "')");
 addRow(TopCatList[3].name, byRating2(catArray(TopCatList[3].name)).slice(0, 25), "showCategory('" + TopCatList[3].name + "')");
 addRow(TopCatList[4].name, byRating2(catArray(TopCatList[4].name)).slice(0, 25), "showCategory('" + TopCatList[4].name + "')");
+addRow(TopCatList[5].name, byRating2(catArray(TopCatList[5].name)).slice(0, 25), "showCategory('" + TopCatList[5].name + "')");
+addRow(TopCatList[6].name, byRating2(catArray(TopCatList[6].name)).slice(0, 25), "showCategory('" + TopCatList[6].name + "')");
+addRow(TopCatList[7].name, byRating2(catArray(TopCatList[7].name)).slice(0, 25), "showCategory('" + TopCatList[7].name + "')");
+addRow(TopCatList[8].name, byRating2(catArray(TopCatList[8].name)).slice(0, 25), "showCategory('" + TopCatList[8].name + "')");
+addRow(TopCatList[9].name, byRating2(catArray(TopCatList[9].name)).slice(0, 25), "showCategory('" + TopCatList[9].name + "')");
 hideMenu();
 hidePlay();
 hideOptions();
