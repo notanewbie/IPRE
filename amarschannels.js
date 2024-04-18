@@ -740,5 +740,6 @@ new Channel("Entertainment Tonight", "https://images.radio.com/aud-opsconsole-me
 new Channel("Sports USA", "https://cdn-radiotime-logos.tunein.com/s225694d.png", "http://peridot.streamguys.com:7580/live", "Sports Talk", "", "live", ""),
 new Channel("Pattrn", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/Pattrn_No%20Text_Color-1682625949256.png", "https://live.amperwave.net/direct/audacy-pattrnaac-imc", "Weather, Special Interest", "", "live", ""),
 new Channel("Westwood One Wegener", "https://logosandtypes.com/wp-content/uploads/2020/08/westwood-one.svg", "http://192.241.185.108:8003/stream", "Conservative Talk, Lifestyle Talk", "", "live", ""),
-new Channel("Verizon Radio", "https://i.iheart.com/v3/re/assets.streams/65d7a8768578bd188c77afdd", "http://stream.revma.ihrhls.com/zc10126", "Pop, Hot AC", "", "live", "")
+new Channel("Verizon Radio", "https://i.iheart.com/v3/re/assets.streams/65d7a8768578bd188c77afdd", "http://stream.revma.ihrhls.com/zc10126", "Pop, Hot AC", "", "live", ""),
+new Channel("The Officer Tatum Podcast 24/7", "https://cdn.saleminteractivemedia.com/410/content/259648/officer-tatum-podcast-artwork-revised.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/TATUIRAAC", "Conservative Talk", "", "live", "")
 ]
