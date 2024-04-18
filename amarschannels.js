@@ -738,5 +738,6 @@ new Channel("John Fredricks Radio Network", "https://www.johnfredericksradio.com
 new Channel("John Fredricks Radio Show", "https://www.johnfredericksradio.com/wp-content/uploads/2022/03/JF-Radio-icon-512.jpg", "https://us2.maindigitalstream.com/ssl/JFRS", "Conservative Talk, Hot Talk", "", "live", ""),
 new Channel("Entertainment Tonight", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/US_STVP_ET_ChannelTile_1400x1400_Square-1706195079301.png", "https://live.amperwave.net/direct/audacy-entertainmenttonightaac-imc", "Entertainment Talk", "", "live", ""),
 new Channel("Sports USA", "https://cdn-radiotime-logos.tunein.com/s225694d.png", "http://peridot.streamguys.com:7580/live", "Sports Talk", "", "live", ""),
-new Channel("Pattrn", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/Pattrn_No%20Text_Color-1682625949256.png", "https://live.amperwave.net/direct/audacy-pattrnaac-imc", "Weather, Special Interest", "", "live", "")
+new Channel("Pattrn", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/Pattrn_No%20Text_Color-1682625949256.png", "https://live.amperwave.net/direct/audacy-pattrnaac-imc", "Weather, Special Interest", "", "live", ""),
+new Channel("Salem Radio Network", "https://nrb.org/wp-content/uploads/2021/01/SalemRadioNetwork350.png", "http://192.241.185.108:8003/stream", "Conservative Talk", "", "live", "")
 ]
