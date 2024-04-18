@@ -742,5 +742,6 @@ new Channel("Pattrn", "https://images.radio.com/aud-opsconsole-media-images-prod
 new Channel("Westwood One Wegener", "https://logosandtypes.com/wp-content/uploads/2020/08/westwood-one.svg", "http://192.241.185.108:8003/stream", "Conservative Talk, Lifestyle Talk", "", "live", ""),
 new Channel("Verizon Radio", "https://i.iheart.com/v3/re/assets.streams/65d7a8768578bd188c77afdd", "http://stream.revma.ihrhls.com/zc10126", "Pop, Hot AC", "", "live", ""),
 new Channel("The Officer Tatum Podcast 24/7", "https://cdn.saleminteractivemedia.com/410/content/259648/officer-tatum-podcast-artwork-revised.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/TATUIRAAC", "Conservative Talk", "", "live", ""),
-new Channel("America First with Sebastian Gorka 24/7", "https://www.sebgorka.com/wp-content/themes/sebgorkacabinet/images/seb-gorka-400x400.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/GORKIRAAC", "Conservative Talk", "", "live", "")
+new Channel("America First with Sebastian Gorka 24/7", "https://www.sebgorka.com/wp-content/themes/sebgorkacabinet/images/seb-gorka-400x400.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/GORKIRAAC", "Conservative Talk", "", "live", ""),
+new Channel("Armed American Radio", "https://lh6.googleusercontent.com/proxy/FYbTjWMSyMxXDIC8sbAYQOwTQs26xIkqNtw505rpN_rYYAhF9-tRPnykvoTJwMgm5n3kaYoXNU7eMt6tKTQ2rSdEoKoH37cH", "https://playerservices.streamtheworld.com/api/livestream-redirect/AARDAILYDEFENSEAAC", "Conservative Talk", "", "live", "")
 ]
