@@ -745,5 +745,6 @@ new Channel("The Officer Tatum Show 24/7", "https://cdn.saleminteractivemedia.co
 new Channel("America First with Sebastian Gorka 24/7", "https://www.sebgorka.com/wp-content/themes/sebgorkacabinet/images/seb-gorka-400x400.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/GORKIRAAC", "Conservative Talk, Hot Talk", "", "live", ""),
 new Channel("Armed American Radio", "https://lh6.googleusercontent.com/proxy/FYbTjWMSyMxXDIC8sbAYQOwTQs26xIkqNtw505rpN_rYYAhF9-tRPnykvoTJwMgm5n3kaYoXNU7eMt6tKTQ2rSdEoKoH37cH", "https://playerservices.streamtheworld.com/api/livestream-redirect/AARDAILYDEFENSEAAC", "Conservative Talk", "", "live", ""),
 new Channel("Salem News Channel", "https://cdn-profiles.tunein.com/s321907/images/logog.jpg", "https://tunein.cdnstream1.com/4438_96.mp3", "Conservative Talk, Hot Talk, TV", "", "live", ""),
-new Channel("Heartland Signal", "https://heartlandsignal.com/wp-content/themes/landslide/img/logo.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WCPTAM.mp3", "Progressive Talk", "WCPT820", "live", "")
+new Channel("Heartland Signal", "https://heartlandsignal.com/wp-content/themes/landslide/img/logo.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WCPTAM.mp3", "Progressive Talk", "WCPT820", "live", ""),
+new Channel("news & Talk 1380 WAOK", "https://images.radio.com/logos/WAOKAM.jpg", "https://live.amperwave.net/direct/audacy-waokamaac-imc", "Progressive Talk, Finance", "", "live", "")
 ]
