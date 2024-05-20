@@ -362,7 +362,7 @@ new Channel("Radio Paradise Mellow Mix", "https://cdn-profiles.tunein.com/s30882
 new Channel("Radio Paradise Rock Mix", "https://cdn-profiles.tunein.com/s308827/images/logog.png", "https://stream.radioparadise.com/rock-320", "Rock", "", "live", "Clean"),
 new Channel("talkSPORT 2", "https://cdn-radiotime-logos.tunein.com/s265443g.png", "https://radio.talksport.com/stream2", "Sports Talk", "", "live", ""),
 new Channel("FireLane", "https://images.radio.com/logos/KNXHD3.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/KNXHD3AAC_SC", "EDM, Hip-Hop, Rock, Soul", "Fire Lane", "live", "Clean"),
-new Channel("Channel Africa", "https://listen.channelafrica.co.za/listenchannelafrica/images/listen-live-logo.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/CA247AAC_SC", "News", "", "live", ""),
+new Channel("Channel Africa", "https://listen.channelafrica.co.za/listenchannelafrica/images/listen-live-logo.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/CA247AAC_SC", "News, Lifestyle", "", "live", ""),
 new Channel("RNZ National", "https://cdn-profiles.tunein.com/s25645/images/logog.jpg", "https://radionz-ice.streamguys.com/National_aac128", "News, Entertainment Talk, Indie Pop", "", "live", "Clean"),
 new Channel("LifeTalk Radio", "https://play-lh.googleusercontent.com/kqbR292I-S4-RlSLsoPd83yUoXwIjAO4rSxpaNt0yHi8MZntiYCnW1EsZp9ixtNK24QE", "https://ais-sa1.streamon.fm/7013_64k.aac", "Sermons, Lifestyle, Worship", "", "live", ""),
 new Channel("LifeTalk Kids", "https://streaming-player-assets.s3.amazonaws.com/LTRKids/custom/images/LTRKidsLogo.jpg", "https://ais-sa1.streamon.fm/7670_48k.aac", "Sermons, Lifestyle, Worship, Audio Drama", "", "live", ""),
