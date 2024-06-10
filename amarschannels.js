@@ -781,5 +781,7 @@ new Channel("CBC Radio One Quebec City", "https://cdn-profiles.tunein.com/s25319
 new Channel("CBC Radio One Goose Bay", "https://cdn-profiles.tunein.com/s25319/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/CBGAM_CBC.mp3", "Liberal Talk, News, Special Interest", "", "live", ""),
 new Channel("CBC Radio One Barrie", "https://cdn-profiles.tunein.com/s25319/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/CBCOFM_CBC.mp3", "Liberal Talk, News, Special Interest", "", "live", ""),
 new Channel("CBC Radio One Inuvik", "https://cdn-profiles.tunein.com/s25319/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/CHAK_CBC.mp3", "Liberal Talk, News, Special Interest", "", "live", ""),
-new Channel("CBC Radio One Yellowknife", "https://cdn-profiles.tunein.com/s25319/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/CFYKFM_CBC.mp3", "Liberal Talk, News, Special Interest", "", "live", "")
+new Channel("CBC Radio One Yellowknife", "https://cdn-profiles.tunein.com/s25319/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/CFYKFM_CBC.mp3", "Liberal Talk, News, Special Interest", "", "live", ""),
+new Channel("Netroots Radio", "https://images.dailykos.com/logos/787847/header_mobile/nrLogoBlockNew300x300_copy.jpg", "https://netroots-main-1.stream.creek.fm/stream", "Progressive Talk", "", "live", ""),
+new Channel("The Nicole Sanders Show", "https://cdn-profiles.tunein.com/s229127/images/logog.png", "https://s5.radioforge.com:5466/stream/;", "Progressive Talk", "", "dead", "")
 ]
