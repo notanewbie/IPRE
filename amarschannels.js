@@ -346,7 +346,7 @@ new Channel("Thom Hartmann Radio Program", "https://www.thomhartmann.com/sites/d
 new Channel("The Head On Radio Network", "https://www.headon.live/wp-content/uploads/2017/05/HeadOn-Radio-Network-SQ.png", "https://headonradio.radioca.st/stream", "Progressive Talk", "The HORN Robyn Kincaid", "live", "Explicit"),
 new Channel("detour TALK", "https://www.radio.net/images/broadcasts/d6/2c/123762/1/c300.png", "https://headonradio.radioca.st/stream", "Progressive Talk", "The Detour", "live", ""),
 new Channel("Air Progressive", "https://cdn-radiotime-logos.tunein.com/s141251d.png", "http://airprogressive.org:8000/stream", "Progressive Talk", "", "dead", ""),
-new Channel("MLB on TuneIn", "https://cdn-profiles.tunein.com/s253402/images/logog.png", "https://t1.streamguys1.com/mlb247", "Live Sports", "", "live", ""),
+new Channel("MLB on TuneIn", "https://cdn-profiles.tunein.com/s253402/images/logog.png", "https://tunein.cdnstream1.com/4490_128.mp3", "Live Sports", "", "live", ""),
 new Channel("ESPN Sidechannel", "https://cdn-profiles.tunein.com/s25876/images/logog.jpg", "http://live.amperwave.net/direct/espn-sidechannel1mp3-ll-48", "Sports Talk, Live Sports", "MLB on ESPN, NBA on ESPN", "live", ""),
 new Channel("ESPN Fantasy", "https://g.espncdn.com/lm-static/fantasy/fantasy-logo-appTile@2x.png", "https://tunein.cdnstream1.com/3660_128.mp3", "Sports Talk", "", "live", ""),
 new Channel("ESPN College Football", "https://a.espncdn.com/i/espnradio/podcast/CollegeFootballLive/CollegeFootballLive_1400x1400.jpg", "http://stream.abacast.net/direct/espn-espntv-48", "Sports Talk, Live Sports", "espncf", "dead", ""),
