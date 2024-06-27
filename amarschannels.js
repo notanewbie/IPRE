@@ -783,5 +783,8 @@ new Channel("CBC Radio One Barrie", "https://cdn-profiles.tunein.com/s25319/imag
 new Channel("CBC Radio One Inuvik", "https://cdn-profiles.tunein.com/s25319/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/CHAK_CBC.mp3", "Liberal Talk, News, Special Interest", "", "live", ""),
 new Channel("CBC Radio One Yellowknife", "https://cdn-profiles.tunein.com/s25319/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/CFYKFM_CBC.mp3", "Liberal Talk, News, Special Interest", "", "live", ""),
 new Channel("Netroots Radio", "https://images.dailykos.com/logos/787847/header_mobile/nrLogoBlockNew300x300_copy.jpg", "https://netroots-main-1.stream.creek.fm/stream", "Progressive Talk", "", "live", ""),
-new Channel("The Nicole Sandler Show", "https://cdn-profiles.tunein.com/s229127/images/logog.png", "https://s5.radioforge.com:5466/stream/;", "Progressive Talk", "", "dead", "")
+new Channel("The Nicole Sandler Show", "https://cdn-profiles.tunein.com/s229127/images/logog.png", "https://s5.radioforge.com:5466/stream/;", "Progressive Talk", "", "live", ""),
+new Channel("The BIG 615", "https://cdn-profiles.tunein.com/s323684/images/logog.jpg", "https://rfcm.streamguys1.com/big615-mp3", "Country", "", "live", ""),
+new Channel("The Garth Channel", "https://cdn-profiles.tunein.com/s324796/images/logog.jpg", "https://rfcm.streamguys1.com/thegarthchannel-mp3", "Country", "", "live", ""),
+new Channel("Tailgate Radio", "https://cdn-profiles.tunein.com/s324450/images/logog.jpg", "https://rfcm.streamguys1.com/tailgate-mp3", "Country", "", "live", "")
 ]
