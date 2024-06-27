@@ -786,5 +786,6 @@ new Channel("Netroots Radio", "https://images.dailykos.com/logos/787847/header_m
 new Channel("The Nicole Sandler Show", "https://cdn-profiles.tunein.com/s229127/images/logog.png", "https://s5.radioforge.com:5466/stream/;", "Progressive Talk", "", "live", ""),
 new Channel("The BIG 615", "https://cdn-profiles.tunein.com/s323684/images/logog.jpg", "https://rfcm.streamguys1.com/big615-mp3", "Country", "", "live", ""),
 new Channel("The Garth Channel", "https://cdn-profiles.tunein.com/s324796/images/logog.jpg", "https://rfcm.streamguys1.com/thegarthchannel-mp3", "Country", "", "live", ""),
-new Channel("Tailgate Radio", "https://cdn-profiles.tunein.com/s324450/images/logog.jpg", "https://rfcm.streamguys1.com/tailgate-mp3", "Country", "", "live", "")
+new Channel("Tailgate Radio", "https://cdn-profiles.tunein.com/s324450/images/logog.jpg", "https://rfcm.streamguys1.com/tailgate-mp3", "Country", "", "live", ""),
+new Channel("Indycar Radio", "https://cdn-profiles.tunein.com/s269629/images/logog.jpg", "https://listen.mixlr.com/8e99804ffc4d6189f7343d032b187c43", "Sports Talk, Live Sports", "", "live", "")
 ]
