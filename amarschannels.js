@@ -787,5 +787,12 @@ new Channel("The Nicole Sandler Show", "https://cdn-profiles.tunein.com/s229127/
 new Channel("The BIG 615", "https://cdn-profiles.tunein.com/s323684/images/logog.jpg", "https://rfcm.streamguys1.com/big615-mp3", "Country", "", "live", ""),
 new Channel("The Garth Channel", "https://cdn-profiles.tunein.com/s324796/images/logog.jpg", "https://rfcm.streamguys1.com/thegarthchannel-mp3", "Country", "", "live", ""),
 new Channel("Tailgate Radio", "https://cdn-profiles.tunein.com/s324450/images/logog.jpg", "https://rfcm.streamguys1.com/tailgate-mp3", "Country", "", "live", ""),
-new Channel("Indycar Radio", "https://cdn-profiles.tunein.com/s269629/images/logog.jpg", "https://listen.mixlr.com/8e99804ffc4d6189f7343d032b187c43", "Sports Talk, Live Sports", "", "live", "")
+new Channel("Indycar Radio", "https://cdn-profiles.tunein.com/s269629/images/logog.jpg", "https://listen.mixlr.com/8e99804ffc4d6189f7343d032b187c43", "Sports Talk, Live Sports", "", "live", ""),
+new Channel("True Crime Now", "https://cdn-profiles.tunein.com/s323945/images/logog.jpg", "https://tunein.cdnstream1.com/3645_96.mp3", "Special Interest", "", "live", ""),
+new Channel("History & Warfare Now", "https://cdn-profiles.tunein.com/s323883/images/logog.jpg", "https://tunein.cdnstream1.com/3644_96.mp3", "Special Interest", "", "live", ""),
+new Channel("History & Warfare Now", "https://cdn-profiles.tunein.com/s323883/images/logog.jpg", "https://tunein.cdnstream1.com/3644_96.mp3", "Special Interest", "", "live", ""),
+new Channel("TODAY All Day", "https://cdn-profiles.tunein.com/s321395/images/logog.jpg", "https://tunein.cdnstream1.com/3603_96.mp3", "Liberal Talk", "", "live", ""),
+new Channel("Dateline 24/7", "https://cdn-profiles.tunein.com/s321394/images/logog.jpg", "https://tunein.cdnstream1.com/3604_96.mp3", "Special Interest", "", "live", ""),
+new Channel("Nosey", "https://cdn-profiles.tunein.com/s323291/images/logog.jpg", "https://tunein.cdnstream1.com/3658_96.mp3", "Special Interest", "", "live", "")
+new Channel("Judge Nosey", "https://cdn-profiles.tunein.com/s323324/images/logog.jpg", "https://tunein.cdnstream1.com/3657_96.mp3", "Special Interest", "", "live", "")
 ]
