@@ -26,8 +26,8 @@ startup = {
 "x": 3,
 "img": "https://media.13newsnow.com/assets/WVEC/images/d916f222-b461-476c-8744-61efb5f3286e/d916f222-b461-476c-8744-61efb5f3286e_1920x1080.jpg",
 "header": "Follow Your Vote",
-"message": "Stay up-to-date with all of the latest US midterm election results.",
+"message": "Stay up-to-date with all of the latest election news in one of the biggest political years in history.",
 "button_text": ["Find Coverage", "Okay"],
 "button_action": ["showCategory('News'); hideMessage()", "hideMessage()"],
-"date": "11/14/22"
+"date": "1/1/24"
 }
