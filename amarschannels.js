@@ -795,5 +795,6 @@ new Channel("TODAY All Day", "https://cdn-profiles.tunein.com/s321395/images/log
 new Channel("Dateline 24/7", "https://cdn-profiles.tunein.com/s321394/images/logog.jpg", "https://tunein.cdnstream1.com/3604_96.mp3", "Special Interest", "", "live", ""),
 new Channel("Nosey", "https://cdn-profiles.tunein.com/s323291/images/logog.jpg", "https://tunein.cdnstream1.com/3658_96.mp3", "Special Interest", "", "live", ""),
 new Channel("Judge Nosey", "https://cdn-profiles.tunein.com/s323324/images/logog.jpg", "https://tunein.cdnstream1.com/3657_96.mp3", "Special Interest", "", "live", ""),
-new Channel("Newstalk 105.9 FM WMAL", "https://cdn-profiles.tunein.com/s30062/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WMALFM.mp3", "Conservative Talk", "", "live", "")
+new Channel("Newstalk 105.9 FM WMAL", "https://cdn-profiles.tunein.com/s30062/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WMALFM.mp3", "Conservative Talk", "", "live", ""),
+new Channel("Red State Talk Radio", "https://cdn-profiles.tunein.com/s123330/images/logog.png", "https://s2.radio.co/s572ad25f7/listen", "Conservative Talk", "", "live", "")
 ]
