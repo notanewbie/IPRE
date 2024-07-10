@@ -798,5 +798,7 @@ new Channel("Judge Nosey", "https://cdn-profiles.tunein.com/s323324/images/logog
 new Channel("Newstalk 105.9 FM WMAL", "https://cdn-profiles.tunein.com/s30062/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WMALFM.mp3", "Conservative Talk", "", "live", ""),
 new Channel("Red State Talk Radio", "https://cdn-profiles.tunein.com/s123330/images/logog.png", "https://s2.radio.co/s572ad25f7/listen", "Conservative Talk", "", "live", ""),
 new Channel("Worship 24/7", "https://worship247.com/wp-content/uploads/2023/05/Worship247-Logo-Square-FullColor.png", "https://worship247.streamguys1.com/live-aac-web", "Worship", "", "live", ""),
-new Channel("Power Of Worship Radio", "https://play-lh.googleusercontent.com/2cjloL4AOWiLM7kWavRAe7uZkgqbhS-rIagie2vDQbj4gcXOHn2Q8gwYAwP60S00TU5N=w750-h480-rw", "https://fwd.autopo.st/powerofworshipradio", "Worship, Gospel, Sermons", "", "live", "")
+new Channel("Power Of Worship Radio", "https://play-lh.googleusercontent.com/2cjloL4AOWiLM7kWavRAe7uZkgqbhS-rIagie2vDQbj4gcXOHn2Q8gwYAwP60S00TU5N=w750-h480-rw", "https://fwd.autopo.st/powerofworshipradio", "Worship, Gospel, Sermons", "", "live", ""),
+new Channel("AllWorship Contemporary Worship", "https://play-lh.googleusercontent.com/KCJHdmzakqFvAsslWCiqx_dtgFotqh7A5zzmexoDhx4oTWPPlfVl8hipOD4S_7bW4tA=w750-h480-rw", "https://ice66.securenetsystems.net/AGCCW", "Worship, Gospel", "All Worship", "live", ""),
+new Channel("AllWorship Praise & Worship", "https://play-lh.googleusercontent.com/KCJHdmzakqFvAsslWCiqx_dtgFotqh7A5zzmexoDhx4oTWPPlfVl8hipOD4S_7bW4tA=w750-h480-rw", "https://ice66.securenetsystems.net/AGCPW", "Worship, Gospel", "All Worship", "live", "")
 ]
