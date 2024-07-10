@@ -804,5 +804,7 @@ new Channel("AllWorship Praise & Worship", "https://play-lh.googleusercontent.co
 new Channel("AllWorship Gospel Worship", "https://play-lh.googleusercontent.com/KCJHdmzakqFvAsslWCiqx_dtgFotqh7A5zzmexoDhx4oTWPPlfVl8hipOD4S_7bW4tA=w750-h480-rw", "https://ice25.securenetsystems.net/AGCGW", "Worship, Gospel", "All Worship", "live", ""),
 new Channel("AllWorship Instrumental Worship", "https://play-lh.googleusercontent.com/KCJHdmzakqFvAsslWCiqx_dtgFotqh7A5zzmexoDhx4oTWPPlfVl8hipOD4S_7bW4tA=w750-h480-rw", "https://ice66.securenetsystems.net/AGCIW", "Worship", "All Worship", "live", ""),
 new Channel("AllWorship Hymns & Favorites", "https://play-lh.googleusercontent.com/KCJHdmzakqFvAsslWCiqx_dtgFotqh7A5zzmexoDhx4oTWPPlfVl8hipOD4S_7bW4tA=w750-h480-rw", "https://das-edge11-live365-dal03.cdnstream.com/a18433", "Worship", "All Worship", "live", ""),
-new Channel("AllWorship Christmas Worship", "https://play-lh.googleusercontent.com/KCJHdmzakqFvAsslWCiqx_dtgFotqh7A5zzmexoDhx4oTWPPlfVl8hipOD4S_7bW4tA=w750-h480-rw", "https://ice66.securenetsystems.net/AGCXW", "Worship, Holiday", "All Worship", "live", "")
+new Channel("AllWorship Christmas Worship", "https://play-lh.googleusercontent.com/KCJHdmzakqFvAsslWCiqx_dtgFotqh7A5zzmexoDhx4oTWPPlfVl8hipOD4S_7bW4tA=w750-h480-rw", "https://ice66.securenetsystems.net/AGCXW", "Worship, Holiday", "All Worship", "live", ""),
+new Channel("City Worship Radio", "https://cityworshipradio.com/wp-content/uploads/2022/11/citylogo.png", "https://us2.maindigitalstream.com/ssl/7795", "Gospel, Worship", "", "live", ""),
+new Channel("Joy Worship", "https://joyworship.wpengine.com/wp-content/uploads/2020/08/logo-joy-worship.svg", "https://das-edge09-live365-dal03.cdnstream.com/a91291", "Worship", "", "live", "")
 ]
