@@ -700,7 +700,7 @@ new Channel("iHeartClassical", "https://i.iheart.com/v3/re/new_assets/63b484b4fa
 new Channel("iHeartCountry Favorites", "https://i.iheart.com/v3/re/new_assets/5ee294faff0c593d2b3f705a", "http://stream.revma.ihrhls.com/zc8625", "Country", "", "live", ""),
 new Channel("iHeart50s", "https://i.iheart.com/v3/re/new_assets/30983d91-ecfa-4fd0-b99e-2fc0447ed0ac", "http://stream.revma.ihrhls.com/zc6882", "50s", "", "live", ""),
 new Channel("iHeartCountry 80s", "https://i.iheart.com/v3/re/new_assets/6788111e-5cac-4f93-b8ca-acecc75b0746", "http://stream.revma.ihrhls.com/zc6836", "80s, Country", "", "live", ""),
-new Channel("iHeartFamily Christian", "https://i.iheart.com/v3/re/assets.streams/65300036ac0099e300c48c03", "http://stream.revma.ihrhls.com/zc10021", "CCM, Worship", "", "live", ""),
+new Channel("iHeartFamilyChristian", "https://i.iheart.com/v3/re/assets.streams/65300036ac0099e300c48c03", "http://stream.revma.ihrhls.com/zc10021", "CCM, Worship", "", "live", ""),
 new Channel("iHeartRadio Family Countdown", "https://i.iheart.com/v3/re/assets.streams/63dd74eb2e00de3b8f09d49c", "http://stream.revma.ihrhls.com/zc7013", "CCM, Worship, Top 40", "", "live", ""),
 new Channel("iHeartCountry Family", "https://i.iheart.com/v3/re/new_assets/5cb0d5f4e0a8f7da96d11f87", "http://stream.revma.ihrhls.com/zc7014", "Country", "", "live", ""),
 new Channel("iHeartReggae", "https://i.iheart.com/v3/re/assets.streams/6418baa342f7b39d7b07f55c", "http://stream.revma.ihrhls.com/zc6788", "Reggae", "", "live", ""),
@@ -806,5 +806,16 @@ new Channel("AllWorship Instrumental Worship", "https://play-lh.googleuserconten
 new Channel("AllWorship Hymns & Favorites", "https://play-lh.googleusercontent.com/KCJHdmzakqFvAsslWCiqx_dtgFotqh7A5zzmexoDhx4oTWPPlfVl8hipOD4S_7bW4tA=w750-h480-rw", "https://das-edge11-live365-dal03.cdnstream.com/a18433", "Worship", "All Worship", "live", ""),
 new Channel("AllWorship Christmas Worship", "https://play-lh.googleusercontent.com/KCJHdmzakqFvAsslWCiqx_dtgFotqh7A5zzmexoDhx4oTWPPlfVl8hipOD4S_7bW4tA=w750-h480-rw", "https://ice66.securenetsystems.net/AGCXW", "Worship, Holiday", "All Worship", "live", ""),
 new Channel("City Worship Radio", "https://cityworshipradio.com/wp-content/uploads/2022/11/citylogo.png", "https://us2.maindigitalstream.com/ssl/7795", "Gospel, Worship", "", "live", ""),
-new Channel("Joy Worship", "https://joyworship.wpengine.com/wp-content/uploads/2020/08/logo-joy-worship.svg", "https://das-edge09-live365-dal03.cdnstream.com/a91291", "Worship", "", "live", "")
+new Channel("Joy Worship", "https://joyworship.wpengine.com/wp-content/uploads/2020/08/logo-joy-worship.svg", "https://das-edge09-live365-dal03.cdnstream.com/a91291", "Worship", "", "live", ""),
+new Channel("ALT Top 20", "https://i.iheart.com/v3/re/assets.streams/643efbccbd6cf8d99876375d", "http://stream.revma.ihrhls.com/zc9759", "Alternative, Top 40", "", "live", ""),
+new Channel("ALT2K", "https://i.iheart.com/v3/re/assets.streams/64e6885576cc9efead93eb30", "http://stream.revma.ihrhls.com/zc7727", "Alternative, 2000s", "", "live", ""),
+new Channel("Smells Like The 90s", "https://i.iheart.com/v3/re/new_assets/20023775-152b-4eb5-8d68-67dba616e293", "http://stream.revma.ihrhls.com/zc6437", "Alternative, 90s", "", "live", ""),
+new Channel("ALTX", "https://i.iheart.com/v3/re/assets.streams/6596da26e294ca3b31f0b532", "http://stream.revma.ihrhls.com/zc10098", "Alternative, 90s, 2000s", "", "live", ""),
+new Channel("Freeform Radio", "https://i.iheart.com/v3/re/assets.streams/6413a424d6ca51cf14e07f24", "http://stream.revma.ihrhls.com/zc9719", "Alternative", "", "live", ""),
+new Channel("Indie Radio", "https://i.iheart.com/v3/re/assets.streams/64caaca1083b54ba5bbf6cc2", "http://stream.revma.ihrhls.com/zc7189", "Alternative", "", "live", ""),
+new Channel("Up!", "https://i.iheart.com/v3/re/new_assets/8dae351b-a076-4418-a2ad-a3434bfa1d75", "hhttp://stream.revma.ihrhls.com/zc7203", "Christian Pop", "", "live", ""),
+new Channel("Christian Top 20", "https://i.iheart.com/v3/re/assets.streams/641e2f8702602ae7dcd0e9a9", "hhttp://stream.revma.ihrhls.com/zc4978", "Christian Pop, Top 40", "", "live", ""),
+new Channel("Hallelujah", "https://i.iheart.com/v3/re/new_assets/5ca6335aa162893819640941", "http://stream.revma.ihrhls.com/zc7005", "Gospel, Worship", "", "live", ""),
+new Channel("Gospel Top 20", "https://i.iheart.com/v3/re/assets.streams/643efcdebd6cf8d998763766", "http://stream.revma.ihrhls.com/zc9760", "Gospel, Worship, Top 40", "", "live", ""),
+new Channel("Christian Country", "https://i.iheart.com/v3/re/new_assets/bd391832-850a-4f89-bb16-b5a504422110", "http://stream.revma.ihrhls.com/zc6845", "Country, Christian Pop", "", "live", "")
 ]
