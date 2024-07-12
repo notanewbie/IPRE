@@ -77,7 +77,7 @@ new Channel("SLAM! MixMarathon", "https://scale.slam.nl/imageScaled/?site=slam&f
 new Channel("SLAM! Non-stop", "https://scale.slam.nl/imageScaled/?site=slam&file=1558361457_Non-Stop.jpg&w=1000&h=1000&cropped=0", "https://stream.slam.nl/WEB10", "Pop, Top 40", "", "live", "Clean"),
 new Channel("SLAM! Juize", "https://scale.slam.nl/imageScaled/?site=slam&file=1558361463_Juize.jpg&w=1000&h=1000&cropped=0", "https://stream.slam.nl/WEB09", "Pop, Top 40", "", "live", "Clean"),
 new Channel("SLAM! Housuh In De Pauzuh", "https://scale.slam.nl/imageScaled/?site=slam&file=1568041496_hidp.jpg&w=1000&h=1000&cropped=0", "https://stream.slam.nl/WEB16", "Pop, Hip-Hop, 2000s, 90s", "", "live", "Clean"),
-new Channel("Spin Cycle", "https://radiostationusa.fm/assets/image/radio/180/Spin-Cycle.png", "http://stream.revma.ihrhls.com/zc4776", "EDM, Pop, Hip-Hop", "", "live", "Live"),
+new Channel("Mix Nation", "https://radiostationusa.fm/assets/image/radio/180/Spin-Cycle.png", "http://stream.revma.ihrhls.com/zc4776", "EDM, Pop, Hip-Hop", "Spin Cycle", "live", "Live"),
 new Channel("TEDTalks", "https://cdn-radiotime-logos.tunein.com/s159861q.png", "http://tunein.streamguys1.com/TEDTalks", "Lifestyle, Education", "", "dead", "Live"),
 new Channel("The Alex Jones Show", "https://m.media-amazon.com/images/M/MV5BYmVlZWY2NGMtNzRiMC00YjVmLWE5YTUtMjllOThjOTY2M2I0XkEyXkFqcGdeQXVyMDY3OTcyOQ@@._V1_.jpg", "https://streams.infowars.com/alexjonesshow", "Hot Talk, Libertarian Talk", "", "live", "Explicit"),
 new Channel("The Buck Sexton Show", "https://i.iheart.com/v3/re/new_assets/5c49f8d4eeefff361052f0d9", "http://stream.revma.ihrhls.com/zc7315", "Conservative Talk", "", "live", ""),
@@ -842,5 +842,6 @@ new Channel("Red Dirt Radio", "https://i.iheart.com/v3/re/assets/images/61c17466
 new Channel("Country Top 30", "https://i.iheart.com/v3/re/assets/images/20e564f8-63f4-49b8-ad83-848eb0531b47.png", "http://stream.revma.ihrhls.com/zc6760", "Country, Top 40", "", "live", ""),
 new Channel("The Crook And Chase Countdown", "https://i.iheart.com/v3/re/new_assets/c521c737-ed05-4744-8536-e99ebe05d0ec", "http://stream.revma.ihrhls.com/zc6921", "Country, Top 40", "", "live", ""),
 new Channel("After Midnite With Granger Smith", "https://i.iheart.com/v3/re/new_assets/61d4972c324a205558335057", "http://stream.revma.ihrhls.com/zc6563", "Country, Top 40", "", "live", ""),
-new Channel("Yee Yee Radio", "https://i.iheart.com/v3/re/assets.streams/65941f86dc98598232ef586f", "http://stream.revma.ihrhls.com/zc10082", "Country", "", "live", "")
+new Channel("Yee Yee Radio", "https://i.iheart.com/v3/re/assets.streams/65941f86dc98598232ef586f", "http://stream.revma.ihrhls.com/zc10082", "Country", "", "live", ""),
+new Channel("Dance Top 20", "https://i.iheart.com/v3/re/assets.streams/643efcc7bd6cf8d998763762", "http://stream.revma.ihrhls.com/zc9762", "EDM, Top 40", "", "live", "")
 ]
