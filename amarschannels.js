@@ -847,5 +847,8 @@ new Channel("Dance Top 20", "https://i.iheart.com/v3/re/assets.streams/643efcc7b
 new Channel("Cardio Mix", "https://i.iheart.com/v3/re/assets.streams/6452979a53e65781f7086c80", "http://stream.revma.ihrhls.com/zc7250", "EDM", "", "live", ""),
 new Channel("Dance Nation 90s", "https://i.iheart.com/v3/re/assets.streams/644a7df490d8185afdc378e0", "http://stream.revma.ihrhls.com/zc6946", "EDM, 90s", "", "live", ""),
 new Channel("Forever Disco", "https://i.iheart.com/v3/re/new_assets/63a5f46c66f4f311bb9f6828", "http://stream.revma.ihrhls.com/zc6755", "EDM", "", "live", ""),
-new Channel("Trancid", "https://i.iheart.com/v3/re/assets/images/5144.png", "http://stream.revma.ihrhls.com/zc5144", "EDM", "", "live", "")
+new Channel("Trancid", "https://i.iheart.com/v3/re/assets/images/5144.png", "http://stream.revma.ihrhls.com/zc5144", "EDM", "", "live", ""),
+new Channel("Maxima Radio", "https://i.iheart.com/v3/re/assets.streams/6439aa01748c85435cc2c6e9", "https://s2.radio.co/s56bab95a8/listen", "EDM, Pop", "", "live", ""),
+new Channel("Jam Hits", "https://i.iheart.com/v3/re/assets.streams/6524155b5536eecc7fe141c3", "https://s4.radio.co/s51a1654a2/listen", "EDM", "", "live", ""),
+new Channel("EDM Beats", "https://i.iheart.com/v3/re/assets.streams/657c946b602253041af2c7d4", "https://live365-aac.cdnstream1.com/a19203_64aac", "EDM", "", "live", "")
 ]
