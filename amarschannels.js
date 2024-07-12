@@ -843,5 +843,9 @@ new Channel("Country Top 30", "https://i.iheart.com/v3/re/assets/images/20e564f8
 new Channel("The Crook And Chase Countdown", "https://i.iheart.com/v3/re/new_assets/c521c737-ed05-4744-8536-e99ebe05d0ec", "http://stream.revma.ihrhls.com/zc6921", "Country, Top 40", "", "live", ""),
 new Channel("After Midnite With Granger Smith", "https://i.iheart.com/v3/re/new_assets/61d4972c324a205558335057", "http://stream.revma.ihrhls.com/zc6563", "Country, Top 40", "", "live", ""),
 new Channel("Yee Yee Radio", "https://i.iheart.com/v3/re/assets.streams/65941f86dc98598232ef586f", "http://stream.revma.ihrhls.com/zc10082", "Country", "", "live", ""),
-new Channel("Dance Top 20", "https://i.iheart.com/v3/re/assets.streams/643efcc7bd6cf8d998763762", "http://stream.revma.ihrhls.com/zc9762", "EDM, Top 40", "", "live", "")
+new Channel("Dance Top 20", "https://i.iheart.com/v3/re/assets.streams/643efcc7bd6cf8d998763762", "http://stream.revma.ihrhls.com/zc9762", "EDM, Top 40", "", "live", ""),
+new Channel("Cardio Mix", "https://i.iheart.com/v3/re/assets.streams/6452979a53e65781f7086c80", "http://stream.revma.ihrhls.com/zc7250", "EDM", "", "live", ""),
+new Channel("Dance Nation 90s", "https://i.iheart.com/v3/re/assets.streams/644a7df490d8185afdc378e0", "http://stream.revma.ihrhls.com/zc6946", "EDM, 90s", "", "live", ""),
+new Channel("Forever Disco", "https://i.iheart.com/v3/re/new_assets/63a5f46c66f4f311bb9f6828", "http://stream.revma.ihrhls.com/zc6755", "EDM", "", "live", ""),
+new Channel("Trancid", "https://i.iheart.com/v3/re/assets/images/5144.png", "http://stream.revma.ihrhls.com/zc5144", "EDM", "", "live", "")
 ]
