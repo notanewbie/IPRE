@@ -834,5 +834,13 @@ new Channel("YourClassical Choral", "https://i.iheart.com/v3/re/new_assets/60787
 new Channel("Spa Radio", "https://i.iheart.com/v3/re/new_assets/835f5677-e553-4ec6-b9cf-276d2e788b9d", "http://stream.revma.ihrhls.com/zc7248", "Classical", "", "live", ""),
 new Channel("24/7 Comedy", "https://i.iheart.com/v3/re/assets.streams/6508a266da23d65bfbcc0ce2", "http://stream.revma.ihrhls.com/zc4902", "Comedy", "", "live", ""),
 new Channel("Comedy Beast Radio", "https://i.iheart.com/v3/re/new_assets/62702d75636b2b899e7ca02f", "https://streams.radio.co/s913d508e0/listen", "Comedy", "", "live", ""),
-new Channel("Infinite Plane Radio", "https://i.iheart.com/v3/re/assets.streams/6598577e4c931fdc7e3b4959", "https://listen.radioking.com/radio/321971/stream/369719", "Comedy", "", "live", "")
+new Channel("Infinite Plane Radio", "https://i.iheart.com/v3/re/assets.streams/6598577e4c931fdc7e3b4959", "https://listen.radioking.com/radio/321971/stream/369719", "Comedy", "", "live", ""),
+new Channel("New Country", "https://i.iheart.com/v3/re/new_assets/2e100c85-1ba3-45ac-9d69-9a97c6706d7c", "http://stream.revma.ihrhls.com/zc4712", "Country", "", "live", ""),
+new Channel("Country Top 20", "https://i.iheart.com/v3/re/assets.streams/641e2f8702602ae7dcd0e9aa", "http://stream.revma.ihrhls.com/zc4882", "Country, Top 40", "", "live", ""),
+new Channel("Cross Country", "https://i.iheart.com/v3/re/assets.streams/65de310bd7ed14586edcf0ce", "http://stream.revma.ihrhls.com/zc10164", "Country", "", "live", ""),
+new Channel("Red Dirt Radio", "https://i.iheart.com/v3/re/assets/images/61c17466-5369-4add-9339-eaea47a9d731.png", "http://stream.revma.ihrhls.com/zc6842", "Country", "Texas Red Dirt Radio", "live", ""),
+new Channel("Country Top 30", "https://i.iheart.com/v3/re/assets/images/20e564f8-63f4-49b8-ad83-848eb0531b47.png", "http://stream.revma.ihrhls.com/zc6760", "Country, Top 40", "", "live", ""),
+new Channel("The Crook And Chase Countdown", "https://i.iheart.com/v3/re/new_assets/c521c737-ed05-4744-8536-e99ebe05d0ec", "http://stream.revma.ihrhls.com/zc6921", "Country, Top 40", "", "live", ""),
+new Channel("After Midnite With Granger Smith", "https://i.iheart.com/v3/re/new_assets/61d4972c324a205558335057", "http://stream.revma.ihrhls.com/zc6563", "Country, Top 40", "", "live", ""),
+new Channel("Yee Yee Radio", "https://i.iheart.com/v3/re/assets.streams/65941f86dc98598232ef586f", "http://stream.revma.ihrhls.com/zc10082", "Country", "", "live", "")
 ]
