@@ -817,5 +817,14 @@ new Channel("Up!", "https://i.iheart.com/v3/re/new_assets/8dae351b-a076-4418-a2a
 new Channel("Christian Top 20", "https://i.iheart.com/v3/re/assets.streams/641e2f8702602ae7dcd0e9a9", "hhttp://stream.revma.ihrhls.com/zc4978", "Christian Pop, Top 40", "", "live", ""),
 new Channel("Hallelujah", "https://i.iheart.com/v3/re/new_assets/5ca6335aa162893819640941", "http://stream.revma.ihrhls.com/zc7005", "Gospel, Worship", "", "live", ""),
 new Channel("Gospel Top 20", "https://i.iheart.com/v3/re/assets.streams/643efcdebd6cf8d998763766", "http://stream.revma.ihrhls.com/zc9760", "Gospel, Worship, Top 40", "", "live", ""),
-new Channel("Christian Country", "https://i.iheart.com/v3/re/new_assets/bd391832-850a-4f89-bb16-b5a504422110", "http://stream.revma.ihrhls.com/zc6845", "Country, Christian Pop", "", "live", "")
+new Channel("Christian Country", "https://i.iheart.com/v3/re/new_assets/bd391832-850a-4f89-bb16-b5a504422110", "http://stream.revma.ihrhls.com/zc6845", "Country, Christian Pop", "", "live", ""),
+new Channel("Classic Rock", "https://i.iheart.com/v3/re/assets/images/4426.png", "http://stream.revma.ihrhls.com/zc4426", "Rock, 60s, 70s", "", "live", ""),
+new Channel("The Brew", "https://i.iheart.com/v3/re/new_assets/6397d2eb3cae8ca9e6f3a159", "http://stream.revma.ihrhls.com/zc8626", "Rock, 80s, 90s", "", "live", ""),
+new Channel("Deep Cuts", "https://i.iheart.com/v3/re/assets.streams/63caee9e3c6414a8c08a9118", "http://stream.revma.ihrhls.com/zc9652", "Rock, 60s, 70s, 80s, 90s", "", "live", ""),
+new Channel("Slippery When Wet", "https://i.iheart.com/v3/re/new_assets/8ba8af49-1402-44d3-88da-9d6023cdf7bf", "http://stream.revma.ihrhls.com/zc4858", "Rock, 60s, 70s, 80s, 90s", "", "live", ""),
+new Channel("70s Rock Ride", "https://i.iheart.com/v3/re/assets.streams/63c6cd785dea6a3f802f01db", "http://stream.revma.ihrhls.com/zc6803", "Rock, 70s", "", "live", ""),
+new Channel("80s Rock Ride", "https://i.iheart.com/v3/re/assets.streams/6557d4ca59952de80134c77a", "http://stream.revma.ihrhls.com/zc10054", "Rock, 80s", "", "live", ""),
+new Channel("Vinyl Classic Rock", "https://i.iheart.com/v3/re/new_assets/35bd58b0-3636-4b33-88cd-9ba1a7680173", "http://stream.revma.ihrhls.com/zc7078", "Rock, 60s, 70s, 80s, 90s", "", "live", ""),
+new Channel("Classic Hard Rock", "https://i.iheart.com/v3/re/assets.streams/655d284bcd44975c0d7e7396", "http://stream.revma.ihrhls.com/zc10068", "Rock, 60s, 70s, 80s, 90s", "", "live", ""),
+new Channel("Southern Rock Ride", "https://i.iheart.com/v3/re/assets.streams/6557d02259952de80134c774", "http://stream.revma.ihrhls.com/zc10053", "Rock, 60s, 70s, 80s, 90s", "", "live", "")
 ]
