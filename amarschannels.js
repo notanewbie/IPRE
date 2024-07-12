@@ -831,5 +831,8 @@ new Channel("iHeart Opera", "https://i.iheart.com/v3/re/assets.streams/657a0b991
 new Channel("YourClassical Radio", "https://i.iheart.com/v3/re/new_assets/60787b3c78aa062cc719558d", "https://ycradio.stream.publicradio.org/ycradio.aac", "Classical", "", "live", ""),
 new Channel("YourClassical Essentials", "https://i.iheart.com/v3/re/assets.streams/660b3a415f9d98e0e2e6b001", "https://favorites.stream.publicradio.org/favorites.aac", "Classical", "", "live", ""),
 new Channel("YourClassical Choral", "https://i.iheart.com/v3/re/new_assets/60787f6e0029b7ccc0525f5d", "https://choral.stream.publicradio.org/choral.aac", "Classical, Choir", "", "live", ""),
-new Channel("Spa Radio", "https://i.iheart.com/v3/re/new_assets/835f5677-e553-4ec6-b9cf-276d2e788b9d", "http://stream.revma.ihrhls.com/zc7248", "Classical", "", "live", "")
+new Channel("Spa Radio", "https://i.iheart.com/v3/re/new_assets/835f5677-e553-4ec6-b9cf-276d2e788b9d", "http://stream.revma.ihrhls.com/zc7248", "Classical", "", "live", ""),
+new Channel("24/7 Comedy", "https://i.iheart.com/v3/re/assets.streams/6508a266da23d65bfbcc0ce2", "http://stream.revma.ihrhls.com/zc4902", "Comedy", "", "live", ""),
+new Channel("Comedy Beast Radio", "https://i.iheart.com/v3/re/new_assets/62702d75636b2b899e7ca02f", "https://streams.radio.co/s913d508e0/listen", "Comedy", "", "live", ""),
+new Channel("Infinite Plane Radio", "https://i.iheart.com/v3/re/assets.streams/6598577e4c931fdc7e3b4959", "https://listen.radioking.com/radio/321971/stream/369719", "Comedy", "", "live", "")
 ]
