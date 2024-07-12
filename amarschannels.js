@@ -4,7 +4,7 @@ new Channel("210 Holy Hip Hop", "https://cdn-profiles.tunein.com/s188550/images/
 new Channel("Antioch OTR", "https://cdn-radiotime-logos.tunein.com/s50924q.png", "http://209.95.56.101:8000/listen", "Audio Drama", "", "dead", ""),
 new Channel("AP News", "https://cdn-radiotime-logos.tunein.com/p686763q.png", "http://apnews.streamguys1.com/apnews", "News", "", "live", ""),
 new Channel("BBC Radio 4", "https://cdn-radiotime-logos.tunein.com/s25419q.png", "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourfm", "Comedy, Audio Drama, Liberal Talk", "", "dead", "Live"),
-new Channel("BBN English", "https://cdn-radiotime-logos.tunein.com/s20438q.png", "https://audio-edge-qse4n.yyz.g.radiomast.io/844b0a81-f4b9-485e-adaa-aab8d3ea9f7f", "Worship, Sermons, Lifestyle", "", "live", ""),
+new Channel("BBN English", "https://cdn-radiotime-logos.tunein.com/s20438q.png", "https://audio-edge-qse4n.yyz.g.radiomast.io/844b0a81-f4b9-485e-adaa-aab8d3ea9f7f", "Worship, Sermons, Lifestyle, Choir", "", "live", ""),
 new Channel("Bloomberg TV", "https://cdn-profiles.tunein.com/s47135/images/logog.png", "https://tunein.cdnstream1.com/3522_96.mp3", "Finance, TV", "", "live", ""),
 new Channel("Bott Radio Network", "https://cdn-profiles.tunein.com/s31976/images/logog.png", "https://ic1.sslstream.com/bottradio.mp3", "Lifestyle, Sermons", "", "live", ""),
 new Channel("C-SPAN Radio", "https://cdn-profiles.tunein.com/s28047/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/CSPANRADIO.mp3", "News, Liberal Talk, Conservative Talk, TV", "", "live", "Live"),
@@ -88,7 +88,7 @@ new Channel("theBlaze Radio Network", "https://i.iheart.com/v3/re/assets.streams
 new Channel("TWiT Live", "https://cdn-profiles.tunein.com/s97079/images/logog.png", "https://new.twit.am/radio/8000/listen", "Tech Talk", "", "live", "Live"),
 new Channel("Urban Praise", "https://cdn-profiles.tunein.com/s105742/images/logog.jpg", "http://primary.moodyradiostream.org/urban-high.aac.m3u", "Gospel", "", "dead", ""),
 new Channel("VCY America", "https://cdn-radiotime-logos.tunein.com/s36008q.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/KVCXFM_SC", "Worship, Audio Drama, Lifestyle, Sermons, Conservative Talk", "", "live", ""),
-new Channel("VCY Sacred Stylings", "https://cdn-radiotime-logos.tunein.com/s36008q.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/VCY_SACRED_STYLINGS_S01_SC", "Worship", "", "live", ""),
+new Channel("VCY Sacred Stylings", "https://cdn-radiotime-logos.tunein.com/s36008q.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/VCY_SACRED_STYLINGS_S01_SC", "Worship, Choir", "", "live", ""),
 new Channel("War Room with Owen Shroyer", "https://is5-ssl.mzstatic.com/image/thumb/Podcasts118/v4/bd/87/7e/bd877e44-bae9-b29c-2b64-b7ece358ed91/mza_1200762605813509501.jpg/400x400bb.jpg", "https://streams.infowars.com/warrooom", "Conservative Talk, Hot Talk", "", "dead", ""),
 new Channel("WEEB 990", "https://cdn-profiles.tunein.com/s28449/images/logog.jpg", "http://216.119.148.50:8000/weeb990", "Conservative Talk", "", "live", ""),
 new Channel("Hot 99.5", "https://i.iheart.com/v3/re/assets.brands/5b3a2f8f0abf50ca9a24a060", "https://stream.revma.ihrhls.com/zc2509", "Top 40", "", "live", "Clean"),
@@ -826,5 +826,10 @@ new Channel("70s Rock Ride", "https://i.iheart.com/v3/re/assets.streams/63c6cd78
 new Channel("80s Rock Ride", "https://i.iheart.com/v3/re/assets.streams/6557d4ca59952de80134c77a", "http://stream.revma.ihrhls.com/zc10054", "Rock, 80s", "", "live", ""),
 new Channel("Vinyl Classic Rock", "https://i.iheart.com/v3/re/new_assets/35bd58b0-3636-4b33-88cd-9ba1a7680173", "http://stream.revma.ihrhls.com/zc7078", "Rock, 60s, 70s, 80s, 90s", "", "live", ""),
 new Channel("Classic Hard Rock", "https://i.iheart.com/v3/re/assets.streams/655d284bcd44975c0d7e7396", "http://stream.revma.ihrhls.com/zc10068", "Rock, 60s, 70s, 80s, 90s", "", "live", ""),
-new Channel("Southern Rock Ride", "https://i.iheart.com/v3/re/assets.streams/6557d02259952de80134c774", "http://stream.revma.ihrhls.com/zc10053", "Rock, 60s, 70s, 80s, 90s", "", "live", "")
+new Channel("Southern Rock Ride", "https://i.iheart.com/v3/re/assets.streams/6557d02259952de80134c774", "http://stream.revma.ihrhls.com/zc10053", "Rock, 60s, 70s, 80s, 90s", "", "live", ""),
+new Channel("iHeart Opera", "https://i.iheart.com/v3/re/assets.streams/657a0b99179416244e419773", "http://stream.revma.ihrhls.com/zc10025", "Classical, Choir", "", "live", ""),
+new Channel("YourClassical Radio", "https://i.iheart.com/v3/re/new_assets/60787b3c78aa062cc719558d", "https://ycradio.stream.publicradio.org/ycradio.aac", "Classical", "", "live", ""),
+new Channel("YourClassical Essentials", "https://i.iheart.com/v3/re/assets.streams/660b3a415f9d98e0e2e6b001", "https://favorites.stream.publicradio.org/favorites.aac", "Classical", "", "live", ""),
+new Channel("YourClassical Choral", "https://i.iheart.com/v3/re/new_assets/60787f6e0029b7ccc0525f5d", "https://choral.stream.publicradio.org/choral.aac", "Classical, Choir", "", "live", ""),
+new Channel("Spa Radio", "https://i.iheart.com/v3/re/new_assets/835f5677-e553-4ec6-b9cf-276d2e788b9d", "http://stream.revma.ihrhls.com/zc7248", "Classical", "", "live", "")
 ]
