@@ -453,7 +453,7 @@ new Channel("Radio Station Net", "http://radiostationnet.com/images/rsn-logo-200
 new Channel("Progressive Voices", "https://cdn-profiles.tunein.com/s189055/images/logog.png", "https://tunein.cdnstream1.com/3549_128.mp3", "Progressive Talk", "", "live", ""),
 new Channel("Power Kpop", "https://cdn-radiotime-logos.tunein.com/s250971d.png", "http://stm21.srvstm.com:12710/;", "K-Pop", "", "live", "Clean"),
 new Channel("Anime FM", "https://assets.laut.fm/430eee566f87b874e69447572ad8a86c", "https://stream.laut.fm/animefm", "K-Pop, J-Pop, Rock", "", "live", "Clean"),
-new Channel("Kpophits", "https://assets.laut.fm/7844dad997230cdcc18d5f055544bff3", "https://stream.laut.fm/kpophits", "K-Pop", "", "live"),
+new Channel("Kpophits", "https://assets.laut.fm/7844dad997230cdcc18d5f055544bff3", "https://stream.laut.fm/kpophits", "K-Pop", "", "live", "Clean"),
 new Channel("OnlyHit K-Pop", "https://cdn-profiles.tunein.com/s260557/images/logog.png", "https://ais-sa3.cdnstream1.com/2630_128.mp3", "K-Pop", "", "live", "Clean"),
 new Channel("OnlyHit US", "https://cdn-profiles.tunein.com/s259926/images/logog.png", "https://ais-sa3.cdnstream1.com/2627_128.mp3", "K-Pop", "", "live", "Clean"),
 new Channel("J-Pop Powerplay", "https://asiadreamradio.torontocast.stream/stations/en/images/en/powerplayjpop16.jpg", "http://kathy.torontocast.com:3560/;", "J-Pop", "asia DREAM radio", "live", "Clean"),
