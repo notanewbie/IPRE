@@ -871,5 +871,10 @@ new Channel("Lullabies", "https://i.iheart.com/v3/re/assets.streams/64528b085f85
 new Channel("Barbie Radio", "https://i.iheart.com/v3/re/new_assets/6166f68e43b1dfb09a4771e1", "http://stream.revma.ihrhls.com/zc9171", "Kids, Soundtrack", "", "live", ""),
 new Channel("Buid-A-Bear Radio", "https://i.iheart.com/v3/re/new_assets/5d9f34c146dd78026253d8bf", "http://stream.revma.ihrhls.com/zc8430", "Pop", "", "live", ""),
 new Channel("LEGOLAND Radio", "https://i.iheart.com/v3/re/new_assets/5f889306423a34d298984330", "http://stream.revma.ihrhls.com/zc8757", "Pop", "", "live", ""),
-new Channel("Rock The Cradle", "https://i.iheart.com/v3/re/new_assets/61e9cf644d3eaf48faf8c80f", "http://stream.revma.ihrhls.com/zc6295", "Pop, Soundtrack, Kids", "", "live", "")
+new Channel("Rock The Cradle", "https://i.iheart.com/v3/re/new_assets/61e9cf644d3eaf48faf8c80f", "http://stream.revma.ihrhls.com/zc6295", "Pop, Soundtrack, Kids", "", "live", ""),
+new Channel("iRead2Know Radio", "https://i.iheart.com/v3/re/new_assets/fb18495a-f47a-4755-a81d-58610d88e0de", "http://stream.revma.ihrhls.com/zc7101", "Kids", "", "live", ""),
+new Channel("YourClassical Children", "https://i.iheart.com/v3/re/new_assets/61e9d05315f4255c3cda221a", "https://classicalkids.stream.publicradio.org/classicalkids.aac", "Kids, Classical, Soundtrack", "", "live", ""),
+new Channel("YourClassical Sleep", "https://i.iheart.com/v3/re/assets.streams/660b39f45f9d98e0e2e6affe", "https://lullabies.stream.publicradio.org/lullabies.aac", "Kids, Classical", "", "live", ""),
+new Channel("OMG Pop", "https://i.iheart.com/v3/re/assets.streams/64d53097a21fc4029192b0ad", "https://s5.radio.co/s2f4138b6d/listen", "Kids", "", "dead", ""),
+new Channel("Kidz Corner Radio", "https://i.iheart.com/v3/re/assets.streams/65b16ea2d446862381e81f67", "https://cast1.asurahosting.com/proxy/kidzcornerradio/streamstream", "Kids", "", "live", "")
 ]
