@@ -869,5 +869,7 @@ new Channel("Kids Hits", "https://i.iheart.com/v3/re/new_assets/8f12c8d7-de43-4b
 new Channel("iHeartFamily Preschool", "https://i.iheart.com/v3/re/new_assets/8f12c8d7-de43-4b74-82f7-db4929a32cc8", "http://stream.revma.ihrhls.com/zc9775", "Pop, Kids", "", "live", ""),
 new Channel("Lullabies", "https://i.iheart.com/v3/re/assets.streams/64528b085f85d84049515d18", "http://stream.revma.ihrhls.com/zc7249", "Kids", "", "live", ""),
 new Channel("Barbie Radio", "https://i.iheart.com/v3/re/new_assets/6166f68e43b1dfb09a4771e1", "http://stream.revma.ihrhls.com/zc9171", "Kids, Soundtrack", "", "live", ""),
-new Channel("Buid-A-Bear Radio", "https://i.iheart.com/v3/re/new_assets/5d9f34c146dd78026253d8bf", "http://stream.revma.ihrhls.com/zc8430", "Kids, Pop", "", "live", "")
+new Channel("Buid-A-Bear Radio", "https://i.iheart.com/v3/re/new_assets/5d9f34c146dd78026253d8bf", "http://stream.revma.ihrhls.com/zc8430", "Pop", "", "live", ""),
+new Channel("LEGOLAND Radio", "https://i.iheart.com/v3/re/new_assets/5f889306423a34d298984330", "http://stream.revma.ihrhls.com/zc8757", "Pop", "", "live", ""),
+new Channel("Rock The Cradle", "https://i.iheart.com/v3/re/new_assets/61e9cf644d3eaf48faf8c80f", "http://stream.revma.ihrhls.com/zc6295", "Pop, Soundtrack, Kids", "", "live", "")
 ]
