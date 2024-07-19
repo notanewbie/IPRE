@@ -867,5 +867,7 @@ new Channel("Biltmore Radio", "https://i.iheart.com/v3/re/new_assets/5d976a9ca9c
 new Channel("Kids Club Radio", "https://i.iheart.com/v3/re/assets.streams/64528b085f85d84049515d17", "http://stream.revma.ihrhls.com/zc6551", "Pop, Kids", "", "live", ""),
 new Channel("Kids Hits", "https://i.iheart.com/v3/re/new_assets/8f12c8d7-de43-4b74-82f7-db4929a32cc8", "http://stream.revma.ihrhls.com/zc7223", "Pop, Kids", "", "live", ""),
 new Channel("iHeartFamily Preschool", "https://i.iheart.com/v3/re/new_assets/8f12c8d7-de43-4b74-82f7-db4929a32cc8", "http://stream.revma.ihrhls.com/zc9775", "Pop, Kids", "", "live", ""),
-new Channel("Lullabies", "https://i.iheart.com/v3/re/assets.streams/64528b085f85d84049515d18", "http://stream.revma.ihrhls.com/zc7249", "Kids", "", "live", "")
+new Channel("Lullabies", "https://i.iheart.com/v3/re/assets.streams/64528b085f85d84049515d18", "http://stream.revma.ihrhls.com/zc7249", "Kids", "", "live", ""),
+new Channel("Barbie Radio", "https://i.iheart.com/v3/re/new_assets/6166f68e43b1dfb09a4771e1", "http://stream.revma.ihrhls.com/zc9171", "Kids, Soundtrack", "", "live", ""),
+new Channel("Buid-A-Bear Radio", "https://i.iheart.com/v3/re/new_assets/5d9f34c146dd78026253d8bf", "http://stream.revma.ihrhls.com/zc8430", "Kids, Pop", "", "live", "")
 ]
