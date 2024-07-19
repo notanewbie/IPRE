@@ -862,5 +862,6 @@ new Channel("Bluestown", "https://i.iheart.com/v3/re/assets.streams/6537f86275a1
 new Channel("The Standard", "https://i.iheart.com/v3/re/assets/images/c84101fd-74c8-4f40-a20d-707ab6a01535.png", "http://stream.revma.ihrhls.com/zc6784", "Jazz", "", "live", ""),
 new Channel("Vinyl Jazz", "https://i.iheart.com/v3/re/new_assets/9ee25d1b-00e4-4d83-bf3a-3df944fcd5bd", "http://stream.revma.ihrhls.com/zc7079", "Jazz", "", "live", ""),
 new Channel("Blues Hits Radio", "https://i.iheart.com/v3/re/assets.streams/645297c1bff5be0ebac78572", "http://stream.revma.ihrhls.com/zc9567", "Jazz", "", "live", ""),
-new Channel("Black Jazz & Blues", "https://i.iheart.com/v3/re/new_assets/601037bf68df010a7dc8cc5e", "http://stream.revma.ihrhls.com/zc7804", "Jazz, Blues", "", "live", "")
+new Channel("Black Jazz & Blues", "https://i.iheart.com/v3/re/new_assets/601037bf68df010a7dc8cc5e", "http://stream.revma.ihrhls.com/zc7804", "Jazz, Blues", "", "live", ""),
+new Channel("Biltmore Radio", "https://i.iheart.com/v3/re/new_assets/5d976a9ca9cba59326ce88ed", "http://stream.revma.ihrhls.com/zc8433", "Jazz", "", "live", "")
 ]
