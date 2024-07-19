@@ -713,8 +713,8 @@ new Channel("iHeartBluegrass", "https://i.iheart.com/v3/re/assets.streams/642dc9
 new Channel("iHeartRadio Pop", "https://i.iheart.com/v3/re/new_assets/5c06de7866648c817d8cad6a", "http://stream.revma.ihrhls.com/zc8167", "Latin", "", "live", ""),
 new Channel("iHeartCountry 2000s", "https://i.iheart.com/v3/re/assets.streams/654989a3b3be65c311f33af5", "http://stream.revma.ihrhls.com/zc10027", "Country, 2000s", "", "live", ""),
 new Channel("iHeartFreestyle", "https://i.iheart.com/v3/re/assets.streams/63d2c856732f22243854cc7f", "http://stream.revma.ihrhls.com/zc7368", "Rap", "", "live", ""),
-new Channel("iHeartJazz Classics", "https://i.iheart.com/v3/re/assets.streams/64aec82ea6426e27a4c60986", "http://stream.revma.ihrhls.com/zc9918", "Jazz", "", "live", ""),
-new Channel("iHeartRadio Broadway", "https://i.iheart.com/v3/re/new_assets/5c3649fcd527cdf3a9f0bd1b", "http://stream.revma.ihrhls.com/zc7378", "Soundtrack", "", "live", ""),
+new Channel("Jazz Classics", "https://i.iheart.com/v3/re/assets.streams/64aec82ea6426e27a4c60986", "http://stream.revma.ihrhls.com/zc9918", "Jazz", "", "live", ""),
+new Channel("iHeartRadio Broadway", "https://i.iheart.com/v3/re/new_assets/5c3649fcd527cdf3a9f0bd1b", "http://stream.revma.ihrhls.com/zc7378", "Soundtrack, Jazz", "", "live", ""),
 new Channel("Women of iHeartCountry", "https://i.iheart.com/v3/re/new_assets/63a36f55c6d6def49927b471", "http://stream.revma.ihrhls.com/zc7367", "Country", "", "live", ""),
 new Channel("iHeartCountry Christmas", "https://i.iheart.com/v3/re/new_assets/635c51b3883f47500674d48b", "http://stream.revma.ihrhls.com/zc4601", "Country, Holiday", "", "live", ""),
 new Channel("iHeartClassical Favorites", "https://i.iheart.com/v3/re/assets.streams/65498906b3be65c311f33af2", "http://stream.revma.ihrhls.com/zc10035", "Classical", "", "live", ""),
@@ -856,5 +856,11 @@ new Channel("Hip Hop Top 20", "https://i.iheart.com/v3/re/assets.streams/642ef7c
 new Channel("iHeart Hip Hop 50 Radio", "https://i.iheart.com/v3/re/assets.streams/640f7846390b4bd2e8606eb5", "http://stream.revma.ihrhls.com/zc9717", "Rap, 2020s, 2010s, 2000s, 90s, 80s, 70s", "", "live", ""),
 new Channel("Hip Hop Workout Radio", "https://i.iheart.com/v3/re/new_assets/b883eec0-d545-416a-b2ff-0823b9070597", "http://stream.revma.ihrhls.com/zc7785", "Rap", "", "live", ""),
 new Channel("Fly Nation", "https://i.iheart.com/v3/re/assets.streams/64fa3384045544d817d4a6e8", "http://stream.revma.ihrhls.com/zc6732", "Rap, 90s, 80s, 70s", "", "live", ""),
-new Channel("iHeart Hip Hop 2000s", "https://i.iheart.com/v3/re/assets.streams/65f208dd53b3dbeaae2a7caa", "http://stream.revma.ihrhls.com/zc10170", "Rap, 2000s", "", "live", "")
+new Channel("iHeart Hip Hop 2000s", "https://i.iheart.com/v3/re/assets.streams/65f208dd53b3dbeaae2a7caa", "http://stream.revma.ihrhls.com/zc10170", "Rap, 2000s", "", "live", ""),
+new Channel("Jazz Top 20", "https://i.iheart.com/v3/re/assets.streams/6568bb673b8ca65d0c6eab53", "http://stream.revma.ihrhls.com/zc9761", "Jazz, Top 40", "", "live", ""),
+new Channel("Bluestown", "https://i.iheart.com/v3/re/assets.streams/6537f86275a19f6750e0ee78", "http://stream.revma.ihrhls.com/zc10029", "Jazz", "", "live", ""),
+new Channel("The Standard", "https://i.iheart.com/v3/re/assets/images/c84101fd-74c8-4f40-a20d-707ab6a01535.png", "http://stream.revma.ihrhls.com/zc6784", "Jazz", "", "live", ""),
+new Channel("Vinyl Jazz", "https://i.iheart.com/v3/re/new_assets/9ee25d1b-00e4-4d83-bf3a-3df944fcd5bd", "http://stream.revma.ihrhls.com/zc7079", "Jazz", "", "live", ""),
+new Channel("Blues Hits Radio", "https://i.iheart.com/v3/re/assets.streams/645297c1bff5be0ebac78572", "http://stream.revma.ihrhls.com/zc9567", "Jazz", "", "live", ""),
+new Channel("Black Jazz & Blues", "https://i.iheart.com/v3/re/new_assets/601037bf68df010a7dc8cc5e", "http://stream.revma.ihrhls.com/zc7804", "Jazz, Blues", "", "live", "")
 ]
