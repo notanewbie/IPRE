@@ -103,7 +103,7 @@ new Channel("BBC Radio 1Xtra", "https://cdn-radiotime-logos.tunein.com/s20277q.p
 new Channel("BBC Radio 4 Extra", "https://cdn-radiotime-logos.tunein.com/s6839q.png", "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_four_extra", "Audio Drama", "", "dead", "Live"),
 new Channel("BBC Radio 5 Live Sports Extra", "https://mytuner.global.ssl.fastly.net/media/tvos_radios/jNFcZfxdwS.png ", "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_five_live_sports_extra", "Sports, Live Sports", "", "geo-locked", ""),
 new Channel("BBC Asian Network", "https://cdn-radiotime-logos.tunein.com/s44490q.png", "https://stream.live.vc.bbcmedia.co.uk/bbc_asian_network", "K-Pop", "", "dead", "Live"),
-new Channel("Bloomberg Radio", "https://cdn-profiles.tunein.com/s165740/images/logog.png", "https://tunein.cdnstream1.com/3521_96.mp3", "TV, Finance", "", "dead", ""),
+new Channel("Bloomberg Radio", "https://cdn-profiles.tunein.com/s165740/images/logog.png", "https://tunein.cdnstream1.com/3521_96.mp3", "TV, Finance", "", "live", ""),
 new Channel("RPGamers Network", "https://cdn-radiotime-logos.tunein.com/s209618d.png", "http://stream.rpgamers.net:8000/rpgn", "Soundtrack, Chiptune", "", "dead", "Clean"),
 new Channel("Fox Sports Radio", "https://cdn.ntnwb.cc/FSR1.png", "http://stream.revma.ihrhls.com/zc4732", "Sports Talk", "FSR", "live", ""),
 new Channel("FOX Sports Radio 1270 AM/105.9 FM", "https://cdn-profiles.tunein.com/s21511/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WFWNAMAAC_SC", "Sports Talk, Live Sports", "", "live", ""),
