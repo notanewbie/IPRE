@@ -885,5 +885,7 @@ new Channel("Pop Rewind", "https://i.iheart.com/v3/re/assets.streams/64414440776
 new Channel("Minivan Rock", "https://i.iheart.com/v3/re/assets.streams/657b303feb1f1923bf514aae", "http://stream.revma.ihrhls.com/zc10055", "Pop, 90s, 2000s, Rock", "", "live", ""),
 new Channel("Popcorn Radio", "https://i.iheart.com/v3/re/new_assets/49f5dad5-d5fe-4c8a-bdbf-50acd171d9ec", "http://stream.revma.ihrhls.com/zc7445", "Soundtrack", "", "live", ""),
 new Channel("Global Citizen Radio", "https://i.iheart.com/v3/re/new_assets/a9a67be2-b6f6-4931-8684-b2bcba87a2af", "http://stream.revma.ihrhls.com/zc6288", "Live Music, Pop, Rock", "", "live", ""),
-new Channel("LAist", "https://i.iheart.com/v3/re/assets.streams/63e6bcab2535e03c77109513", "https://live.amperwave.net/direct/southerncalipr-kpccfmmp3-imc.mp3", "News, Liberal Talk, Special Interest", "NPR KPCC", "live", "")
+new Channel("LAist", "https://i.iheart.com/v3/re/assets.streams/63e6bcab2535e03c77109513", "https://live.amperwave.net/direct/southerncalipr-kpccfmmp3-imc.mp3", "News, Liberal Talk, Special Interest", "NPR KPCC", "live", ""),
+new Channel("NBC Olympics Radio", "https://i.iheart.com/v3/re/assets.streams/66746c013d0a08a2b6ea5f5e", "http://stream.revma.ihrhls.com/zc10378", "Live Sports", "", "live", ""),
+new Channel("NBC Olympics Radio Plus", "https://i.iheart.com/v3/re/assets.streams/6696c5a79b0a1e27beef5550", "http://stream.revma.ihrhls.com/zc10401", "Live Sports", "", "live", "")
 ]
