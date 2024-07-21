@@ -142,10 +142,10 @@ new Channel("iHeart 80s Radio", "https://i.iheart.com/v3/re/new_assets/0a01b40d-
 new Channel("iHeart 90s Radio", "https://i.iheart.com/v3/re/new_assets/329ab2f0-5d1a-4e71-9f9a-e6d5674ad982", "http://stream.revma.ihrhls.com/zc6834", "90s", "", "live", "Clean"),
 new Channel("iHeart 70s Radio", "https://i.iheart.com/v3/re/new_assets/a69a3c10-27f8-4d80-be9e-a03b1994779c", "http://stream.revma.ihrhls.com/zc6843", "70s", "", "live", "Clean"),
 new Channel("American Top 40", "https://i.iheart.com/v3/re/new_assets/614b6c8870f6592586b1b5b1", "http://stream.revma.ihrhls.com/zc4802", "Top 40", "American Top 40 With Ryan Seacrest", "live", "Clean"),
-new Channel("Gen X Radio", "https://i.iheart.com/v3/re/new_assets/b8fcf925-d4be-4873-85ee-cf1d5e637b94", "http://stream.revma.ihrhls.com/zc5322", "Alternative", "", "live", "Clean"),
+new Channel("Gen X Radio", "https://i.iheart.com/v3/re/new_assets/b8fcf925-d4be-4873-85ee-cf1d5e637b94", "http://stream.revma.ihrhls.com/zc5322", "Alternative, 90s, 2000s", "", "live", "Clean"),
 new Channel("Hit Nation Junior", "https://i.iheart.com/v3/re/new_assets/5d41ea8588c196dfba7ec6e2", "http://stream.revma.ihrhls.com/zc6395", "Top 40", "", "live", "Clean"),
 new Channel("Disney Resorts Radio", "https://i.iheart.com/v3/re/new_assets/6261902a5f6390ce49dad01d", "http://stream.revma.ihrhls.com/zc9414", "Pop, Soundtrack", "Radio Disney", "live", "Clean"),
-new Channel("One Hit Wonder Radio", "https://i.iheart.com/v3/re/assets/images/1af647d5-09cd-4a05-8b04-6032c93a0476.png", "http://stream.revma.ihrhls.com/zc6669", "80s, 90s", "", "live", "Clean"),
+new Channel("One Hit Wonders", "https://i.iheart.com/v3/re/assets/images/1af647d5-09cd-4a05-8b04-6032c93a0476.png", "http://stream.revma.ihrhls.com/zc6669", "80s, 90s", "One Hit Wonder Radio", "live", "Clean"),
 new Channel("Alternative Radio", "https://i.iheart.com/v3/re/new_assets/3592afad-2be2-4b84-ab2d-f155b78f348b", "http://stream.revma.ihrhls.com/zc4447", "Alternative", "", "live", "Clean"),
 new Channel("Alternative Radio Rewind", "https://i.iheart.com/v3/re/new_assets/c96abf74-4458-4a44-a19c-c1975926e1d9", "http://stream.revma.ihrhls.com/zc6950", "Alternative, 80s, 90s", "", "live", "Clean"),
 new Channel("NPR", "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/a6/18/b4/a618b419-3b3c-e54f-05ea-2c6d0b61364e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/320x0w.jpg", "http://npr-ice.streamguys1.com/live.mp3", "News, Liberal Talk, Entertainment Talk, Special Interest", "", "live", "Live"),
@@ -876,5 +876,14 @@ new Channel("iRead2Know Radio", "https://i.iheart.com/v3/re/new_assets/fb18495a-
 new Channel("YourClassical Children", "https://i.iheart.com/v3/re/new_assets/61e9d05315f4255c3cda221a", "https://classicalkids.stream.publicradio.org/classicalkids.aac", "Kids, Classical, Soundtrack", "", "live", ""),
 new Channel("YourClassical Sleep", "https://i.iheart.com/v3/re/assets.streams/660b39f45f9d98e0e2e6affe", "https://lullabies.stream.publicradio.org/lullabies.aac", "Kids, Classical", "", "live", ""),
 new Channel("OMG Pop", "https://i.iheart.com/v3/re/assets.streams/64d53097a21fc4029192b0ad", "https://s5.radio.co/s2f4138b6d/listen", "Kids", "", "dead", ""),
-new Channel("Kidz Corner Radio", "https://i.iheart.com/v3/re/assets.streams/65b16ea2d446862381e81f67", "https://cast1.asurahosting.com/proxy/kidzcornerradio/streamstream", "Kids", "", "live", "")
+new Channel("Kidz Corner Radio", "https://i.iheart.com/v3/re/assets.streams/65b16ea2d446862381e81f67", "https://cast1.asurahosting.com/proxy/kidzcornerradio/streamstream", "Kids", "", "live", ""),
+new Channel("Today's Mix", "https://i.iheart.com/v3/re/assets/images/4409.png", "http://stream.revma.ihrhls.com/zc4409", "Pop, 90s, 2000s, 2010s, 2020s", "", "live", ""),
+new Channel("Mix Rewind", "https://i.iheart.com/v3/re/assets.streams/652ffe0bac0099e300c48bff", "http://stream.revma.ihrhls.com/zc7361", "Pop, 80s, 90s, 2000s, 2010s, 2020s", "", "live", ""),
+new Channel("Rock Rewind", "https://i.iheart.com/v3/re/assets.streams/6528548fb81aa0ec304c5127", "http://stream.revma.ihrhls.com/zc8842", "Rock, 80s, 90s, 2000s, 2010s, 2020s", "", "live", ""),
+new Channel("Coffee Shop Radio", "https://i.iheart.com/v3/re/assets/images/160a1139-5c48-4cc7-bf08-9d5341a2acd0.png", "http://stream.revma.ihrhls.com/zc6698", "Indie Pop", "", "live", ""),
+new Channel("Pop Rewind", "https://i.iheart.com/v3/re/assets.streams/644144407760feb5e79e2e24", "http://stream.revma.ihrhls.com/zc9756", "Pop, 90s, 2000s", "", "live", ""),
+new Channel("Minivan Rock", "https://i.iheart.com/v3/re/assets.streams/657b303feb1f1923bf514aae", "http://stream.revma.ihrhls.com/zc10055", "Pop, 90s, 2000s, Rock", "", "live", ""),
+new Channel("Popcorn Radio", "https://i.iheart.com/v3/re/new_assets/49f5dad5-d5fe-4c8a-bdbf-50acd171d9ec", "http://stream.revma.ihrhls.com/zc7445", "Soundtrack", "", "live", ""),
+new Channel("Global Citizen Radio", "https://i.iheart.com/v3/re/new_assets/a9a67be2-b6f6-4931-8684-b2bcba87a2af", "http://stream.revma.ihrhls.com/zc6288", "Live Music, Pop, Rock", "", "live", ""),
+new Channel("LAist", "https://i.iheart.com/v3/re/assets.streams/63e6bcab2535e03c77109513", "https://live.amperwave.net/direct/southerncalipr-kpccfmmp3-imc.mp3", "News, Liberal Talk, Special Interest", "NPR KPCC", "live", "")
 ]
