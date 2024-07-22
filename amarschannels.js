@@ -898,5 +898,15 @@ new Channel("Rock Drive", "https://i.iheart.com/v3/re/assets.streams/64e90dfcf24
 new Channel("Real Fun Beach Radio", "https://i.iheart.com/v3/re/new_assets/8c468c81-bcac-4beb-a436-8572188440a9", "http://stream.revma.ihrhls.com/zc6221", "Rock, Alternative", "", "live", ""),
 new Channel("Lost 80s", "https://i.iheart.com/v3/re/assets.streams/651c7324a8732d6bdd71ddcc", "http://stream.revma.ihrhls.com/zc7934", "80s", "", "live", ""),
 new Channel("Classic American Top 40", "https://i.iheart.com/v3/re/new_assets/f66d066f-e208-4922-9ba0-c2f95d9fe503", "http://stream.revma.ihrhls.com/zc6545", "70s, 80s, Top 40, Pop", "", "live", ""),
-new Channel("iHeart Doo-Wop", "https://i.iheart.com/v3/re/assets.streams/6557d2d159952de80134c777", "http://stream.revma.ihrhls.com/zc10058", "R&B, 40s", "", "live", "")
+new Channel("iHeart Doo-Wop", "https://i.iheart.com/v3/re/assets.streams/6557d2d159952de80134c777", "http://stream.revma.ihrhls.com/zc10058", "R&B, 40s", "", "live", ""),
+new Channel("Atlantis Radio", "https://i.iheart.com/v3/re/new_assets/64fcfecb-3d98-4ef0-9282-8bbe33535d55", "http://stream.revma.ihrhls.com/zc7418", "Reggae", "", "live", ""),
+new Channel("Afrosoundz Radio", "https://i.iheart.com/v3/re/new_assets/62702d8e636b2b899e7ca031", "https://streaming.live365.com/a45608", "Afrobeats", "", "live", ""),
+new Channel("R&B Jams", "https://i.iheart.com/v3/re/assets.streams/64120faacb98efe4c2d39f6f", "http://stream.revma.ihrhls.com/zc4433", "R&B", "", "live", ""),
+new Channel("R&B Top 20", "https://i.iheart.com/v3/re/assets.streams/641e2fce02602ae7dcd0e9b2", "http://stream.revma.ihrhls.com/zc4940", "R&B, Top 40", "", "live", ""),
+new Channel("Throwbacks", "https://i.iheart.com/v3/re/new_assets/2c49da93-9ac4-4411-b748-b48a5014ecd3", "http://stream.revma.ihrhls.com/zc7397", "Rap, 70s, 80s", "", "live", ""),
+new Channel("Classic Funk", "https://i.iheart.com/v3/re/assets.streams/644170ff4a28c0253208c305", "http://stream.revma.ihrhls.com/zc6955", "R&B, Funk", "", "live", ""),
+new Channel("Classic Soul", "https://i.iheart.com/v3/re/assets.streams/643d8fb29261a5caee871f76", "http://stream.revma.ihrhls.com/zc7120", "Motwon, Soul, R&B", "", "live", ""),
+new Channel("Chill Jams", "https://i.iheart.com/v3/re/assets.streams/64347eeeb51dd0eb7e421125", "http://stream.revma.ihrhls.com/zc4719", "R&B", "", "live", ""),
+new Channel("Motown Sounds", "https://i.iheart.com/v3/re/assets.streams/65416eb9f86f42d493157aa0", "http://stream.revma.ihrhls.com/zc7801", "Motown, 60s, 70s", "", "live", ""),
+new Channel("Sweat Hotel with Keith Sweat", "https://i.iheart.com/v3/re/assets/images/6529.png", "http://stream.revma.ihrhls.com/zc6529", "R&B, Top 40", "", "live", "")
 ]
