@@ -887,5 +887,16 @@ new Channel("Popcorn Radio", "https://i.iheart.com/v3/re/new_assets/49f5dad5-d5f
 new Channel("Global Citizen Radio", "https://i.iheart.com/v3/re/new_assets/a9a67be2-b6f6-4931-8684-b2bcba87a2af", "http://stream.revma.ihrhls.com/zc6288", "Live Music, Pop, Rock", "", "live", ""),
 new Channel("LAist", "https://i.iheart.com/v3/re/assets.streams/63e6bcab2535e03c77109513", "https://live.amperwave.net/direct/southerncalipr-kpccfmmp3-imc.mp3", "News, Liberal Talk, Special Interest", "NPR KPCC", "live", ""),
 new Channel("NBC Olympics Radio", "https://i.iheart.com/v3/re/assets.streams/66746c013d0a08a2b6ea5f5e", "http://stream.revma.ihrhls.com/zc10378", "Live Sports", "", "live", ""),
-new Channel("NBC Olympics Radio Plus", "https://i.iheart.com/v3/re/assets.streams/6696c5a79b0a1e27beef5550", "http://stream.revma.ihrhls.com/zc10401", "Live Sports", "", "live", "")
+new Channel("NBC Olympics Radio Plus", "https://i.iheart.com/v3/re/assets.streams/6696c5a79b0a1e27beef5550", "http://stream.revma.ihrhls.com/zc10401", "Live Sports", "", "live", ""),
+new Channel("Big Classic Hits", "https://i.iheart.com/v3/re/assets.streams/64d0f605100c78386a2b002a", "http://stream.revma.ihrhls.com/zc4455", "70s, 80s, 90s, Pop", "", "live", ""),
+new Channel("Cool Oldies", "https://i.iheart.com/v3/re/new_assets/5f63f4b4e2873d3a293707ec", "http://stream.revma.ihrhls.com/zc4439", "70s, 80s, Pop", "", "live", ""),
+new Channel("Real Oldies", "https://i.iheart.com/v3/re/new_assets/5ed55acb4dbf758fa83ed7b3", "http://stream.revma.ihrhls.com/zc4717", "70s, 60s, Pop", "", "live", ""),
+new Channel("The Beatles Now And Then", "https://i.iheart.com/v3/re/assets.streams/6542acc3fc9dd719fc5eae8e", "http://stream.revma.ihrhls.com/zc10023", "60s, 70s, Pop", "", "live", ""),
+new Channel("British Invasion", "https://i.iheart.com/v3/re/assets.streams/63e14a5dda36dc041cfada95", "http://stream.revma.ihrhls.com/zc5708", "60s, Pop", "", "live", ""),
+new Channel("Pop Drive", "https://i.iheart.com/v3/re/assets.streams/64e90dfcf24af9aa7cabe7f7", "http://stream.revma.ihrhls.com/zc7403", "Pop, Alternative, Indie Pop, Rock", "", "live", ""),
+new Channel("Rock Drive", "https://i.iheart.com/v3/re/assets.streams/64e90dfcf24af9aa7cabe7f8", "http://stream.revma.ihrhls.com/zc7402", "Rock, Alternative", "", "live", ""),
+new Channel("Real Fun Beach Radio", "https://i.iheart.com/v3/re/new_assets/8c468c81-bcac-4beb-a436-8572188440a9", "http://stream.revma.ihrhls.com/zc6221", "Rock, Alternative", "", "live", ""),
+new Channel("Lost 80s", "https://i.iheart.com/v3/re/assets.streams/651c7324a8732d6bdd71ddcc", "http://stream.revma.ihrhls.com/zc7934", "80s", "", "live", ""),
+new Channel("Classic American Top 40", "https://i.iheart.com/v3/re/new_assets/f66d066f-e208-4922-9ba0-c2f95d9fe503", "http://stream.revma.ihrhls.com/zc6545", "70s, 80s, Top 40, Pop", "", "live", ""),
+new Channel("iHeart Doo-Wop", "https://i.iheart.com/v3/re/assets.streams/6557d2d159952de80134c777", "http://stream.revma.ihrhls.com/zc10058", "R&B, 40s", "", "live", "")
 ]
