@@ -923,5 +923,6 @@ new Channel("Sunny Radio", "https://i.iheart.com/v3/re/assets.streams/63d2db6cca
 new Channel("Yacht Rock Radio", "https://i.iheart.com/v3/re/new_assets/5f5844d8a8e92688d3560ef4", "http://stream.revma.ihrhls.com/zc8681", "Indie Pop", "", "live", ""),
 new Channel("Love Songs Radio", "https://i.iheart.com/v3/re/assets/images/cef28108-4eec-4b44-b8ce-bc17ac218374.png", "http://stream.revma.ihrhls.com/zc6790", "Romance, R&B", "", "live", ""),
 new Channel("The Breeze", "https://i.iheart.com/v3/re/assets.streams/66a2a4d762ed542f0901aef9", "http://stream.revma.ihrhls.com/zc8143", "Indie Pop", "", "live", ""),
-new Channel("Delilah", "https://i.iheart.com/v3/re/assets/images/64e3b9ab-f4f0-4815-9ce6-59647bb24fee.png", "http://stream.revma.ihrhls.com/zc4846", "Romance", "", "live", "")
+new Channel("Delilah", "https://i.iheart.com/v3/re/assets/images/64e3b9ab-f4f0-4815-9ce6-59647bb24fee.png", "http://stream.revma.ihrhls.com/zc4846", "Romance", "", "live", ""),
+new Channel("Songs of the Summer", "https://i.iheart.com/v3/re/assets.streams/645295bca223c45e0cfa7da7", "http://stream.revma.ihrhls.com/zc9421", "Pop, 2010s, 2020s", "", "live", "")
 ]
