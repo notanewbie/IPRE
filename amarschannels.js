@@ -909,5 +909,19 @@ new Channel("Classic Soul", "https://i.iheart.com/v3/re/assets.streams/643d8fb29
 new Channel("Chill Jams", "https://i.iheart.com/v3/re/assets.streams/64347eeeb51dd0eb7e421125", "http://stream.revma.ihrhls.com/zc4719", "R&B", "", "live", ""),
 new Channel("Motown Sounds", "https://i.iheart.com/v3/re/assets.streams/65416eb9f86f42d493157aa0", "http://stream.revma.ihrhls.com/zc7801", "Motown, 60s, 70s", "", "live", ""),
 new Channel("Sweat Hotel with Keith Sweat", "https://i.iheart.com/v3/re/assets/images/6529.png", "http://stream.revma.ihrhls.com/zc6529", "R&B, Top 40", "", "live", ""),
-new Channel("Big 12 Radio", "https://cdn-profiles.tunein.com/s329464/images/logog.jpg", "https://tunein.cdnstream1.com/4800_128.mp3", "Live Sports, Sports Talk", "", "live", "")
+new Channel("Big 12 Radio", "https://cdn-profiles.tunein.com/s329464/images/logog.jpg", "https://tunein.cdnstream1.com/4800_128.mp3", "Live Sports, Sports Talk", "", "live", ""),
+new Channel("Rock Nation", "https://i.iheart.com/v3/re/new_assets/cff882d8-3b36-42ab-b35a-4ad6bc795729", "http://stream.revma.ihrhls.com/zc4443", "Rock", "", "live", ""),
+new Channel("Rock Top 20", "https://i.iheart.com/v3/re/assets.streams/641e2fce02602ae7dcd0e9b3", "http://stream.revma.ihrhls.com/zc4932", "Rock, Top 40", "", "live", ""),
+new Channel("Nu Metal Radio", "https://i.iheart.com/v3/re/assets.streams/645295e48320086d02de7ca3", "http://stream.revma.ihrhls.com/zc9483", "Rock, Metal", "", "live", ""),
+new Channel("The Feel", "https://i.iheart.com/v3/re/assets.streams/6452958950d77ca005fd5a66", "http://stream.revma.ihrhls.com/zc9380", "Rock, Pop", "", "live", ""),
+new Channel("Punk Tacos", "https://i.iheart.com/v3/re/new_assets/36657a02-5b0b-43c0-adda-b59a3c74bc3e", "http://stream.revma.ihrhls.com/zc6954", "Rock, Pop", "", "live", ""),
+new Channel("Jam Bands", "https://i.iheart.com/v3/re/assets.streams/648c9511868a5b4e92143aea", "http://stream.revma.ihrhls.com/zc7278", "Indie Pop", "", "live", ""),
+new Channel("Full Metal Jackie", "https://i.iheart.com/v3/re/assets/images/6225.png", "http://stream.revma.ihrhls.com/zc6225", "Rock, Metal", "", "live", ""),
+new Channel("Soft Rock", "https://i.iheart.com/v3/re/assets.streams/63ecf981d236400ce9903402", "http://stream.revma.ihrhls.com/zc4414", "Indie Pop, 80s, 90s, 2000s, 2010s, 2020s", "", "live", ""),
+new Channel("Lite Rock", "https://i.iheart.com/v3/re/new_assets/5d02b2823a01a2ea44a48a41", "http://stream.revma.ihrhls.com/zc6830", "Indie Pop, 80s, 90s, 2000s, 2010s, 2020s", "", "live", ""),
+new Channel("Sunny Radio", "https://i.iheart.com/v3/re/assets.streams/63d2db6ccafc91b443df4582", "http://stream.revma.ihrhls.com/zc5014", "Indie Pop", "", "live", ""),
+new Channel("Yacht Rock Radio", "https://i.iheart.com/v3/re/new_assets/5f5844d8a8e92688d3560ef4", "http://stream.revma.ihrhls.com/zc8681", "Indie Pop", "", "live", ""),
+new Channel("Love Songs Radio", "https://i.iheart.com/v3/re/assets/images/cef28108-4eec-4b44-b8ce-bc17ac218374.png", "http://stream.revma.ihrhls.com/zc6790", "Romance, R&B", "", "live", ""),
+new Channel("The Breeze", "https://i.iheart.com/v3/re/assets.streams/66a2a4d762ed542f0901aef9", "http://stream.revma.ihrhls.com/zc8143", "Indie Pop", "", "live", ""),
+new Channel("Delilah", "https://i.iheart.com/v3/re/assets/images/64e3b9ab-f4f0-4815-9ce6-59647bb24fee.png", "http://stream.revma.ihrhls.com/zc4846", "Romance", "", "live", "")
 ]
