@@ -908,5 +908,6 @@ new Channel("Classic Funk", "https://i.iheart.com/v3/re/assets.streams/644170ff4
 new Channel("Classic Soul", "https://i.iheart.com/v3/re/assets.streams/643d8fb29261a5caee871f76", "http://stream.revma.ihrhls.com/zc7120", "Motwon, Soul, R&B", "", "live", ""),
 new Channel("Chill Jams", "https://i.iheart.com/v3/re/assets.streams/64347eeeb51dd0eb7e421125", "http://stream.revma.ihrhls.com/zc4719", "R&B", "", "live", ""),
 new Channel("Motown Sounds", "https://i.iheart.com/v3/re/assets.streams/65416eb9f86f42d493157aa0", "http://stream.revma.ihrhls.com/zc7801", "Motown, 60s, 70s", "", "live", ""),
-new Channel("Sweat Hotel with Keith Sweat", "https://i.iheart.com/v3/re/assets/images/6529.png", "http://stream.revma.ihrhls.com/zc6529", "R&B, Top 40", "", "live", "")
+new Channel("Sweat Hotel with Keith Sweat", "https://i.iheart.com/v3/re/assets/images/6529.png", "http://stream.revma.ihrhls.com/zc6529", "R&B, Top 40", "", "live", ""),
+new Channel("Big 12 Radio", "https://cdn-profiles.tunein.com/s329464/images/logog.jpg", "https://tunein.cdnstream1.com/4800_128.mp3", "Live Sports, Sports Talk", "", "live", "")
 ]
