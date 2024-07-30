@@ -928,5 +928,7 @@ new Channel("Songs of the Summer", "https://i.iheart.com/v3/re/assets.streams/64
 new Channel("Country A-Go-Go", "https://cdn-profiles.tunein.com/s324451/images/logog.jpg", "https://rfcm.streamguys1.com/countryagogo-mp3", "Country, 60s", "", "live", ""),
 new Channel("Country Roads", "https://cdn-profiles.tunein.com/s224628/images/logog.jpg", "https://rfcm.streamguys1.com/countryroads-mp3", "Country", "", "live", ""),
 new Channel("Highway 65 Radio", "https://cdn-radiotime-logos.tunein.com/s174864g.png", "http://hydra.cdnstream.com/1924_64", "Country", "", "live", ""),
-new Channel("Vintage Country", "https://cdn-profiles.tunein.com/s250052/images/logog.png", "https://rfcm.streamguys1.com/vintagecountry-mp3", "Country", "", "live", "")
+new Channel("Vintage Country", "https://cdn-profiles.tunein.com/s250052/images/logog.png", "https://rfcm.streamguys1.com/vintagecountry-mp3", "Country", "", "live", ""),
+new Channel("Big Machine Radio", "https://cdn-radiotime-logos.tunein.com/s223069g.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/BMACHINERADIO_XUS", "Country", "", "live", ""),
+new Channel("90's Country", "https://cdn-profiles.tunein.com/s250031/images/logog.jpg", "https://rfcm.streamguys1.com/90country-mp3", "Country, 90s", "", "live", "")
 ]
