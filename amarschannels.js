@@ -937,5 +937,11 @@ new Channel("GotRadio Classic Country", "https://cdn-radiotime-logos.tunein.com/
 new Channel("Calm Radio Bluegrass", "https://cdn-profiles.tunein.com/s221710/images/logog.png", "https://tunein-live-b.cdnstream1.com/3843_128.mp3", "Bluegrass", "", "live", ""),
 new Channel("Calm Radio Country Folk", "https://cdn-profiles.tunein.com/s221718/images/logog.png", "https://tunein-live-b.cdnstream1.com/3845_128.mp3", "Bluegrass, Country", "", "live", ""),
 new Channel("The Bluegrass Jamboree", "https://cdn-profiles.tunein.com/s211481/images/logog.png", "https://s2.radio.co/sf0dcfa39a/listen", "Bluegrass", "", "live", ""),
-new Channel("Bluegrass Planet Radio", "https://cdn-profiles.tunein.com/s298914/images/logog.png", "https://quincy.torontocast.com:2475/stream", "Bluegrass", "", "live", "")
+new Channel("Bluegrass Planet Radio", "https://cdn-profiles.tunein.com/s298914/images/logog.png", "https://quincy.torontocast.com:2475/stream", "Bluegrass", "", "live", ""),
+new Channel("Country Hits", "https://cdn-profiles.tunein.com/s249981/images/logog.jpg", "https://rfcm.streamguys1.com/countryhits-mp3", "Country", "", "live", ""),
+new Channel("Calm Radio Country Now", "https://cdn-profiles.tunein.com/s221723/images/logog.png", "https://tunein-live-b.cdnstream1.com/3847_128.mp3", "Country", "", "live", ""),
+new Channel("GotRadio Today's Country", "https://cdn-profiles.tunein.com/s221723/images/logog.png", "http://pureplay.cdnstream1.com/6029_64.aac", "Country", "", "live", ""),
+new Channel("Americana Boogie Radio", "https://cdn-profiles.tunein.com/s260326/images/logog.png", "http://samcloud.spacial.com/api/listen?sid=70719", "Americana", "", "live", ""),
+new Channel("SomaFM Boot Liquor", "https://cdn-profiles.tunein.com/s50955/images/logog.jpg", "http://ice2.somafm.com/bootliquor-128-aac", "Americana", "", "live", ""),
+new Channel("Folk Alley", "https://cdn-radiotime-logos.tunein.com/s37265g.png", "https://freshgrass.streamguys1.com/folkalley-128mp3-tunein", "Americana", "", "live", "")
 ]
