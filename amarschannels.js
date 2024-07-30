@@ -933,5 +933,9 @@ new Channel("Big Machine Radio", "https://cdn-radiotime-logos.tunein.com/s223069
 new Channel("90's Country", "https://cdn-profiles.tunein.com/s250031/images/logog.jpg", "https://rfcm.streamguys1.com/90country-mp3", "Country, 90s", "", "live", ""),
 new Channel("Calm Radio Country Classics", "https://cdn-profiles.tunein.com/s221713/images/logog.png", "https://tunein-live-b.cdnstream1.com/3844_128.mp3", "Country, 90s", "", "live", ""),
 new Channel("The Ranch", "https://cdn-profiles.tunein.com/s135419/images/logog.png", "http://loveradio.stream:8010/theranch/", "Country, 70s, 80s, 90s", "", "live", ""),
-new Channel("GotRadio Classic Country", "https://cdn-radiotime-logos.tunein.com/s49674g.png", "http://pureplay.cdnstream1.com/6048_128.mp3", "Country, 70s, 80s, 90s", "", "live", "")
+new Channel("GotRadio Classic Country", "https://cdn-radiotime-logos.tunein.com/s49674g.png", "http://pureplay.cdnstream1.com/6048_128.mp3", "Country, 70s, 80s, 90s", "", "live", ""),
+new Channel("Calm Radio Bluegrass", "https://cdn-profiles.tunein.com/s221710/images/logog.png", "https://tunein-live-b.cdnstream1.com/3843_128.mp3", "Bluegrass", "", "live", ""),
+new Channel("Calm Radio Country Folk", "https://cdn-profiles.tunein.com/s221718/images/logog.png", "https://tunein-live-b.cdnstream1.com/3845_128.mp3", "Bluegrass, Country", "", "live", ""),
+new Channel("The Bluegrass Jamboree", "https://cdn-profiles.tunein.com/s211481/images/logog.png", "https://s2.radio.co/sf0dcfa39a/listen", "Bluegrass", "", "live", ""),
+new Channel("Bluegrass Planet Radio", "https://cdn-profiles.tunein.com/s298914/images/logog.png", "https://quincy.torontocast.com:2475/stream", "Bluegrass", "", "live", "")
 ]
