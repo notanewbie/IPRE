@@ -957,5 +957,6 @@ new Channel("90's Hits", "https://cdn-profiles.tunein.com/s249946/images/logog.p
 new Channel("GotRadio Adult Hits", "https://cdn-profiles.tunein.com/s49688/images/logog.jpg", "https://pureplay.cdnstream1.com/6022_128.mp3", "Hot AC, Pop, Top 40", "", "live", ""),
 new Channel("00's Hits", "https://cdn-profiles.tunein.com/s249947/images/logog.jpg", "https://rfcm.streamguys1.com/00hits-mp3", "2000s", "", "live", ""),
 new Channel("Classic Rock Hits", "https://cdn-profiles.tunein.com/s249994/images/logog.jpg", "https://rfcm.streamguys1.com/classicrock-mp3", "60s, 70s, 80s, Rock", "", "live", ""),
-new Channel("Rock On", "https://cdn-profiles.tunein.com/s248539/images/logog.png", "https://rfcm.streamguys1.com/rockon-mp3", "Rock", "", "live", "")
+new Channel("Rock On", "https://cdn-profiles.tunein.com/s248539/images/logog.png", "https://rfcm.streamguys1.com/rockon-mp3", "Rock", "", "live", ""),
+new Channel("Alt Hits", "https://cdn-profiles.tunein.com/s249990/images/logog.png", "https://rfcm.streamguys1.com/alternativehits-mp3", "Alternative", "", "live", "")
 ]
