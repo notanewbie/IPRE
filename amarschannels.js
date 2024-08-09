@@ -943,5 +943,6 @@ new Channel("Calm Radio Country Now", "https://cdn-profiles.tunein.com/s221723/i
 new Channel("GotRadio Today's Country", "https://cdn-profiles.tunein.com/s221723/images/logog.png", "http://pureplay.cdnstream1.com/6029_64.aac", "Country", "", "live", ""),
 new Channel("Americana Boogie Radio", "https://cdn-profiles.tunein.com/s260326/images/logog.png", "http://samcloud.spacial.com/api/listen?sid=70719", "Americana", "", "live", ""),
 new Channel("SomaFM Boot Liquor", "https://cdn-profiles.tunein.com/s50955/images/logog.jpg", "http://ice2.somafm.com/bootliquor-128-aac", "Americana", "", "live", ""),
-new Channel("Folk Alley", "https://cdn-radiotime-logos.tunein.com/s37265g.png", "https://freshgrass.streamguys1.com/folkalley-128mp3-tunein", "Americana", "", "live", "")
+new Channel("Folk Alley", "https://cdn-radiotime-logos.tunein.com/s37265g.png", "https://freshgrass.streamguys1.com/folkalley-128mp3-tunein", "Americana", "", "live", ""),
+new Channel("1.FM Top 40", "https://cdn-radiotime-logos.tunein.com/s48967g.png", "http://strm112.1.fm:80/top40_mobile_mp3", "Pop, Top 40", "", "live", "")
 ]
