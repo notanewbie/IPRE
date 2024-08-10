@@ -972,5 +972,18 @@ new Channel("Jazz Club", "https://cdn-profiles.tunein.com/s250015/images/logog.j
 new Channel("ABC Lounge Jazz", "https://cdn-profiles.tunein.com/s127653/images/logog.png", "https://listen.openstream.co/4457/audio", "Jazz", "", "live", ""),
 new Channel("SmoothJazz.com Global", "https://cdn-profiles.tunein.com/s16735/images/logog.png", "https://smoothjazz.cdnstream1.com/2585_256.mp3", "Jazz", "", "live", ""),
 new Channel("Smooth Jazz 24/7", "https://cdn-profiles.tunein.com/s297918/images/logog.jpg", "https://jking.cdnstream1.com/b75154_128mp3", "Jazz", "", "live", ""),
-new Channel("GotRadio Jazz So Smooth", "https://cdn-profiles.tunein.com/s49695/images/logog.jpg", "http://pureplay.cdnstream1.com/6049_128.mp3", "Jazz", "", "live", "")
+new Channel("GotRadio Jazz So Smooth", "https://cdn-profiles.tunein.com/s49695/images/logog.jpg", "http://pureplay.cdnstream1.com/6049_128.mp3", "Jazz", "", "live", ""),
+new Channel("Calm Radio Bossa Nova", "https://cdn-profiles.tunein.com/s192198/images/logog.png", "https://tunein-live-b.cdnstream1.com/4042_128.mp3", "Jazz, 50s, 60s", "", "live", ""),
+new Channel("Calm Radio Smooth Jazz", "https://cdn-profiles.tunein.com/s166521/images/logog.png", "https://tunein-live-b.cdnstream1.com/3877_128.mp3", "Jazz", "", "live", ""),
+new Channel("Calm Radio Jazz Piano", "https://cdn-profiles.tunein.com/s133516/images/logog.png", "https://tunein-live-b.cdnstream1.com/3873_128.mp3", "Jazz", "", "live", ""),
+new Channel("Calm Radio Cocktail Jazz", "https://cdn-profiles.tunein.com/s282480/images/logog.png", "https://tunein-live-b.cdnstream1.com/3882_128.mp3", "Jazz", "", "live", ""),
+new Channel("Calm Radio Jazz Guitar Light", "https://cdn-profiles.tunein.com/s321100/images/logog.png", "https://tunein-live-b.cdnstream1.com/3893_128.mp3", "Jazz", "", "live", ""),
+new Channel("Calm Radio Mellow Jazz", "https://cdn-profiles.tunein.com/s321098/images/logog.png", "https://tunein-live-b.cdnstream1.com/3891_128.mp3", "Jazz", "", "live", ""),
+new Channel("Calm Radio Just Jazz", "https://cdn-profiles.tunein.com/s132817/images/logog.png", "https://tunein-live-b.cdnstream1.com/3874_128.mp3", "Jazz", "", "live", ""),
+new Channel("Calm Radio Latin Jazz", "https://cdn-profiles.tunein.com/s221708/images/logog.png", "https://tunein-live-b.cdnstream1.com/3880_128.mp3", "Jazz", "", "live", ""),
+new Channel("Martini In The Morning", "https://cdn-profiles.tunein.com/s55412/images/logog.png", "https://tunein.cdnstream1.com/4068_96.mp3", "Jazz", "", "live", ""),
+new Channel("Calm Radio Big Band", "https://cdn-profiles.tunein.com/s179294/images/logog.png", "https://tunein-live-b.cdnstream1.com/3875_128.mp3", "Jazz", "", "live", ""),
+new Channel("GotRadio Big Band Land", "https://cdn-profiles.tunein.com/s179294/images/logog.png", "http://pureplay.cdnstream1.com/6004_128.mp3", "Jazz", "", "live", ""),
+new Channel("Smooth Jazz Nola", "https://cdn-profiles.tunein.com/s285775/images/logog.png", "https://listen.radioking.com/radio/517897/stream/575959", "Jazz", "", "live", ""),
+new Channel("MeTV FM", "https://cdn-profiles.tunein.com/s67587/images/logog.jpg", "http://live.amperwave.net/direct/audacy-wmyxhd2aac-imc", "Jazz", "", "live", "")
 ]
