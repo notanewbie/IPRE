@@ -958,5 +958,19 @@ new Channel("GotRadio Adult Hits", "https://cdn-profiles.tunein.com/s49688/image
 new Channel("00's Hits", "https://cdn-profiles.tunein.com/s249947/images/logog.jpg", "https://rfcm.streamguys1.com/00hits-mp3", "2000s", "", "live", ""),
 new Channel("Classic Rock Hits", "https://cdn-profiles.tunein.com/s249994/images/logog.jpg", "https://rfcm.streamguys1.com/classicrock-mp3", "60s, 70s, 80s, Rock", "", "live", ""),
 new Channel("Rock On", "https://cdn-profiles.tunein.com/s248539/images/logog.png", "https://rfcm.streamguys1.com/rockon-mp3", "Rock", "", "live", ""),
-new Channel("Alt Hits", "https://cdn-profiles.tunein.com/s249990/images/logog.png", "https://rfcm.streamguys1.com/alternativehits-mp3", "Alternative", "", "live", "")
+new Channel("Alt Hits", "https://cdn-profiles.tunein.com/s249990/images/logog.png", "https://rfcm.streamguys1.com/alternativehits-mp3", "Alternative", "", "live", ""),
+new Channel("Classic Alternative Hits", "https://cdn-profiles.tunein.com/s249914/images/logog.png", "https://rfcm.streamguys1.com/classicalternativehits-mp3", "Alternative, 90s", "", "live", ""),
+new Channel("90's Classic Rock", "https://cdn-profiles.tunein.com/s308954/images/logog.png", "https://rfcm.streamguys1.com/90classicrock-mp3", "Rock, 90s", "", "live", ""),
+new Channel("Soft Rock Radio", "https://cdn-radiotime-logos.tunein.com/s113401g.png", "https://gold.streamguys1.com/softrock.mp3", "Rock, Alternative", "", "live", ""),
+new Channel("KCRW", "https://cdn-profiles.tunein.com/s32152/images/logog.png", "https://streams.kcrw.com/kcrw_mp3", "Special Interest, News, Liberal Talk, Indie Pop", "", "live", ""),
+new Channel("HEADY Extraterrestrial Radio", "https://cdn-profiles.tunein.com/s321054/images/logog.png", "https://c22.radioboss.fm:18364/stream", "Indie Pop, Rock", "", "live", ""),
+new Channel("SomaFM: Indie Pop Rocks!", "https://cdn-profiles.tunein.com/s2592/images/logog.jpg", "http://ice2.somafm.com/indiepop-128-mp3", "Indie Pop, Rock", "", "live", ""),
+new Channel("Sailing", "https://cdn-profiles.tunein.com/s306312/images/logog.png", "https://rfcm.streamguys1.com/sailing-mp3", "Rock, 70s, 80s", "", "live", ""),
+new Channel("Calm Radio Yacht Rock", "https://cdn-profiles.tunein.com/s321233/images/logog.png", "https://tunein-live-b.cdnstream1.com/4010_128.mp3", "Rock, 70s, 80s", "", "live", ""),
+new Channel("Fresh Wave", "https://cdn-profiles.tunein.com/s309716/images/logog.png", "https://start.radio/freshwave", "Rock, 70s, 80s", "", "live", ""),
+new Channel("Jazz Club", "https://cdn-profiles.tunein.com/s250015/images/logog.jpg", "https://rfcm.streamguys1.com/jazzclub-mp3", "Jazz, 40s, 50s, 60s, 70s, 80s, 90s, 30s", "", "live", ""),
+new Channel("ABC Lounge Jazz", "https://cdn-profiles.tunein.com/s127653/images/logog.png", "https://listen.openstream.co/4457/audio", "Jazz", "", "live", ""),
+new Channel("SmoothJazz.com Global", "https://cdn-profiles.tunein.com/s16735/images/logog.png", "https://smoothjazz.cdnstream1.com/2585_256.mp3", "Jazz", "", "live", ""),
+new Channel("Smooth Jazz 24/7", "https://cdn-profiles.tunein.com/s297918/images/logog.jpg", "https://jking.cdnstream1.com/b75154_128mp3", "Jazz", "", "live", ""),
+new Channel("GotRadio Jazz So Smooth", "https://cdn-profiles.tunein.com/s49695/images/logog.jpg", "http://pureplay.cdnstream1.com/6049_128.mp3", "Jazz", "", "live", "")
 ]
