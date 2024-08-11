@@ -1010,5 +1010,17 @@ new Channel("Radio Danz", "https://cdn-profiles.tunein.com/s97878/images/logog.p
 new Channel("Dogglounge Radio", "https://cdn-radiotime-logos.tunein.com/s54455g.png", "http://dogglounge.com:8000/", "EDM", "", "live", ""),
 new Channel("Soulfulradio", "https://cdn-profiles.tunein.com/s259099/images/logog.jpg", "https://streamingserver-03.com/proxy/soulfulradio?mp=/8009", "EDM", "", "live", ""),
 new Channel("Deep House Lounge Radio", "https://cdn-radiotime-logos.tunein.com/s136557g.png", "http://198.15.94.34:8006/stream", "EDM", "", "live", ""),
-new Channel("Techno", "https://cdn-profiles.tunein.com/s53124/images/logog.png", "https://tunein.cdnstream1.com/3695_96.mp3", "EDM", "", "live", "")
+new Channel("Techno", "https://cdn-profiles.tunein.com/s53124/images/logog.png", "https://tunein.cdnstream1.com/3695_96.mp3", "EDM", "", "live", ""),
+new Channel("NTS Sweat", "https://cdn-profiles.tunein.com/s309895/images/logog.png", "https://stream-mixtape-geo.ntslive.net/mixtape24", "EDM", "", "live", ""),
+new Channel("NTS Poolside", "https://cdn-profiles.tunein.com/s309373/images/logog.jpg", "https://stream-mixtape-geo.ntslive.net/mixtape4", "EDM", "", "live", ""),
+new Channel("NTS Expansions", "https://cdn-profiles.tunein.com/s309375/images/logog.jpg", "https://stream-mixtape-geo.ntslive.net/mixtape3", "Jazz", "", "live", ""),
+new Channel("NTS 4 The Floor", "https://cdn-profiles.tunein.com/s309378/images/logog.jpg", "https://stream-mixtape-geo.ntslive.net/mixtape5", "EDM", "", "live", ""),
+new Channel("NTS The Tube", "https://cdn-profiles.tunein.com/s309925/images/logog.png", "https://stream-mixtape-geo.ntslive.net/mixtape26", "Rock", "", "live", ""),
+new Channel("NTS Slow Focus", "https://cdn-profiles.tunein.com/s309377/images/logog.jpg", "https://stream-mixtape-geo.ntslive.net/mixtape", "Ambient", "", "live", ""),
+new Channel("NTS Feelings", "https://cdn-profiles.tunein.com/s309924/images/logog.png", "https://stream-mixtape-geo.ntslive.net/mixtape27", "40s, 50s, Romance, 60s", "", "live", ""),
+new Channel("NTS Island Time", "https://cdn-profiles.tunein.com/s309380/images/logog.jpg", "https://stream-mixtape-geo.ntslive.net/mixtape21", "Reggae", "", "live", ""),
+new Channel("NTS Memory Lane", "https://cdn-profiles.tunein.com/s309374/images/logog.jpg", "https://stream-mixtape-geo.ntslive.net/mixtape6", "Rock", "", "live", ""),
+new Channel("NTS Low Key", "https://cdn-profiles.tunein.com/s309376/images/logog.jpg", "https://stream-mixtape-geo.ntslive.net/mixtape2", "Rock", "", "live", ""),
+new Channel("NTS Rap House", "https://cdn-profiles.tunein.com/s309379/images/logog.jpg", "https://stream-mixtape-geo.ntslive.net/mixtape22", "Rock", "", "live", ""),
+new Channel("NTS Field Recordings", "https://cdn-profiles.tunein.com/s309896/images/logog.png", "https://stream-mixtape-geo.ntslive.net/mixtape23", "Ambient", "", "live", "")
 ]
