@@ -1022,5 +1022,6 @@ new Channel("NTS Island Time", "https://cdn-profiles.tunein.com/s309380/images/l
 new Channel("NTS Memory Lane", "https://cdn-profiles.tunein.com/s309374/images/logog.jpg", "https://stream-mixtape-geo.ntslive.net/mixtape6", "Rock", "", "live", ""),
 new Channel("NTS Low Key", "https://cdn-profiles.tunein.com/s309376/images/logog.jpg", "https://stream-mixtape-geo.ntslive.net/mixtape2", "Rock", "", "live", ""),
 new Channel("NTS Rap House", "https://cdn-profiles.tunein.com/s309379/images/logog.jpg", "https://stream-mixtape-geo.ntslive.net/mixtape22", "Rock", "", "live", ""),
-new Channel("NTS Field Recordings", "https://cdn-profiles.tunein.com/s309896/images/logog.png", "https://stream-mixtape-geo.ntslive.net/mixtape23", "Ambient", "", "live", "")
+new Channel("NTS Field Recordings", "https://cdn-profiles.tunein.com/s309896/images/logog.png", "https://stream-mixtape-geo.ntslive.net/mixtape23", "Ambient", "", "live", ""),
+new Channel("Techno.FM", "https://cdn-radiotime-logos.tunein.com/s111620g.png", "https://stream.techno.fm/radio1-320k.mp3", "EDM", "", "live", "")
 ]
