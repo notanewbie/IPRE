@@ -1045,5 +1045,6 @@ new Channel("Psyndora Psytrance", "https://cdn-profiles.tunein.com/s229185/image
 new Channel("SomaFM Dub Step Beyond", "https://cdn-profiles.tunein.com/s169654/images/logog.jpg", "http://ice2.somafm.com/dubstep-128-mp3", "EDM", "", "live", ""),
 new Channel("Dub Terrain Radio", "https://cdn-radiotime-logos.tunein.com/s104716g.png", "http://ic2255.c471.fast-serv.com:80/listen", "EDM", "", "live", ""),
 new Channel("Origin UK Radio", "https://cdn-profiles.tunein.com/s127051/images/logog.jpg", "http://tachyon.shoutca.st:8586/;", "EDM", "", "live", ""),
-new Channel("Kingdub Radio", "https://cdn-radiotime-logos.tunein.com/s180742g.png", "http://london-dedicated.myautodj.com:8862/stream", "EDM", "", "live", "")
+new Channel("Kingdub Radio", "https://cdn-radiotime-logos.tunein.com/s180742g.png", "http://london-dedicated.myautodj.com:8862/stream", "EDM", "", "live", ""),
+new Channel("Powerhitz Hitlist", "https://cdn-radiotime-logos.tunein.com/s111600g.png", "https://live.powerhitz.com/hitlist", "Pop, Top 40", "", "live", "")
 ]
