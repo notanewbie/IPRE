@@ -1043,5 +1043,6 @@ new Channel("TrancePulse Dublin", "https://cdn-profiles.tunein.com/s124826/image
 new Channel("Trance-Energy Radio", "https://cdn-radiotime-logos.tunein.com/s210192g.png", "http://radio.trance-energy.org:8000/trance", "EDM", "", "live", ""),
 new Channel("Psyndora Psytrance", "https://cdn-profiles.tunein.com/s229185/images/logog.jpg", "https://cast.magicstreams.gr:2200/ssl/psyndora?mp=/stream", "EDM", "", "live", ""),
 new Channel("SomaFM Dub Step Beyond", "https://cdn-profiles.tunein.com/s169654/images/logog.jpg", "http://ice2.somafm.com/dubstep-128-mp3", "EDM", "", "live", ""),
-new Channel("Dub Terrain Radio", "https://cdn-radiotime-logos.tunein.com/s104716g.png", "http://ic2255.c471.fast-serv.com:80/listen", "EDM", "", "live", "")
+new Channel("Dub Terrain Radio", "https://cdn-radiotime-logos.tunein.com/s104716g.png", "http://ic2255.c471.fast-serv.com:80/listen", "EDM", "", "live", ""),
+new Channel("Origin UK Radio", "https://cdn-profiles.tunein.com/s127051/images/logog.jpg", "http://tachyon.shoutca.st:8586/;", "EDM", "", "live", "")
 ]
