@@ -6,7 +6,7 @@ new Channel("AP News", "https://cdn-radiotime-logos.tunein.com/p686763q.png", "h
 new Channel("BBC Radio 4", "https://cdn-radiotime-logos.tunein.com/s25419q.png", "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourfm", "Comedy, Audio Drama, Liberal Talk", "", "dead", "Live"),
 new Channel("BBN English", "https://cdn-radiotime-logos.tunein.com/s20438q.png", "https://audio-edge-qse4n.yyz.g.radiomast.io/844b0a81-f4b9-485e-adaa-aab8d3ea9f7f", "Worship, Sermons, Lifestyle, Choir", "", "live", ""),
 new Channel("Bloomberg TV", "https://cdn-profiles.tunein.com/s47135/images/logog.png", "https://tunein.cdnstream1.com/3522_96.mp3", "Finance, TV", "", "live", ""),
-new Channel("Bott Radio Network", "https://cdn-profiles.tunein.com/s31976/images/logog.png", "https://ic1.sslstream.com/bottradio.mp3", "Lifestyle, Sermons", "", "live", ""),
+new Channel("Bott Radio Network", "https://cdn-profiles.tunein.com/s31976/images/logog.png", "https://streaming.live365.com/a71179_2", "Lifestyle, Sermons", "", "live", ""),
 new Channel("C-SPAN Radio", "https://cdn-profiles.tunein.com/s28047/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/CSPANRADIO.mp3", "News, Liberal Talk, Conservative Talk", "", "live", "Live"),
 new Channel("CEDM Radio", "https://cdn-profiles.tunein.com/s269340/images/logog.png", "http://173.82.208.105:8096/stream", "CEDM", "", "dead", ""),
 new Channel("CNBC", "https://cdn-profiles.tunein.com/s110052/images/logog.jpg", "https://tunein.cdnstream1.com/3516_96.mp3", "Finance, TV", "", "live", ""),
