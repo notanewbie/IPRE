@@ -1046,5 +1046,13 @@ new Channel("SomaFM Dub Step Beyond", "https://cdn-profiles.tunein.com/s169654/i
 new Channel("Dub Terrain Radio", "https://cdn-radiotime-logos.tunein.com/s104716g.png", "http://ic2255.c471.fast-serv.com:80/listen", "EDM", "", "live", ""),
 new Channel("Origin UK Radio", "https://cdn-profiles.tunein.com/s127051/images/logog.jpg", "http://tachyon.shoutca.st:8586/;", "EDM", "", "live", ""),
 new Channel("Kingdub Radio", "https://cdn-radiotime-logos.tunein.com/s180742g.png", "http://london-dedicated.myautodj.com:8862/stream", "EDM", "", "live", ""),
-new Channel("Powerhitz Hitlist", "https://cdn-radiotime-logos.tunein.com/s111600g.png", "https://live.powerhitz.com/hitlist", "Pop, Top 40", "", "live", "")
+new Channel("Powerhitz Hitlist", "https://cdn-radiotime-logos.tunein.com/s111600g.png", "https://live.powerhitz.com/hitlist", "Pop, Top 40", "", "live", ""),
+new Channel("Calm Radio Christian Instrumentals", "https://cdn-profiles.tunein.com/s142210/images/logog.png", "https://tunein-live-b.cdnstream1.com/3850_128.mp3", "Worship", "", "live", ""),
+new Channel("Calm Radio Hymns", "https://cdn-profiles.tunein.com/s321225/images/logog.png", "https://tunein-live-b.cdnstream1.com/4060_128.mp3", "Worship, Ambient", "", "live", ""),
+new Channel("Christian Hits", "https://cdn-profiles.tunein.com/s249983/images/logog.jpg", "https://rfcm.streamguys1.com/christianhits-mp3", "Worship, CCM", "", "live", ""),
+new Channel("UCB 1", "https://cdn-radiotime-logos.tunein.com/s2651g.png", "https://listen-ucb.sharp-stream.com/55_ucb_1_128_mp3", "CCM, Worship, Lifestyle, Sermons", "", "live", ""),
+new Channel("UCB 2", "https://cdn-profiles.tunein.com/s6933/images/logog.jpg", "https://listen-ucb.sharp-stream.com/55_ucb_2_128_mp3", "CCM, Worship", "", "live", ""),
+new Channel("SOS Radio", "https://cdn-profiles.tunein.com/s3223/images/logog.png", "https://ic2.sslstream.com/sosnet.mp3", "CCM", "", "live", ""),
+new Channel("ChristianClassicRock.Net", "https://cdn-profiles.tunein.com/s209918/images/logog.png", "https://listen.christianrock.net/stream/14", "Christian Rock, 70s, 80s, 90s", "", "live", ""),
+new Channel("ChristianHardRock.Net", "https://cdn-profiles.tunein.com/s54358/images/logog.png", "https://listen.christianrock.net/stream/15", "Christian Rock", "", "live", "")
 ]
