@@ -1035,7 +1035,7 @@ new Channel("SomaFM Groove Salad Classic", "https://cdn-profiles.tunein.com/s307
 new Channel("Dance FM", "https://cdn-profiles.tunein.com/s303095/images/logog.png", "https://stream.zeno.fm/g9m2run7a5zuv", "EDM", "", "live", ""),
 new Channel("ADR.FM EDE", "https://cdn-profiles.tunein.com/s232826/images/logog.png", "http://192.111.140.6:9683/stream", "EDM", "", "live", ""),
 new Channel("Deeper Shades Of House Radio Network", "https://cdn-radiotime-logos.tunein.com/s134519g.png", "https://andromeda.housejunkie.ca/radio/8000/radio.mp3", "EDM", "", "live", ""),
-new Channel("Dance Classics", "https://cdn-profiles.tunein.com/s275049/images/logog.png", "https://stream4.themediasite.co.uk/stream/danceclassics", "EDM, 90s, 2000", "", "live", ""),
+new Channel("Dance Classics", "https://cdn-profiles.tunein.com/s275049/images/logog.png", "https://stream4.themediasite.co.uk/stream/danceclassics", "EDM, 90s, 2000s", "", "live", ""),
 new Channel("DI.FM Epic Trance", "https://cdn-profiles.tunein.com/s171221/images/logog.png", "https://tunein.cdnstream1.com/3704_96.mp3", "EDM", "", "live", ""),
 new Channel("DI.FM Trance", "https://cdn-profiles.tunein.com/s50996/images/logog.png", "https://tunein.cdnstream1.com/3694_96.mp3", "EDM", "", "live", ""),
 new Channel("Trance Athena", "https://cdn-profiles.tunein.com/s196811/images/logog.jpg", "https://cast.streams.ovh:8008/stream", "EDM", "", "live", ""),
