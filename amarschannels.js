@@ -1082,5 +1082,20 @@ new Channel("Fifth Dimension Radio 5DRadio", "https://cdn-profiles.tunein.com/s1
 new Channel("ChristianRock.Net", "https://cdn-profiles.tunein.com/s322545/images/logog.png", "https://listen.christianrock.net/stream/11", "Christian Rock", "", "live", ""),
 new Channel("ChristianHits.Net", "https://cdn-profiles.tunein.com/s98542/images/logog.png", "https://rocket.christianrock.net/stream/12", "CCM", "", "live", ""),
 new Channel("ChristianPowerPraise.Net", "https://cdn-profiles.tunein.com/s98542/images/logog.png", "https://rocket.christianrock.net/stream/13", "CCM", "", "live", ""),
-new Channel("ChristianCountryGospel.Net", "https://cdn-profiles.tunein.com/s328980/images/logog.png", "https://listen.christianrock.net/stream/18/", "Christian Country", "", "live", "")
+new Channel("ChristianCountryGospel.Net", "https://cdn-profiles.tunein.com/s328980/images/logog.png", "https://listen.christianrock.net/stream/18/", "Christian Country", "", "live", ""),
+new Channel("Disney Christmas", "https://images.radio.com/logos/exstations/disneychristmas.jpg", "https://shf-streams.audacy.com/hls/audp.102-7640/1/stream.m3u8", "Holiday", "", "dead", ""),
+new Channel("Countryfied Christmas", "https://images.radio.com/logos/exstations/countryfiedchristmas.jpg", "https://streams.audacy.com/stream-shf/102-7516/hls/audp.102-7516/1/master.m3u8", "Holiday, Country", "", "dead", ""),
+new Channel("Hail Santa", "https://images.radio.com/logos/exstations/hailsanta.jpg", "https://shf-streams.audacy.com/hls/audp.102-7521/1/stream.m3u8", "Holiday, Rock", "", "dead", ""),
+new Channel("A Boy Band Christmas", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/aboybandchristmas-1670425503218.jpg", "https://streams.audacy.com/stream-shf/102-7656/hls/audp.102-7656/1/master.m3u8", "Holiday", "", "dead", ""),
+new Channel("Pop Classic Christmas", "https://images.radio.com/logos/exstations/popclassicchristmas.jpg", "https://streams.audacy.com/stream-shf/102-7522/hls/audp.102-7522/1/master.m3u8", "Holiday", "", "dead", ""),
+new Channel("Women of Christmas", "https://images.radio.com/logos/exstations/womenofchristmas.jpg", "https://streams.audacy.com/stream-shf/102-7526/hls/audp.102-7526/1/master.m3u8", "Holiday", "", "dead", ""),
+new Channel("Happy Holi-gay", "https://images.radio.com/logos/exstations/happyholigay.jpg", "https://streams.audacy.com/stream-shf/102-7527/hls/audp.102-7527/1/master.m3u8", "Holiday", "", "dead", ""),
+new Channel("Contemporary Christmas", "https://images.radio.com/logos/exstations/contemporarychristmas.jpg", "https://streams.audacy.com/stream-shf/102-7528/hls/audp.102-7528/1/master.m3u8", "Holiday", "", "dead", ""),
+new Channel("AlternaChristmas", "https://images.radio.com/logos/exstations/alternachristmas.jpg", "https://streams.audacy.com/stream-shf/102-7515/hls/audp.102-7515/1/master.m3u8", "Holiday, Alternative, Rock, Punk", "", "dead", ""),
+new Channel("TSO’s This Christmas Day", "https://images.radio.com/logos/exstations/tsosthischristmasday.jpg", "https://streams.audacy.com/stream-shf/102-7647/hls/audp.102-7647/1/master.m3u8", "Holiday, Rock", "", "dead", ""),
+new Channel("A California Christmas with Switchfoot", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/acaliforniachristmaswithswitchfoot-1667921376754.jpg", "https://streams.audacy.com/stream-shf/102-7649/hls/audp.102-7649/1/master.m3u8", "Holiday, Rock", "", "dead", ""),
+new Channel("Aunt Terri Hemmert’s Holiday Tunes", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/holidaytunesxrt-1701275754944.jpg", "https://streams.audacy.com/stream-shf/102-7713/hls/audp.102-7713/1/master.m3u8", "Holiday", "", "dead", ""),
+new Channel("R&B Christmas", "https://images.radio.com/logos/exstations/randbchristmas.jpg", "https://streams.audacy.com/stream-shf/102-7542/hls/audp.102-7542/1/master.m3u8", "Holiday, R&B", "", "dead", ""),
+new Channel("Hip Hop Christmas", "https://images.radio.com/logos/exstations/hiphopchristmas.jpg", "https://streams.audacy.com/session/playId/f8k:d3dbfa6e935f8f21e0d60ac5a9ec12c9", "Holiday, Rap", "", "dead", ""),
+new Channel("Crooner Christmas", "https://images.radio.com/logos/exstations/croonerchristmas.jpg", "https://streams.audacy.com/stream-shf/102-7532/hls/audp.102-7532/1/master.m3u8", "Holiday, R&B", "", "dead", "")
 ]
