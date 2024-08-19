@@ -136,7 +136,7 @@ new Channel("Hot 97", "https://i.iheart.com/v3/re/assets/~52e852a823d90a7e7f281d
 new Channel("Cheddar", "https://i.iheart.com/v3/re/new_assets/5ecd29ccb058125a94db6b69", "http://cheddar.streamguys1.com/live-aac", "News, Tech Talk, Finance", "", "live", ""),
 new Channel("Dave Ramsey Channel", "https://i.iheart.com/v3/re/new_assets/5bbcdb461373a130ed4e48e2", "http://stream.revma.ihrhls.com/zc5859", "Finance", "", "live", ""),
 new Channel("77 WABC", "https://i.iheart.com/v3/re/assets/images/5349.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WABCAMAAC_SC", "Conservative Talk, Live Sports", "", "live", ""),
-new Channel("KCRW World News", "https://i.iheart.com/v3/re/assets/images/5257.png", "http://kcrw.streamguys1.com/kcrw_128k_aac_news_iheart", "Liberal Talk, Lifestyle", "", "live", ""),
+new Channel("KCRW World News", "https://cdn-profiles.tunein.com/s44525/images/logog.png", "https://streams.kcrw.com/news24_aac", "Liberal Talk, Lifestyle", "", "live", ""),
 new Channel("KCRW Eclectic24", "https://i.iheart.com/v3/re/assets/images/5256.png", "http://kcrw.streamguys1.com/kcrw_128k_aac_e24_iheart", "Indie Pop", "", "live", "Live"),
 new Channel("iHeart 80s Radio", "https://i.iheart.com/v3/re/new_assets/0a01b40d-6206-49dd-85f4-06d89f5f2065", "http://stream.revma.ihrhls.com/zc5060", "80s", "", "live", "Clean"),
 new Channel("iHeart 90s Radio", "https://i.iheart.com/v3/re/new_assets/329ab2f0-5d1a-4e71-9f9a-e6d5674ad982", "http://stream.revma.ihrhls.com/zc6834", "90s", "", "live", "Clean"),
