@@ -1112,7 +1112,7 @@ new Channel("WildStyle.FM", "https://images.radio.com/logos/live365/19d6960d-d21
 new Channel("OVERKILL RADIO", "https://images.radio.com/logos/live365/857c2023-03e5-4929-bbf6-4747a6c9dbd6.png", "https://streaming.live365.com/a51608", "Rock", "", "live", ""),
 new Channel("USA Dance Mix", "https://images.radio.com/logos/live365/d2628f05-3dae-4d00-8ca8-9754bed30493.png", "https://streaming.live365.com/a70692", "EDM, 80s, 90s, 2000s, 2010s", "", "live", ""),
 new Channel("Addiktion WADK", "https://images.radio.com/independent/logos/AddiktionW-ADK_Logo-1400x1400.jpg", "https://streaming.live365.com/a99121", "EDM", "", "live", ""),
-new Channel("Retrogression Radio Network", "https://images.radio.com/independent/logos/AddiktionW-ADK_Logo-1400x1400.jpg", "https://s2.radio.co/s67e35ed32/listen", "EDM", "", "live", ""),
+new Channel("Retrogression Radio Network", "https://images.radio.com/independent/logos/Retrogression-Radio-Affiliate-Logo.jpg", "https://s2.radio.co/s67e35ed32/listen", "EDM", "", "live", ""),
 new Channel("Avicii Radio", "https://images.radio.com/logos/exstations/aviciiradio.jpg", "https://streams.audacy.com/stream-shf/102-7000/hls/audp.102-7000/1/master.m3u8", "EDM", "", "dead", ""),
 new Channel("Marshmello Radio", "https://images.radio.com/logos/exstations/marshmelloradio.jpg", "https://streams.audacy.com/stream-shf/102-7040/hls/audp.102-7040/1/master.m3u8", "EDM", "", "dead", ""),
 new Channel("Daft Punk Radio", "https://images.radio.com/logos/exstations/daftpunkradio.jpg", "https://streams.audacy.com/stream-shf/102-7001/hls/audp.102-7001/1/master.m3u8", "EDM", "", "dead", ""),
