@@ -1076,7 +1076,7 @@ new Channel("DI.FM Chillout", "https://cdn-profiles.tunein.com/s49620/images/log
 new Channel("DI.FM Lofi Lounge & Chill", "https://cdn-profiles.tunein.com/s322572/images/logog.png", "https://tunein.cdnstream1.com/3622_96.mp3", "Ambient", "", "live", ""),
 new Channel("DI.FM Chill & Tropical House", "https://cdn-profiles.tunein.com/s252398/images/logog.png", "https://tunein.cdnstream1.com/3710_96.mp3", "Ambient", "", "live", ""),
 new Channel("Chill", "https://cdn-profiles.tunein.com/s303758/images/logog.png", "https://rfcm.streamguys1.com/chill-mp3", "Ambient, EDM, R&B", "", "live", ""),
-new Channel("India Today", "https://cdn-profiles.tunein.com/s327998/images/logog.png", "https://tunein.cdnstream1.com/4529_128_2.mp3", "News, TV", "", "live", ""),
+new Channel("India Today", "https://cdn-profiles.tunein.com/s327998/images/logog.png", "https://tunein.cdnstream1.com/4529_128_2.mp3", "News, TV, Conservative Talk", "", "live", ""),
 new Channel("KGO 810", "https://cdn-profiles.tunein.com/s32870/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/KGOAMAAC.aac", "News, Live Sports", "", "live", ""),
 new Channel("Fifth Dimension Radio 5DRadio", "https://cdn-profiles.tunein.com/s110121/images/logog.jpg", "http://fivedradio.dyndns.org:88/broadwave.mp3", "News, Special Interest", "", "live", ""),
 new Channel("ChristianRock.Net", "https://cdn-profiles.tunein.com/s322545/images/logog.png", "https://listen.christianrock.net/stream/11", "Christian Rock", "", "live", ""),
