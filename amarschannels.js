@@ -85,7 +85,7 @@ new Channel("The Pulse Channel", "https://cdn-profiles.tunein.com/s150906/images
 new Channel("The Schnitt Show", "https://i.iheart.com/v3/re/assets/images/4824.png", "http://stream.revma.ihrhls.com/zc4824", "Conservative Talk", "", "dead", ""),
 new Channel("The Sean Hannity Show", "https://i.iheart.com/v3/re/assets/images/bc6a4135-e869-45e3-a217-5946b5f84f94.png", "http://stream.revma.ihrhls.com/zc6706", "Conservative Talk", "", "live", ""),
 new Channel("theBlaze Radio Network", "https://i.iheart.com/v3/re/assets.streams/651d3d8e14ba06383b18a94f", "https://playerservices.streamtheworld.com/api/livestream-redirect/BLZE_1AAC_SC", "Conservative Talk", "", "live", "Live"),
-new Channel("TWiT Live", "https://cdn-profiles.tunein.com/s97079/images/logog.png", "https://new.twit.am/radio/8000/listen", "Tech Talk", "", "dead", "Live"),
+new Channel("TWiT Live", "https://cdn-profiles.tunein.com/s97079/images/logog.png", "https://new.twit.am/radio/8000/listen", "Tech Talk", "", "live", "Live"),
 new Channel("Urban Praise", "https://cdn-profiles.tunein.com/s105742/images/logog.jpg", "http://primary.moodyradiostream.org/urban-high.aac.m3u", "Gospel", "", "dead", ""),
 new Channel("VCY America", "https://cdn-radiotime-logos.tunein.com/s36008q.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/KVCXFM_SC", "Worship, Audio Drama, Lifestyle, Sermons, Conservative Talk", "", "live", ""),
 new Channel("VCY Sacred Stylings", "https://cdn-radiotime-logos.tunein.com/s36008q.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/VCY_SACRED_STYLINGS_S01_SC", "Worship, Choir", "", "live", ""),
