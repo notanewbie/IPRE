@@ -1121,5 +1121,6 @@ new Channel("Diplo Radio", "https://images.radio.com/logos/exstations/diploradio
 new Channel("Calvin Harris Radio", "https://images.radio.com/logos/exstations/calvinharrisradio.jpg", "https://streams.audacy.com/stream-shf/102-7002/hls/audp.102-7002/1/master.m3u8", "EDM", "", "dead", ""),
 new Channel("Columbus Blue Jackets Radio Network", "https://pwaimg.listenlive.co/COLUMBUS_BLUE_JACKETS_2594971_config_station_logo_image_1665599612.jpg", "http://i1.stretchinternet.com:8000/bluejackets", "Live Sports", "", "live", ""),
 new Channel("BYU Sports Radio", "https://upload.wikimedia.org/wikipedia/en/6/6d/BYU_Radio_logo_2019.jpg", "http://i1.stretchinternet.com:8000/byu3", "Live Sports", "", "live", ""),
-new Channel("Catamount Sports Network", "https://campuswardrobe.com/cdn/shop/collections/ab666c4160fb97d7a6ab15c9206017bb.png", "http://i1.stretchinternet.com:8000/wcunetwork", "Live Sports", "Western Carolina University Athletics WCU Network", "live", "")
+new Channel("Catamount Sports Network", "https://campuswardrobe.com/cdn/shop/collections/ab666c4160fb97d7a6ab15c9206017bb.png", "http://i1.stretchinternet.com:8000/wcunetwork", "Live Sports", "Western Carolina University Athletics WCU Network", "live", ""),
+new Channel("Tame Impala Radio", "https://images.radio.com/logos/exstations/tameimpalaradio.jpg", "https://streams.audacy.com/stream-shf/102-7100/hls/audp.102-7100/1/master.m3u8", "Alternative, Punk", "", "dead", "")
 ]
