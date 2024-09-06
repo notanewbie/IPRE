@@ -1123,5 +1123,9 @@ new Channel("Columbus Blue Jackets Radio Network", "https://pwaimg.listenlive.co
 new Channel("BYU Sports Radio", "https://upload.wikimedia.org/wikipedia/en/6/6d/BYU_Radio_logo_2019.jpg", "http://i1.stretchinternet.com:8000/byu3", "Live Sports", "", "live", ""),
 new Channel("Catamount Sports Network", "https://campuswardrobe.com/cdn/shop/collections/ab666c4160fb97d7a6ab15c9206017bb.png", "http://i1.stretchinternet.com:8000/wcunetwork", "Live Sports", "Western Carolina University Athletics WCU Network", "live", ""),
 new Channel("Tame Impala Radio", "https://images.radio.com/logos/exstations/tameimpalaradio.jpg", "https://streams.audacy.com/stream-shf/102-7100/hls/audp.102-7100/1/master.m3u8", "Alternative, Punk", "", "dead", ""),
-new Channel("Touchdown Radio", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSlTehZDU2bGrztQCcoGYOs9VfV21XItmUAw&s", "https://live.amperwave.net/direct/audacy-touchdownaac-imc", "Live Sports", "", "live", "")
+new Channel("Touchdown Radio", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSlTehZDU2bGrztQCcoGYOs9VfV21XItmUAw&s", "https://live.amperwave.net/direct/audacy-touchdownaac-imc", "Live Sports", "", "live", ""),
+new Channel("Tiesto Radio", "https://images.radio.com/logos/exstations/tiestoradio.jpg", "https://shf-streams.audacy.com/hls/audp.102-7005/1/stream.m3u8", "EDM", "", "dead", ""),
+new Channel("Club Audacy", "https://images.radio.com/logos/exstations/clubaudacy.jpg", "https://shf-streams.audacy.com/hls/audp.102-7309/1/stream.m3u8", "EDM", "", "dead", ""),
+new Channel("DJ Khaled Radio", "https://images.radio.com/logos/exstations/djkhaledradio.jpg", "https://streams.audacy.com/stream-shf/102-7138/hls/audp.102-7138/1/master.m3u8", "EDM, Pop, Rap", "", "dead", ""),
+new Channel("I'm too 90s for this Dance", "https://images.radio.com/logos/exstations/imtoo90sforthisdance.jpg", "https://shf-streams.audacy.com/hls/audp.102-7316/1/stream.m3u8", "90s", "", "dead", "")
 ]
