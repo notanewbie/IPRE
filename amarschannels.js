@@ -1127,5 +1127,8 @@ new Channel("Touchdown Radio", "https://encrypted-tbn0.gstatic.com/images?q=tbn:
 new Channel("Tiesto Radio", "https://images.radio.com/logos/exstations/tiestoradio.jpg", "https://shf-streams.audacy.com/hls/audp.102-7005/1/stream.m3u8", "EDM", "", "dead", ""),
 new Channel("Club Audacy", "https://images.radio.com/logos/exstations/clubaudacy.jpg", "https://shf-streams.audacy.com/hls/audp.102-7309/1/stream.m3u8", "EDM", "", "dead", ""),
 new Channel("DJ Khaled Radio", "https://images.radio.com/logos/exstations/djkhaledradio.jpg", "https://streams.audacy.com/stream-shf/102-7138/hls/audp.102-7138/1/master.m3u8", "EDM, Pop, Rap", "", "dead", ""),
-new Channel("I'm too 90s for this Dance", "https://images.radio.com/logos/exstations/imtoo90sforthisdance.jpg", "https://shf-streams.audacy.com/hls/audp.102-7316/1/stream.m3u8", "90s", "", "dead", "")
+new Channel("I'm too 90s for this Dance", "https://images.radio.com/logos/exstations/imtoo90sforthisdance.jpg", "https://shf-streams.audacy.com/hls/audp.102-7316/1/stream.m3u8", "90s", "", "dead", ""),
+new Channel("Halftime Radio", "https://images.radio.com/logos/exstations/halftimeradio.jpg", "https://streams.audacy.com/stream-shf/102-7548/hls/audp.102-7548/1/master.m3u8", "Pop, Rock, Rap", "", "dead", ""),
+new Channel("Audacy’s I'm Listening Mental Health Mix", "https://images.radio.com/logos/exstations/audacysimlisteningmentalhealthmix.jpg", "https://streams.audacy.com/stream-shf/102-7494/hls/audp.102-7494/1/master.m3u8", "Indie Pop", "", "dead", ""),
+new Channel("Black Voices & Inspiration", "https://images.radio.com/logos/exstations/blackvoicesandinspiration.jpg", "https://streams.audacy.com/stream-shf/102-7552/hls/audp.102-7552/1/master.m3u8", "R&B, Rap", "", "dead", "")
 ]
