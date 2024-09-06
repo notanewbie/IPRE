@@ -1147,5 +1147,8 @@ new Channel("Lizzo Loves You", "https://images.radio.com/logos/exstations/lizzol
 new Channel("Classical Audacy", "https://images.radio.com/logos/exstations/classicalaudacy.jpg", "https://streams.audacy.com/stream-shf/102-7466/hls/audp.102-7466/1/master.m3u8", "Classical", "", "dead", ""),
 new Channel("90s and Chill", "https://images.radio.com/logos/exstations/90sandchill.jpg", "https://streams.audacy.com/stream-shf/102-7260/hls/audp.102-7260/1/master.m3u8", "90s", "", "dead", ""),
 new Channel("Cool Crooners", "https://images.radio.com/logos/exstations/coolcrooners.jpg", "https://streams.audacy.com/stream-shf/102-7467/hls/audp.102-7467/1/master.m3u8", "Jazz, 30s, 40s, 50s, 70s, 80s", "", "dead", ""),
-new Channel("Cry It Out", "https://images.radio.com/logos/exstations/cryitout.jpg", "https://streams.audacy.com/stream-shf/102-7251/hls/audp.102-7251/1/master.m3u8", "Pop, R&B, 80s, 90s, 2000s", "", "dead", "")
+new Channel("Cry It Out", "https://images.radio.com/logos/exstations/cryitout.jpg", "https://streams.audacy.com/stream-shf/102-7251/hls/audp.102-7251/1/master.m3u8", "Pop, R&B, 80s, 90s, 2000s", "", "dead", ""),
+new Channel("Love from the 80s", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/lovefromthe80s-1697114769780.jpg", "https://streams.audacy.com/stream-shf/102-7253/hls/audp.102-7253/1/master.m3u8", "R&B, 80s", "", "dead", ""),
+new Channel("Stevie Wonder Radio", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/steviewonderradio-1671219669117.jpg", "https://streams.audacy.com/stream-shf/102-7657/hls/audp.102-7657/1/master.m3u8", "R&B, Pop, Gospel, 60s, 70s, 80s", "", "dead", ""),
+new Channel("Barbra Streisand Radio", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/barbrastreisandradio-1668635784262.jpg", "https://streams.audacy.com/stream-shf/102-7652/hls/audp.102-7652/1/master.m3u8", "60s, 70s, 80s, Soundtrack, Jazz", "", "dead", "")
 ]
