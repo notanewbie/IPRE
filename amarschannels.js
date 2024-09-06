@@ -1141,5 +1141,8 @@ new Channel("Frank Ocean Radio", "https://images.radio.com/logos/exstations/fran
 new Channel("H.E.R. Radio", "https://images.radio.com/logos/exstations/herradio.jpg", "https://streams.audacy.com/stream-shf/102-7129/hls/audp.102-7129/1/master.m3u8", "R&B", "", "dead", ""),
 new Channel("The Weeknd Radio", "https://images.radio.com/logos/exstations/theweekndradio.jpg", "https://streams.audacy.com/stream-shf/102-7025/hls/audp.102-7025/1/master.m3u8", "R&B", "", "dead", ""),
 new Channel("Ed Sheeran's Favorites", "https://images.radio.com/logos/exstations/edsheeransfavorites.jpg", "https://streams.audacy.com/stream-shf/102-7492/hls/audp.102-7492/1/master.m3u8", "Pop", "", "dead", ""),
-new Channel("A Very Backstreet Christmas", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/averybackstreetchristmas-1668530468697.jpg", "https://streams.audacy.com/stream-shf/102-7651/hls/audp.102-7651/1/master.m3u8", "Holiday, Rock", "", "dead", "")
+new Channel("A Very Backstreet Christmas", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/averybackstreetchristmas-1668530468697.jpg", "https://streams.audacy.com/stream-shf/102-7651/hls/audp.102-7651/1/master.m3u8", "Holiday, Rock", "", "dead", ""),
+new Channel("Shake Up Christmas with Train", "https://images.radio.com/logos/exstations/shakeupchristmaswithtrain.jpg", "https://streams.audacy.com/stream-shf/102-7648/hls/audp.102-7648/1/master.m3u8", "Holiday, Rock", "", "dead", ""),
+new Channel("Lizzo Loves You", "https://images.radio.com/logos/exstations/lizzolovesyou.jpg", "https://streams.audacy.com/stream-shf/102-7524/hls/audp.102-7524/1/master.m3u8", "Rap", "", "dead", ""),
+new Channel("Classical Audacy", "https://images.radio.com/logos/exstations/classicalaudacy.jpg", "https://streams.audacy.com/stream-shf/102-7466/hls/audp.102-7466/1/master.m3u8", "Classical", "", "dead", "")
 ]
