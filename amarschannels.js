@@ -1135,5 +1135,7 @@ new Channel("Mary J. Blige Radio", "https://images.radio.com/logos/exstations/ma
 new Channel("Alicia Keys Radio", "https://images.radio.com/logos/exstations/aliciakeysradio.jpg", "https://streams.audacy.com/stream-shf/102-7115/hls/audp.102-7115/1/master.m3u8", "R&B, Pop", "", "dead", ""),
 new Channel("SZA Radio", "https://images.radio.com/logos/exstations/szaradio.jpg", "https://streams.audacy.com/stream-shf/102-7125/hls/audp.102-7125/1/master.m3u8", "R&B, Pop", "", "dead", ""),
 new Channel("Trey Songz Radio", "https://images.radio.com/logos/exstations/treysongzradio.jpg", "https://streams.audacy.com/stream-shf/102-7130/hls/audp.102-7130/1/master.m3u8", "R&B", "", "dead", ""),
-new Channel("Miguel Radio", "https://images.radio.com/logos/exstations/miguelradio.jpg", "https://streams.audacy.com/stream-shf/102-7135/hls/audp.102-7135/1/master.m3u8", "R&B", "", "dead", "")
+new Channel("Miguel Radio", "https://images.radio.com/logos/exstations/miguelradio.jpg", "https://streams.audacy.com/stream-shf/102-7135/hls/audp.102-7135/1/master.m3u8", "R&B", "", "dead", ""),
+new Channel("Summer Walker Radio", "https://images.radio.com/logos/exstations/summerwalkerradio.jpg", "https://streams.audacy.com/stream-shf/102-7148/hls/audp.102-7148/1/master.m3u8", "R&B", "", "dead", ""),
+new Channel("Frank Ocean Radio", "https://images.radio.com/logos/exstations/frankoceanradio.jpg", "https://streams.audacy.com/stream-shf/102-7580/hls/audp.102-7580/1/master.m3u8", "R&B", "", "dead", "")
 ]
