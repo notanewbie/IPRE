@@ -1144,5 +1144,8 @@ new Channel("Ed Sheeran's Favorites", "https://images.radio.com/logos/exstations
 new Channel("A Very Backstreet Christmas", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/averybackstreetchristmas-1668530468697.jpg", "https://streams.audacy.com/stream-shf/102-7651/hls/audp.102-7651/1/master.m3u8", "Holiday, Rock", "", "dead", ""),
 new Channel("Shake Up Christmas with Train", "https://images.radio.com/logos/exstations/shakeupchristmaswithtrain.jpg", "https://streams.audacy.com/stream-shf/102-7648/hls/audp.102-7648/1/master.m3u8", "Holiday, Rock", "", "dead", ""),
 new Channel("Lizzo Loves You", "https://images.radio.com/logos/exstations/lizzolovesyou.jpg", "https://streams.audacy.com/stream-shf/102-7524/hls/audp.102-7524/1/master.m3u8", "Rap", "", "dead", ""),
-new Channel("Classical Audacy", "https://images.radio.com/logos/exstations/classicalaudacy.jpg", "https://streams.audacy.com/stream-shf/102-7466/hls/audp.102-7466/1/master.m3u8", "Classical", "", "dead", "")
+new Channel("Classical Audacy", "https://images.radio.com/logos/exstations/classicalaudacy.jpg", "https://streams.audacy.com/stream-shf/102-7466/hls/audp.102-7466/1/master.m3u8", "Classical", "", "dead", ""),
+new Channel("90s and Chill", "https://images.radio.com/logos/exstations/90sandchill.jpg", "https://streams.audacy.com/stream-shf/102-7260/hls/audp.102-7260/1/master.m3u8", "90s", "", "dead", ""),
+new Channel("Cool Crooners", "https://images.radio.com/logos/exstations/coolcrooners.jpg", "https://streams.audacy.com/stream-shf/102-7467/hls/audp.102-7467/1/master.m3u8", "Jazz, 30s, 40s, 50s, 70s, 80s", "", "dead", ""),
+new Channel("Cry It Out", "https://images.radio.com/logos/exstations/cryitout.jpg", "https://streams.audacy.com/stream-shf/102-7251/hls/audp.102-7251/1/master.m3u8", "Pop, R&B, 80s, 90s, 2000s", "", "dead", "")
 ]
