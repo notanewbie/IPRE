@@ -1137,5 +1137,9 @@ new Channel("SZA Radio", "https://images.radio.com/logos/exstations/szaradio.jpg
 new Channel("Trey Songz Radio", "https://images.radio.com/logos/exstations/treysongzradio.jpg", "https://streams.audacy.com/stream-shf/102-7130/hls/audp.102-7130/1/master.m3u8", "R&B", "", "dead", ""),
 new Channel("Miguel Radio", "https://images.radio.com/logos/exstations/miguelradio.jpg", "https://streams.audacy.com/stream-shf/102-7135/hls/audp.102-7135/1/master.m3u8", "R&B", "", "dead", ""),
 new Channel("Summer Walker Radio", "https://images.radio.com/logos/exstations/summerwalkerradio.jpg", "https://streams.audacy.com/stream-shf/102-7148/hls/audp.102-7148/1/master.m3u8", "R&B", "", "dead", ""),
-new Channel("Frank Ocean Radio", "https://images.radio.com/logos/exstations/frankoceanradio.jpg", "https://streams.audacy.com/stream-shf/102-7580/hls/audp.102-7580/1/master.m3u8", "R&B", "", "dead", "")
+new Channel("Frank Ocean Radio", "https://images.radio.com/logos/exstations/frankoceanradio.jpg", "https://streams.audacy.com/stream-shf/102-7580/hls/audp.102-7580/1/master.m3u8", "R&B", "", "dead", ""),
+new Channel("H.E.R. Radio", "https://images.radio.com/logos/exstations/herradio.jpg", "https://streams.audacy.com/stream-shf/102-7129/hls/audp.102-7129/1/master.m3u8", "R&B", "", "dead", ""),
+new Channel("The Weeknd Radio", "https://images.radio.com/logos/exstations/theweekndradio.jpg", "https://streams.audacy.com/stream-shf/102-7025/hls/audp.102-7025/1/master.m3u8", "R&B", "", "dead", ""),
+new Channel("Ed Sheeran's Favorites", "https://images.radio.com/logos/exstations/edsheeransfavorites.jpg", "https://streams.audacy.com/stream-shf/102-7492/hls/audp.102-7492/1/master.m3u8", "Pop", "", "dead", ""),
+new Channel("A Very Backstreet Christmas", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/averybackstreetchristmas-1668530468697.jpg", "https://streams.audacy.com/stream-shf/102-7651/hls/audp.102-7651/1/master.m3u8", "Holiday, Rock", "", "dead", "")
 ]
