@@ -1132,5 +1132,8 @@ new Channel("Halftime Radio", "https://images.radio.com/logos/exstations/halftim
 new Channel("Audacy’s I'm Listening Mental Health Mix", "https://images.radio.com/logos/exstations/audacysimlisteningmentalhealthmix.jpg", "https://streams.audacy.com/stream-shf/102-7494/hls/audp.102-7494/1/master.m3u8", "Indie Pop", "", "dead", ""),
 new Channel("Black Voices & Inspiration", "https://images.radio.com/logos/exstations/blackvoicesandinspiration.jpg", "https://streams.audacy.com/stream-shf/102-7552/hls/audp.102-7552/1/master.m3u8", "R&B, Rap", "", "dead", ""),
 new Channel("Mary J. Blige Radio", "https://images.radio.com/logos/exstations/maryjbligeradio.jpg", "https://streams.audacy.com/stream-shf/102-7124/hls/audp.102-7124/1/master.m3u8", "R&B, Rap", "", "dead", ""),
-new Channel("Alicia Keys Radio", "https://images.radio.com/logos/exstations/aliciakeysradio.jpg", "https://streams.audacy.com/stream-shf/102-7115/hls/audp.102-7115/1/master.m3u8", "R&B, Pop", "", "dead", "")
+new Channel("Alicia Keys Radio", "https://images.radio.com/logos/exstations/aliciakeysradio.jpg", "https://streams.audacy.com/stream-shf/102-7115/hls/audp.102-7115/1/master.m3u8", "R&B, Pop", "", "dead", ""),
+new Channel("SZA Radio", "https://images.radio.com/logos/exstations/szaradio.jpg", "https://streams.audacy.com/stream-shf/102-7125/hls/audp.102-7125/1/master.m3u8", "R&B, Pop", "", "dead", ""),
+new Channel("Trey Songz Radio", "https://images.radio.com/logos/exstations/treysongzradio.jpg", "https://streams.audacy.com/stream-shf/102-7130/hls/audp.102-7130/1/master.m3u8", "R&B", "", "dead", ""),
+new Channel("Miguel Radio", "https://images.radio.com/logos/exstations/miguelradio.jpg", "https://streams.audacy.com/stream-shf/102-7135/hls/audp.102-7135/1/master.m3u8", "R&B", "", "dead", "")
 ]
