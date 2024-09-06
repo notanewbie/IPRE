@@ -1153,5 +1153,6 @@ new Channel("Stevie Wonder Radio", "https://images.radio.com/aud-opsconsole-medi
 new Channel("Barbra Streisand Radio", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/barbrastreisandradio-1668635784262.jpg", "https://streams.audacy.com/stream-shf/102-7652/hls/audp.102-7652/1/master.m3u8", "60s, 70s, 80s, Soundtrack, Jazz", "", "dead", ""),
 new Channel("Adele Radio", "https://images.radio.com/logos/exstations/adeleradio.jpg", "https://streams.audacy.com/stream-shf/102-7103/hls/audp.102-7103/1/master.m3u8", "R&B, 2010s, Pop", "", "dead", ""),
 new Channel("John Mayer Radio", "https://images.radio.com/logos/exstations/johnmayerradio.jpg", "https://streams.audacy.com/stream-shf/102-7108/hls/audp.102-7108/1/master.m3u8", "R&B, 2010s, Pop", "", "dead", ""),
-new Channel("Tony Bennett Radio", "https://images.radio.com/logos/exstations/tonybennettradio.jpg", "https://streams.audacy.com/stream-shf/102-7581/hls/audp.102-7581/1/master.m3u8", "Jazz, Pop, 30s, 40s, 50s, 60s, 70s, 80s, 90s, 2000s, 2010s", "", "dead", "")
+new Channel("Tony Bennett Radio", "https://images.radio.com/logos/exstations/tonybennettradio.jpg", "https://streams.audacy.com/stream-shf/102-7581/hls/audp.102-7581/1/master.m3u8", "Jazz, Pop, 30s, 40s, 50s, 60s, 70s, 80s, 90s, 2000s, 2010s", "", "dead", ""),
+new Channel("Disney Reimagined", "https://images.radio.com/logos/exstations/disneyreimagined.jpg", "https://streams.audacy.com/stream-shf/102-7605/hls/audp.102-7605/1/master.m3u8", "Soundtrack, Pop, Rock", "", "dead", "")
 ]
