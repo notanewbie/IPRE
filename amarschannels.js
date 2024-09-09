@@ -347,7 +347,7 @@ new Channel("The Head On Radio Network", "https://www.headon.live/wp-content/upl
 new Channel("detour TALK", "https://www.radio.net/images/broadcasts/d6/2c/123762/1/c300.png", "https://headonradio.radioca.st/stream", "Progressive Talk", "The Detour", "live", ""),
 new Channel("Air Progressive", "https://cdn-radiotime-logos.tunein.com/s141251d.png", "http://airprogressive.org:8000/stream", "Progressive Talk", "", "dead", ""),
 new Channel("MLB on TuneIn", "https://cdn-profiles.tunein.com/s253402/images/logog.png", "https://tunein.cdnstream1.com/4490_128.mp3", "Live Sports", "", "live", ""),
-new Channel("ESPN Sidechannel Special Coverage 1", "https://cdn-profiles.tunein.com/s25876/images/logog.jpg", "http://live.amperwave.net/direct/espn-sidechannel1-48", "Sports Talk, Live Sports", "MLB on ESPN, NBA on ESPN", "live", ""),
+new Channel("ESPN Special Coverage 1", "https://cdn-profiles.tunein.com/s25876/images/logog.jpg", "http://live.amperwave.net/direct/espn-sidechannel1-48", "Sports Talk, Live Sports", "MLB on ESPN, NBA on ESPN, ESPN Sidechannel", "live", ""),
 new Channel("ESPN Fantasy", "https://g.espncdn.com/lm-static/fantasy/fantasy-logo-appTile@2x.png", "https://tunein.cdnstream1.com/3660_128.mp3", "Sports Talk", "", "live", ""),
 new Channel("ESPN College Football", "https://a.espncdn.com/i/espnradio/podcast/CollegeFootballLive/CollegeFootballLive_1400x1400.jpg", "http://stream.abacast.net/direct/espn-espntv-48", "Sports Talk, Live Sports", "espncf", "live", ""),
 new Channel("ESPN Shout", "https://cdn-radiotime-logos.tunein.com/s25876g.png", "https://tunein.streamguys1.com/espnshout", "Sports Talk", "", "dead", ""),
@@ -356,7 +356,7 @@ new Channel("Fox News Channel", "https://upload.wikimedia.org/wikipedia/commons/
 new Channel("VSIN", "https://cdn-profiles.tunein.com/s308467/images/logog.jpg", "https://tunein.cdnstream1.com/4065_64.aac", "Sports Talk, Finance", "", "live", ""),
 new Channel("MSNBC Tesla", "https://cdn-profiles.tunein.com/s297990/images/logog.jpg", "http://tunein.streamguys1.com/msnbc-tesla", "News, Progressive Talk", "", "dead", ""),
 new Channel("K-LOVE Christmas", "https://cdn-profiles.tunein.com/s258421/images/logog.png", "https://maestro.emfcdn.com/stream_for/k-love-christmas/tunein/aac", "Holiday", "", "live", ""),
-new Channel("ESPN Sidechannel Special Coverage 2", "https://cdn-profiles.tunein.com/s25876/images/logog.jpg", "http://live.amperwave.net/direct/espn-sidechannel2-48", "Sports Talk, Live Sports", "MLB on ESPN, NBA on ESPN", "live", ""),
+new Channel("ESPN Special Coverage 2", "https://cdn-profiles.tunein.com/s25876/images/logog.jpg", "http://live.amperwave.net/direct/espn-sidechannel2-48", "Sports Talk, Live Sports", "MLB on ESPN, NBA on ESPN, ESPN Sidechannel", "live", ""),
 new Channel("Radio Paradise Main Mix", "https://cdn-profiles.tunein.com/s13606/images/logog.png", "https://stream-tx3.radioparadise.com/mp3-192", "Rock, Alternative, Indie Pop", "", "live", "Clean"),
 new Channel("Radio Paradise Mellow Mix", "https://cdn-profiles.tunein.com/s308828/images/logog.png", "https://stream.radioparadise.com/mellow-320", "Rock", "", "live", "Clean"),
 new Channel("Radio Paradise Rock Mix", "https://cdn-profiles.tunein.com/s308827/images/logog.png", "https://stream.radioparadise.com/rock-320", "Rock", "", "live", "Clean"),
@@ -1155,5 +1155,5 @@ new Channel("Adele Radio", "https://images.radio.com/logos/exstations/adeleradio
 new Channel("John Mayer Radio", "https://images.radio.com/logos/exstations/johnmayerradio.jpg", "https://streams.audacy.com/stream-shf/102-7108/hls/audp.102-7108/1/master.m3u8", "R&B, 2010s, Pop", "", "dead", ""),
 new Channel("Tony Bennett Radio", "https://images.radio.com/logos/exstations/tonybennettradio.jpg", "https://streams.audacy.com/stream-shf/102-7581/hls/audp.102-7581/1/master.m3u8", "Jazz, Pop, 30s, 40s, 50s, 60s, 70s, 80s, 90s, 2000s, 2010s", "", "dead", ""),
 new Channel("Disney Reimagined", "https://images.radio.com/logos/exstations/disneyreimagined.jpg", "https://streams.audacy.com/stream-shf/102-7605/hls/audp.102-7605/1/master.m3u8", "Soundtrack, Pop, Rock", "", "dead", ""),
-new Channel("ESPN Radio Special Coverage 3", "https://cdn-radiotime-logos.tunein.com/s25876g.png", "http://live.amperwave.net/direct/espn-sidechannel3-48", "Live Sports", "", "live", "")
+new Channel("ESPN Radio Special Coverage 3", "https://cdn-radiotime-logos.tunein.com/s25876g.png", "http://live.amperwave.net/direct/espn-sidechannel3-48", "Live Sports, Sports Talk", "ESPN Sidechannel", "live", "")
 ]
