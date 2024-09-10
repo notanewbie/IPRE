@@ -1155,5 +1155,6 @@ new Channel("Adele Radio", "https://images.radio.com/logos/exstations/adeleradio
 new Channel("John Mayer Radio", "https://images.radio.com/logos/exstations/johnmayerradio.jpg", "https://streams.audacy.com/stream-shf/102-7108/hls/audp.102-7108/1/master.m3u8", "R&B, 2010s, Pop", "", "dead", ""),
 new Channel("Tony Bennett Radio", "https://images.radio.com/logos/exstations/tonybennettradio.jpg", "https://streams.audacy.com/stream-shf/102-7581/hls/audp.102-7581/1/master.m3u8", "Jazz, Pop, 30s, 40s, 50s, 60s, 70s, 80s, 90s, 2000s, 2010s", "", "dead", ""),
 new Channel("Disney Reimagined", "https://images.radio.com/logos/exstations/disneyreimagined.jpg", "https://streams.audacy.com/stream-shf/102-7605/hls/audp.102-7605/1/master.m3u8", "Soundtrack, Pop, Rock", "", "dead", ""),
-new Channel("ESPN Radio Special Coverage 3", "https://cdn-radiotime-logos.tunein.com/s25876g.png", "http://live.amperwave.net/direct/espn-sidechannel3-48", "Live Sports, Sports Talk", "ESPN Sidechannel", "live", "")
+new Channel("ESPN Radio Special Coverage 3", "https://cdn-radiotime-logos.tunein.com/s25876g.png", "http://live.amperwave.net/direct/espn-sidechannel3-48", "Live Sports, Sports Talk", "ESPN Sidechannel", "live", ""),
+new Channel("ABC News Live", "https://cdn-profiles.tunein.com/s150918/images/logog.jpg", "https://tunein.cdnstream1.com/4424_96.mp3", "News, TV, Liberal Talk", "", "live", "")
 ]
