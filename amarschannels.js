@@ -909,7 +909,7 @@ new Channel("Classic Soul", "https://i.iheart.com/v3/re/assets.streams/643d8fb29
 new Channel("Chill Jams", "https://i.iheart.com/v3/re/assets.streams/64347eeeb51dd0eb7e421125", "http://stream.revma.ihrhls.com/zc4719", "R&B", "", "live", ""),
 new Channel("Motown Sounds", "https://i.iheart.com/v3/re/assets.streams/65416eb9f86f42d493157aa0", "http://stream.revma.ihrhls.com/zc7801", "Motown, 60s, 70s", "", "live", ""),
 new Channel("Sweat Hotel with Keith Sweat", "https://i.iheart.com/v3/re/assets/images/6529.png", "http://stream.revma.ihrhls.com/zc6529", "R&B, Top 40", "", "live", ""),
-new Channel("Big 12 Radio", "https://cdn-profiles.tunein.com/s329464/images/logog.jpg", "https://tunein.cdnstream1.com/4800_128.mp3", "Live Sports, Sports Talk", "", "live", ""),
+new Channel("Big 12 Radio", "https://cdn-profiles.tunein.com/s329464/images/logog.jpg", "https://rfcm.streamguys1.com/big12radio-329464-mp3", "Live Sports, Sports Talk", "", "live", ""),
 new Channel("Rock Nation", "https://i.iheart.com/v3/re/new_assets/cff882d8-3b36-42ab-b35a-4ad6bc795729", "http://stream.revma.ihrhls.com/zc4443", "Rock", "", "live", ""),
 new Channel("Rock Top 20", "https://i.iheart.com/v3/re/assets.streams/641e2fce02602ae7dcd0e9b3", "http://stream.revma.ihrhls.com/zc4932", "Rock, Top 40", "", "live", ""),
 new Channel("Nu Metal Radio", "https://i.iheart.com/v3/re/assets.streams/645295e48320086d02de7ca3", "http://stream.revma.ihrhls.com/zc9483", "Rock, Metal", "", "live", ""),
