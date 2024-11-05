@@ -1161,5 +1161,7 @@ new Channel("Disney Hits", "https://images.radio.com/logos/exstations/disneyhits
 new Channel("Disney Pride", "https://images.radio.com/logos/exstations/disneypride.jpg", "https://shf-streams.audacy.com/hls/audp.102-7607/1/stream.m3u8", "Soundtrack", "", "dead", ""),
 new Channel("Disney Channel Hits", "https://images.radio.com/logos/exstations/disneychannelhits.jpg", "https://streams.audacy.com/stream-shf/102-7612/hls/audp.102-7612/1/master.m3u8", "Soundtrack", "", "dead", ""),
 new Channel("Disney Sing-Alongs", "https://images.radio.com/logos/exstations/disneysingalongs.jpg", "https://streams.audacy.com/stream-shf/102-7604/hls/audp.102-7604/1/master.m3u8", "Soundtrack", "", "dead", ""),
-new Channel("Disney Jazz", "https://images.radio.com/logos/exstations/disneyjazz.jpg", "https://streams.audacy.com/stream-shf/102-7608/hls/audp.102-7608/1/master.m3u8", "Soundtrack", "", "dead", "")
+new Channel("Disney Jazz", "https://images.radio.com/logos/exstations/disneyjazz.jpg", "https://streams.audacy.com/stream-shf/102-7608/hls/audp.102-7608/1/master.m3u8", "Soundtrack", "", "dead", ""),
+new Channel("Iggy Pop's Loser Radio", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/iggypopsloserradio-1673451124582.jpg", "https://streams.audacy.com/stream-shf/102-7659/hls/audp.102-7659/1/master.m3u8", "Rock", "", "dead", ""),
+new Channel("Amy Lee's Bitter Inspirado", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/iggypopsloserradio-1673451124582.jpg", "https://streams.audacy.com/stream-shf/102-7659/hls/audp.102-7659/1/master.m3u8", "Rock", "", "dead", "")
 ]
