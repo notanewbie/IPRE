@@ -626,7 +626,7 @@ new Channel("eBible Fellowship", "https://cdn-radiotime-logos.tunein.com/s101541
 new Channel("The Bridge Radio", "https://bridgeradio.liberatedstreaming.com/wp-content/uploads/sites/13/2019/12/bridgeradio.png", "https://bridge-libstrm.radioca.st/stream", "Sermons, Lifestyle", "", "live", ""),
 new Channel("GB News Radio", "https://assets.radioplayer.org/826/8261541/600/600/kykcrxlh.png", "https://listen-gbnews.sharp-stream.com/gbnews.mp3", "News, Conservative Talk", "", "live", ""),
 new Channel("WRP Musicmix", "https://static.mytuner.mobi/media/tvos_radios/345nur9quhyf.png", "http://wrp.stream.dicast.fr:8000/wrpmusicmix-128.mp3", "Pop, Top 40", "", "live", ""),
-new Channel("WRP News", "https://play-lh.googleusercontent.com/JWzT4djBcuHPUWDnpMKQshTpUVlCpe-a5hrDKTc-tejHKd6hMhmRFfXzYmsV2-c7It5M", "http://wrp.stream.dicast.fr:8000/wrp-128.mp3", "News, Liberal Talk", "World Radio Paris News", "live", ""),
+new Channel("WRP News", "https://worldradioparis.org/wp-content/uploads/2023/09/worldradioparislogo4.png", "https://wrp.stream.dicast.fr/wrp-128.mp3", "News, Liberal Talk", "World Radio Paris News", "live", ""),
 new Channel("SA Rock Radio", "https://cdn-profiles.tunein.com/s282623/images/logog.png", "https://sarock.radioca.st/stream;", "Rock, Alternative", "", "live", ""),
 new Channel("Reach OnAir", "https://cdn-profiles.tunein.com/s111146/images/logog.jpg", "https://stream.reachonair.com:8443/live320", "Top 40, Pop", "", "live", ""),
 new Channel("FBRN Political Musings", "https://fbrn.us/wp-content/uploads/2022/06/newfb-logo@4x-300x300.png", "https://www.fbrncast.com:8817/live", "Lifestyle, Sermons, Conservative Talk", "", "live", ""),
@@ -1156,5 +1156,10 @@ new Channel("John Mayer Radio", "https://images.radio.com/logos/exstations/johnm
 new Channel("Tony Bennett Radio", "https://images.radio.com/logos/exstations/tonybennettradio.jpg", "https://streams.audacy.com/stream-shf/102-7581/hls/audp.102-7581/1/master.m3u8", "Jazz, Pop, 30s, 40s, 50s, 60s, 70s, 80s, 90s, 2000s, 2010s", "", "dead", ""),
 new Channel("Disney Reimagined", "https://images.radio.com/logos/exstations/disneyreimagined.jpg", "https://streams.audacy.com/stream-shf/102-7605/hls/audp.102-7605/1/master.m3u8", "Soundtrack, Pop, Rock", "", "dead", ""),
 new Channel("ESPN Radio Special Coverage 3", "https://cdn-radiotime-logos.tunein.com/s25876g.png", "http://live.amperwave.net/direct/espn-sidechannel3-48", "Live Sports, Sports Talk", "ESPN Sidechannel", "live", ""),
-new Channel("ABC News Live", "https://cdn-profiles.tunein.com/s150918/images/logog.jpg", "https://tunein.cdnstream1.com/4424_96.mp3", "News, TV, Liberal Talk", "", "live", "")
+new Channel("ABC News Live", "https://cdn-profiles.tunein.com/s150918/images/logog.jpg", "https://tunein.cdnstream1.com/4424_96.mp3", "News, TV, Liberal Talk", "", "live", ""),
+new Channel("Disney Hits", "https://images.radio.com/logos/exstations/disneyhits.jpg", "https://streams.audacy.com/stream-shf/102-7603/hls/audp.102-7603/1/master.m3u8", "Soundtrack", "", "dead", ""),
+new Channel("Disney Pride", "https://images.radio.com/logos/exstations/disneypride.jpg", "https://shf-streams.audacy.com/hls/audp.102-7607/1/stream.m3u8", "Soundtrack", "", "dead", ""),
+new Channel("Disney Channel Hits", "https://images.radio.com/logos/exstations/disneychannelhits.jpg", "https://streams.audacy.com/stream-shf/102-7612/hls/audp.102-7612/1/master.m3u8", "Soundtrack", "", "dead", ""),
+new Channel("Disney Sing-Alongs", "https://images.radio.com/logos/exstations/disneysingalongs.jpg", "https://streams.audacy.com/stream-shf/102-7604/hls/audp.102-7604/1/master.m3u8", "Soundtrack", "", "dead", ""),
+new Channel("Disney Jazz", "https://images.radio.com/logos/exstations/disneyjazz.jpg", "https://streams.audacy.com/stream-shf/102-7608/hls/audp.102-7608/1/master.m3u8", "Soundtrack", "", "dead", "")
 ]
