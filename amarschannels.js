@@ -1163,5 +1163,6 @@ new Channel("Disney Channel Hits", "https://images.radio.com/logos/exstations/di
 new Channel("Disney Sing-Alongs", "https://images.radio.com/logos/exstations/disneysingalongs.jpg", "https://streams.audacy.com/stream-shf/102-7604/hls/audp.102-7604/1/master.m3u8", "Soundtrack", "", "dead", ""),
 new Channel("Disney Jazz", "https://images.radio.com/logos/exstations/disneyjazz.jpg", "https://streams.audacy.com/stream-shf/102-7608/hls/audp.102-7608/1/master.m3u8", "Soundtrack", "", "dead", ""),
 new Channel("Iggy Pop's Loser Radio", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/iggypopsloserradio-1673451124582.jpg", "https://streams.audacy.com/stream-shf/102-7659/hls/audp.102-7659/1/master.m3u8", "Rock", "", "dead", ""),
-new Channel("Amy Lee's Bitter Inspirado", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/iggypopsloserradio-1673451124582.jpg", "https://streams.audacy.com/stream-shf/102-7659/hls/audp.102-7659/1/master.m3u8", "Rock", "", "dead", "")
+new Channel("Amy Lee's Bitter Inspirado", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/iggypopsloserradio-1673451124582.jpg", "https://streams.audacy.com/stream-shf/102-7659/hls/audp.102-7659/1/master.m3u8", "Rock", "", "dead", ""),
+new Channel("Majority.FM", "https://s3.amazonaws.com/fansfm_production/a142cbd0-025b-0134-7842-0f16ad195fd9.jpg", "https://live.majority.fm:8000/live", "Progressive Talk, Hot Talk", "", "dead", "Majority Report With Sam Seder")
 ]
