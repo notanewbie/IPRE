@@ -27,7 +27,7 @@ new Channel("HLN", "https://cdn-profiles.tunein.com/s20408/images/logog.png", "h
 new Channel("I Love 2 Dance", "https://cdn-radiotime-logos.tunein.com/s167727q.png", "http://stream01.iloveradio.de/iloveradio2.mp3", "EDM", "", "live", ""),
 new Channel("iHeartRadio Countdown", "https://i.iheart.com/v3/re/assets/images/6455.png", "https://n32b-e2.revma.ihrhls.com/zc6455", "Top 40", "", "live", "Clean"),
 new Channel("iHeartRadio Music Festival", "https://i.iheart.com/v3/re/new_assets/5d03aad93a01a2ea44a48a43", "https://n32b-e2.revma.ihrhls.com/zc5158", "Live Music, Pop, Rap", "", "live", "Live"),
-new Channel("Infowars", "https://www.logolynx.com/images/logolynx/97/9728c04cedf2e93a2b0e17c4d7980965.jpeg", "https://streams.infowars.com/stream/8/;", "Hot Talk, Libertarian Talk", "", "live", "Explicit"),
+new Channel("Infowars", "https://m.media-amazon.com/images/I/41tQHvV07ZL._AC_UF894,1000_QL80_.jpg", "https://streams.infowars.com/stream/8/;", "Hot Talk, Libertarian Talk", "", "live", "Explicit"),
 new Channel("Infowars.com Live Events", "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Infowars.com_Logo.svg/512px-Infowars.com_Logo.svg.png", "https://streams.infowars.com/stream/7/;", "Hot Talk, Libertarian Talk", "", "dead", "Explicit"),
 new Channel("K-LOVE", "https://cdn-profiles.tunein.com/s33828/images/logoq.png?t=1", "https://maestro.emfcdn.com/stream_for/k-love/tunein/aac", "CCM, Worship", "", "live", ""),
 new Channel("Majesty Radio", "https://cdn-profiles.tunein.com/s102763/images/logog.jpg", "http://primary.moodyradiostream.org/majesty-high.aac.m3u", "Worship", "", "dead", ""),
