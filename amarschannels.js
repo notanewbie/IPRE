@@ -606,7 +606,7 @@ new Channel("RADIOGALAXY", "https://assets.laut.fm/213e52fcc6741e6e1355d0c6c3ff1
 new Channel("SKRRTUNES", "https://assets.laut.fm/b14dd2c91626fed1358ff1b495babf96", "https://skrrtunes.stream.laut.fm/skrrtunes", "Rap", "", "live", ""),
 new Channel("NEXUS", "https://assets.laut.fm/9436445105b0e46b8624c9304cd4a2e2", "https://nexus.stream.laut.fm/nexus", "Rap, Hyperpop, Indie Pop", "", "live", ""),
 new Channel("The Dana Show", "https://images.radio.com/logos/TheDanaShow.jpg", "https://live.amperwave.net/direct/audacy-danashowaac-imc", "Conservative Talk", "", "live", ""),
-new Channel("DeFiance Media", "https://images.radio.com/logos/defiancemedia.png", "https://live.amperwave.net/direct/audacy-defiancemediaaac-imc", "Conservative Talk", "", "live", ""),
+new Channel("DeFiance Media", "https://images.radio.com/logos/defiancemedia.png", "https://live.amperwave.net/direct/audacy-defiancemediaaac-imc", "Finance", "", "live", ""),
 new Channel("The Homestretch Live", "https://images.radio.com/logos/TheHomestretch_1400x1400.png", "https://entercom.streamguys1.com/national-news-homestretch-live", "Liberal Talk, News", "", "live", ""),
 new Channel("The Rich Eisen Show", "https://images.radio.com/logos/RICHEISEN_Logo.jpg", "http://playerservices.streamtheworld.com/api/livestream-redirect/RICHEISEN.mp3", "Sports Talk", "", "live", ""),
 new Channel("Inside Web3", "https://images.radio.com/logos/InsideWeb3-withShira-1400X1400.jpg", "https://entercom.streamguys1.com/national-audacy-insideweb3", "Tech Talk, Finance", "", "dead", ""),
