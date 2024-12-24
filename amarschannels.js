@@ -1192,5 +1192,8 @@ new Channel("90s Crush", "https://images.radio.com/logos/exstations/90scrush.jpg
 new Channel("Mo ‘90s, No Problems", "https://images.radio.com/logos/exstations/mo90snoproblems.jpg", "https://streams.audacy.com/stream-shf/102-7561/hls/audp.102-7561/1/master.m3u8", "90s", "", "dead", ""),
 new Channel("Disney 90s", "https://images.radio.com/logos/exstations/disney90s.jpg", "https://streams.audacy.com/stream-shf/102-7609/hls/audp.102-7609/1/master.m3u8", "90s, Soundtrack", "", "dead", ""),
 new Channel("80s & 90s Dance Hits", "https://images.radio.com/logos/exstations/80sand90sdancehits.jpg", "https://streams.audacy.com/stream-shf/102-7643/hls/audp.102-7643/1/master.m3u8", "90s, 80s, EDM", "", "dead", ""),
-new Channel("80s Country Classics", "https://images.radio.com/logos/exstations/80scountryclassics.jpg", "https://streams.audacy.com/stream-shf/102-7286/hls/audp.102-7286/1/master.m3u8", "80s, Country", "", "dead", "")
+new Channel("80s Country Classics", "https://images.radio.com/logos/exstations/80scountryclassics.jpg", "https://streams.audacy.com/stream-shf/102-7286/hls/audp.102-7286/1/master.m3u8", "80s, Country", "", "dead", ""),
+new Channel("80s Guitar", "https://images.radio.com/logos/exstations/80sguitar.jpg", "https://streams.audacy.com/stream-shf/102-7392/hls/audp.102-7392/1/master.m3u8", "80s, Alternative, Rock", "", "dead", ""),
+new Channel("80s Hip-Hop and R&B", "https://images.radio.com/logos/exstations/80shiphopandrb.jpg", "https://streams.audacy.com/stream-shf/102-7370/hls/audp.102-7370/1/master.m3u8", "80s, Rap", "", "dead", ""),
+new Channel("The 50s", "https://images.radio.com/logos/exstations/the50s.jpg", "https://streams.audacy.com/stream-shf/102-7413/hls/audp.102-7413/1/master.m3u8", "50s, Rap", "", "dead", "")
 ]
