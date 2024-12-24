@@ -1177,5 +1177,8 @@ new Channel("AFSP Out Of The Darkness Radio", "https://images.radio.com/logos/ex
 new Channel("Slats' Nothing But Canadian Rock", "https://images.radio.com/logos/exstations/slatsnothingbutcanadianrock.jpg", "https://streams.audacy.com/stream-shf/102-7422/hls/audp.102-7422/1/master.m3u8", "Rock, 70s, 80s, 90s", "", "dead", ""),
 new Channel("Greatest Drummers", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/greatestDRUMMERS-1682518477804.jpg", "https://streams.audacy.com/stream-shf/102-7693/hls/audp.102-7693/1/master.m3u8", "Rock, 70s, 80s", "", "dead", ""),
 new Channel("Women that Rock", "https://images.radio.com/logos/exstations/womenthatrock.jpg", "https://streams.audacy.com/stream-shf/102-7418/hls/audp.102-7418/1/master.m3u8", "Rock", "", "dead", ""),
-new Channel("IndustriALT", "https://images.radio.com/logos/exstations/industrialt.jpg", "https://streams.audacy.com/stream-shf/102-7531/hls/audp.102-7531/1/master.m3u8", "Alternative", "", "dead", "")
+new Channel("IndustriALT", "https://images.radio.com/logos/exstations/industrialt.jpg", "https://streams.audacy.com/stream-shf/102-7531/hls/audp.102-7531/1/master.m3u8", "Alternative", "", "dead", ""),
+new Channel("Megan Holiday's My So Called 90s Playlist", "https://images.radio.com/logos/exstations/meganholidaysmysocalled90s.jpg", "https://streams.audacy.com/stream-shf/102-7276/hls/audp.102-7276/1/master.m3u8", "90s", "", "dead", ""),
+new Channel("Women of Alt", "https://images.radio.com/logos/exstations/womenofalt.jpg", "https://streams.audacy.com/stream-shf/102-7283/hls/audp.102-7283/1/master.m3u8", "Alternative", "", "dead", ""),
+new Channel("ALT Roots", "https://images.radio.com/logos/exstations/altroots.jpg", "https://streams.audacy.com/stream-shf/102-7265/hls/audp.102-7265/1/master.m3u8", "Alternative", "", "dead", "")
 ]
