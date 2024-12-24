@@ -1171,5 +1171,8 @@ new Channel("Fishbowl Radio 2", "https://fbrn.us/wp-content/uploads/2022/06/newf
 new Channel("Fishbowl Radio 2", "https://fbrn.us/wp-content/uploads/2022/06/newfb-logo@4x-300x300.png", "https://www.fbrncast.com:8807/live", "R&B, 90s", "FBRN", "live", ""),
 new Channel("Southern Rock", "https://images.radio.com/logos/exstations/southernrock.jpg", "https://streams.audacy.com/stream-shf/102-7409/hls/audp.102-7409/1/master.m3u8", "Rock", "", "dead", ""),
 new Channel("The Rolling Stones Radio", "https://images.radio.com/logos/exstations/therollingstonesradio.jpg", "https://streams.audacy.com/stream-shf/102-7200/hls/audp.102-7200/1/master.m3u8", "Pop, Rock, 60s, 70s, 80s", "", "dead", ""),
-new Channel("ZZ Top", "https://images.radio.com/logos/exstations/zztopradio.jpg", "https://streams.audacy.com/stream-shf/102-7249/hls/audp.102-7249/1/master.m3u8", "Rock, 60s, 70s, 80s, 90s, 2000s", "", "dead", "")
+new Channel("ZZ Top", "https://images.radio.com/logos/exstations/zztopradio.jpg", "https://streams.audacy.com/stream-shf/102-7249/hls/audp.102-7249/1/master.m3u8", "Rock, 60s, 70s, 80s, 90s, 2000s", "", "dead", ""),
+new Channel("Bob Marley", "https://images.radio.com/logos/exstations/bobmarleyradio.jpg", "https://streams.audacy.com/stream-shf/102-7195/hls/audp.102-7195/1/master.m3u8", "Reggae", "", "dead", ""),
+new Channel("AFSP Out Of The Darkness Radio", "https://images.radio.com/logos/exstations/afspoutofthedarknessradio.jpg", "https://streams.audacy.com/stream-shf/102-7497/hls/audp.102-7497/1/master.m3u8", "Rap, Pop", "", "dead", ""),
+new Channel("Slats' Nothing But Canadian Rock", "https://images.radio.com/logos/exstations/slatsnothingbutcanadianrock.jpg", "https://streams.audacy.com/stream-shf/102-7422/hls/audp.102-7422/1/master.m3u8", "Rock, 70s, 80s, 90s", "", "dead", "")
 ]
