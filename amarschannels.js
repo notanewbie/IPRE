@@ -80,7 +80,7 @@ new Channel("SLAM! Housuh In De Pauzuh", "https://scale.slam.nl/imageScaled/?sit
 new Channel("Mix Nation", "https://i.iheart.com/v3/re/assets.streams/64b165ecdfcdbeb09659a5a1", "http://stream.revma.ihrhls.com/zc4776", "EDM, Pop, Rap", "Spin Cycle", "live", "Live"),
 new Channel("TEDTalks", "https://cdn-radiotime-logos.tunein.com/s159861q.png", "http://tunein.streamguys1.com/TEDTalks", "Lifestyle, Education", "", "dead", "Live"),
 new Channel("The Alex Jones Show", "https://m.media-amazon.com/images/M/MV5BYmVlZWY2NGMtNzRiMC00YjVmLWE5YTUtMjllOThjOTY2M2I0XkEyXkFqcGdeQXVyMDY3OTcyOQ@@._V1_.jpg", "https://streams.infowars.com/alexjonesshow", "Hot Talk, Libertarian Talk, TV", "", "live", "Explicit"),
-new Channel("The Buck Sexton Show", "https://i.iheart.com/v3/re/new_assets/5c49f8d4eeefff361052f0d9", "http://stream.revma.ihrhls.com/zc7315", "Conservative Talk", "", "live", ""),
+new Channel("The Buck Sexton Show", "https://i.iheart.com/v3/re/new_assets/5c49f8d4eeefff361052f0d9", "http://stream.revma.ihrhls.com/zc7315", "Conservative Talk", "", "dead", ""),
 new Channel("The Pulse Channel", "https://cdn-profiles.tunein.com/s150906/images/logog.png", "http://147.135.84.28/pulse", "Christian Pop, Pop", "", "dead", "Clean"),
 new Channel("The Schnitt Show", "https://i.iheart.com/v3/re/assets/images/4824.png", "http://stream.revma.ihrhls.com/zc4824", "Conservative Talk", "", "dead", ""),
 new Channel("The Sean Hannity Show", "https://i.iheart.com/v3/re/assets/images/bc6a4135-e869-45e3-a217-5946b5f84f94.png", "http://stream.revma.ihrhls.com/zc6706", "Conservative Talk", "", "live", ""),
@@ -224,7 +224,7 @@ new Channel("ACC Nation", "https://nitter.it/pic/enc/cGJzLnR3aW1nLmNvbS9wcm9maWx
 new Channel("Latest Hacking News", "https://feeds.podcastmirror.com/~images/989171561970943.jpeg", "http://alpha.podcasttoradio.com/555587", "Tech Talk", "", "live", "Live"),
 new Channel("Cinemavino", "https://yt3.ggpht.com/ytc/AKedOLQ-Msi8rTlEayu0JlzCwt3P-qy03I1bjWhw45qk=s900-c-k-c0x00ffffff-no-rj", "http://alpha.podcasttoradio.com/665266", "Entertainment Talk", "", "live", "Explicit"),
 new Channel("Full Cast And Crew", "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/db/ff/a3/dbffa321-b171-1c4f-67cb-b243e870f0a9/mza_3916211285975972883.jpg/1200x1200bb-75.jpg", "http://alpha.podcasttoradio.com/666558", "Entertainment Talk", "", "live", "Live"),
-new Channel("Gun Guy TV", "https://yt3.ggpht.com/ytc/AAUvwng4AGrmn83WJLzhYoMX7IEHct9ABxB6q_Eb_6RL=s900-c-k-c0x00ffffff-no-rj", "http://alpha.podcasttoradio.com/711601", "Conservative Talk", "", "live", ""),
+new Channel("Gun Guy TV", "https://yt3.ggpht.com/ytc/AAUvwng4AGrmn83WJLzhYoMX7IEHct9ABxB6q_Eb_6RL=s900-c-k-c0x00ffffff-no-rj", "http://alpha.podcasttoradio.com/711601", "Conservative Talk", "", "dead", ""),
 new Channel("Immigrantly", "https://images.squarespace-cdn.com/content/v1/5c1d5da04eddecd4816ac233/1598033577301-VZV37YXVCWRQKXZOPYVQ/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0topjEaZcWjtmMYdCWL4dkGbxs35J-ZjFa9s1e3LsxrX8g4qcOj2k2AL08mW_Htcgg/Immigrantly+Itunes.png?format=4500w", "http://alpha.podcasttoradio.com/747357.m3u", "Progressive Talk", "", "dead", ""),
 new Channel("Resound Radio", "https://pbs.twimg.com/profile_images/570683152683655168/f-6A2hoZ_400x400.png", "https://stream.cedarville.edu/resound/ngrp:radio/playlist.m3u8", "Christian Pop, Worship", "", "dead", ""),
 new Channel("Newsmax TV", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/nmx-1658417640593.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/NEWSMAX_FM.aac", "Conservative Talk, TV, News", "Newsmax TV Newsmax 2 Newsmax N2", "live", "Live"),
@@ -1168,5 +1168,8 @@ new Channel("Majority.FM", "https://s3.amazonaws.com/fansfm_production/a142cbd0-
 new Channel("AJN", "https://images.squarespace-cdn.com/content/v1/65d3f4141883cc6b7f68854f/d6ed6263-bc2a-43d2-a565-b47b96f04fe2/b0QUpmY6_400x400.jpg", "https://streams1.infowars.com:80/alexjonesshow", "Libertarian Talk, Hot Talk, TV", "", "live", "Alex Jones Network"),
 new Channel("Let the Good Times Roll", "https://images.radio.com/logos/exstations/letthegoodtimesroll.jpg", "https://streams.audacy.com/stream-shf/102-7402/hls/audp.102-7402/1/master.m3u8", "Jazz, Blues", "", "dead", ""),
 new Channel("Fishbowl Radio 2", "https://fbrn.us/wp-content/uploads/2022/06/newfb-logo@4x-300x300.png", "https://www.fbrncast.com:8822/live", "R&B, 90s", "FBRN", "live", ""),
-new Channel("Fishbowl Radio 2", "https://fbrn.us/wp-content/uploads/2022/06/newfb-logo@4x-300x300.png", "https://www.fbrncast.com:8807/live", "R&B, 90s", "FBRN", "live", "")
+new Channel("Fishbowl Radio 2", "https://fbrn.us/wp-content/uploads/2022/06/newfb-logo@4x-300x300.png", "https://www.fbrncast.com:8807/live", "R&B, 90s", "FBRN", "live", ""),
+new Channel("Southern Rock", "https://images.radio.com/logos/exstations/southernrock.jpg", "https://streams.audacy.com/stream-shf/102-7409/hls/audp.102-7409/1/master.m3u8", "Rock", "", "dead", ""),
+new Channel("The Rolling Stones Radio", "https://images.radio.com/logos/exstations/therollingstonesradio.jpg", "https://streams.audacy.com/stream-shf/102-7200/hls/audp.102-7200/1/master.m3u8", "Pop, Rock, 60s, 70s, 80s", "", "dead", ""),
+new Channel("ZZ Top", "https://images.radio.com/logos/exstations/zztopradio.jpg", "https://streams.audacy.com/stream-shf/102-7249/hls/audp.102-7249/1/master.m3u8", "Rock, 60s, 70s, 80s, 90s, 2000s", "", "dead", "")
 ]
