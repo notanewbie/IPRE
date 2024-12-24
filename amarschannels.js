@@ -1189,5 +1189,8 @@ new Channel("The Millennium", "https://images.radio.com/logos/exstations/themill
 new Channel("Disney 00s", "https://images.radio.com/logos/exstations/disney00s.jpg", "https://streams.audacy.com/stream-shf/102-7610/hls/audp.102-7610/1/master.m3u8", "2000s, Soundtrack", "", "dead", ""),
 new Channel("Alterna 90s", "https://images.radio.com/logos/exstations/alterna90s.jpg", "https://streams.audacy.com/stream-shf/102-7267/hls/audp.102-7267/1/master.m3u8", "90s, Alternative", "", "dead", ""),
 new Channel("90s Crush", "https://images.radio.com/logos/exstations/90scrush.jpg", "https://streams.audacy.com/stream-shf/102-7250/hls/audp.102-7250/1/master.m3u8", "90s, Pop", "", "dead", ""),
-new Channel("Mo ‘90s, No Problems", "https://images.radio.com/logos/exstations/mo90snoproblems.jpg", "https://streams.audacy.com/stream-shf/102-7561/hls/audp.102-7561/1/master.m3u8", "90s", "", "dead", "")
+new Channel("Mo ‘90s, No Problems", "https://images.radio.com/logos/exstations/mo90snoproblems.jpg", "https://streams.audacy.com/stream-shf/102-7561/hls/audp.102-7561/1/master.m3u8", "90s", "", "dead", ""),
+new Channel("Disney 90s", "https://images.radio.com/logos/exstations/disney90s.jpg", "https://streams.audacy.com/stream-shf/102-7609/hls/audp.102-7609/1/master.m3u8", "90s, Soundtrack", "", "dead", ""),
+new Channel("80s & 90s Dance Hits", "https://images.radio.com/logos/exstations/80sand90sdancehits.jpg", "https://streams.audacy.com/stream-shf/102-7643/hls/audp.102-7643/1/master.m3u8", "90s, 80s, EDM", "", "dead", ""),
+new Channel("80s Country Classics", "https://images.radio.com/logos/exstations/80scountryclassics.jpg", "https://streams.audacy.com/stream-shf/102-7286/hls/audp.102-7286/1/master.m3u8", "80s, Country", "", "dead", "")
 ]
