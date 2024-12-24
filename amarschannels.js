@@ -1180,5 +1180,8 @@ new Channel("Women that Rock", "https://images.radio.com/logos/exstations/woment
 new Channel("IndustriALT", "https://images.radio.com/logos/exstations/industrialt.jpg", "https://streams.audacy.com/stream-shf/102-7531/hls/audp.102-7531/1/master.m3u8", "Alternative", "", "dead", ""),
 new Channel("Megan Holiday's My So Called 90s Playlist", "https://images.radio.com/logos/exstations/meganholidaysmysocalled90s.jpg", "https://streams.audacy.com/stream-shf/102-7276/hls/audp.102-7276/1/master.m3u8", "90s", "", "dead", ""),
 new Channel("Women of Alt", "https://images.radio.com/logos/exstations/womenofalt.jpg", "https://streams.audacy.com/stream-shf/102-7283/hls/audp.102-7283/1/master.m3u8", "Alternative", "", "dead", ""),
-new Channel("ALT Roots", "https://images.radio.com/logos/exstations/altroots.jpg", "https://streams.audacy.com/stream-shf/102-7265/hls/audp.102-7265/1/master.m3u8", "Alternative", "", "dead", "")
+new Channel("ALT Roots", "https://images.radio.com/logos/exstations/altroots.jpg", "https://streams.audacy.com/stream-shf/102-7265/hls/audp.102-7265/1/master.m3u8", "Alternative", "", "dead", ""),
+new Channel("The Terrific 10s", "https://images.radio.com/logos/exstations/theterrific10s.jpg", "https://streams.audacy.com/stream-shf/102-7344/hls/audp.102-7344/1/master.m3u8", "2010s, Pop", "", "dead", ""),
+new Channel("2010s Hip Hop", "https://images.radio.com/logos/exstations/2010shiphop.jpg", "https://streams.audacy.com/stream-shf/102-7547/hls/audp.102-7547/1/master.m3u8", "2010s, Rap", "", "dead", ""),
+new Channel("Disney 10s", "https://images.radio.com/logos/exstations/disney10s.jpg", "https://streams.audacy.com/stream-shf/102-7611/hls/audp.102-7611/1/master.m3u8", "2010s, Soundtrack", "", "dead", "")
 ]
