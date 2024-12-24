@@ -629,7 +629,7 @@ new Channel("WRP Musicmix", "https://static.mytuner.mobi/media/tvos_radios/345nu
 new Channel("WRP News", "https://worldradioparis.org/wp-content/uploads/2023/09/worldradioparislogo4.png", "https://wrp.stream.dicast.fr/wrp-128.mp3", "News, Liberal Talk", "World Radio Paris News", "live", ""),
 new Channel("SA Rock Radio", "https://cdn-profiles.tunein.com/s282623/images/logog.png", "https://sarock.radioca.st/stream;", "Rock, Alternative", "", "live", ""),
 new Channel("Reach OnAir", "https://cdn-profiles.tunein.com/s111146/images/logog.jpg", "https://stream.reachonair.com:8443/live320", "Top 40, Pop", "", "live", ""),
-new Channel("FBRN Political Musings", "https://fbrn.us/wp-content/uploads/2022/06/newfb-logo@4x-300x300.png", "https://www.fbrncast.com:8817/live", "Lifestyle, Sermons, Conservative Talk", "", "live", ""),
+new Channel("Fishbowl Radio", "https://fbrn.us/wp-content/uploads/2022/06/newfb-logo@4x-300x300.png", "https://www.fbrncast.com:8817/live", "R&B, 90s", "FBRN Political Musings", "live", ""),
 new Channel("Fahrenheit Radio", "https://cdn-radiotime-logos.tunein.com/s203992g.png", "http://n13.radiojar.com/090pg6v5a5zuv", "Rap, R&B", "", "live", ""),
 new Channel("The Pulse Today", "https://thepulse.today/wp-content/themes/thepulse/assets/img/about/pulse-round-800px.webp?v=1.1", "https://playerservices.streamtheworld.com/api/livestream-redirect/TNT_RADIO.mp3", "Conservative Talk, Lifestyle, Entertainment Talk, Hot Talk", "TNT Radio", "live", ""),
 new Channel("The Hugh Hewitt Show", "https://cdn-profiles.tunein.com/s159189/images/logog.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/HEWIIRAAC_SC.aac", "Conservative Talk", "", "live", ""),
@@ -1166,5 +1166,7 @@ new Channel("Iggy Pop's Loser Radio", "https://images.radio.com/aud-opsconsole-m
 new Channel("Amy Lee's Bitter Inspirado", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/iggypopsloserradio-1673451124582.jpg", "https://streams.audacy.com/stream-shf/102-7659/hls/audp.102-7659/1/master.m3u8", "Rock", "", "dead", ""),
 new Channel("Majority.FM", "https://s3.amazonaws.com/fansfm_production/a142cbd0-025b-0134-7842-0f16ad195fd9.jpg", "https://live.majority.fm:8000/live", "Progressive Talk, Hot Talk", "", "dead", "Majority Report With Sam Seder"),
 new Channel("AJN", "https://images.squarespace-cdn.com/content/v1/65d3f4141883cc6b7f68854f/d6ed6263-bc2a-43d2-a565-b47b96f04fe2/b0QUpmY6_400x400.jpg", "https://streams1.infowars.com:80/alexjonesshow", "Libertarian Talk, Hot Talk, TV", "", "live", "Alex Jones Network"),
-new Channel("Let the Good Times Roll", "https://images.radio.com/logos/exstations/letthegoodtimesroll.jpg", "https://streams.audacy.com/stream-shf/102-7402/hls/audp.102-7402/1/master.m3u8", "Jazz, Blues", "", "dead", "")
+new Channel("Let the Good Times Roll", "https://images.radio.com/logos/exstations/letthegoodtimesroll.jpg", "https://streams.audacy.com/stream-shf/102-7402/hls/audp.102-7402/1/master.m3u8", "Jazz, Blues", "", "dead", ""),
+new Channel("Fishbowl Radio 2", "https://fbrn.us/wp-content/uploads/2022/06/newfb-logo@4x-300x300.png", "https://www.fbrncast.com:8822/live", "R&B, 90s", "FBRN", "live", ""),
+new Channel("Fishbowl Radio 2", "https://fbrn.us/wp-content/uploads/2022/06/newfb-logo@4x-300x300.png", "https://www.fbrncast.com:8807/live", "R&B, 90s", "FBRN", "live", "")
 ]
