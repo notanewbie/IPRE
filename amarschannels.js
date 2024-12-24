@@ -1174,5 +1174,8 @@ new Channel("The Rolling Stones Radio", "https://images.radio.com/logos/exstatio
 new Channel("ZZ Top", "https://images.radio.com/logos/exstations/zztopradio.jpg", "https://streams.audacy.com/stream-shf/102-7249/hls/audp.102-7249/1/master.m3u8", "Rock, 60s, 70s, 80s, 90s, 2000s", "", "dead", ""),
 new Channel("Bob Marley", "https://images.radio.com/logos/exstations/bobmarleyradio.jpg", "https://streams.audacy.com/stream-shf/102-7195/hls/audp.102-7195/1/master.m3u8", "Reggae", "", "dead", ""),
 new Channel("AFSP Out Of The Darkness Radio", "https://images.radio.com/logos/exstations/afspoutofthedarknessradio.jpg", "https://streams.audacy.com/stream-shf/102-7497/hls/audp.102-7497/1/master.m3u8", "Rap, Pop", "", "dead", ""),
-new Channel("Slats' Nothing But Canadian Rock", "https://images.radio.com/logos/exstations/slatsnothingbutcanadianrock.jpg", "https://streams.audacy.com/stream-shf/102-7422/hls/audp.102-7422/1/master.m3u8", "Rock, 70s, 80s, 90s", "", "dead", "")
+new Channel("Slats' Nothing But Canadian Rock", "https://images.radio.com/logos/exstations/slatsnothingbutcanadianrock.jpg", "https://streams.audacy.com/stream-shf/102-7422/hls/audp.102-7422/1/master.m3u8", "Rock, 70s, 80s, 90s", "", "dead", ""),
+new Channel("Greatest Drummers", "https://images.radio.com/aud-opsconsole-media-images-prod-prod/greatestDRUMMERS-1682518477804.jpg", "https://streams.audacy.com/stream-shf/102-7693/hls/audp.102-7693/1/master.m3u8", "Rock, 70s, 80s", "", "dead", ""),
+new Channel("Women that Rock", "https://images.radio.com/logos/exstations/womenthatrock.jpg", "https://streams.audacy.com/stream-shf/102-7418/hls/audp.102-7418/1/master.m3u8", "Rock", "", "dead", ""),
+new Channel("IndustriALT", "https://images.radio.com/logos/exstations/industrialt.jpg", "https://streams.audacy.com/stream-shf/102-7531/hls/audp.102-7531/1/master.m3u8", "Alternative", "", "dead", "")
 ]
