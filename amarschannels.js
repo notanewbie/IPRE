@@ -1197,5 +1197,8 @@ new Channel("80s Guitar", "https://images.radio.com/logos/exstations/80sguitar.j
 new Channel("80s Hip-Hop and R&B", "https://images.radio.com/logos/exstations/80shiphopandrb.jpg", "https://streams.audacy.com/stream-shf/102-7370/hls/audp.102-7370/1/master.m3u8", "80s, Rap", "", "dead", ""),
 new Channel("The 50s", "https://images.radio.com/logos/exstations/the50s.jpg", "https://streams.audacy.com/stream-shf/102-7413/hls/audp.102-7413/1/master.m3u8", "50s, Rock", "", "dead", ""),
 new Channel("The 40s", "https://images.radio.com/logos/exstations/the40s.jpg", "https://streams.audacy.com/stream-shf/102-7645/hls/audp.102-7645/1/master.m3u8", "40s, Rock", "", "dead", ""),
-new Channel("P!nk’s Disco Family Dance Party", "https://images.radio.com/logos/exstations/pinksdiscofamilydanceparty.jpg", "https://streams.audacy.com/stream-shf/102-7498/hls/audp.102-7498/1/master.m3u8", "Pop, R&B", "", "dead", "")
+new Channel("P!nk’s Disco Family Dance Party", "https://images.radio.com/logos/exstations/pinksdiscofamilydanceparty.jpg", "https://streams.audacy.com/stream-shf/102-7498/hls/audp.102-7498/1/master.m3u8", "Pop, R&B", "", "dead", ""),
+new Channel("The Rhythm of the Black Eyed Peas", "https://images.radio.com/logos/exstations/therhythmoftheblackeyedpeas.jpg", "https://streams.audacy.com/stream-shf/102-7511/hls/audp.102-7511/1/master.m3u8", "Pop, 2010s", "", "dead", ""),
+new Channel("Jugger-Yacht", "https://images.radio.com/logos/exstations/juggeryacht.jpg", "https://streams.audacy.com/stream-shf/102-7401/hls/audp.102-7401/1/master.m3u8", "Rock", "", "dead", ""),
+new Channel("Lighters in the Air", "https://images.radio.com/logos/exstations/lightersintheair.jpg", "https://streams.audacy.com/stream-shf/102-7403/hls/audp.102-7403/1/master.m3u8", "Rock, R&B, Alternative", "", "dead", "")
 ]
