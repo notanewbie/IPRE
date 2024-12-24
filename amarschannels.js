@@ -420,7 +420,7 @@ new Channel("Taylor Marshall Catholic Show", "https://cdn-profiles.tunein.com/p1
 new Channel("Trust and Believe", "https://shauntfitness.com/wp-content/uploads/2019/04/artwork.jpg", "http://alpha.podcasttoradio.com/28112", "Lifestyle", "", "live", ""),
 new Channel("Cellular Healing TV", "https://cdn-images-1.listennotes.com/podcasts/dr-pompa-cellular-healing-tv-cellular-vdsEbxBaJgu.1400x1400.jpg", "http://alpha.podcasttoradio.com/30365", "Lifestyle, TV", "", "live", ""),
 new Channel("Nothing Off Limits", "https://www.allaccess.com/assets/img/editorial/raw/no/nothingofflimits2016.jpg", "http://alpha.podcasttoradio.com/357047", "Lifestyle", "Michelle Ann Owens - Cool Sh*T Your Momma Never Taught You", "live", "Live"),
-new Channel("The Bob Davis Podcasts", "https://m.media-amazon.com/images/I/51srgGCpBWL._SL500_.jpg", "http://alpha.podcasttoradio.com/357152", "Conservative Talk", "", "live", "Live"),
+new Channel("The Bob Davis Podcasts", "https://m.media-amazon.com/images/I/51srgGCpBWL._SL500_.jpg", "http://alpha.podcasttoradio.com/357152", "Lifestyle", "", "live", "Live"),
 new Channel("The Last American Vagabond", "https://m.media-amazon.com/images/M/MV5BZTUyZGYyZGEtZjE1Zi00MmJhLTg4OTctZDljZTI1OGUzZGU4XkEyXkFqcGdeQXVyNzQwMzAwNTI@._V1_.jpg", "http://alpha.podcasttoradio.com/360852", "Lifestyle, Finance", "", "live", "Live"),
 new Channel("Business Game Changers", "https://m.media-amazon.com/images/I/41c81-HnoCS._SL500_.jpg", "http://alpha.podcasttoradio.com/36106", "Finance, Lifestyle", "", "live", "Live"),
 new Channel("The AEI Events Podcast", "https://assets.blubrry.net/coverart/160/395545-1608923041.jpg", "http://alpha.podcasttoradio.com/395545", "Education", "", "live", "Live"),
