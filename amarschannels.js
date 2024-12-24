@@ -1195,5 +1195,7 @@ new Channel("80s & 90s Dance Hits", "https://images.radio.com/logos/exstations/8
 new Channel("80s Country Classics", "https://images.radio.com/logos/exstations/80scountryclassics.jpg", "https://streams.audacy.com/stream-shf/102-7286/hls/audp.102-7286/1/master.m3u8", "80s, Country", "", "dead", ""),
 new Channel("80s Guitar", "https://images.radio.com/logos/exstations/80sguitar.jpg", "https://streams.audacy.com/stream-shf/102-7392/hls/audp.102-7392/1/master.m3u8", "80s, Alternative, Rock", "", "dead", ""),
 new Channel("80s Hip-Hop and R&B", "https://images.radio.com/logos/exstations/80shiphopandrb.jpg", "https://streams.audacy.com/stream-shf/102-7370/hls/audp.102-7370/1/master.m3u8", "80s, Rap", "", "dead", ""),
-new Channel("The 50s", "https://images.radio.com/logos/exstations/the50s.jpg", "https://streams.audacy.com/stream-shf/102-7413/hls/audp.102-7413/1/master.m3u8", "50s, Rap", "", "dead", "")
+new Channel("The 50s", "https://images.radio.com/logos/exstations/the50s.jpg", "https://streams.audacy.com/stream-shf/102-7413/hls/audp.102-7413/1/master.m3u8", "50s, Rock", "", "dead", ""),
+new Channel("The 40s", "https://images.radio.com/logos/exstations/the40s.jpg", "https://streams.audacy.com/stream-shf/102-7645/hls/audp.102-7645/1/master.m3u8", "40s, Rock", "", "dead", ""),
+new Channel("P!nk’s Disco Family Dance Party", "https://images.radio.com/logos/exstations/pinksdiscofamilydanceparty.jpg", "https://streams.audacy.com/stream-shf/102-7498/hls/audp.102-7498/1/master.m3u8", "Pop, R&B", "", "dead", "")
 ]
