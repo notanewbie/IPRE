@@ -1183,5 +1183,8 @@ new Channel("Women of Alt", "https://images.radio.com/logos/exstations/womenofal
 new Channel("ALT Roots", "https://images.radio.com/logos/exstations/altroots.jpg", "https://streams.audacy.com/stream-shf/102-7265/hls/audp.102-7265/1/master.m3u8", "Alternative", "", "dead", ""),
 new Channel("The Terrific 10s", "https://images.radio.com/logos/exstations/theterrific10s.jpg", "https://streams.audacy.com/stream-shf/102-7344/hls/audp.102-7344/1/master.m3u8", "2010s, Pop", "", "dead", ""),
 new Channel("2010s Hip Hop", "https://images.radio.com/logos/exstations/2010shiphop.jpg", "https://streams.audacy.com/stream-shf/102-7547/hls/audp.102-7547/1/master.m3u8", "2010s, Rap", "", "dead", ""),
-new Channel("Disney 10s", "https://images.radio.com/logos/exstations/disney10s.jpg", "https://streams.audacy.com/stream-shf/102-7611/hls/audp.102-7611/1/master.m3u8", "2010s, Soundtrack", "", "dead", "")
+new Channel("Disney 10s", "https://images.radio.com/logos/exstations/disney10s.jpg", "https://streams.audacy.com/stream-shf/102-7611/hls/audp.102-7611/1/master.m3u8", "2010s, Soundtrack", "", "dead", ""),
+new Channel("Alterna 00s", "https://images.radio.com/logos/exstations/alterna00s.jpg", "https://streams.audacy.com/stream-shf/102-7266/hls/audp.102-7266/1/master.m3u8", "2010s, Alternative", "", "dead", ""),
+new Channel("The Millennium", "https://images.radio.com/logos/exstations/themillennium.jpg", "https://streams.audacy.com/stream-shf/102-7343/hls/audp.102-7343/1/master.m3u8", "2000s, Pop", "", "dead", ""),
+new Channel("Disney 00s", "https://images.radio.com/logos/exstations/disney00s.jpg", "https://streams.audacy.com/stream-shf/102-7610/hls/audp.102-7610/1/master.m3u8", "2000s, Soundtrack", "", "dead", "")
 ]
