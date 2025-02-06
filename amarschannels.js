@@ -1260,5 +1260,7 @@ new Channel("92.9 FM ESPN", "https://cdn-radiotime-logos.tunein.com/s30987g.png"
 new Channel("Mile High Sports", "https://cdn-profiles.tunein.com/s32001/images/logog.jpg", "http://204.141.167.20:12230/stream", "Sports Talk", "", "dead", ""),
 new Channel("96.5 The Fan", "https://cdn-profiles.tunein.com/s28141/images/logog.jpg", "https://live.amperwave.net/direct/audacy-kfnzfmaac-imc", "Sports Talk, Classical, Live Sports", "Notre Dame Fighting Irish, Kansas Jayhawks, Kansas City Royals, NCAA, MLB", "live", ""),
 new Channel("106.5 The Wolf", "https://cdn-profiles.tunein.com/s32046/images/logog.jpg", "https://live.amperwave.net/direct/audacy-wdaffmaac-imc", "Country, Live Sports", "Kansas City Chiefs, NFL", "live", ""),
-new Channel("Raider Nation Radio 920 AM", "https://cdn-profiles.tunein.com/s31612/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/KRLVAMAAC.aac", "Sports Talk, Live Sports", "Los Angeles Lakers, Oakland Raiders, NBA, NFL, KRLV", "live", "")
+new Channel("Raider Nation Radio 920 AM", "https://cdn-profiles.tunein.com/s31612/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/KRLVAMAAC.aac", "Sports Talk, Live Sports", "Los Angeles Lakers, Oakland Raiders, NBA, NFL, KRLV", "live", ""),
+new Channel("Radio Six International", "https://cdn-profiles.tunein.com/s45251/images/logog.png", "http://www.radiosix.com/radiosix.mp3", "Special Interest, EDM, Jazz, 50s, 60s, 70s, 80s", "", "live", ""),
+new Channel("ESC Radio", "https://www.escradio.com/wp-content/uploads/2019/04/esc-radio-app-logo-w-121.png", "https://icepool.silvacast.com/ESCRADIO.mp3", "Pop, 60s, 70s, 80s, 90s, 2000s, 2010s", "Eurovision Song Contest Radio", "live", "")
 ]
