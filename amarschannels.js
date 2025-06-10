@@ -1274,5 +1274,7 @@ new Channel("660 NewsRadio Calgary", "https://cdn-profiles.tunein.com/s31117/ima
 new Channel("The Sports Animal 98.1", "https://cdn-profiles.tunein.com/s23799/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/WWLSAMAAC.aac", "Sports Talk, Live Sports", "WWLS, Oklahoma City Thunder, NBA, NCAA, University Of Oklahoma, Oklahoma State, Big 12, NFL, High School Football", "live", ""),
 new Channel("Pop Punk Radio", "https://blogger.googleusercontent.com/img/a/AVvXsEiNKCSykOyzikm8-myh0UkVw-iu2wWa76hf18Pv4YQQ_ymR9DHmsaGJOdvhl8rMg6oU300yv3mrHWRkV2zeP5BZ-xf8GD_Iyb_8D_EpeCZsjB_dXy2Iwm3IFiwsyJL-d--BuUfjpFri71Nrc9bROGwa9drDc0LbNRQgEPdhIosEYnZdgHcmuxc6br1E_YTV=s1600", "https://cast5.asurahosting.com/proxy/john1226/stream", "Rock", "", "live", ""),
 new Channel("Vaporwave Plaza", "https://plaza.one/assets/pc-CtFEkJM6.png", "http://radio.plaza.one/mp3", "Vaporwave", "", "live", ""),
-new Channel("SomaFM Vaporwaves", "https://somafm.com/img3/vaporwaves400.png", "https://ice1.somafm.com/vaporwaves-128-mp3", "Vaporwave", "", "live", "")
+new Channel("SomaFM Vaporwaves", "https://somafm.com/img3/vaporwaves400.png", "https://ice1.somafm.com/vaporwaves-128-mp3", "Vaporwave", "", "live", ""),
+new Channel("Red State Talk Radio Encore", "https://images.radio.co/station_logos/sf03a6a4b2.20210317012940.png", "https://s2.radio.co/sf03a6a4b2/listen", "Conservative Talk, Hot Talk", "", "live", ""),
+new Channel("The Scott Adams Show", "https://images.radio.co/station_logos/s25253be11.20210325013703.jpg", "https://s2.radio.co/s25253be11/listen", "Conservative Talk, Hot Talk", "", "live", "")
 ]
