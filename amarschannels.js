@@ -1277,5 +1277,6 @@ new Channel("Vaporwave Plaza", "https://plaza.one/assets/pc-CtFEkJM6.png", "http
 new Channel("SomaFM Vaporwaves", "https://somafm.com/img3/vaporwaves400.png", "https://ice1.somafm.com/vaporwaves-128-mp3", "Vaporwave", "", "live", ""),
 new Channel("Red State Talk Radio Encore", "https://images.radio.co/station_logos/sf03a6a4b2.20210317012940.png", "https://s2.radio.co/sf03a6a4b2/listen", "Conservative Talk, Hot Talk", "", "live", ""),
 new Channel("The Scott Adams Show", "https://images.radio.co/station_logos/s25253be11.20210325013703.jpg", "https://s2.radio.co/s25253be11/listen", "Conservative Talk, Hot Talk", "", "live", ""),
-new Channel("News/Talk 1130 WISN", "https://i.iheart.com/v3/re/assets.brands/593acdda431766592459eae3", "https://stream.revma.ihrhls.com/zc4245", "Conservative Talk", "", "live", "")
+new Channel("News/Talk 1130 WISN", "https://i.iheart.com/v3/re/assets.brands/593acdda431766592459eae3", "https://stream.revma.ihrhls.com/zc4245", "Conservative Talk", "", "live", ""),
+new Channel("modulation radio bivouac", "https://108mhz.wordpress.com/wp-content/uploads/2017/01/cropped-modulation-gris-1.jpg", "https://stream.p-node.org/MODULATION.mp3", "Ambient", "", "live", "")
 ]
