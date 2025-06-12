@@ -1279,5 +1279,6 @@ new Channel("Red State Talk Radio Encore", "https://images.radio.co/station_logo
 new Channel("The Scott Adams Show", "https://images.radio.co/station_logos/s25253be11.20210325013703.jpg", "https://s2.radio.co/s25253be11/listen", "Conservative Talk, Hot Talk", "", "live", ""),
 new Channel("News/Talk 1130 WISN", "https://i.iheart.com/v3/re/assets.brands/593acdda431766592459eae3", "https://stream.revma.ihrhls.com/zc4245", "Conservative Talk", "", "live", ""),
 new Channel("modulation radio bivouac", "https://108mhz.wordpress.com/wp-content/uploads/2017/01/cropped-modulation-gris-1.jpg", "https://stream.p-node.org/MODULATION.mp3", "Ambient", "", "live", ""),
-new Channel("Billie Jean Memorial Radio", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtvvoYwVe4_cVel8VcgcReh-TtnP_pU21kQw&s", "https://stream.p-node.org/MODULATION.mp3", "Pop, R&B, 60s, 70s, 80s", "", "live", "")
+new Channel("Billie Jean Memorial Radio", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtvvoYwVe4_cVel8VcgcReh-TtnP_pU21kQw&s", "https://stream.p-node.org/MODULATION.mp3", "Pop, R&B, 60s, 70s, 80s", "", "live", ""),
+new Channel("BNKRADIO", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU8u8tpVE9yl1Jj0L81O7deRDfyW-yOXX-Kw&s", "https://stream.p-node.org/bunker.ogg", "Ambient", "", "live", "")
 ]
