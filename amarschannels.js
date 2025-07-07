@@ -2,7 +2,7 @@ const channels = [
 new Channel("20th Century Radio", "https://cdn-radiotime-logos.tunein.com/s129131q.png", "http://audioartsradio.com:6006/;", "Audio Drama", "", "dead", ""),
 new Channel("210 Holy Hip Hop", "https://cdn-profiles.tunein.com/s188550/images/logog.jpg", "http://108.59.11.81:8167/;", "CHH", "", "dead", ""),
 new Channel("Antioch OTR", "https://cdn-radiotime-logos.tunein.com/s50924q.png", "http://209.95.56.101:8000/listen", "Audio Drama", "", "dead", ""),
-new Channel("AP News", "https://cdn-radiotime-logos.tunein.com/p686763q.png", "http://apnews.streamguys1.com/apnews", "News", "", "live", ""),
+new Channel("AP News", "https://cdn-radiotime-logos.tunein.com/p686763q.png", "https://apnews.cdnstream1.com/apnews", "News", "", "live", ""),
 new Channel("BBC Radio 4", "https://cdn-radiotime-logos.tunein.com/s25419q.png", "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourfm", "Comedy, Audio Drama, Liberal Talk", "", "dead", "Live"),
 new Channel("BBN English", "https://cdn-radiotime-logos.tunein.com/s20438q.png", "https://audio-edge-qse4n.yyz.g.radiomast.io/844b0a81-f4b9-485e-adaa-aab8d3ea9f7f", "Worship, Sermons, Lifestyle, Choir", "", "live", ""),
 new Channel("Bloomberg TV", "https://cdn-profiles.tunein.com/s47135/images/logog.png", "https://tunein.cdnstream1.com/3522_96.mp3", "Finance, TV", "", "live", ""),
@@ -1285,5 +1285,6 @@ new Channel("American Journal", "https://m.media-amazon.com/images/S/dmp-catalog
 new Channel("Tom Donahue Reports", "https://assets.podomatic.net/ts/be/b3/2d/talker57/640x640_16912561.jpg", "http://s6.voscast.com:11344", "Conservative Talk", "", "live", ""),
 new Channel("The Mr Liberty Show", "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/300375721_433105728835554_4355730601207769527_n.png?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=yiHmVBtwhwIQ7kNvwEieIhk&_nc_oc=Adl27goltqU4FzNyw3KpEEcS7U6HOf7QVeymspYxqiZhBjh5LLtn5gnlwe9mb2vOkbC20y6yS5muWJ8YACutt-_g&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=7Twb_qXpWuHdLLzud_ZPCg&oh=00_AfODqeko7aXYBH4fD_laUYWsWBWSXuqoBBEk72iX3kc-zw&oe=685587B1", "http://s2.voscast.com:8258", "Conservative Talk", "", "live", ""),
 new Channel("GABNet", "https://cdn-profiles.tunein.com/s204141/images/logog.png", "http://listen.shoutcast.com/gabnet", "Conservative Talk, Hot Talk", "Great American Broadcast Network", "live", ""),
-new Channel("The Nicholas Zabloudil Show", "https://pbs.twimg.com/profile_images/1415129267084664832/qo1TReDK_400x400.jpg", "http://listen.shoutcast.com/thenicholaszabloudilshow", "Conservative Talk, Hot Talk", "The Zabs Show", "dead", "")
+new Channel("The Nicholas Zabloudil Show", "https://pbs.twimg.com/profile_images/1415129267084664832/qo1TReDK_400x400.jpg", "http://listen.shoutcast.com/thenicholaszabloudilshow", "Conservative Talk, Hot Talk", "The Zabs Show", "dead", ""),
+new Channel("AFN The Voice", "https://cdn-profiles.tunein.com/s218439/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/AFN_VCE.mp3", "Conservative Talk", "", "live", "")
 ]
