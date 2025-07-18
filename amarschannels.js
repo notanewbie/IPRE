@@ -1263,12 +1263,10 @@ new Channel("106.5 The Wolf", "https://cdn-profiles.tunein.com/s32046/images/log
 new Channel("Raider Nation Radio 920 AM", "https://cdn-profiles.tunein.com/s31612/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/KRLVAMAAC.aac", "Sports Talk, Live Sports", "Los Angeles Lakers, Oakland Raiders, NBA, NFL, KRLV", "live", ""),
 new Channel("Radio Six International", "https://cdn-profiles.tunein.com/s45251/images/logog.png", "http://www.radiosix.com/radiosix.mp3", "Special Interest, EDM, Jazz, 50s, 60s, 70s, 80s", "", "live", ""),
 new Channel("ESC Radio", "https://www.escradio.com/wp-content/uploads/2019/04/esc-radio-app-logo-w-121.png", "https://icepool.silvacast.com/ESCRADIO.mp3", "Pop, 60s, 70s, 80s, 90s, 2000s, 2010s", "Eurovision Song Contest Radio", "live", ""),
-<<<<<<< HEAD
 new Channel("RMWorldTravel", "https://rmworldtravel.com/wp-content/uploads/2018/02/rm-travel-logo-270px.png", "https://audio-edge-es6pf.mia.g.radiomast.io/511625fb-bb2e-4101-93d7-5c4699e4aeb5", "Lifestyle", "", "live", ""),
 new Channel("The Larry Elder Show", "https://i.scdn.co/image/ab6765630000ba8a93519732113f8ffe336c5c7a", "https://playerservices.streamtheworld.com/api/livestream-redirect/ELDEIRAAC_SC", "Conservative Talk", "", "live", ""),
 new Channel("The Chris Stigall Show", "https://i.scdn.co/image/ab67656300005f1f5e0b23501f933db08de4fb00", "https://playerservices.streamtheworld.com/api/livestream-redirect/STIGIRAAC_SC", "Conservative Talk", "", "live", ""),
 new Channel("The Scott Jennings Radio Show", "https://eadn-wc01-15774340.nxedge.io/wp-content/themes/scottjenningslanding/assets/images/podcast-thumb-400.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/PRAGLIVEAAC_SC", "Conservative Talk", "", "live", "")
-=======
 new Channel("WGN Radio 720", "https://wgnradio.com/wp-content/uploads/sites/6/2019/10/wgnradiooct2019-forsocial-2.jpg", "https://live.amperwave.net/direct/wgnam-wgnamaac-imc2", "Conservative Talk, Live Sports, Finance", "NHL, Chicago Blackhawks, NCAA, CFB, Northwestern Wildcats, MCBB", "live", ""),
 new Channel("WGN Extra", "https://cdn-radiotime-logos.tunein.com/s207250g.png", "https://live.amperwave.net/direct/wgnam-wgnplusaac-imc2", "Conservative Talk, Live Sports, Finance", "NHL, Chicago Blackhawks, NCAA, CFB, Northwestern Wildcats, MCBB", "live", ""),
 new Channel("95.7 NewsRadio Halifax", "https://cdn-profiles.tunein.com/s60243/images/logog.png", "https://rogers-hls.leanstream.co/rogers/hal957.stream/icy", "Liberal Talk", "CJNI-FM", "live", ""),
@@ -1293,5 +1291,4 @@ new Channel("The Mr Liberty Show", "https://scontent-iad3-2.xx.fbcdn.net/v/t39.3
 new Channel("GABNet", "https://cdn-profiles.tunein.com/s204141/images/logog.png", "http://listen.shoutcast.com/gabnet", "Conservative Talk, Hot Talk", "Great American Broadcast Network", "live", ""),
 new Channel("The Nicholas Zabloudil Show", "https://pbs.twimg.com/profile_images/1415129267084664832/qo1TReDK_400x400.jpg", "http://listen.shoutcast.com/thenicholaszabloudilshow", "Conservative Talk, Hot Talk", "The Zabs Show", "dead", ""),
 new Channel("AFN The Voice", "https://cdn-profiles.tunein.com/s218439/images/logog.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/AFN_VCE.mp3", "Conservative Talk", "", "live", "")
->>>>>>> 101c8957d7c54bea8f4ac0ceb110c5b416e728d5
 ]
