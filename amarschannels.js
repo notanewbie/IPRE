@@ -1278,6 +1278,11 @@ new Channel("Western Kentucky University Radio", "https://clients.sidearmsports.
 new Channel("Westwood One Sports Radio", "https://clients.sidearmsports.com/sidearm_files/logos/varsity_ne/Westwood.png", "https://img.leanstream.co/IM9404-MP3", "Live Sports, Sports Talk", "College Football, The Varsity Network, IMG Learfield", "live", ""),
 new Channel("UC Davis Radio", "https://clients.sidearmsports.com/sidearm_files/logos/big_sky/UC_DAVIS.png", "https://bonneville.cdnstream1.com/2799_64.mp3", "Live Sports, Sports Talk", "College Football, The Varsity Network", "live", ""),
 new Channel("Stanford Radio", "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/stanford-university-logo-kls81-kakanda-lee-setiawan.jpg", "https://img.leanstream.co/LF5601-MP3", "Live Sports", "College Football, The Varsity Network, IMG Learfield, Stanford", "live", ""),
-new Channel("Texas A&M University", "https://clients.sidearmsports.com/sidearm_files/logos/sec/tamu-logo-2024.png", "https://img.leanstream.co/IM7805-MP3", "Live Sports", "College Football, The Varsity Network, IMG Learfield, Texas A&M University", "live", "")
+new Channel("Texas A&M University", "https://clients.sidearmsports.com/sidearm_files/logos/sec/tamu-logo-2024.png", "https://img.leanstream.co/IM7805-MP3", "Live Sports", "College Football, The Varsity Network, IMG Learfield, Texas A&M University", "live", ""),
+new Channel("The Vince Show", "https://www.westwoodone.com/wp-content/uploads/2022/04/The_Vince_Show-3000x3000-1-400x400.jpg", "https://tc1.bahamatel.net:6048/;", "Conservative Talk", "Vince Coglianese", "live", ""),
+new Channel("Red Eye Radio", "https://www.westwoodone.com/wp-content/uploads/2022/04/RedEyeRadio_1000x1000-400x400.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/REDEYERADIOAAC_SC", "Conservative Talk", "", "live", ""),
+new Channel("The Jime Rome Show", "https://www.westwoodone.com/wp-content/uploads/2022/04/JimRome_1000x1000-1-400x400.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/JIM_ROMEAAC_SC", "Sports Talk", "", "live", ""),
+new Channel("America at Night with Rich Valdés", "https://www.westwoodone.com/wp-content/uploads/2022/04/RichValdes_AAN_2000x2000-1-400x400.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/JIM_BOHANNONAAC_SC", "Conservative Talk", "", "live", "")
 ]
+
 
