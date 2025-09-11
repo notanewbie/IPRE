@@ -1284,8 +1284,12 @@ new Channel("Red Eye Radio", "https://www.westwoodone.com/wp-content/uploads/202
 new Channel("The Jime Rome Show", "https://www.westwoodone.com/wp-content/uploads/2022/04/JimRome_1000x1000-1-400x400.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/JIM_ROMEAAC_SC", "Sports Talk", "", "live", ""),
 new Channel("America at Night with Rich Valdés", "https://www.westwoodone.com/wp-content/uploads/2022/04/RichValdes_AAN_2000x2000-1-400x400.jpg", "https://playerservices.streamtheworld.com/api/livestream-redirect/JIM_BOHANNONAAC_SC", "Conservative Talk", "", "live", ""),
 new Channel("The Jim Rome Show", "https://media-cdn.socastsrm.com/wordpress/wp-content/blogs.dir/3854/files/2025/07/jim-rome-300x300.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/JIM_ROMEAAC_SC", "Sports Talk", "", "live", ""),
-new Channel("Triton Radio Music - Test Station", "https://pwaimg.listenlive.co/TRITONRADIOMUSIC_1049041_config_station_logo_image_1400872599.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/TRITONRADIOMUSICAAC_SC", "80s, 90s, 2000s", "", "live", "")
+new Channel("Triton Radio Music - Test Station", "https://pwaimg.listenlive.co/TRITONRADIOMUSIC_1049041_config_station_logo_image_1400872599.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/TRITONRADIOMUSICAAC_SC", "80s, 90s, 2000s", "", "live", ""),
+new Channel("Hello Fred!", "https://assets.godcaster.fm/image_18_1733337133.jpg", "https://listen.noagendastream.com/adam", "CCM, Worship, Sermons", "", "live", ""),
+new Channel("The #OO Stream", "https://rynothebearded.com/wp-content/uploads/2023/04/Direct-Stream-Link-DS-ub-7.png", "https://listen.noagendastream.com/oo", "Indie Pop, Indie Rock", "", "live", ""),
+new Channel("No Agenda V4V Music", "https://upload.wikimedia.org/wikipedia/commons/b/ba/No_Agenda_cover_placeholder.jpg", "https://listen.noagendastream.com/v4vmusic", "Indie Pop, Indie Rock", "", "live", "")
 ]
+
 
 
 
