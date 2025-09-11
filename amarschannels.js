@@ -649,7 +649,7 @@ new Channel("SportsGRID Radio Network", "https://yt3.googleusercontent.com/ytc/A
 new Channel("Golden State Warriors", "https://cdn-profiles.tunein.com/p443341/images/logog.png?t=1", "https://backbonenetworks.streamguys1.com/GSW.mp3", "Sports Talk, Live Sports", "", "live", ""),
 new Channel("Wolverhampton FC", "https://cdn-profiles.tunein.com/s320570/images/logog.png", "https://backbonenetworks.streamguys1.com/WFC.mp3", "Sports Talk", "", "live", ""),
 new Channel("Franklin Pierce University Ravens Sports Network", "https://cdn-profiles.tunein.com/s305851/images/logog.png?t=152285", "https://backbonenetworks.streamguys1.com/franklinpierce1.mp3", "Live Sports", "", "dead", ""),
-new Channel("Franklin Pierce Radio Global", "https://cdn-profiles.tunein.com/s309036/images/logog.png", "https://backbonenetworks.streamguys1.com/franklinpierce2", "Liberal Talk", "105.3 Rindge WFPC-LP, The Talon 105.3 FM", "live", ""),
+new Channel("Franklin Pierce Radio Global", "https://cdn-profiles.tunein.com/s309036/images/logog.png", "https://backbonenetworks.streamguys1.com/franklinpierce2", "Liberal Talk", "105.3 Rindge WFPC-LP, The Talon 105.3 FM", "dead", ""),
 new Channel("New York City FC Network", "https://cdn-profiles.tunein.com/s305540/images/logog.png", "http://edge.mixlr.com/channel/alrto", "Live Sports", "", "live", ""),
 new Channel("RNZ Pacific", "https://i.iheart.com/v3/re/assets.streams/64d3b6874d9a385ab13187ee", "https://radionz-ice.streamguys.com/international_aac64", "News, Entertainment Talk, Indie Pop", "", "live", "Clean"),
 new Channel("ABC RN VIC", "https://cdn-radiotime-logos.tunein.com/s20269g.png", "http://live-radio01.mediahubaustralia.com/3RNW/aac", "Liberal Talk", "ABC Radio National Victorian", "live", ""),
@@ -1289,6 +1289,7 @@ new Channel("Hello Fred!", "https://assets.godcaster.fm/image_18_1733337133.jpg"
 new Channel("The #OO Stream", "https://rynothebearded.com/wp-content/uploads/2023/04/Direct-Stream-Link-DS-ub-7.png", "https://listen.noagendastream.com/oo", "Indie Pop, Indie Rock", "", "live", ""),
 new Channel("No Agenda V4V Music", "https://upload.wikimedia.org/wikipedia/commons/b/ba/No_Agenda_cover_placeholder.jpg", "https://listen.noagendastream.com/v4vmusic", "Indie Pop, Indie Rock", "", "live", "")
 ]
+
 
 
 
