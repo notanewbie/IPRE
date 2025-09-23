@@ -581,7 +581,7 @@ new Channel("104.7 The Beat", "https://cdn-profiles.tunein.com/s43774/images/log
 new Channel("Hott 107.5", "https://cdn-radiotime-logos.tunein.com/s47638g.png", "https://cp12.shoutcheap.com:18151/stream", "Rap", "", "live", ""),
 new Channel("Wrbf Irie FM", "https://yt3.googleusercontent.com/ytc/AL5GRJXfJUOSAieo7aCKvV45qo_8mnefaPd81Fqo7E_6=s900-c-k-c0x00ffffff-no-rj", "https://cp12.shoutcheap.com:18151/stream", "Reggae", "", "live", ""),
 new Channel("Vibe FM", "https://www.internationalradiofestival.com/wp-content/uploads/2018/09/1022f4de9c48-Vibe_FinalHDLogo_Purple.jpg", "http://cp11.serverse.com:7099/mp3", "Reggae", "", "live", ""),
-new Channel("Radio GRK", "https://cdn-profiles.tunein.com/s8963/images/logog.png", "http://s16.myradiostream.com:9362/listen.mp3", "Liberal Talk, Entertainment Talk, Lifestyle", "", "live", ""),
+new Channel("Radio GRK", "https://cdn-profiles.tunein.com/s8963/images/logog.png", "http://s16.myradiostream.com:9362/listen.mp3", "Liberal Talk, Entertainment Talk, Lifestyle, EDM", "", "live", ""),
 new Channel("Tros FM", "https://www.radio.net/images/broadcasts/1f/50/121473/2/c300.png", "http://s16.myradiostream.com:9362/listen.mp3", "EDM", "", "live", ""),
 new Channel("Stadsradio IRO", "https://images.zeno.fm/MsKYK1sLAefs-0ghqascLibzcdokuq_UrskVNlDe2kM/rs:fit:500:500/g:ce:0:0/aHR0cHM6Ly9zdHJlYW0tdG9vbHMuemVub21lZGlhLmNvbS9jb250ZW50L3N0YXRpb25zL2FneHpmbnBsYm04dGMzUmhkSE55TWdzU0NrRjFkR2hEYkdsbGJuUVlnSUNRelBqUjJna01DeElPVTNSaGRHbHZibEJ5YjJacGJHVVlnSUNRckliWnNBa01vZ0VFZW1WdWJ3L2ltYWdlLz91cGRhdGVkPTE2NjE3MjAxOTIwMDA.webp", "http://www.mvserver.be:3001/;", "EDM", "", "live", ""),
 new Channel("Joe FM", "https://play-lh.googleusercontent.com/zagdL2RFfMfw4a2FKjzCd7gvH9C-5JHCoi7KWHxTiTIPfsOMUZjj7pUKFcfOu6ojd1PU", "https://playerservices.streamtheworld.com/api/livestream-redirect/JOE.mp3", "Pop, 70s, 80s, 90s, 2000s", "", "live", ""),
@@ -1289,6 +1289,7 @@ new Channel("Hello Fred!", "https://assets.godcaster.fm/image_18_1733337133.jpg"
 new Channel("The #OO Stream", "https://rynothebearded.com/wp-content/uploads/2023/04/Direct-Stream-Link-DS-ub-7.png", "https://listen.noagendastream.com/oo", "Indie Pop, Indie Rock", "", "live", ""),
 new Channel("No Agenda V4V Music", "https://upload.wikimedia.org/wikipedia/commons/b/ba/No_Agenda_cover_placeholder.jpg", "https://listen.noagendastream.com/v4vmusic", "Indie Pop, Indie Rock", "", "live", "")
 ]
+
 
 
 
