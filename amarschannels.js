@@ -450,7 +450,7 @@ new Channel("Word Of Truth Acoustic Praise", "https://cdn.ntnwb.cc/WOTR.png", "h
 new Channel("Word Of Truth Instrumental Christmas", "https://cdn.ntnwb.cc/WOTR.png", "https://wotrstream.com:8443/christmas1", "Holiday", "", "live", ""),
 new Channel("Word Of Truth Acoustic Christmas", "https://cdn.ntnwb.cc/WOTR.png", "https://wotrstream.com:8443/christmas2", "Holiday, Alternative", "", "live", ""),
 new Channel("Radio Station Net", "http://radiostationnet.com/images/rsn-logo-200x200.png", "http://s3.voscast.com:8170", "Rap, Pop", "", "live", "Clean"),
-new Channel("Progressive Voices", "https://cdn-profiles.tunein.com/s189055/images/logog.png", "https://tunein.cdnstream1.com/3549_128.mp3", "Progressive Talk", "", "live", ""),
+new Channel("Progressive Voices", "https://cdn-profiles.tunein.com/s189055/images/logog.jpg", "https://tunein.cdnstream1.com/3549_128.mp3", "Progressive Talk", "", "live", ""),
 new Channel("Power Kpop", "https://cdn-radiotime-logos.tunein.com/s250971d.png", "http://stm21.srvstm.com:12710/;", "K-Pop", "", "live", "Clean"),
 new Channel("Anime FM", "https://assets.laut.fm/430eee566f87b874e69447572ad8a86c", "https://stream.laut.fm/animefm", "K-Pop, J-Pop, Rock", "", "live", "Clean"),
 new Channel("Kpophits", "https://assets.laut.fm/7844dad997230cdcc18d5f055544bff3", "https://stream.laut.fm/kpophits", "K-Pop", "", "live", "Clean"),
@@ -1289,6 +1289,7 @@ new Channel("Hello Fred!", "https://assets.godcaster.fm/image_18_1733337133.jpg"
 new Channel("The #OO Stream", "https://rynothebearded.com/wp-content/uploads/2023/04/Direct-Stream-Link-DS-ub-7.png", "https://listen.noagendastream.com/oo", "Indie Pop, Indie Rock", "", "live", ""),
 new Channel("No Agenda V4V Music", "https://upload.wikimedia.org/wikipedia/commons/b/ba/No_Agenda_cover_placeholder.jpg", "https://listen.noagendastream.com/v4vmusic", "Indie Pop, Indie Rock", "", "live", "")
 ]
+
 
 
 
