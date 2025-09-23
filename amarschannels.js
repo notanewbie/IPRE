@@ -2,7 +2,7 @@ const channels = [
 new Channel("20th Century Radio", "https://cdn-radiotime-logos.tunein.com/s129131q.png", "http://audioartsradio.com:6006/;", "Audio Drama", "", "dead", ""),
 new Channel("210 Holy Hip Hop", "https://cdn-profiles.tunein.com/s188550/images/logog.jpg", "http://108.59.11.81:8167/;", "CHH", "", "dead", ""),
 new Channel("Antioch OTR", "https://cdn-radiotime-logos.tunein.com/s50924q.png", "http://209.95.56.101:8000/listen", "Audio Drama", "", "dead", ""),
-new Channel("AP News", "https://cdn-radiotime-logos.tunein.com/p686763q.png", "http://apnews.streamguys1.com/apnews", "News", "", "live", ""),
+new Channel("AP News", "https://cdn-radiotime-logos.tunein.com/p686763q.png", "https://apnews.cdnstream1.com/apnews", "News", "", "live", ""),
 new Channel("BBC Radio 4", "https://cdn-radiotime-logos.tunein.com/s25419q.png", "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourfm", "Comedy, Audio Drama, Liberal Talk", "", "dead", "Live"),
 new Channel("BBN English", "https://cdn-radiotime-logos.tunein.com/s20438q.png", "https://audio-edge-qse4n.yyz.g.radiomast.io/844b0a81-f4b9-485e-adaa-aab8d3ea9f7f", "Worship, Sermons, Lifestyle, Choir", "", "live", ""),
 new Channel("Bloomberg TV", "https://cdn-profiles.tunein.com/s47135/images/logog.png", "https://tunein.cdnstream1.com/3522_96.mp3", "Finance, TV", "", "live", ""),
@@ -1289,6 +1289,7 @@ new Channel("Hello Fred!", "https://assets.godcaster.fm/image_18_1733337133.jpg"
 new Channel("The #OO Stream", "https://rynothebearded.com/wp-content/uploads/2023/04/Direct-Stream-Link-DS-ub-7.png", "https://listen.noagendastream.com/oo", "Indie Pop, Indie Rock", "", "live", ""),
 new Channel("No Agenda V4V Music", "https://upload.wikimedia.org/wikipedia/commons/b/ba/No_Agenda_cover_placeholder.jpg", "https://listen.noagendastream.com/v4vmusic", "Indie Pop, Indie Rock", "", "live", "")
 ]
+
 
 
 
