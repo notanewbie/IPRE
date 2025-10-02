@@ -1289,8 +1289,10 @@ new Channel("Hello Fred!", "https://assets.godcaster.fm/image_18_1733337133.jpg"
 new Channel("The #OO Stream", "https://rynothebearded.com/wp-content/uploads/2023/04/Direct-Stream-Link-DS-ub-7.png", "https://listen.noagendastream.com/oo", "Indie Pop, Indie Rock", "", "live", ""),
 new Channel("No Agenda V4V Music", "https://upload.wikimedia.org/wikipedia/commons/b/ba/No_Agenda_cover_placeholder.jpg", "https://listen.noagendastream.com/v4vmusic", "Indie Pop, Indie Rock", "", "live", ""),
 new Channel("Red State Talk Radio Justice", "https://images.radio.co/station_logos/sf03a6a4b2.20210317012940.png", "https://s2.radio.co/sf03a6a4b2/listen", "Conservative Talk, Hot Talk", "", "live", ""),
-new Channel("The Scott Adams Show", "https://images.radio.co/station_logos/s25253be11.20210325013703.jpg", "https://s2.radio.co/s25253be11/listen", "Conservative Talk, Hot Talk", "", "live", "")
+new Channel("The Scott Adams Show", "https://images.radio.co/station_logos/s25253be11.20210325013703.jpg", "https://s2.radio.co/s25253be11/listen", "Conservative Talk, Hot Talk", "", "live", ""),
+new Channel("Boost 95.5", "https://cdn-profiles.tunein.com/s221187/images/logog.jpg", "https://gateway.cdnstream1.com/boost-live", "CHH", "", "live", "")
 ]
+
 
 
 
