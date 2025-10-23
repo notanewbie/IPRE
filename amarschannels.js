@@ -405,7 +405,7 @@ new Channel("KOA 850 & 94.1 FM", "https://i.iheart.com/v3/re/assets.brands/61427
 new Channel("Talkradio 630 KHOW", "https://i.iheart.com/v3/re/assets/images/377.png", "http://stream.revma.ihrhls.com/zc377", "Conservative Talk", "", "live", ""),
 new Channel("Fox Sports Radio Los Angeles AM 570", "https://thinkbluela.com/wp-content/uploads/2014/09/AM570-Logo.jpg", "https://stream.revma.ihrhls.com/zc189", "Sports Talk, Live Sports", "MLB, Los Angeles Dodgers, NBA, Los Angeles Clippers, NCAA, UCLA Bruins", "live", ""),
 new Channel("97.3 The Fan", "https://images.radio.com/logos/KWFNFM.jpg", "https://live.amperwave.net/direct/dlcmedia-wfnbfmaac-ibc4", "Sports Talk, Live Sports", "NCAA, Navy Midshipmen, MLB, San Diego Padres", "live", ""),
-new Channel("Heartland Newsfeed Radio Network", "https://cdn-profiles.tunein.com/s310386/images/logog.jpg", "https://ais-edge51-live365-dal02.cdnstream.com/a24952", "News, Finance, Progressive Talk, Hot Talk, Liberal Talk, Sports Talk", "", "live", ""),
+new Channel("Heartland Newsfeed Radio Network", "https://cdn-profiles.tunein.com/s310386/images/logog.jpg", "https://ais-edge51-live365-dal02.cdnstream.com/a24952", "News, Finance, Progressive Talk, Hot Talk, Liberal Talk, Sports Talk", "", "dead", ""),
 new Channel("The Sports Leader", "https://express-images.franklymedia.com/6616/sites/82/2019/09/04082004/KNBR-AF-Sitelogo-2019-09-06.png", "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMIHR_SC", "Sports Talk, Live Sports", "NFL, San Francsisco 49ers, MLB, San Francisco Giants", "live", ""),
 new Channel("THE FRINGE FM", "https://cdn-profiles.tunein.com/s260531/images/logog.jpg", "https://streaming.live365.com/a05030", "Hot Talk, Entertainment Talk, Tech Talk", "", "live", "Live"),
 new Channel("Australian Open Radio", "https://cdn-profiles.tunein.com/s132279/images/logog.png", "https://aoradio.out.airtime.pro:8000/aoradio_a", "Live Sports", "", "live", ""),
@@ -1293,6 +1293,7 @@ new Channel("The Scott Adams Show", "https://images.radio.co/station_logos/s2525
 new Channel("Boost 95.5", "https://cdn-profiles.tunein.com/s221187/images/logog.jpg", "https://gateway.cdnstream1.com/boost-live", "CHH", "", "live", ""),
 new Channel("Newsmax 2", "https://static.wikia.nocookie.net/logopedia/images/8/85/Newsmax2_vertical_logo.webp/revision/latest?cb=20250720212236", "https://stream-173.zeno.fm/pneg26ezjkluv", "Conservative Talk, TV", "Newsmax TV Newsmax N2", "live", "Live")
 ]
+
 
 
 
