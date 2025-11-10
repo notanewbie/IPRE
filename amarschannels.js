@@ -116,7 +116,7 @@ new Channel("CBS News Radio", "https://raw.githubusercontent.com/notanewbie/cdn/
 new Channel("Current FM", "https://cdn-radiotime-logos.tunein.com/s21660q.png", "http://ic2.christiannetcast.com/wjlz-fm", "CCM, Christian Pop", "", "live", "Clean"),
 new Channel("SoundCloud Radio Australia", "https://github.com/notanewbie/cdn/blob/main/SoundCloud%20Radio%20Australia.jpg?raw=true", "https://wz2drp.scahw.com.au/live/2soundcloud_128.stream", "Pop", "", "live", "Clean"),
 new Channel("1WAY FM", "https://pbs.twimg.com/profile_images/1794079317/tuneinlogo_400x400.jpg", "http://s2.viastreaming.net:6165/;", "CCM", "", "dead", ""),
-new Channel("Insomniac Radio", "https://www.insomniacradio.com/wp-content/assets/splashpages/insomniac-radio/images/logo_middle.png", "https://ice55.securenetsystems.net/DASH65", "EDM", "", "live", "Live"),
+new Channel("Insomniac Radio One", "https://pbs.twimg.com/profile_images/1921961611809714176/mvg_9Oc1_400x400.jpg", "https://stream-02.aiir.com/hoy4lohjjgiuv", "EDM", "", "live", "Live"),
 new Channel("Alpha Geek Radio Channel 1", "https://pbs.twimg.com/profile_images/738444788530216960/mzt2nSwH_400x400.jpg", "https://listen.alphageekradio.com:8000/;stream/1", "Comedy", "", "dead", "Explicit"),
 new Channel("Coverville Radio 24/7", "https://1.bp.blogspot.com/-ft3bZc6xkfM/Uwi2jGFZx4I/AAAAAAAAC1Q/tKE9K0eLc7Y/s1600/covervilleradio.jpg", "http://listen.alphageekradio.com:9075/;", "Comedy", "", "dead", "Explicit"),
 new Channel("Alpha Geek Radio Channel 2", "https://pbs.twimg.com/profile_images/738444788530216960/mzt2nSwH_400x400.jpg", "http://listen.alphageekradio.com:8050/;stream/1", "Comedy", "", "dead", "Explicit"),
@@ -1291,8 +1291,12 @@ new Channel("No Agenda V4V Music", "https://upload.wikimedia.org/wikipedia/commo
 new Channel("Red State Talk Radio Justice", "https://images.radio.co/station_logos/sf03a6a4b2.20210317012940.png", "https://s2.radio.co/sf03a6a4b2/listen", "Conservative Talk, Hot Talk", "", "live", ""),
 new Channel("The Scott Adams Show", "https://images.radio.co/station_logos/s25253be11.20210325013703.jpg", "https://s2.radio.co/s25253be11/listen", "Conservative Talk, Hot Talk", "", "live", ""),
 new Channel("Boost 95.5", "https://cdn-profiles.tunein.com/s221187/images/logog.jpg", "https://gateway.cdnstream1.com/boost-live", "CHH", "", "live", ""),
-new Channel("Newsmax 2", "https://static.wikia.nocookie.net/logopedia/images/8/85/Newsmax2_vertical_logo.webp/revision/latest?cb=20250720212236", "https://stream-173.zeno.fm/pneg26ezjkluv", "Conservative Talk, TV", "Newsmax TV Newsmax N2", "live", "Live")
+new Channel("Newsmax 2", "https://static.wikia.nocookie.net/logopedia/images/8/85/Newsmax2_vertical_logo.webp/revision/latest?cb=20250720212236", "https://stream-173.zeno.fm/pneg26ezjkluv", "Conservative Talk, TV", "Newsmax TV Newsmax N2", "live", "Live"),
+new Channel("Insomniac Radio Analog", "https://pbs.twimg.com/profile_images/1921961611809714176/mvg_9Oc1_400x400.jpg", "https://stream.aiir.com/lzjqx8z46iuvv.mp3", "EDM", "", "live", "Live"),
+new Channel("Insomniac Radio Impact", "https://pbs.twimg.com/profile_images/1921961611809714176/mvg_9Oc1_400x400.jpg", "https://stream.aiir.com/epn7ay9hfbcuv.mp3", "EDM", "", "live", "Live"),
+new Channel("Insomniac Radio Lucid", "https://pbs.twimg.com/profile_images/1921961611809714176/mvg_9Oc1_400x400.jpg", "https://stream.aiir.com/rr5ysu26oqrtv.mp3", "EDM", "", "live", "Live")
 ]
+
 
 
 
